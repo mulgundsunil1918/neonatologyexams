@@ -5,6 +5,7 @@ import { buildMcqWhere, currentFilterQueryString } from "@/lib/mcq-filters";
 import { TierBadge } from "@/components/tier-badge";
 import { BackLink } from "@/components/back-link";
 import { QuestionAttempt } from "./question-attempt";
+import { MarkdownBody } from "@/components/markdown-body";
 import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -167,9 +168,13 @@ export default async function McqDetailPage({ params, searchParams }: PageProps<
                 {confMeta.label}
               </span>
             )}
-            <p className="text-sm text-muted-foreground whitespace-pre-line leading-relaxed">
-              {question.explanation?.body ?? "Not yet ingested from the reference library — explanations are sourced from the textbook/protocol cross-reference pass, which hasn't run for this question yet."}
-            </p>
+            {question.explanation?.body ? (
+              <MarkdownBody>{question.explanation.body}</MarkdownBody>
+            ) : (
+              <p className="text-sm text-muted-foreground whitespace-pre-line leading-relaxed">
+                Not yet ingested from the reference library — explanations are sourced from the textbook/protocol cross-reference pass, which hasn't run for this question yet.
+              </p>
+            )}
           </div>
 
           <div>
