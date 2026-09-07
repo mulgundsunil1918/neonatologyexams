@@ -11,6 +11,8 @@ __pycache__/
 app/node_modules/
 app/.next/
 app/prisma/dev.db
+app/dev.db
+app/dev.db-journal
 app/prisma/dev.db-journal
 app/src/generated/
 app/.env
