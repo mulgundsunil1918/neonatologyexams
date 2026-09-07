@@ -1,0 +1,566 @@
+[
+  {
+    "q_id": "Q000001",
+    "repetition_tier": "ORANGE",
+    "yellow_concept_review": "N/A",
+    "occurrence_count": 2,
+    "paper_type": "MCQ",
+    "stem": "In infants who are born with meconium-stained fluid, the tracheal suctioning should be done if :",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Thick meconium in liqor"
+      },
+      {
+        "letter": "B",
+        "text": "Poor respiratory efforts"
+      },
+      {
+        "letter": "C",
+        "text": "Poor muscle tone"
+      },
+      {
+        "letter": "D",
+        "text": "None of the above"
+      }
+    ],
+    "sub_parts": [],
+    "has_image": false,
+    "has_table": false,
+    "flaw_note": null,
+    "confidence_status": "SOURCE_CONFIRMED",
+    "occurrences": [
+      {
+        "sitting_id": "2019-10",
+        "paper_no": 1,
+        "paper_type": "MCQ",
+        "original_qnum": 2,
+        "extraction_method": "text_parse"
+      },
+      {
+        "sitting_id": "2021-07",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 8,
+        "extraction_method": "text_parse"
+      }
+    ]
+  },
+  {
+    "q_id": "Q000002",
+    "repetition_tier": "ORANGE",
+    "yellow_concept_review": "N/A",
+    "occurrence_count": 2,
+    "paper_type": "MCQ",
+    "stem": "The walking reflex normally disappears by what post natal age( months):",
+    "options": [
+      {
+        "letter": "A",
+        "text": "3"
+      },
+      {
+        "letter": "B",
+        "text": "5"
+      },
+      {
+        "letter": "C",
+        "text": "7"
+      },
+      {
+        "letter": "D",
+        "text": "9"
+      }
+    ],
+    "sub_parts": [],
+    "has_image": false,
+    "has_table": false,
+    "flaw_note": null,
+    "confidence_status": "SOURCE_CONFIRMED",
+    "occurrences": [
+      {
+        "sitting_id": "2019-10",
+        "paper_no": 1,
+        "paper_type": "MCQ",
+        "original_qnum": 5,
+        "extraction_method": "text_parse"
+      },
+      {
+        "sitting_id": "2021-07",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 9,
+        "extraction_method": "text_parse"
+      }
+    ]
+  },
+  {
+    "q_id": "Q000003",
+    "repetition_tier": "ORANGE",
+    "yellow_concept_review": "N/A",
+    "occurrence_count": 2,
+    "paper_type": "MCQ",
+    "stem": "A 29 weeks male baby weighing 890 grams was born to a mother with severe Pre Eclampsia. The Doppler was suggestive of Reduced End Diastolic Flow in umbilical artery. On day 9 of life this baby presents with temperature instability, apnoea, abdominal cellulitis, Hypotension and intramural gas in intestinal wall in abdominal x ray. What is the stage of NEC in this baby?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Stage II A"
+      },
+      {
+        "letter": "B",
+        "text": "Stage II B"
+      },
+      {
+        "letter": "C",
+        "text": "Stage III A"
+      },
+      {
+        "letter": "D",
+        "text": "Stage III B"
+      }
+    ],
+    "sub_parts": [],
+    "has_image": false,
+    "has_table": false,
+    "flaw_note": null,
+    "confidence_status": "SOURCE_CONFIRMED",
+    "occurrences": [
+      {
+        "sitting_id": "2019-10",
+        "paper_no": 1,
+        "paper_type": "MCQ",
+        "original_qnum": 14,
+        "extraction_method": "text_parse"
+      },
+      {
+        "sitting_id": "2021-07",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 10,
+        "extraction_method": "text_parse"
+      }
+    ]
+  },
+  {
+    "q_id": "Q000004",
+    "repetition_tier": "ORANGE",
+    "yellow_concept_review": "N/A",
+    "occurrence_count": 2,
+    "paper_type": "MCQ",
+    "stem": "Female baby presented on day 2 of life with infantile spasm and her MRI revealed cerebral cortical poly microgyria and neuronal heterotopia and agenesis of Corpus callosum. Her likely diagnosis is:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Septo-optic dysplasia"
+      },
+      {
+        "letter": "B",
+        "text": "Aicardi syndrome"
+      },
+      {
+        "letter": "C",
+        "text": "Dandy Walker malformation"
+      },
+      {
+        "letter": "D",
+        "text": "Walker warburg syndrome"
+      }
+    ],
+    "sub_parts": [],
+    "has_image": false,
+    "has_table": false,
+    "flaw_note": null,
+    "confidence_status": "SOURCE_CONFIRMED",
+    "occurrences": [
+      {
+        "sitting_id": "2019-10",
+        "paper_no": 1,
+        "paper_type": "MCQ",
+        "original_qnum": 31,
+        "extraction_method": "text_parse"
+      },
+      {
+        "sitting_id": "2021-07",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 11,
+        "extraction_method": "text_parse"
+      }
+    ]
+  },
+  {
+    "q_id": "Q000005",
+    "repetition_tier": "ORANGE",
+    "yellow_concept_review": "N/A",
+    "occurrence_count": 2,
+    "paper_type": "MCQ",
+    "stem": "Causes of microcephaly in neonates are all the following, except:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Porencephaly"
+      },
+      {
+        "letter": "B",
+        "text": "Hydranencephaly"
+      },
+      {
+        "letter": "C",
+        "text": "Osteopetrosis"
+      },
+      {
+        "letter": "D",
+        "text": "Trisomy 18"
+      }
+    ],
+    "sub_parts": [],
+    "has_image": false,
+    "has_table": false,
+    "flaw_note": null,
+    "confidence_status": "SOURCE_CONFIRMED",
+    "occurrences": [
+      {
+        "sitting_id": "2019-10",
+        "paper_no": 1,
+        "paper_type": "MCQ",
+        "original_qnum": 39,
+        "extraction_method": "text_parse"
+      },
+      {
+        "sitting_id": "2021-07",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 31,
+        "extraction_method": "text_parse"
+      }
+    ]
+  },
+  {
+    "q_id": "Q000006",
+    "repetition_tier": "ORANGE",
+    "yellow_concept_review": "N/A",
+    "occurrence_count": 2,
+    "paper_type": "MCQ",
+    "stem": "You are asked to counsel a woman who is planning to have another baby after her first baby was born with spina bifida. Which one of the following preconception management options is most likely to reduce the risk in any subsequent pregnancy?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Thiamine"
+      },
+      {
+        "letter": "B",
+        "text": "Folic acid"
+      },
+      {
+        "letter": "C",
+        "text": "Ultrasound screening"
+      },
+      {
+        "letter": "D",
+        "text": "Vitamin B12"
+      }
+    ],
+    "sub_parts": [],
+    "has_image": false,
+    "has_table": false,
+    "flaw_note": null,
+    "confidence_status": "SOURCE_CONFIRMED",
+    "occurrences": [
+      {
+        "sitting_id": "2019-10",
+        "paper_no": 1,
+        "paper_type": "MCQ",
+        "original_qnum": 44,
+        "extraction_method": "text_parse"
+      },
+      {
+        "sitting_id": "2021-07",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 21,
+        "extraction_method": "text_parse"
+      }
+    ]
+  },
+  {
+    "q_id": "Q000007",
+    "repetition_tier": "ORANGE",
+    "yellow_concept_review": "N/A",
+    "occurrence_count": 2,
+    "paper_type": "MCQ",
+    "stem": "Baby born at 40 weeks' gestation following vacuum extraction has a swelling over her scalp. The swelling is boggy and soft predominantly over the left parietal region, but extending across to the right parietal region, and also down behind the left ear. The pinna of the left ear is slightly pushed forward by the swelling. Of the following, the most likely diagnosis in this infant is:",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Caput succedaneum"
+      },
+      {
+        "letter": "B",
+        "text": "Cephalohematoma"
+      },
+      {
+        "letter": "C",
+        "text": "Subdural hematoma"
+      },
+      {
+        "letter": "D",
+        "text": "Subgaleal hemorrhage"
+      }
+    ],
+    "sub_parts": [],
+    "has_image": false,
+    "has_table": false,
+    "flaw_note": null,
+    "confidence_status": "SOURCE_CONFIRMED",
+    "occurrences": [
+      {
+        "sitting_id": "2019-10",
+        "paper_no": 1,
+        "paper_type": "MCQ",
+        "original_qnum": 55,
+        "extraction_method": "text_parse"
+      },
+      {
+        "sitting_id": "2021-07",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 13,
+        "extraction_method": "text_parse"
+      }
+    ]
+  },
+  {
+    "q_id": "Q000008",
+    "repetition_tier": "ORANGE",
+    "yellow_concept_review": "N/A",
+    "occurrence_count": 2,
+    "paper_type": "MCQ",
+    "stem": "Neonatal cholestasis can be caused by all of the following except",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Sepsis"
+      },
+      {
+        "letter": "B",
+        "text": "Choledochal Cyst"
+      },
+      {
+        "letter": "C",
+        "text": "Neonatal hepatitis"
+      },
+      {
+        "letter": "D",
+        "text": "Criggler Najjar syndrome"
+      }
+    ],
+    "sub_parts": [],
+    "has_image": false,
+    "has_table": false,
+    "flaw_note": null,
+    "confidence_status": "SOURCE_CONFIRMED",
+    "occurrences": [
+      {
+        "sitting_id": "2019-10",
+        "paper_no": 1,
+        "paper_type": "MCQ",
+        "original_qnum": 58,
+        "extraction_method": "text_parse"
+      },
+      {
+        "sitting_id": "2021-07",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 20,
+        "extraction_method": "text_parse"
+      }
+    ]
+  },
+  {
+    "q_id": "Q000009",
+    "repetition_tier": "ORANGE",
+    "yellow_concept_review": "N/A",
+    "occurrence_count": 2,
+    "paper_type": "MCQ",
+    "stem": "The movements of fetus are first felt by mother( Quickening) at what gestation(wks):",
+    "options": [
+      {
+        "letter": "A",
+        "text": "8-15"
+      },
+      {
+        "letter": "B",
+        "text": "16-25"
+      },
+      {
+        "letter": "C",
+        "text": "26-30"
+      },
+      {
+        "letter": "D",
+        "text": "30-26"
+      }
+    ],
+    "sub_parts": [],
+    "has_image": false,
+    "has_table": false,
+    "flaw_note": null,
+    "confidence_status": "SOURCE_CONFIRMED",
+    "occurrences": [
+      {
+        "sitting_id": "2019-10",
+        "paper_no": 1,
+        "paper_type": "MCQ",
+        "original_qnum": 80,
+        "extraction_method": "text_parse"
+      },
+      {
+        "sitting_id": "2021-07",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 17,
+        "extraction_method": "text_parse"
+      }
+    ]
+  },
+  {
+    "q_id": "Q000010",
+    "repetition_tier": "ORANGE",
+    "yellow_concept_review": "N/A",
+    "occurrence_count": 2,
+    "paper_type": "MCQ",
+    "stem": "One of the mechanisms of action of Inhaled Nitric Oxide used in PPHN is",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Reduces intracellular cyclic AMP"
+      },
+      {
+        "letter": "B",
+        "text": "Increases intracellular cyclic AMP"
+      },
+      {
+        "letter": "C",
+        "text": "Reduces intracellular cyclic GMP"
+      },
+      {
+        "letter": "D",
+        "text": "Increases intracellular cyclic GMP"
+      }
+    ],
+    "sub_parts": [],
+    "has_image": false,
+    "has_table": false,
+    "flaw_note": null,
+    "confidence_status": "SOURCE_CONFIRMED",
+    "occurrences": [
+      {
+        "sitting_id": "2021-10",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 23,
+        "extraction_method": "text_parse"
+      },
+      {
+        "sitting_id": "2022-10",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 44,
+        "extraction_method": "text_parse"
+      }
+    ]
+  },
+  {
+    "q_id": "Q000011",
+    "repetition_tier": "ORANGE",
+    "yellow_concept_review": "N/A",
+    "occurrence_count": 2,
+    "paper_type": "MCQ",
+    "stem": "Which Quality Improvement method helps in root cause analysis of a problem?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "PDSA cycle"
+      },
+      {
+        "letter": "B",
+        "text": "Fishbone analysis"
+      },
+      {
+        "letter": "C",
+        "text": "Six sigma approach"
+      },
+      {
+        "letter": "D",
+        "text": "Run charts and control charts"
+      }
+    ],
+    "sub_parts": [],
+    "has_image": false,
+    "has_table": false,
+    "flaw_note": null,
+    "confidence_status": "SOURCE_CONFIRMED",
+    "occurrences": [
+      {
+        "sitting_id": "2021-10",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 76,
+        "extraction_method": "text_parse"
+      },
+      {
+        "sitting_id": "2022-10",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 41,
+        "extraction_method": "text_parse"
+      }
+    ]
+  },
+  {
+    "q_id": "Q000012",
+    "repetition_tier": "ORANGE",
+    "yellow_concept_review": "N/A",
+    "occurrence_count": 2,
+    "paper_type": "MCQ",
+    "stem": "What is false about Aggressive posterior retinopathy of prematurity (APROP) from following options",
+    "options": [
+      {
+        "letter": "A",
+        "text": "associated with severe plus disease,"
+      },
+      {
+        "letter": "B",
+        "text": "flat neovascularisation in zone 3"
+      },
+      {
+        "letter": "C",
+        "text": "intraretinal shunting and haemorrhages,"
+      },
+      {
+        "letter": "D",
+        "text": "rapid progression to retinal detachment"
+      }
+    ],
+    "sub_parts": [],
+    "has_image": false,
+    "has_table": false,
+    "flaw_note": null,
+    "confidence_status": "SOURCE_CONFIRMED",
+    "occurrences": [
+      {
+        "sitting_id": "2021-10",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 77,
+        "extraction_method": "text_parse"
+      },
+      {
+        "sitting_id": "2022-10",
+        "paper_no": 2,
+        "paper_type": "MCQ",
+        "original_qnum": 49,
+        "extraction_method": "text_parse"
+      }
+    ]
+  }
+]

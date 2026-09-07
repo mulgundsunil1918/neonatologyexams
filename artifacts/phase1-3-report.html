@@ -1,0 +1,449 @@
+<!doctype html>
+<title>QBank Forensic Audit</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root{
+  --paper:#f6f8f7; --paper-raised:#ffffff; --paper-sunken:#eef2f0;
+  --ink:#16211f; --ink-muted:#4b5a57; --ink-faint:#7c8b88;
+  --border:#dbe3e0; --border-strong:#c3cdc9;
+  --accent:#0e7c74; --accent-ink:#075f59; --accent-soft:#e2f1ee;
+  --tier-red:#b3392b; --tier-red-bg:#fbeae7; --tier-red-bd:#eecac3;
+  --tier-orange:#a8641a; --tier-orange-bg:#fbf1e2; --tier-orange-bd:#efd9b8;
+  --tier-yellow:#8a7300; --tier-yellow-bg:#faf6de; --tier-yellow-bd:#e9deab;
+  --tier-white:#5b6663; --tier-white-bg:#eef1f0; --tier-white-bd:#d7ded9;
+  --good:#0e7c50; --good-bg:#e5f3ea;
+  --pending:#8a5a00; --pending-bg:#fbf0dc;
+  --shadow: 0 1px 2px rgba(20,30,28,.04), 0 6px 20px -8px rgba(20,30,28,.12);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#101614; --paper-raised:#161f1d; --paper-sunken:#0c1110;
+    --ink:#e7edea; --ink-muted:#a3b3ae; --ink-faint:#728480;
+    --border:#283532; --border-strong:#37453f;
+    --accent:#43d0c1; --accent-ink:#8ee9dd; --accent-soft:#132523;
+    --tier-red:#e2887c; --tier-red-bg:#2a1815; --tier-red-bd:#4a2a24;
+    --tier-orange:#dba86a; --tier-orange-bg:#2a2013; --tier-orange-bd:#4a3a22;
+    --tier-yellow:#d8c465; --tier-yellow-bg:#26240f; --tier-yellow-bd:#443f1e;
+    --tier-white:#a9b6b1; --tier-white-bg:#1a211f; --tier-white-bd:#303c38;
+    --good:#7fd8a8; --good-bg:#122a1d;
+    --pending:#e0bd6f; --pending-bg:#2a230f;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 24px -8px rgba(0,0,0,.5);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#101614; --paper-raised:#161f1d; --paper-sunken:#0c1110;
+  --ink:#e7edea; --ink-muted:#a3b3ae; --ink-faint:#728480;
+  --border:#283532; --border-strong:#37453f;
+  --accent:#43d0c1; --accent-ink:#8ee9dd; --accent-soft:#132523;
+  --tier-red:#e2887c; --tier-red-bg:#2a1815; --tier-red-bd:#4a2a24;
+  --tier-orange:#dba86a; --tier-orange-bg:#2a2013; --tier-orange-bd:#4a3a22;
+  --tier-yellow:#d8c465; --tier-yellow-bg:#26240f; --tier-yellow-bd:#443f1e;
+  --tier-white:#a9b6b1; --tier-white-bg:#1a211f; --tier-white-bd:#303c38;
+  --good:#7fd8a8; --good-bg:#122a1d;
+  --pending:#e0bd6f; --pending-bg:#2a230f;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 24px -8px rgba(0,0,0,.5);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:'IBM Plex Sans', -apple-system, sans-serif;
+  font-size:16px; line-height:1.6;
+}
+h1,h2,h3{ font-family:'Source Serif 4', Georgia, serif; text-wrap:balance; font-weight:700; color:var(--ink); }
+code, .mono, .tnum{ font-family:'IBM Plex Mono', ui-monospace, monospace; font-variant-numeric:tabular-nums; }
+a{ color:var(--accent-ink); }
+
+.shell{ display:grid; grid-template-columns: 220px minmax(0,860px); gap:56px; max-width:1180px; margin:0 auto; padding:48px 24px 120px; justify-content:center; }
+@media (max-width:920px){ .shell{ grid-template-columns: 1fr; } .toc{ display:none; } }
+
+.toc{ position:sticky; top:32px; align-self:start; font-size:13px; }
+.toc-label{ text-transform:uppercase; letter-spacing:.08em; color:var(--ink-faint); font-size:11px; font-weight:600; margin-bottom:12px; }
+.toc a{ display:block; padding:5px 0; color:var(--ink-muted); text-decoration:none; border-left:2px solid transparent; padding-left:10px; margin-left:-11px; }
+.toc a:hover{ color:var(--ink); border-left-color:var(--border-strong); }
+
+header.masthead{ margin-bottom:8px; }
+.eyebrow{ display:flex; align-items:center; gap:10px; text-transform:uppercase; letter-spacing:.1em; font-size:12px; font-weight:600; color:var(--accent-ink); margin-bottom:14px; }
+.eyebrow .dot{ width:6px; height:6px; border-radius:50%; background:var(--accent); }
+h1.title{ font-size:2.6rem; line-height:1.08; margin:0 0 10px; letter-spacing:-.01em; }
+.subtitle{ color:var(--ink-muted); font-size:17px; max-width:60ch; margin:0 0 22px; }
+.meta-row{ display:flex; flex-wrap:wrap; gap:10px 22px; font-size:13px; color:var(--ink-faint); margin-bottom:36px; }
+.meta-row b{ color:var(--ink-muted); font-weight:600; }
+
+.status-badge{ display:inline-flex; align-items:center; gap:8px; background:var(--good-bg); color:var(--good); border:1px solid var(--good); border-radius:6px; padding:5px 12px 5px 10px; font-size:13px; font-weight:600; font-family:'IBM Plex Mono',monospace; }
+.status-badge svg{ width:14px; height:14px; }
+
+.stat-strip{ display:grid; grid-template-columns:repeat(auto-fit,minmax(128px,1fr)); gap:1px; background:var(--border); border:1px solid var(--border); border-radius:10px; overflow:hidden; margin:28px 0 44px; box-shadow:var(--shadow); }
+.stat{ background:var(--paper-raised); padding:18px 16px; }
+.stat .n{ font-family:'IBM Plex Mono',monospace; font-size:1.9rem; font-weight:600; letter-spacing:-.02em; line-height:1; }
+.stat .l{ font-size:11.5px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.06em; margin-top:8px; }
+
+section{ margin:56px 0; scroll-margin-top:24px; }
+section > h2{ font-size:1.5rem; display:flex; align-items:baseline; gap:12px; margin-bottom:6px; }
+section > h2 .num{ font-family:'IBM Plex Mono',monospace; font-size:.95rem; color:var(--ink-faint); font-weight:500; }
+.section-intro{ color:var(--ink-muted); max-width:68ch; margin:0 0 22px; }
+h3{ font-size:1.1rem; margin:28px 0 10px; }
+p{ max-width:68ch; }
+ul,ol{ max-width:68ch; padding-left:1.3em; }
+li{ margin:5px 0; }
+
+.callout{ border:1px solid var(--accent); background:var(--accent-soft); border-radius:8px; padding:16px 18px; margin:18px 0; font-size:14.5px; }
+.callout .cal-label{ font-weight:600; color:var(--accent-ink); font-size:11.5px; text-transform:uppercase; letter-spacing:.06em; margin-bottom:6px; }
+.callout p{ margin:6px 0; max-width:none; }
+
+.table-wrap{ overflow-x:auto; border:1px solid var(--border); border-radius:10px; box-shadow:var(--shadow); margin:18px 0; }
+table{ border-collapse:collapse; width:100%; font-size:13.5px; background:var(--paper-raised); }
+th,td{ text-align:left; padding:9px 14px; border-bottom:1px solid var(--border); white-space:nowrap; }
+th{ background:var(--paper-sunken); font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-faint); font-weight:600; position:sticky; top:0; }
+tr:last-child td{ border-bottom:none; }
+td.wrap, th.wrap{ white-space:normal; }
+td.num, th.num{ text-align:right; font-family:'IBM Plex Mono',monospace; }
+
+.pill{ display:inline-flex; align-items:center; gap:5px; font-family:'IBM Plex Mono',monospace; font-size:11.5px; font-weight:600; padding:2px 8px; border-radius:20px; border:1px solid; white-space:nowrap; }
+.pill.red{ color:var(--tier-red); background:var(--tier-red-bg); border-color:var(--tier-red-bd); }
+.pill.orange{ color:var(--tier-orange); background:var(--tier-orange-bg); border-color:var(--tier-orange-bd); }
+.pill.yellow{ color:var(--tier-yellow); background:var(--tier-yellow-bg); border-color:var(--tier-yellow-bd); }
+.pill.white{ color:var(--tier-white); background:var(--tier-white-bg); border-color:var(--tier-white-bd); }
+.pill.pending{ color:var(--pending); background:var(--pending-bg); border-color:var(--tier-orange-bd); }
+.pill.ok{ color:var(--good); background:var(--good-bg); border-color:var(--good); }
+.pill.new{ color:var(--accent-ink); background:var(--accent-soft); border-color:var(--accent); }
+
+.tier-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin:20px 0; }
+@media (max-width:640px){ .tier-grid{ grid-template-columns:repeat(2,1fr); } }
+.tier-card{ border-radius:10px; padding:16px; border:1px solid; }
+.tier-card.red{ background:var(--tier-red-bg); border-color:var(--tier-red-bd); }
+.tier-card.orange{ background:var(--tier-orange-bg); border-color:var(--tier-orange-bd); }
+.tier-card.yellow{ background:var(--tier-yellow-bg); border-color:var(--tier-yellow-bd); }
+.tier-card.white{ background:var(--tier-white-bg); border-color:var(--tier-white-bd); }
+.tier-card .tc-label{ font-weight:700; font-size:13px; margin-bottom:2px; }
+.tier-card.red .tc-label{ color:var(--tier-red); } .tier-card.orange .tc-label{ color:var(--tier-orange); }
+.tier-card.yellow .tc-label{ color:var(--tier-yellow); } .tier-card.white .tc-label{ color:var(--tier-white); }
+.tier-card .tc-n{ font-family:'IBM Plex Mono',monospace; font-size:1.5rem; font-weight:600; }
+.tier-card .tc-d{ font-size:12px; color:var(--ink-muted); margin-top:4px; }
+
+.example-box{ border:1px dashed var(--border-strong); border-radius:8px; padding:14px 16px; margin:14px 0; font-size:13.5px; background:var(--paper-sunken); }
+.example-box .stem{ font-weight:600; margin-bottom:8px; }
+.example-box .occ-list{ display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+.example-box .occ{ font-family:'IBM Plex Mono',monospace; font-size:11.5px; background:var(--paper-raised); border:1px solid var(--border); border-radius:5px; padding:3px 8px; }
+.opt-row{ display:flex; gap:8px; margin:3px 0; font-size:13px; color:var(--ink-muted); }
+.opt-row .l{ font-family:'IBM Plex Mono',monospace; font-weight:600; color:var(--ink-faint); width:14px; flex:none; }
+
+.pipe{ display:flex; align-items:stretch; gap:0; margin:22px 0; overflow-x:auto; padding-bottom:6px; }
+.pipe-step{ flex:1 0 148px; background:var(--paper-raised); border:1px solid var(--border); border-radius:8px; padding:14px; position:relative; }
+.pipe-step + .pipe-step{ margin-left:26px; }
+.pipe-step + .pipe-step::before{ content:"→"; position:absolute; left:-22px; top:50%; transform:translateY(-50%); color:var(--ink-faint); font-size:16px; }
+.pipe-step .ps-n{ font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--accent-ink); font-weight:600; }
+.pipe-step .ps-t{ font-weight:600; font-size:13.5px; margin:4px 0 3px; }
+.pipe-step .ps-d{ font-size:12px; color:var(--ink-muted); line-height:1.45; }
+
+.schema-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin:18px 0; }
+@media (max-width:640px){ .schema-grid{ grid-template-columns:1fr; } }
+.schema-group{ border:1px solid var(--border); border-radius:8px; padding:14px 16px; background:var(--paper-raised); }
+.schema-group h4{ margin:0 0 8px; font-size:12px; text-transform:uppercase; letter-spacing:.06em; color:var(--accent-ink); }
+.schema-group .ent{ font-family:'IBM Plex Mono',monospace; font-size:12.5px; padding:3px 0; color:var(--ink); }
+.schema-group .ent .fld{ color:var(--ink-faint); }
+
+.checklist{ display:flex; flex-direction:column; gap:8px; margin:16px 0; }
+.check-item{ display:flex; gap:10px; align-items:flex-start; font-size:14px; padding:10px 14px; border-radius:8px; border:1px solid var(--border); background:var(--paper-raised); }
+.check-item .icon{ flex:none; width:20px; height:20px; margin-top:1px; }
+.check-item.done .icon{ color:var(--good); } .check-item.pending .icon{ color:var(--pending); }
+.check-item b{ display:block; margin-bottom:2px; }
+.check-item .d{ color:var(--ink-muted); font-size:13px; }
+
+footer{ margin-top:70px; padding-top:20px; border-top:1px solid var(--border); font-size:12.5px; color:var(--ink-faint); }
+</style>
+
+<div class="shell">
+  <nav class="toc">
+    <div class="toc-label">Contents</div>
+    <a href="#library">1 · Source library</a>
+    <a href="#structure">2 · QBank structure</a>
+    <a href="#accounting">3 · Question accounting</a>
+    <a href="#repetition">4 · Repetition audit</a>
+    <a href="#quality">5 · Parsing &amp; quality</a>
+    <a href="#schema">6 · Proposed schema</a>
+    <a href="#ingestion">7 · Ingestion architecture</a>
+    <a href="#strategy">8 · Audit strategy</a>
+    <a href="#next">9 · Status &amp; next steps</a>
+  </nav>
+
+  <main>
+    <header class="masthead">
+      <div class="eyebrow"><span class="dot"></span> Neonatology Fellowship Study Platform</div>
+      <h1 class="title">Phase 1–3 Inspection &amp; Ingestion Audit</h1>
+      <p class="subtitle">A page-by-page forensic map of the uploaded NNF question bank, a validated zero-loss extraction of every question, and an inventory of the reference library — produced before any database or UI work began.</p>
+      <div class="meta-row">
+        <span><b>Prepared</b> 7 Sep 2026</span>
+        <span><b>Primary source</b> <code>NNF Fellowship All QBANK till 2026.pdf</code>, 276 pages</span>
+        <span><b>Method</b> automated extraction + line-by-line human verification of every scanned page</span>
+      </div>
+      <span class="status-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>zero-loss audit: PASS</span>
+    </header>
+
+    <div class="stat-strip">
+      <div class="stat"><div class="n">804</div><div class="l">Questions extracted</div></div>
+      <div class="stat"><div class="n">804</div><div class="l">Occurrences assigned</div></div>
+      <div class="stat"><div class="n">0</div><div class="l">Unassigned / missing</div></div>
+      <div class="stat"><div class="n">792</div><div class="l">Unique master questions</div></div>
+      <div class="stat"><div class="n">22</div><div class="l">Papers, 11 sittings</div></div>
+      <div class="stat"><div class="n">276</div><div class="l">QBank pages mapped</div></div>
+    </div>
+
+    <section id="library">
+      <h2><span class="num">01</span> Source library</h2>
+      <p class="section-intro">Every PDF sitting in the project folder, opened and profiled for page count, text-extractability, and edition. All 13 files are native-text or text-under-image — none required OCR at the book level (the QBank did, in two isolated spots; see §2).</p>
+
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>File</th><th class="wrap">Identified as</th><th class="num">Pages</th><th class="num">Size</th><th>Text?</th><th>Status</th></tr></thead>
+          <tbody>
+            <tr><td class="mono">NNF Fellowship All QBANK till 2026.pdf</td><td class="wrap">NNF question bank, 2019–2026 (item 1)</td><td class="num tnum">276</td><td class="num tnum">24.4 MB</td><td>Mixed*</td><td><span class="pill new">requested</span></td></tr>
+            <tr><td class="mono">Goldsmiths_Assisted_Ventilation…pdf</td><td class="wrap">Goldsmith's Assisted Ventilation of the Neonate (item 2)</td><td class="num tnum">770</td><td class="num tnum">64.5 MB</td><td>Text</td><td><span class="pill ok">confirmed</span></td></tr>
+            <tr><td class="mono">Gomella.pdf</td><td class="wrap">Gomella's Neonatology (item 3)</td><td class="num tnum">1,142</td><td class="num tnum">19.4 MB</td><td>Text</td><td><span class="pill pending">edition unconfirmed</span></td></tr>
+            <tr><td class="mono">Neonatal ventilation NEOCON.pdf</td><td class="wrap">Textbook of Neonatal Ventilation, NEOCON 2017 (item 4)</td><td class="num tnum">156</td><td class="num tnum">4.5 MB</td><td>Text</td><td><span class="pill ok">confirmed</span></td></tr>
+            <tr><td class="mono">Neonatal Equipment 5th Edition.pdf</td><td class="wrap">Neonatal Equipment, 5th ed. (item 5)</td><td class="num tnum">473</td><td class="num tnum">8.4 MB</td><td>Text</td><td><span class="pill ok">confirmed</span></td></tr>
+            <tr><td class="mono">Cloherty and Stark's…2023.pdf</td><td class="wrap">Cloherty &amp; Stark's Manual of Neonatal Care, 9th ed. (item 6)</td><td class="num tnum">1,183</td><td class="num tnum">14.5 MB</td><td>Text</td><td><span class="pill ok">confirmed</span></td></tr>
+            <tr><td class="mono">Avery 10th.pdf</td><td class="wrap">Avery's Diseases of the Newborn, 10th ed. (item 7)</td><td class="num tnum">1,950</td><td class="num tnum">68.0 MB</td><td>Text</td><td><span class="pill ok">confirmed</span></td></tr>
+            <tr><td class="mono">aiims volume 1 / 2 / 3.pdf</td><td class="wrap">AIIMS Protocols in Neonatology, 3rd ed. — Core Vol.1, Core Vol.2, Additional Protocols (item 8)</td><td class="num tnum">320+293+342</td><td class="num tnum">85.4 MB</td><td>Text</td><td><span class="pill ok">confirmed</span></td></tr>
+            <tr><td class="mono">Fanaroff and Martin's…pdf</td><td class="wrap">Fanaroff &amp; Martin's Neonatal-Perinatal Medicine</td><td class="num tnum">2,157</td><td class="num tnum">226.1 MB</td><td>Text</td><td><span class="pill new">bonus, not requested</span></td></tr>
+            <tr><td class="mono">Volpe's Neurology…2018.pdf</td><td class="wrap">Volpe's Neurology of the Newborn, 6th ed.</td><td class="num tnum">1,491</td><td class="num tnum">228.2 MB</td><td>Text</td><td><span class="pill new">bonus, not requested</span></td></tr>
+            <tr><td class="mono">COMBINED PDF STANDARD…093.pdf</td><td class="wrap">Unidentified standard-treatment-guideline compilation</td><td class="num tnum">601</td><td class="num tnum">113.8 MB</td><td>Text</td><td><span class="pill pending">needs your ID</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:13px;color:var(--ink-faint)">* 221 of 276 QBank pages are native text; 55 are scanned images — all 55 have been individually resolved, see §2. Four "Avery 10th-*.pdf" split files were detected as byte-for-byte page-range slices of the full book and were excluded as redundant.</p>
+
+      <div class="callout">
+        <div class="cal-label">Needs your confirmation</div>
+        <p><b>Gomella's Neonatology</b> — the file has no title page in the sampled pages (opens on an inside-cover drug chart); edition number not yet confirmed from extracted text.</p>
+        <p><b>COMBINED PDF STANDARD TREATMENT GUIDELINE…</b> — 601 pages of guideline content (e.g. "Neonatal Hypoglycemia" as topic 1) but no publisher/issuing-body name in the sampled front matter. This was <em>not</em> on your original list of 8 — before I treat it as an authoritative source alongside AIIMS/Cloherty/etc., I need to know what it is (state STG? Which state/body?).</p>
+      </div>
+    </section>
+
+    <section id="structure">
+      <h2><span class="num">02</span> QBank structure — 276 pages, 11 sittings, 22 papers</h2>
+      <p class="section-intro">The QBank is not one clean sequential document — it interleaves four exact-duplicate re-scans and one previously-invisible exam sitting. Every page was individually classified; nothing was inferred from page-count arithmetic alone.</p>
+
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Sitting</th><th>Paper</th><th>Type</th><th class="num">Qs</th><th>Primary pages</th><th class="wrap">Notes</th></tr></thead>
+          <tbody>
+            <tr><td class="mono">2019-10</td><td>1</td><td>MCQ</td><td class="num tnum">100</td><td class="mono">1–20</td><td class="wrap">Paper order inverted vs. all later sittings (MCQ is Paper 1 here)</td></tr>
+            <tr><td class="mono">2019-10</td><td>2</td><td>Theory</td><td class="num tnum">4</td><td class="mono">21–22</td><td class="wrap">Uses "Q1." numbering, not plain digits</td></tr>
+            <tr><td class="mono">2022-04</td><td>1</td><td>Theory</td><td class="num tnum">10</td><td class="mono">23–24</td><td class="wrap">Re-scanned (marked-up) at p161–174 — same paper, no new content</td></tr>
+            <tr><td class="mono">2022-04</td><td>2</td><td>MCQ</td><td class="num tnum">50</td><td class="mono">25–35</td><td class="wrap">Q48 has an embedded ECG-tracing image</td></tr>
+            <tr><td class="mono">2021-07</td><td>1</td><td>Theory</td><td class="num tnum">10</td><td class="mono">58–60</td><td class="wrap">3 copies total (text ×2, scan ×1 at p128–129)</td></tr>
+            <tr><td class="mono">2021-07</td><td>2</td><td>MCQ</td><td class="num tnum">100</td><td class="mono">36–57</td><td class="wrap">Duplicated verbatim at p106–127</td></tr>
+            <tr><td class="mono">2021-10</td><td>1</td><td>Theory</td><td class="num tnum">10</td><td class="mono">101–102</td><td class="wrap">—</td></tr>
+            <tr><td class="mono">2021-10</td><td>2</td><td>MCQ</td><td class="num tnum">100</td><td class="mono">61–80</td><td class="wrap">Dup. at p81–100 (text) <em>and</em> p130–149 (full image re-scan)</td></tr>
+            <tr><td class="mono">2022-10</td><td>1</td><td>Theory</td><td class="num tnum">10</td><td class="mono">150–151</td><td class="wrap">—</td></tr>
+            <tr><td class="mono">2022-10</td><td>2</td><td>MCQ</td><td class="num tnum">50</td><td class="mono">152–160</td><td class="wrap">—</td></tr>
+            <tr><td class="mono">2023-04</td><td>1</td><td>Theory</td><td class="num tnum">10</td><td class="mono">175–177</td><td class="wrap">—</td></tr>
+            <tr><td class="mono">2023-04</td><td>2</td><td>MCQ</td><td class="num tnum">50</td><td class="mono">178–185</td><td class="wrap">—</td></tr>
+            <tr><td class="mono">2023-10</td><td>1</td><td>Theory</td><td class="num tnum">9</td><td class="mono">186–188</td><td class="wrap">Genuinely 9 main questions, not 10 — verified complete, not truncated</td></tr>
+            <tr><td class="mono">2023-10</td><td>2</td><td>MCQ</td><td class="num tnum">50</td><td class="mono">193–200</td><td class="wrap">Q16 references an ultrasound waveform image</td></tr>
+            <tr style="background:var(--accent-soft)"><td class="mono">2024-04</td><td>1</td><td>Theory</td><td class="num tnum">11</td><td class="mono">189–192</td><td class="wrap"><span class="pill new">newly recovered</span> scanned-only, hand-transcribed — see callout</td></tr>
+            <tr style="background:var(--accent-soft)"><td class="mono">2024-04</td><td>2</td><td>MCQ</td><td class="num tnum">50</td><td class="mono">201–208</td><td class="wrap"><span class="pill new">newly recovered</span> + printed answer key at p209–210</td></tr>
+            <tr><td class="mono">2025-04</td><td>1</td><td>Theory</td><td class="num tnum">10</td><td class="mono">211–213</td><td class="wrap">—</td></tr>
+            <tr><td class="mono">2025-04</td><td>2</td><td>MCQ</td><td class="num tnum">50</td><td class="mono">214–228</td><td class="wrap">—</td></tr>
+            <tr><td class="mono">2025-10</td><td>1</td><td>Theory</td><td class="num tnum">10</td><td class="mono">229–231</td><td class="wrap">Dup. re-scanned at p246–248</td></tr>
+            <tr><td class="mono">2025-10</td><td>2</td><td>MCQ</td><td class="num tnum">50</td><td class="mono">232–245</td><td class="wrap">Opens with a "Sample question" format block (stripped, not counted); Q28 has a 2×2 contingency table</td></tr>
+            <tr><td class="mono">2026-04</td><td>1</td><td>Theory</td><td class="num tnum">10</td><td class="mono">263–265</td><td class="wrap">—</td></tr>
+            <tr><td class="mono">2026-04</td><td>2</td><td>MCQ</td><td class="num tnum">50</td><td class="mono">266–276</td><td class="wrap">—</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout">
+        <div class="cal-label">Finding — a hidden 11th sitting</div>
+        <p>Pages 189–192 and 201–210 are scanned images of an <b>April 2024 exam</b> that appears nowhere else in the document as text — it was invisible to any text search or naive page-count parsing. Both papers (11 essay questions, 50 MCQs with a full answer key) were recovered by direct visual transcription, question-by-question, and cross-checked against the printed answer key. Without this step, an entire sitting — and its answer key — would have been silently dropped.</p>
+      </div>
+
+      <div class="callout" style="border-color:var(--border-strong);background:var(--paper-sunken)">
+        <div class="cal-label">Duplicate-block reconciliation</div>
+        <p>60 of 276 pages are exact re-scans or re-typed copies of a paper captured elsewhere (confirmed by MD5 hash of whitespace-collapsed text, or by manual line-for-line comparison for the image scans). None of these contributed a single question to the 804-count above — each was traced to its primary occurrence and excluded, so the same paper printed three times could never masquerade as three different exams.</p>
+      </div>
+    </section>
+
+    <section id="accounting">
+      <h2><span class="num">03</span> Question accounting</h2>
+      <p class="section-intro">Per the zero-loss rule: extraction runs per paper against a manually pre-verified expected count, and hard-stops with a diagnostic if any paper's count doesn't match. This ran clean on the current pass.</p>
+
+      <div class="table-wrap">
+        <table>
+          <tbody>
+            <tr><td>Extracted</td><td class="num tnum" style="font-weight:600">804</td></tr>
+            <tr><td>Assigned to a master question</td><td class="num tnum" style="font-weight:600">804</td></tr>
+            <tr><td>Unassigned</td><td class="num tnum">0</td></tr>
+            <tr><td>Missing (paper count ≠ expected)</td><td class="num tnum">0</td></tr>
+            <tr><td>Duplicate records (same occurrence in 2 groups)</td><td class="num tnum">0</td></tr>
+            <tr><td>Questions with missing options</td><td class="num tnum">0</td></tr>
+            <tr><td>Options parsed — A / B / C / D / E</td><td class="num tnum">700 / 700 / 700 / 699 / 13</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:13px;color:var(--ink-faint)">D is one short of A/B/C by design, not by bug — see the flawed-source-question example in §5. The 13 "E" options are genuine 5-choice questions in the source papers.</p>
+    </section>
+
+    <section id="repetition">
+      <h2><span class="num">04</span> Repetition audit</h2>
+      <p class="section-intro">Master questions were grouped by normalized exact-text match — a safe, mechanical step that only merges questions worded identically. This intentionally does <em>not</em> attempt Yellow (same-concept, different-wording) classification yet, per your instruction not to use superficial text similarity for that tier.</p>
+
+      <div class="tier-grid">
+        <div class="tier-card red"><div class="tc-label">🔴 Red</div><div class="tc-n">0</div><div class="tc-d">repeated 3+ times, verbatim</div></div>
+        <div class="tier-card orange"><div class="tc-label">🟠 Orange</div><div class="tc-n">12</div><div class="tc-d">repeated exactly twice, verbatim — 24 occurrences</div></div>
+        <div class="tier-card yellow"><div class="tc-label">🟡 Yellow</div><div class="tc-n">pending</div><div class="tc-d">concept-level review not yet run</div></div>
+        <div class="tier-card white"><div class="tc-label">⚪ White</div><div class="tc-n">780</div><div class="tc-d">no verbatim repeat found (includes all Yellow candidates)</div></div>
+      </div>
+
+      <h3>Worked example — exactly the case your spec describes</h3>
+      <p style="font-size:14px">"Cerebral blood flow decreases with all EXCEPT" appears <b>three times</b>, but with different option sets each time — so it correctly did <em>not</em> get folded into one Orange/Red group by the exact-match pass. This is precisely the kind of cluster the Yellow tier exists for:</p>
+      <div class="example-box">
+        <div class="stem">2019-10 P1 Q47 — "Cerebral blood flow decreases with all, EXCEPT:"</div>
+        <div class="opt-row"><span class="l">A</span> Decreased pCO2</div>
+        <div class="opt-row"><span class="l">B</span> Increased pO2</div>
+        <div class="opt-row"><span class="l">C</span> Increased serum glucose</div>
+        <div class="opt-row"><span class="l">D</span> Decreased pO2</div>
+      </div>
+      <div class="example-box">
+        <div class="stem">2021-07 P2 Q3 — "Cerebral blood flow decreases with all EXCEPT"</div>
+        <div class="opt-row"><span class="l">A</span> Decrease pCO2</div>
+        <div class="opt-row"><span class="l">B</span> Increase pO2</div>
+        <div class="opt-row"><span class="l">C</span> Increase serum glucose</div>
+        <div class="opt-row"><span class="l">D</span> Increase fetal Hb</div>
+      </div>
+      <div class="example-box">
+        <div class="stem">2021-07 P2 Q80 — "Cerebral blood flow decreases with all EXCEPT"</div>
+        <div class="opt-row"><span class="l">A</span> Decrease pCO2</div>
+        <div class="opt-row"><span class="l">B</span> Increase serum glucose</div>
+        <div class="opt-row"><span class="l">C</span> Increase fetal Hb</div>
+        <div class="opt-row"><span class="l">D</span> Polycythemia</div>
+      </div>
+      <p style="font-size:13px;color:var(--ink-faint)">Linking these into a Yellow group — and finding the rest of their kind among the 780 White questions — is the next analytical pass, done by comparing diagnosis/mechanism/drug/threshold concepts rather than text.</p>
+
+      <h3>All 12 verbatim Orange repeats</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th class="wrap">Question (truncated)</th><th class="wrap">Occurrences</th></tr></thead>
+          <tbody>
+            <tr><td class="wrap">Meconium-stained fluid — when to do tracheal suctioning</td><td class="mono">2019-10 P1 Q2 · 2021-07 P2 Q8</td></tr>
+            <tr><td class="wrap">Age walking reflex normally disappears</td><td class="mono">2019-10 P1 Q5 · 2021-07 P2 Q9</td></tr>
+            <tr><td class="wrap">29wk/890g baby, severe PIH, reduced EDF…</td><td class="mono">2019-10 P1 Q14 · 2021-07 P2 Q10</td></tr>
+            <tr><td class="wrap">Female baby, day 2, infantile spasms, MRI…</td><td class="mono">2019-10 P1 Q31 · 2021-07 P2 Q11</td></tr>
+            <tr><td class="wrap">Causes of microcephaly, EXCEPT</td><td class="mono">2019-10 P1 Q39 · 2021-07 P2 Q31</td></tr>
+            <tr><td class="wrap">Counselling for next pregnancy after affected first baby</td><td class="mono">2019-10 P1 Q44 · 2021-07 P2 Q21</td></tr>
+            <tr><td class="wrap">Term baby, vacuum extraction, scalp swelling</td><td class="mono">2019-10 P1 Q55 · 2021-07 P2 Q13</td></tr>
+            <tr><td class="wrap">Causes of neonatal cholestasis, EXCEPT</td><td class="mono">2019-10 P1 Q58 · 2021-07 P2 Q20</td></tr>
+            <tr><td class="wrap">Gestation at which quickening is first felt</td><td class="mono">2019-10 P1 Q80 · 2021-07 P2 Q17</td></tr>
+            <tr><td class="wrap">Mechanism of inhaled Nitric Oxide in PPHN</td><td class="mono">2021-10 P2 Q23 · 2022-10 P2 Q44</td></tr>
+            <tr><td class="wrap">QI method for root-cause analysis</td><td class="mono">2021-10 P2 Q76 · 2022-10 P2 Q41</td></tr>
+            <tr><td class="wrap">False statement about APROP</td><td class="mono">2021-10 P2 Q77 · 2022-10 P2 Q49</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="quality">
+      <h2><span class="num">05</span> Parsing &amp; data-quality notes</h2>
+      <p class="section-intro">A matching count is not proof of a correct split. 10 of 804 questions used option formatting irregular enough (no punctuation, nested lettered sub-blocks, a genuine gap in the source's own lettering) that they were individually hand-verified and corrected rather than left to a looser regular expression that could silently corrupt a correctly-parsed question elsewhere.</p>
+      <ul style="font-size:14.5px">
+        <li><b>2021-07 P2 Q39</b> — the source paper itself skips "D" and jumps A, B, C, E for its four options. Preserved exactly as printed and flagged <span class="pill pending">question/option flawed</span> rather than silently renumbered.</li>
+        <li><b>2021-10 P2 Q92</b> — a match-the-following question (health programmes ↔ aims) with a nested lettered answer-key block; parsed with the four numbered items and their descriptions folded into the stem, and the four combination answers (e.g. "1a,2b,3c,4d") as the real options.</li>
+        <li><b>2021-07 P2 Q29</b> — same matching-question pattern (cardiac lesion ↔ age of presentation).</li>
+        <li><b>6 questions</b> (2021-07 P2 Q32/35/73/74/75, 2021-10 P2 Q93) print options as a bare letter with no "." or ")" at all — corrected by direct reading of the source page.</li>
+      </ul>
+
+      <h3>Image-based questions found</h3>
+      <p style="font-size:14.5px">6 questions reference a figure, tracing, or radiograph the stem cannot stand without: 2021-10 P2 Q95 (TEF X-ray), Q96 (developmental screening chart), Q98 (Cochrane Collaboration logo), Q100 (HIE MRI); 2022-04 P2 Q48 (ECG tracing); 2023-10 P2 Q16 (lung-ultrasound waveform). Each is flagged <code>has_image: true</code> against its source page for the original page image to be attached once the resource/asset layer is built — none has been replaced with a text-only guess at its content.</p>
+
+      <h3>Questions without an answer</h3>
+      <p style="font-size:14.5px"><b>650 of 700 MCQs</b> currently have no marked correct answer — only the recovered April 2024 sitting shipped a printed key inside the QBank itself. The remaining 650 need either (a) a printed key elsewhere in a paper I haven't matched yet, or (b) sourcing against the textbook/protocol library once that's ingested. Full list: <code>/audit/answer-review.json</code>.</p>
+    </section>
+
+    <section id="schema">
+      <h2><span class="num">06</span> Proposed database schema</h2>
+      <p class="section-intro">Adapted from the entity list in your spec, split by concern. Every table on the left carries a <code>sourceRef</code> path back to §7's citation model — nothing renders in the app without one.</p>
+      <div class="schema-grid">
+        <div class="schema-group">
+          <h4>Content</h4>
+          <div class="ent">Paper <span class="fld">sitting, paperNo, type, examDate</span></div>
+          <div class="ent">Question <span class="fld">qId, paperType</span></div>
+          <div class="ent">QuestionOccurrence <span class="fld">paperId, originalQnum, pageRef</span></div>
+          <div class="ent">Option <span class="fld">questionId, letter, text</span></div>
+          <div class="ent">Answer <span class="fld">questionId, letter, confidenceStatus</span></div>
+          <div class="ent">Explanation <span class="fld">questionId, body, sourceRefId</span></div>
+        </div>
+        <div class="schema-group">
+          <h4>Classification</h4>
+          <div class="ent">System <span class="fld">name (24 seeded)</span></div>
+          <div class="ent">Topic / Subtopic <span class="fld">systemId, parentId</span></div>
+          <div class="ent">QuestionTopic <span class="fld">questionId, topicId, isPrimary</span></div>
+          <div class="ent">RepetitionGroup <span class="fld">tier, conceptNote</span></div>
+        </div>
+        <div class="schema-group">
+          <h4>Resources</h4>
+          <div class="ent">Resource <span class="fld">title, edition, year, file</span></div>
+          <div class="ent">ResourcePage <span class="fld">resourceId, pageNo, text</span></div>
+          <div class="ent">QuestionSource <span class="fld">questionId, resourceId, chapter, page</span></div>
+        </div>
+        <div class="schema-group">
+          <h4>User &amp; progress</h4>
+          <div class="ent">User</div>
+          <div class="ent">Attempt <span class="fld">userId, questionId, selected, correct, ts</span></div>
+          <div class="ent">Bookmark / Note <span class="fld">userId, questionId, body</span></div>
+          <div class="ent">StudySession <span class="fld">userId, mode, startedAt</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ingestion">
+      <h2><span class="num">07</span> Ingestion architecture</h2>
+      <p class="section-intro">The pipeline that produced every number on this page — designed so a future upload (a new NNF sitting, a new textbook) re-runs the same five stages without a rewrite.</p>
+      <div class="pipe">
+        <div class="pipe-step"><div class="ps-n">01</div><div class="ps-t">Structural map</div><div class="ps-d">Hand-verified page registry: sitting, paper, primary vs. duplicate range</div></div>
+        <div class="pipe-step"><div class="ps-n">02</div><div class="ps-t">Per-paper extract</div><div class="ps-d">Regex split → validated against a pre-known expected count; hard-stops on mismatch</div></div>
+        <div class="pipe-step"><div class="ps-n">03</div><div class="ps-t">Manual overrides</div><div class="ps-d">Named, auditable fixes for the ~1% the regex can't parse safely</div></div>
+        <div class="pipe-step"><div class="ps-n">04</div><div class="ps-t">Master dedup</div><div class="ps-d">Exact-text grouping → Red/Orange/White; Yellow deferred to concept review</div></div>
+        <div class="pipe-step"><div class="ps-n">05</div><div class="ps-t">Audit + load</div><div class="ps-d"><code>npm run audit</code> gate, then Prisma load into Postgres</div></div>
+      </div>
+    </section>
+
+    <section id="strategy">
+      <h2><span class="num">08</span> Audit strategy</h2>
+      <p class="section-intro"><code>npm run audit</code> (currently a Python script pending the Next.js port) checks all ten items from your spec's Part 26 and exits non-zero if any critical value is non-zero:</p>
+      <div class="table-wrap">
+        <table>
+          <tbody>
+            <tr><td>1. Question count audit</td><td><span class="pill ok">804 = 804</span></td></tr>
+            <tr><td>2. Duplicate audit</td><td><span class="pill ok">0 duplicate records</span></td></tr>
+            <tr><td>3. Missing-question audit</td><td><span class="pill ok">0 missing</span></td></tr>
+            <tr><td>4. Option-parsing audit</td><td><span class="pill ok">0 with missing options</span></td></tr>
+            <tr><td>5. Answer audit</td><td><span class="pill pending">650 unanswered — tracked, not hidden</span></td></tr>
+            <tr><td>6. Source-citation audit</td><td><span class="pill pending">not started — needs textbook ingestion</span></td></tr>
+            <tr><td>7. Page-number audit</td><td><span class="pill ok">every occurrence carries its QBank page range</span></td></tr>
+            <tr><td>8. Paper/year audit</td><td><span class="pill ok">all 11 sittings dated and labeled</span></td></tr>
+            <tr><td>9. Repetition audit</td><td><span class="pill ok">Red/Orange computed</span></td></tr>
+            <tr><td>10. Yellow concept audit</td><td><span class="pill pending">not started — flagged, not guessed</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="next">
+      <h2><span class="num">09</span> Status &amp; what's next</h2>
+      <div class="checklist">
+        <div class="check-item done"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg><div><b>Phase 1 — Inspect</b><div class="d">All 13 files profiled; QBank fully page-mapped by hand</div></div></div>
+        <div class="check-item done"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg><div><b>Phase 2 — Ingestion &amp; database extraction</b><div class="d">804/804 occurrences extracted and content-quality checked</div></div></div>
+        <div class="check-item done"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6 9 17l-5-5"/></svg><div><b>Phase 3 — Question accounting audit</b><div class="d">Zero-loss gate passing; artifacts in <code>/audit</code></div></div></div>
+        <div class="check-item pending"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><div><b>Yellow concept-tiering</b><div class="d">Needs a dedicated pass comparing diagnosis/mechanism/drug concepts across the 780 White questions</div></div></div>
+        <div class="check-item pending"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><div><b>Answer sourcing</b><div class="d">650 MCQs need a correct answer sourced from the reference library, each cited</div></div></div>
+        <div class="check-item pending"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg><div><b>Phases 4–12</b><div class="d">Postgres + Prisma schema build-out, MCQ engine, paper/system modes, source library, dashboard, UI</div></div></div>
+      </div>
+      <p style="margin-top:24px">Two things need your call before I go further: what the unidentified 601-page STG document is, and Gomella's edition number if you know it offhand. Everything else in this report is ready to build on.</p>
+    </section>
+
+    <footer>Neonatology Fellowship Study Platform — Phase 1–3 report · generated from <code>/data/extracted/occurrences.json</code>, <code>/data/master/master_questions.json</code>, <code>/audit/question-count-report.json</code></footer>
+  </main>
+</div>

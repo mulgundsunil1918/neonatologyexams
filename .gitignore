@@ -1,0 +1,16 @@
+# Source PDFs — large, copyrighted reference material. Never goes to git/GitHub.
+# Provenance (filename + md5) is tracked in scripts/paper_registry.py instead.
+*.pdf
+
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Next.js app
+app/node_modules/
+app/.next/
+app/prisma/dev.db
+app/prisma/dev.db-journal
+app/src/generated/
+app/.env

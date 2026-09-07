@@ -1,0 +1,295 @@
+// Neonatology Fellowship Study Platform — data model
+// SQLite (fully offline, single file: prisma/dev.db). No enums used — SQLite support for
+// Prisma enums is inconsistent across versions, so status-like fields are plain String
+// columns validated in application code (see src/lib/constants.ts for the allowed values).
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ---------- Content: resources (the book/protocol library) ----------
+
+model Resource {
+  id        String   @id @default(cuid())
+  title     String
+  shortName String   @unique // e.g. "aiims-vol1", used in citations
+  edition   String? // null = not yet confirmed
+  year      Int?
+  category  String // "qbank" | "textbook" | "protocol"
+  fileName  String
+  pageCount Int?
+  createdAt DateTime @default(now())
+
+  sources QuestionSource[]
+
+  @@index([category])
+}
+
+// ---------- Content: exam structure ----------
+
+model Sitting {
+  id    String  @id // e.g. "2021-07"
+  label String // human-readable, e.g. "NNF Fellowship Examination, 22nd July 2021"
+  year  Int
+  month Int?
+
+  papers Paper[]
+}
+
+model Paper {
+  id           String  @id @default(cuid())
+  sittingId    String
+  paperNo      Int
+  paperType    String // "MCQ" | "THEORY" | "MIXED"
+  pageStart    Int
+  pageEnd      Int
+  totalMarks   Int?
+  durationMins Int?
+  formatNote   String?
+
+  sitting     Sitting              @relation(fields: [sittingId], references: [id])
+  occurrences QuestionOccurrence[]
+
+  @@unique([sittingId, paperNo])
+}
+
+// ---------- Content: master questions & occurrences ----------
+
+model MasterQuestion {
+  id                String  @id // e.g. "Q000001"
+  paperType         String // "MCQ" | "THEORY"
+  stem              String
+  repetitionTier    String // "RED" | "ORANGE" | "YELLOW" | "WHITE"
+  conceptGroupId    String? // set once a Yellow concept-cluster is assigned
+  hasImage          Boolean @default(false)
+  hasTable          Boolean @default(false)
+  flawNote          String?
+  confidenceStatus  String  @default("SOURCE_CONFIRMED")
+  // "SOURCE_CONFIRMED" | "SOURCE_SUPPORTED" | "SOURCE_DEPENDENT" |
+  // "QUESTION_OPTION_FLAWED" | "OUTDATED_SOURCE" | "NOT_FOUND"
+
+  primarySystemId    String?
+  secondarySystemId  String?
+  topicId            String?
+  subtopicId         String?
+
+  createdAt DateTime @default(now())
+
+  occurrences  QuestionOccurrence[]
+  options      Option[]
+  subParts     SubPart[]
+  answer       Answer?
+  explanation  Explanation?
+  sources      QuestionSource[]
+  bookmarks    Bookmark[]
+  notes        Note[]
+  attempts     Attempt[]
+  primarySystem   System? @relation("PrimarySystem", fields: [primarySystemId], references: [id])
+  secondarySystem System? @relation("SecondarySystem", fields: [secondarySystemId], references: [id])
+  topic           Topic?  @relation(fields: [topicId], references: [id])
+  subtopic        Subtopic? @relation(fields: [subtopicId], references: [id])
+  conceptGroup    ConceptGroup? @relation(fields: [conceptGroupId], references: [id])
+
+  @@index([repetitionTier])
+  @@index([paperType])
+  @@index([primarySystemId])
+}
+
+// A Yellow-tier cluster: same clinical concept, different wording/options across occurrences.
+// Deliberately separate from RepetitionGroup exact-match tiering — populated by the concept
+// review pass, not by the extraction pipeline.
+model ConceptGroup {
+  id        String @id @default(cuid())
+  label     String // e.g. "Cerebral blood flow — factors that decrease it"
+  reviewedAt DateTime?
+  members   MasterQuestion[]
+}
+
+model QuestionOccurrence {
+  id              String  @id @default(cuid())
+  masterQuestionId String
+  paperId         String
+  originalQnum    Int
+  pdfPageStart    Int
+  pdfPageEnd      Int
+  extractionMethod String // "text_parse" | "manual_vision_transcription"
+
+  masterQuestion MasterQuestion @relation(fields: [masterQuestionId], references: [id])
+  paper          Paper          @relation(fields: [paperId], references: [id])
+
+  @@unique([paperId, originalQnum])
+  @@index([masterQuestionId])
+}
+
+model Option {
+  id               String @id @default(cuid())
+  masterQuestionId String
+  letter           String // "A".."E"
+  text             String
+  sortOrder        Int
+
+  masterQuestion MasterQuestion @relation(fields: [masterQuestionId], references: [id])
+
+  @@index([masterQuestionId])
+}
+
+// Theory-paper lettered sub-parts (a/b/c…) — distinct from MCQ Options.
+model SubPart {
+  id               String @id @default(cuid())
+  masterQuestionId String
+  label            String // "A", "B", "C"...
+  text             String
+  marks            String? // free text, e.g. "3+3+4" as printed
+  sortOrder        Int
+
+  masterQuestion MasterQuestion @relation(fields: [masterQuestionId], references: [id])
+
+  @@index([masterQuestionId])
+}
+
+model Answer {
+  id               String  @id @default(cuid())
+  masterQuestionId String  @unique
+  correctLetter    String? // null = not yet sourced
+  confidenceStatus String  @default("NOT_FOUND")
+  sourcedFrom      String? // "printed_key" | "textbook_citation" | null
+
+  masterQuestion MasterQuestion @relation(fields: [masterQuestionId], references: [id])
+}
+
+model Explanation {
+  id               String @id @default(cuid())
+  masterQuestionId String @unique
+  body             String?
+  highYieldPoint   String?
+
+  masterQuestion MasterQuestion @relation(fields: [masterQuestionId], references: [id])
+}
+
+// ---------- Classification ----------
+
+model System {
+  id        String @id @default(cuid())
+  name      String @unique
+  sortOrder Int
+
+  topics             Topic[]
+  primaryQuestions   MasterQuestion[] @relation("PrimarySystem")
+  secondaryQuestions MasterQuestion[] @relation("SecondarySystem")
+}
+
+model Topic {
+  id       String @id @default(cuid())
+  systemId String
+  name     String
+
+  system    System     @relation(fields: [systemId], references: [id])
+  subtopics Subtopic[]
+  questions MasterQuestion[]
+
+  @@unique([systemId, name])
+}
+
+model Subtopic {
+  id      String @id @default(cuid())
+  topicId String
+  name    String
+
+  topic     Topic  @relation(fields: [topicId], references: [id])
+  questions MasterQuestion[]
+
+  @@unique([topicId, name])
+}
+
+// ---------- Source citations (book/chapter grounding) ----------
+
+model QuestionSource {
+  id               String  @id @default(cuid())
+  masterQuestionId String
+  resourceId       String
+  role             String // "primary" | "additional"
+  chapter          String?
+  pageRef          String?
+  tableOrFigure    String?
+
+  masterQuestion MasterQuestion @relation(fields: [masterQuestionId], references: [id])
+  resource       Resource       @relation(fields: [resourceId], references: [id])
+
+  @@index([masterQuestionId])
+}
+
+// ---------- User-facing state (schema-ready; auth to be added later) ----------
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  name      String?
+  createdAt DateTime @default(now())
+
+  attempts  Attempt[]
+  bookmarks Bookmark[]
+  notes     Note[]
+  sessions  StudySession[]
+}
+
+model Attempt {
+  id               String   @id @default(cuid())
+  userId           String
+  masterQuestionId String
+  selectedLetter   String?
+  isCorrect        Boolean?
+  timeSpentSecs    Int?
+  attemptedAt      DateTime @default(now())
+  studySessionId   String?
+
+  // spaced-repetition fields (Part 19) — tracked from the first attempt, not yet scheduled
+  confidence     Int? // 1-5 self-rated
+  nextReviewDate DateTime?
+
+  user           User            @relation(fields: [userId], references: [id])
+  masterQuestion MasterQuestion  @relation(fields: [masterQuestionId], references: [id])
+  studySession   StudySession?   @relation(fields: [studySessionId], references: [id])
+
+  @@index([userId, masterQuestionId])
+}
+
+model Bookmark {
+  id               String   @id @default(cuid())
+  userId           String
+  masterQuestionId String
+  flag             String? // "revise" | "important" | null
+  createdAt        DateTime @default(now())
+
+  user           User           @relation(fields: [userId], references: [id])
+  masterQuestion MasterQuestion @relation(fields: [masterQuestionId], references: [id])
+
+  @@unique([userId, masterQuestionId])
+}
+
+model Note {
+  id               String   @id @default(cuid())
+  userId           String
+  masterQuestionId String
+  body             String
+  updatedAt        DateTime @updatedAt
+
+  user           User           @relation(fields: [userId], references: [id])
+  masterQuestion MasterQuestion @relation(fields: [masterQuestionId], references: [id])
+}
+
+model StudySession {
+  id        String    @id @default(cuid())
+  userId    String
+  mode      String // "paperwise" | "systemwise" | "mcq_master" | ...
+  startedAt DateTime  @default(now())
+  endedAt   DateTime?
+
+  user     User      @relation(fields: [userId], references: [id])
+  attempts Attempt[]
+}

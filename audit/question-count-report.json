@@ -1,0 +1,31 @@
+{
+  "files_processed": 1,
+  "source_file": "NNF Fellowship All QBANK till 2026 (1).pdf",
+  "papers_processed": 22,
+  "questions_extracted": 804,
+  "question_occurrences": 804,
+  "unique_master_questions": 792,
+  "repetition_tiers": {
+    "RED": 0,
+    "ORANGE": 12,
+    "YELLOW": 0,
+    "WHITE": 780
+  },
+  "yellow_tier_status": "NOT YET RUN \u2014 requires concept-level (not text-similarity) review; see docstring in build_master_questions.py. All non-repeated questions currently sit in WHITE pending that pass.",
+  "assigned": 804,
+  "unassigned": 0,
+  "missing": 0,
+  "duplicate_records": 0,
+  "mcq_total": 700,
+  "options_parsed_by_letter": {
+    "A": 700,
+    "B": 700,
+    "C": 700,
+    "D": 699,
+    "E": 13
+  },
+  "questions_with_missing_options": 0,
+  "questions_without_answer": 650,
+  "questions_without_qbank_page_ref": 0,
+  "questions_without_textbook_citation": 700
+}
