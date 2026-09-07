@@ -35,7 +35,7 @@ export function FilterBar({ systems, sittings }: { systems: SystemOpt[]; sitting
   return (
     <div className="px-8 py-4 border-b border-border bg-muted/30">
       <p className="text-xs text-muted-foreground mb-2.5">
-        Narrow the list below, or combine filters — e.g. Red + Ventilation for the must-memorize ventilator questions.
+        Narrow the list below, or combine filters — e.g. Red + Ventilation for the high-yield (repeated) ventilator questions.
       </p>
       <div className="flex flex-wrap items-end gap-3">
         <Field label="Search">
@@ -54,8 +54,6 @@ export function FilterBar({ systems, sittings }: { systems: SystemOpt[]; sitting
               <SelectItem value="all">All priorities</SelectItem>
               <SelectItem value="RED">🔴 Red</SelectItem>
               <SelectItem value="ORANGE">🟠 Orange</SelectItem>
-              <SelectItem value="YELLOW">🟡 Yellow</SelectItem>
-              <SelectItem value="WHITE">⚪ White</SelectItem>
             </SelectContent>
           </Select>
         </Field>

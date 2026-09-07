@@ -29,11 +29,11 @@ export default async function RevisionPage() {
     <div>
       <PageHeader
         title="Revision"
-        subtitle="A basic due-for-review queue — questions you got wrong, plus Red-tier questions you haven't attempted. Full spaced-repetition scheduling (Part 19) isn't built yet."
+        subtitle="A basic due-for-review queue — questions you got wrong, plus Red-tier (high-yield, repeated) questions you haven't attempted. Full spaced-repetition scheduling (Part 19) isn't built yet."
       />
       <div className="p-8 space-y-8">
         <Section title={`Got wrong (${incorrectQuestions.length})`} questions={incorrectQuestions} empty="Nothing here yet — incorrect answers will queue up for review." />
-        <Section title={`Unattempted Red-tier — must memorize (${unattemptedRed.length})`} questions={unattemptedRed} empty="All Red-tier questions attempted." />
+        <Section title={`Unattempted Red-tier — high yield (${unattemptedRed.length})`} questions={unattemptedRed} empty="All Red-tier questions attempted." />
       </div>
     </div>
   );

@@ -1,8 +1,6 @@
 export const TIER_META = {
-  RED: { emoji: "🔴", label: "Red", meaning: "Must memorize", desc: "Repeated 3+ times" },
-  ORANGE: { emoji: "🟠", label: "Orange", meaning: "High yield", desc: "Repeated exactly twice" },
-  YELLOW: { emoji: "🟡", label: "Yellow", meaning: "High-yield concept", desc: "Same concept, reworded across sittings" },
-  WHITE: { emoji: "⚪", label: "White", meaning: "Complete coverage", desc: "Asked once, no repeat found yet" },
+  RED: { emoji: "🔴", label: "Red", meaning: "High yield", desc: "Repeated exactly twice" },
+  ORANGE: { emoji: "🟠", label: "Orange", meaning: "Complete coverage", desc: "Asked once, no repeat found yet" },
 } as const;
 
 export type Tier = keyof typeof TIER_META;

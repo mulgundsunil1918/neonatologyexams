@@ -98,8 +98,7 @@ model MasterQuestion {
   id                String  @id // e.g. "Q000001"
   paperType         String // "MCQ" | "THEORY"
   stem              String
-  repetitionTier    String // "RED" | "ORANGE" | "YELLOW" | "WHITE"
-  conceptGroupId    String? // set once a Yellow concept-cluster is assigned
+  repetitionTier    String // "RED" (repeated exactly twice) | "ORANGE" (asked once)
   hasImage          Boolean @default(false)
   hasTable          Boolean @default(false)
   flawNote          String?
@@ -127,21 +126,10 @@ model MasterQuestion {
   secondarySystem System? @relation("SecondarySystem", fields: [secondarySystemId], references: [id])
   topic           Topic?  @relation(fields: [topicId], references: [id])
   subtopic        Subtopic? @relation(fields: [subtopicId], references: [id])
-  conceptGroup    ConceptGroup? @relation(fields: [conceptGroupId], references: [id])
 
   @@index([repetitionTier])
   @@index([paperType])
   @@index([primarySystemId])
-}
-
-// A Yellow-tier cluster: same clinical concept, different wording/options across occurrences.
-// Deliberately separate from RepetitionGroup exact-match tiering — populated by the concept
-// review pass, not by the extraction pipeline.
-model ConceptGroup {
-  id        String @id @default(cuid())
-  label     String // e.g. "Cerebral blood flow — factors that decrease it"
-  reviewedAt DateTime?
-  members   MasterQuestion[]
 }
 
 model QuestionOccurrence {

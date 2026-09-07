@@ -30,7 +30,7 @@ export default async function DashboardPage() {
 
   const tierTotals = await db.masterQuestion.groupBy({ by: ["repetitionTier"], _count: true });
   const tierTotalMap = Object.fromEntries(tierTotals.map((t) => [t.repetitionTier, t._count])) as Record<string, number>;
-  const tierAttemptedMap: Record<string, Set<string>> = { RED: new Set(), ORANGE: new Set(), YELLOW: new Set(), WHITE: new Set() };
+  const tierAttemptedMap: Record<string, Set<string>> = { RED: new Set(), ORANGE: new Set() };
   for (const a of attempts) {
     tierAttemptedMap[a.masterQuestion.repetitionTier]?.add(a.masterQuestionId);
   }

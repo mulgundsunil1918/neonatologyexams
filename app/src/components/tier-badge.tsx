@@ -4,12 +4,10 @@ import { cn } from "@/lib/utils";
 const TIER_CLASSES: Record<Tier, string> = {
   RED: "bg-tier-red-bg text-tier-red border-tier-red/30",
   ORANGE: "bg-tier-orange-bg text-tier-orange border-tier-orange/30",
-  YELLOW: "bg-tier-yellow-bg text-tier-yellow border-tier-yellow/30",
-  WHITE: "bg-tier-white-bg text-tier-white border-tier-white/30",
 };
 
 export function TierBadge({ tier, showLabel = true, className }: { tier: string; showLabel?: boolean; className?: string }) {
-  const t = (tier in TIER_META ? tier : "WHITE") as Tier;
+  const t = (tier in TIER_META ? tier : "ORANGE") as Tier;
   const meta = TIER_META[t];
   return (
     <span
