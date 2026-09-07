@@ -1,0 +1,248 @@
+[
+  {
+    "title": "Section 1: Fetal and Perinatal Care",
+    "level": 2,
+    "pageStart": 24,
+    "pageEnd": 25
+  },
+  {
+    "title": "1. Antenatal Fetal Monitoring",
+    "level": 3,
+    "pageStart": 26,
+    "pageEnd": 36
+  },
+  {
+    "title": "2. Intrapartum Fetal Monitoring",
+    "level": 3,
+    "pageStart": 37,
+    "pageEnd": 48
+  },
+  {
+    "title": "3. Fetal Growth Restriction",
+    "level": 3,
+    "pageStart": 49,
+    "pageEnd": 57
+  },
+  {
+    "title": "4. Preterm Labor and Triple I",
+    "level": 3,
+    "pageStart": 58,
+    "pageEnd": 65
+  },
+  {
+    "title": "Section 2: Central Nervous System",
+    "level": 2,
+    "pageStart": 66,
+    "pageEnd": 67
+  },
+  {
+    "title": "5. Neural Tube Defects",
+    "level": 3,
+    "pageStart": 68,
+    "pageEnd": 77
+  },
+  {
+    "title": "Section 3: Cardiovascular System",
+    "level": 2,
+    "pageStart": 78,
+    "pageEnd": 79
+  },
+  {
+    "title": "6. Neonatal Hypertension",
+    "level": 3,
+    "pageStart": 80,
+    "pageEnd": 89
+  },
+  {
+    "title": "Section 4: Respiratory System",
+    "level": 2,
+    "pageStart": 90,
+    "pageEnd": 91
+  },
+  {
+    "title": "7. Bronchopulmonary Dysplasia",
+    "level": 3,
+    "pageStart": 92,
+    "pageEnd": 103
+  },
+  {
+    "title": "8. Airway and Lung Malformations (Other than CDHand TEF)",
+    "level": 3,
+    "pageStart": 104,
+    "pageEnd": 113
+  },
+  {
+    "title": "9. Persistent Pulmonary Hypertension of the Newborn",
+    "level": 3,
+    "pageStart": 114,
+    "pageEnd": 127
+  },
+  {
+    "title": "Section 5: Gastrointestinal and Hepatobiliary Tract andNutrition",
+    "level": 2,
+    "pageStart": 128,
+    "pageEnd": 129
+  },
+  {
+    "title": "10. Feeding of Neonates with Umbilical Artery DopplerAbnormalities",
+    "level": 3,
+    "pageStart": 130,
+    "pageEnd": 134
+  },
+  {
+    "title": "11. Neonatal Cholestasis",
+    "level": 3,
+    "pageStart": 135,
+    "pageEnd": 149
+  },
+  {
+    "title": "12. Intestinal Obstruction",
+    "level": 3,
+    "pageStart": 150,
+    "pageEnd": 165
+  },
+  {
+    "title": "Section 6: Infections",
+    "level": 2,
+    "pageStart": 166,
+    "pageEnd": 167
+  },
+  {
+    "title": "13. Fungal Infection in Neonates",
+    "level": 3,
+    "pageStart": 168,
+    "pageEnd": 174
+  },
+  {
+    "title": "14. Sepsis Outbreak in NICU",
+    "level": 3,
+    "pageStart": 175,
+    "pageEnd": 183
+  },
+  {
+    "title": "Section 7: Metabolic, Hematological, Immunological, Geneticsand Endocrine Disorders",
+    "level": 2,
+    "pageStart": 184,
+    "pageEnd": 185
+  },
+  {
+    "title": "15. Inborn Errors of Metabolism",
+    "level": 3,
+    "pageStart": 186,
+    "pageEnd": 201
+  },
+  {
+    "title": "16. Neonatal Thrombosis",
+    "level": 3,
+    "pageStart": 202,
+    "pageEnd": 208
+  },
+  {
+    "title": "17. Inborn Errors of Immunity",
+    "level": 3,
+    "pageStart": 209,
+    "pageEnd": 217
+  },
+  {
+    "title": "18. Congenital Hypothyroidism",
+    "level": 3,
+    "pageStart": 218,
+    "pageEnd": 232
+  },
+  {
+    "title": "19. Metabolic Bone Disease",
+    "level": 3,
+    "pageStart": 233,
+    "pageEnd": 236
+  },
+  {
+    "title": "20. Differences in Sex Development",
+    "level": 3,
+    "pageStart": 237,
+    "pageEnd": 245
+  },
+  {
+    "title": "Section 8: Miscellaneous",
+    "level": 2,
+    "pageStart": 246,
+    "pageEnd": 247
+  },
+  {
+    "title": "21. Early Detection and Management of Cerebral Palsy",
+    "level": 3,
+    "pageStart": 248,
+    "pageEnd": 259
+  },
+  {
+    "title": "22. Unknown Baby",
+    "level": 3,
+    "pageStart": 260,
+    "pageEnd": 261
+  },
+  {
+    "title": "23. Developmental Dysplasia of the Hip and CongenitalTalipes Equinovarus",
+    "level": 3,
+    "pageStart": 262,
+    "pageEnd": 267
+  },
+  {
+    "title": "Section 9: Diagnostic Modalities and Procedures",
+    "level": 2,
+    "pageStart": 268,
+    "pageEnd": 269
+  },
+  {
+    "title": "24. Amplitude-integrated EEG (aEEG) in Neonates",
+    "level": 3,
+    "pageStart": 270,
+    "pageEnd": 276
+  },
+  {
+    "title": "25. Genetic Diagnosis and Counseling",
+    "level": 3,
+    "pageStart": 277,
+    "pageEnd": 291
+  },
+  {
+    "title": "Section 10: Therapeutic Modalities",
+    "level": 2,
+    "pageStart": 292,
+    "pageEnd": 293
+  },
+  {
+    "title": "26. Mechanical Ventilation",
+    "level": 3,
+    "pageStart": 294,
+    "pageEnd": 309
+  },
+  {
+    "title": "Annexures",
+    "level": 2,
+    "pageStart": 310,
+    "pageEnd": 311
+  },
+  {
+    "title": "1. Drugs in Pregnancy and Breastfeeding",
+    "level": 3,
+    "pageStart": 312,
+    "pageEnd": 317
+  },
+  {
+    "title": "2. Filling out the International Death Certificate",
+    "level": 3,
+    "pageStart": 318,
+    "pageEnd": 319
+  },
+  {
+    "title": "3. Important ICD-10 Codes for Assigning Causes ofNeonatal Deaths",
+    "level": 3,
+    "pageStart": 320,
+    "pageEnd": 321
+  },
+  {
+    "title": "4. Genetic Diagnostic Algorithms for Common NeonatalNursery Scenarios with Suspected Genetic Etiology",
+    "level": 3,
+    "pageStart": 322,
+    "pageEnd": 342
+  }
+]

@@ -10,10 +10,15 @@ export type Tier = keyof typeof TIER_META;
 export const CONFIDENCE_META: Record<string, { label: string; tone: "good" | "neutral" | "bad" }> = {
   SOURCE_CONFIRMED: { label: "Source confirmed", tone: "good" },
   SOURCE_SUPPORTED: { label: "Source supported", tone: "good" },
-  SOURCE_DEPENDENT: { label: "Source dependent", tone: "neutral" },
+  SOURCE_DEPENDENT: { label: "Candidate match — not yet verified", tone: "neutral" },
   QUESTION_OPTION_FLAWED: { label: "Question/option flawed", tone: "bad" },
   OUTDATED_SOURCE: { label: "Outdated source", tone: "bad" },
   NOT_FOUND: { label: "Not found in uploaded resources", tone: "neutral" },
 };
 
 export const DEFAULT_USER_ID = "local-user";
+
+// Absolute path to the folder holding the source PDFs (project root, one level up from app/) —
+// used to build file:// links so "Sources" can open the original book at the cited page. Only
+// meaningful on the machine that has those PDFs; overridable via .env for a different layout.
+export const RESOURCES_ROOT = process.env.RESOURCES_ROOT ?? "/Users/sunil/neonatologyexam";

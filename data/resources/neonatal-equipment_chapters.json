@@ -1,0 +1,296 @@
+[
+  {
+    "title": "A. INTRODUCTION",
+    "level": 1,
+    "pageStart": 23,
+    "pageEnd": 23
+  },
+  {
+    "title": "1. Procurement, Use and Maintenance of Neonatal Equipment: Practical Considerations",
+    "level": 2,
+    "pageStart": 24,
+    "pageEnd": 32
+  },
+  {
+    "title": "B. EQUIPMENT FOR THERMAL CONTROL",
+    "level": 1,
+    "pageStart": 33,
+    "pageEnd": 33
+  },
+  {
+    "title": "2. Radiant Warmers",
+    "level": 2,
+    "pageStart": 34,
+    "pageEnd": 46
+  },
+  {
+    "title": "3. Incubators",
+    "level": 2,
+    "pageStart": 47,
+    "pageEnd": 62
+  },
+  {
+    "title": "4. Transport Incubators",
+    "level": 2,
+    "pageStart": 63,
+    "pageEnd": 73
+  },
+  {
+    "title": "C. EQUIPMENT FOR MONITORING",
+    "level": 1,
+    "pageStart": 74,
+    "pageEnd": 74
+  },
+  {
+    "title": "5. Pulse Oximeter",
+    "level": 2,
+    "pageStart": 75,
+    "pageEnd": 94
+  },
+  {
+    "title": "6. Apnea Monitors",
+    "level": 2,
+    "pageStart": 95,
+    "pageEnd": 104
+  },
+  {
+    "title": "7. Blood Pressure Monitors",
+    "level": 2,
+    "pageStart": 105,
+    "pageEnd": 117
+  },
+  {
+    "title": "8. Transcutaneous Bilirubinometer",
+    "level": 2,
+    "pageStart": 118,
+    "pageEnd": 124
+  },
+  {
+    "title": "9. Thermometers",
+    "level": 2,
+    "pageStart": 125,
+    "pageEnd": 133
+  },
+  {
+    "title": "10. Weighing Scales",
+    "level": 2,
+    "pageStart": 134,
+    "pageEnd": 139
+  },
+  {
+    "title": "11. Transcutaneous Blood Gas Monitors",
+    "level": 2,
+    "pageStart": 140,
+    "pageEnd": 154
+  },
+  {
+    "title": "12. Capnograph (End-Tidal Carbon Dioxide Monitors)",
+    "level": 2,
+    "pageStart": 155,
+    "pageEnd": 168
+  },
+  {
+    "title": "13. Ultrasound Machine",
+    "level": 2,
+    "pageStart": 169,
+    "pageEnd": 178
+  },
+  {
+    "title": "14. Cerebral Function Monitor",
+    "level": 2,
+    "pageStart": 179,
+    "pageEnd": 191
+  },
+  {
+    "title": "15. BERA Phone: Automated Auditory Brainstem Evoked Response Audiometry",
+    "level": 2,
+    "pageStart": 192,
+    "pageEnd": 200
+  },
+  {
+    "title": "16. Otoacoustic Emission (OAE) Machine",
+    "level": 2,
+    "pageStart": 201,
+    "pageEnd": 209
+  },
+  {
+    "title": "D. EQUIPMENT FOR THERAPY/TREATMENT PURPOSES",
+    "level": 1,
+    "pageStart": 210,
+    "pageEnd": 210
+  },
+  {
+    "title": "17. Phototherapy Units",
+    "level": 2,
+    "pageStart": 211,
+    "pageEnd": 229
+  },
+  {
+    "title": "18. Infusion Pumps",
+    "level": 2,
+    "pageStart": 230,
+    "pageEnd": 239
+  },
+  {
+    "title": "19. Cooling Equipment for Therapeutic Hypothermia",
+    "level": 2,
+    "pageStart": 240,
+    "pageEnd": 254
+  },
+  {
+    "title": "E. EQUIPMENT FOR MONITORING THERAPY",
+    "level": 1,
+    "pageStart": 255,
+    "pageEnd": 255
+  },
+  {
+    "title": "20. Oxygen Analyzer",
+    "level": 2,
+    "pageStart": 256,
+    "pageEnd": 262
+  },
+  {
+    "title": "21. Fluxmeter (Irradiance Meter for Phototherapy Unit)",
+    "level": 2,
+    "pageStart": 263,
+    "pageEnd": 268
+  },
+  {
+    "title": "22. Transilluminator",
+    "level": 2,
+    "pageStart": 269,
+    "pageEnd": 275
+  },
+  {
+    "title": "F. EQUIPMENT FOR BIOCHEMICAL AND LABORATORY MEASUREMENT",
+    "level": 1,
+    "pageStart": 276,
+    "pageEnd": 276
+  },
+  {
+    "title": "23. Glucose Estimation Instruments",
+    "level": 2,
+    "pageStart": 277,
+    "pageEnd": 286
+  },
+  {
+    "title": "24. Clinical Refractometer",
+    "level": 2,
+    "pageStart": 287,
+    "pageEnd": 294
+  },
+  {
+    "title": "25. Spectrometric Bilirubin Analyzer (Micro-method for Serum Bilirubin Estimation)",
+    "level": 2,
+    "pageStart": 295,
+    "pageEnd": 304
+  },
+  {
+    "title": "26. Laboratory Microcentrifuge",
+    "level": 2,
+    "pageStart": 305,
+    "pageEnd": 313
+  },
+  {
+    "title": "27. Laminar Airflow System",
+    "level": 2,
+    "pageStart": 314,
+    "pageEnd": 327
+  },
+  {
+    "title": "G. LIFE-SAVING EQUIPMENT",
+    "level": 1,
+    "pageStart": 328,
+    "pageEnd": 328
+  },
+  {
+    "title": "28. Self-inflating Bag: Manual Resuscitator",
+    "level": 2,
+    "pageStart": 329,
+    "pageEnd": 339
+  },
+  {
+    "title": "29. Oxygen Concentrator",
+    "level": 2,
+    "pageStart": 340,
+    "pageEnd": 350
+  },
+  {
+    "title": "30. Continuous Positive Airway Pressure Machine",
+    "level": 2,
+    "pageStart": 351,
+    "pageEnd": 370
+  },
+  {
+    "title": "31. Heated Humidified High Flow Nasal Cannula Therapy",
+    "level": 2,
+    "pageStart": 371,
+    "pageEnd": 377
+  },
+  {
+    "title": "32. Neonatal Ventilators",
+    "level": 2,
+    "pageStart": 378,
+    "pageEnd": 391
+  },
+  {
+    "title": "33. Inhaled Nitric Oxide Delivery Systems",
+    "level": 2,
+    "pageStart": 392,
+    "pageEnd": 404
+  },
+  {
+    "title": "H. MISCELLANEOUS",
+    "level": 1,
+    "pageStart": 405,
+    "pageEnd": 405
+  },
+  {
+    "title": "34. Resuscitation Trolley",
+    "level": 2,
+    "pageStart": 406,
+    "pageEnd": 411
+  },
+  {
+    "title": "35. T-piece Resuscitator",
+    "level": 2,
+    "pageStart": 412,
+    "pageEnd": 418
+  },
+  {
+    "title": "36. Suction Machine",
+    "level": 2,
+    "pageStart": 419,
+    "pageEnd": 427
+  },
+  {
+    "title": "37. Breast Pump",
+    "level": 2,
+    "pageStart": 428,
+    "pageEnd": 436
+  },
+  {
+    "title": "I. APPENDIX",
+    "level": 1,
+    "pageStart": 437,
+    "pageEnd": 437
+  },
+  {
+    "title": "38. Steps for Equipment Selection and Writing Specification",
+    "level": 2,
+    "pageStart": 438,
+    "pageEnd": 454
+  },
+  {
+    "title": "39. List of Indian Equipment Dealers",
+    "level": 2,
+    "pageStart": 455,
+    "pageEnd": 466
+  },
+  {
+    "title": "40. List of Imported Equipment Dealers",
+    "level": 2,
+    "pageStart": 467,
+    "pageEnd": 473
+  }
+]

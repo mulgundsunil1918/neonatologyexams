@@ -1,0 +1,3302 @@
+[
+  {
+    "title": "CLOHERTY AND STARK\u2019S MANUAL OF NEONATAL CARE",
+    "level": 1,
+    "pageStart": 2,
+    "pageEnd": 25
+  },
+  {
+    "title": "Fetal Assessment and Prenatal Diagnosis",
+    "level": 1,
+    "pageStart": 26,
+    "pageEnd": 26
+  },
+  {
+    "title": "I. GESTATIONAL AGE ASSESSMENT",
+    "level": 2,
+    "pageStart": 26,
+    "pageEnd": 26
+  },
+  {
+    "title": "II. PRENATAL DIAGNOSIS OF FETAL DISEASE",
+    "level": 2,
+    "pageStart": 27,
+    "pageEnd": 31
+  },
+  {
+    "title": "III. FETAL SIZE AND GROWTH-RATE ABNORMALITIES",
+    "level": 2,
+    "pageStart": 32,
+    "pageEnd": 32
+  },
+  {
+    "title": "IV. FUNCTIONAL MATURITY OF THE LUNGS",
+    "level": 2,
+    "pageStart": 33,
+    "pageEnd": 33
+  },
+  {
+    "title": "V. ASSESSMENT OF FETAL WELL-BEING.",
+    "level": 2,
+    "pageStart": 34,
+    "pageEnd": 39
+  },
+  {
+    "title": "Maternal Diabetes Mellitus",
+    "level": 1,
+    "pageStart": 40,
+    "pageEnd": 40
+  },
+  {
+    "title": "I. CLASSIFICATION OF DIABETES IN PREGNANCY",
+    "level": 2,
+    "pageStart": 40,
+    "pageEnd": 40
+  },
+  {
+    "title": "II. EPIDEMIOLOGY",
+    "level": 2,
+    "pageStart": 41,
+    "pageEnd": 41
+  },
+  {
+    "title": "III. COMPLICATIONS.",
+    "level": 2,
+    "pageStart": 41,
+    "pageEnd": 41
+  },
+  {
+    "title": "IV. PRECONCEPTION MANAGEMENT.",
+    "level": 2,
+    "pageStart": 42,
+    "pageEnd": 42
+  },
+  {
+    "title": "V. ANTEPARTUM MANAGEMENT",
+    "level": 2,
+    "pageStart": 43,
+    "pageEnd": 43
+  },
+  {
+    "title": "VI. INTRAPARTUM AND POSTPARTUM MANAGEMENT",
+    "level": 2,
+    "pageStart": 44,
+    "pageEnd": 46
+  },
+  {
+    "title": "Preeclampsia and Related Hypertensive Conditions of Pregnancy",
+    "level": 1,
+    "pageStart": 47,
+    "pageEnd": 47
+  },
+  {
+    "title": "I. CATEGORIES OF PREGNANCY-ASSOCIATED HYPERTENSIVE DISORDERS",
+    "level": 2,
+    "pageStart": 47,
+    "pageEnd": 48
+  },
+  {
+    "title": "II. INCIDENCE AND EPIDEMIOLOGY.",
+    "level": 2,
+    "pageStart": 49,
+    "pageEnd": 49
+  },
+  {
+    "title": "III. DIAGNOSIS.",
+    "level": 2,
+    "pageStart": 49,
+    "pageEnd": 50
+  },
+  {
+    "title": "IV. COMPLICATIONS.",
+    "level": 2,
+    "pageStart": 51,
+    "pageEnd": 51
+  },
+  {
+    "title": "V. CONSIDERATIONS IN MANAGEMENT",
+    "level": 2,
+    "pageStart": 51,
+    "pageEnd": 51
+  },
+  {
+    "title": "VI. CLINICAL MANAGEMENT OF GESTATIONAL HYPERTENSION AND PREECLAMPSIA WITHOUT SEVERE FEATURES",
+    "level": 2,
+    "pageStart": 52,
+    "pageEnd": 53
+  },
+  {
+    "title": "VII. MANAGEMENT OF PREECLAMPSIA WITH SEVERE FEATURES",
+    "level": 2,
+    "pageStart": 54,
+    "pageEnd": 56
+  },
+  {
+    "title": "VIII. MANAGEMENT OF ECLAMPSIA",
+    "level": 2,
+    "pageStart": 57,
+    "pageEnd": 57
+  },
+  {
+    "title": "IX. POSTPARTUM PREECLAMPSIA",
+    "level": 2,
+    "pageStart": 58,
+    "pageEnd": 58
+  },
+  {
+    "title": "X. RECURRENCE RISK.",
+    "level": 2,
+    "pageStart": 58,
+    "pageEnd": 58
+  },
+  {
+    "title": "XI. LONG-TERM CARDIOVASCULAR RISK.",
+    "level": 2,
+    "pageStart": 59,
+    "pageEnd": 59
+  },
+  {
+    "title": "XII. PROPOSED TREATMENTS",
+    "level": 2,
+    "pageStart": 59,
+    "pageEnd": 59
+  },
+  {
+    "title": "XIII. IMPLICATIONS FOR THE NEWBORN",
+    "level": 2,
+    "pageStart": 59,
+    "pageEnd": 61
+  },
+  {
+    "title": "Resuscitation in the Delivery Room",
+    "level": 1,
+    "pageStart": 62,
+    "pageEnd": 62
+  },
+  {
+    "title": "I. GENERAL PRINCIPLES",
+    "level": 2,
+    "pageStart": 62,
+    "pageEnd": 62
+  },
+  {
+    "title": "II. PREPARATION",
+    "level": 2,
+    "pageStart": 63,
+    "pageEnd": 65
+  },
+  {
+    "title": "III. DURING DELIVERY.",
+    "level": 2,
+    "pageStart": 66,
+    "pageEnd": 70
+  },
+  {
+    "title": "IV. SPECIAL SITUATIONS",
+    "level": 2,
+    "pageStart": 71,
+    "pageEnd": 72
+  },
+  {
+    "title": "V. MONITORING RESUSCITATION.",
+    "level": 2,
+    "pageStart": 73,
+    "pageEnd": 73
+  },
+  {
+    "title": "VI. POSTRESUSCITATIVE CARE",
+    "level": 2,
+    "pageStart": 73,
+    "pageEnd": 73
+  },
+  {
+    "title": "VII. WITHHOLDING OR DISCONTINUING RESUSCITATION",
+    "level": 2,
+    "pageStart": 74,
+    "pageEnd": 74
+  },
+  {
+    "title": "VIII. TEAMWORK DURING NEONATAL RESUSCITATION.",
+    "level": 2,
+    "pageStart": 75,
+    "pageEnd": 76
+  },
+  {
+    "title": "I. DEFINITION.",
+    "level": 2,
+    "pageStart": 77,
+    "pageEnd": 77
+  },
+  {
+    "title": "II. INCIDENCE.",
+    "level": 2,
+    "pageStart": 77,
+    "pageEnd": 77
+  },
+  {
+    "title": "III. ETIOLOGY",
+    "level": 2,
+    "pageStart": 77,
+    "pageEnd": 77
+  },
+  {
+    "title": "Nonimmune Hydrops Fetalis",
+    "level": 1,
+    "pageStart": 77,
+    "pageEnd": 79
+  },
+  {
+    "title": "IV. PATHOPHYSIOLOGY.",
+    "level": 2,
+    "pageStart": 80,
+    "pageEnd": 80
+  },
+  {
+    "title": "V. EVALUATION",
+    "level": 2,
+    "pageStart": 81,
+    "pageEnd": 83
+  },
+  {
+    "title": "VI. PRENATAL TREATMENT.",
+    "level": 2,
+    "pageStart": 84,
+    "pageEnd": 84
+  },
+  {
+    "title": "VII. MATERNAL COMPLICATIONS OF FETAL HYDROPS",
+    "level": 2,
+    "pageStart": 85,
+    "pageEnd": 85
+  },
+  {
+    "title": "VIII. DELIVERY CONSIDERATIONS.",
+    "level": 2,
+    "pageStart": 86,
+    "pageEnd": 86
+  },
+  {
+    "title": "IX. NEONATAL MANAGEMENT OF FETAL HYDROPS",
+    "level": 2,
+    "pageStart": 87,
+    "pageEnd": 89
+  },
+  {
+    "title": "Birth Trauma",
+    "level": 1,
+    "pageStart": 90,
+    "pageEnd": 90
+  },
+  {
+    "title": "I. BACKGROUND.",
+    "level": 2,
+    "pageStart": 90,
+    "pageEnd": 90
+  },
+  {
+    "title": "II. TYPES OF BIRTH TRAUMA",
+    "level": 2,
+    "pageStart": 91,
+    "pageEnd": 102
+  },
+  {
+    "title": "I. HIGH-RISK NEWBORNS",
+    "level": 2,
+    "pageStart": 103,
+    "pageEnd": 103
+  },
+  {
+    "title": "The High-Risk Newborn: Anticipation, Evaluation, Management, and Outcome",
+    "level": 1,
+    "pageStart": 103,
+    "pageEnd": 106
+  },
+  {
+    "title": "II. GESTATIONAL AGE (GA) AND BIRTH WEIGHT CLASSIFICATION.",
+    "level": 2,
+    "pageStart": 107,
+    "pageEnd": 107
+  },
+  {
+    "title": "III. PRETERM BIRTH.",
+    "level": 2,
+    "pageStart": 108,
+    "pageEnd": 112
+  },
+  {
+    "title": "IV. POSTTERM INFANTS",
+    "level": 2,
+    "pageStart": 113,
+    "pageEnd": 113
+  },
+  {
+    "title": "V. SGA",
+    "level": 2,
+    "pageStart": 114,
+    "pageEnd": 115
+  },
+  {
+    "title": "VI. LGA",
+    "level": 2,
+    "pageStart": 116,
+    "pageEnd": 118
+  },
+  {
+    "title": "I. HISTORY.",
+    "level": 2,
+    "pageStart": 119,
+    "pageEnd": 119
+  },
+  {
+    "title": "II. ROUTINE PHYSICAL EXAMINATION OF THE NEONATE.",
+    "level": 2,
+    "pageStart": 119,
+    "pageEnd": 119
+  },
+  {
+    "title": "Assessment of the Newborn History and Physical Examination of the Newborn",
+    "level": 1,
+    "pageStart": 119,
+    "pageEnd": 131
+  },
+  {
+    "title": "Care of the Well Newborn",
+    "level": 1,
+    "pageStart": 132,
+    "pageEnd": 132
+  },
+  {
+    "title": "I. ADMISSION TO THE NEWBORN NURSERY",
+    "level": 2,
+    "pageStart": 132,
+    "pageEnd": 132
+  },
+  {
+    "title": "II. TRANSITIONAL CARE",
+    "level": 2,
+    "pageStart": 133,
+    "pageEnd": 133
+  },
+  {
+    "title": "III. ROUTINE CARE",
+    "level": 2,
+    "pageStart": 133,
+    "pageEnd": 133
+  },
+  {
+    "title": "IV. ROUTINE MEDICATIONS",
+    "level": 2,
+    "pageStart": 134,
+    "pageEnd": 134
+  },
+  {
+    "title": "V. SCREENING",
+    "level": 2,
+    "pageStart": 135,
+    "pageEnd": 137
+  },
+  {
+    "title": "VI. ROUTINE ASSESSMENTS",
+    "level": 2,
+    "pageStart": 138,
+    "pageEnd": 138
+  },
+  {
+    "title": "VII. FAMILY AND SOCIAL ISSUES",
+    "level": 2,
+    "pageStart": 139,
+    "pageEnd": 139
+  },
+  {
+    "title": "VIII. FEEDINGS.",
+    "level": 2,
+    "pageStart": 139,
+    "pageEnd": 139
+  },
+  {
+    "title": "IX. NEWBORN CIRCUMCISION",
+    "level": 2,
+    "pageStart": 139,
+    "pageEnd": 139
+  },
+  {
+    "title": "X. DISCHARGE PREPARATION",
+    "level": 2,
+    "pageStart": 140,
+    "pageEnd": 141
+  },
+  {
+    "title": "XI. FOLLOW-UP",
+    "level": 2,
+    "pageStart": 142,
+    "pageEnd": 143
+  },
+  {
+    "title": "Genetic Issues Presenting in the Nursery",
+    "level": 1,
+    "pageStart": 144,
+    "pageEnd": 144
+  },
+  {
+    "title": "I. GENERAL PRINCIPLES",
+    "level": 2,
+    "pageStart": 144,
+    "pageEnd": 144
+  },
+  {
+    "title": "II. INCIDENCE.",
+    "level": 2,
+    "pageStart": 145,
+    "pageEnd": 145
+  },
+  {
+    "title": "III. ETIOLOGY.",
+    "level": 2,
+    "pageStart": 145,
+    "pageEnd": 145
+  },
+  {
+    "title": "IV. APPROACH TO THE INFANT WITH A CONGENITAL MALFORMATION OR OTHER SUSPECTED GENETIC DISORDER",
+    "level": 2,
+    "pageStart": 146,
+    "pageEnd": 161
+  },
+  {
+    "title": "Multiple Births",
+    "level": 1,
+    "pageStart": 162,
+    "pageEnd": 162
+  },
+  {
+    "title": "I. CLASSIFICATION",
+    "level": 2,
+    "pageStart": 162,
+    "pageEnd": 162
+  },
+  {
+    "title": "II. EPIDEMIOLOGY",
+    "level": 2,
+    "pageStart": 163,
+    "pageEnd": 163
+  },
+  {
+    "title": "III. ETIOLOGY",
+    "level": 2,
+    "pageStart": 163,
+    "pageEnd": 163
+  },
+  {
+    "title": "IV. DIAGNOSIS.",
+    "level": 2,
+    "pageStart": 164,
+    "pageEnd": 164
+  },
+  {
+    "title": "V. PRENATAL SCREENING AND DIAGNOSIS",
+    "level": 2,
+    "pageStart": 164,
+    "pageEnd": 164
+  },
+  {
+    "title": "VI. MATERNAL COMPLICATIONS",
+    "level": 2,
+    "pageStart": 165,
+    "pageEnd": 165
+  },
+  {
+    "title": "VII. FETAL AND NEONATAL COMPLICATIONS",
+    "level": 2,
+    "pageStart": 165,
+    "pageEnd": 168
+  },
+  {
+    "title": "VIII. OUTCOMES",
+    "level": 2,
+    "pageStart": 169,
+    "pageEnd": 171
+  },
+  {
+    "title": "Maternal Substance Use, Infant Exposure, and Neonatal Opioid Withdrawal Syndrome",
+    "level": 1,
+    "pageStart": 172,
+    "pageEnd": 172
+  },
+  {
+    "title": "I. MATERNAL DRUG USE",
+    "level": 2,
+    "pageStart": 172,
+    "pageEnd": 172
+  },
+  {
+    "title": "II. DIAGNOSIS OF DRUG USE IN PREGNANCY.",
+    "level": 2,
+    "pageStart": 173,
+    "pageEnd": 174
+  },
+  {
+    "title": "III. NONOPIOID SUBSTANCE EXPOSURE.",
+    "level": 2,
+    "pageStart": 175,
+    "pageEnd": 175
+  },
+  {
+    "title": "IV. NEONATAL OPIOID WITHDRAWAL SYNDROME FOLLOWING OPIOID EXPOSURE IN PREGNANCY",
+    "level": 2,
+    "pageStart": 175,
+    "pageEnd": 179
+  },
+  {
+    "title": "V. BREASTFEEDING OF SUBSTANCE-EXPOSED INFANTS.",
+    "level": 2,
+    "pageStart": 180,
+    "pageEnd": 180
+  },
+  {
+    "title": "VI. DISCHARGE.",
+    "level": 2,
+    "pageStart": 181,
+    "pageEnd": 181
+  },
+  {
+    "title": "VII. LONG-TERM OUTCOMES.",
+    "level": 2,
+    "pageStart": 181,
+    "pageEnd": 183
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 184,
+    "pageEnd": 184
+  },
+  {
+    "title": "II. PRENATAL CONSIDERATIONS.",
+    "level": 2,
+    "pageStart": 184,
+    "pageEnd": 184
+  },
+  {
+    "title": "Initial Care of the Extremely Low Birth Weight Infant",
+    "level": 1,
+    "pageStart": 184,
+    "pageEnd": 189
+  },
+  {
+    "title": "III. DELIVERY ROOM CARE.",
+    "level": 2,
+    "pageStart": 190,
+    "pageEnd": 190
+  },
+  {
+    "title": "IV. CARE IN THE INTENSIVE CARE UNIT.",
+    "level": 2,
+    "pageStart": 191,
+    "pageEnd": 197
+  },
+  {
+    "title": "V. SUMMARY.",
+    "level": 2,
+    "pageStart": 198,
+    "pageEnd": 198
+  },
+  {
+    "title": "Developmentally Supportive Care",
+    "level": 1,
+    "pageStart": 199,
+    "pageEnd": 199
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 199,
+    "pageEnd": 199
+  },
+  {
+    "title": "II. ASSESSMENT.",
+    "level": 2,
+    "pageStart": 199,
+    "pageEnd": 204
+  },
+  {
+    "title": "III. GOALS OF DEVELOPMENTAL SUPPORT.",
+    "level": 2,
+    "pageStart": 205,
+    "pageEnd": 205
+  },
+  {
+    "title": "IV. DEVELOPMENTALLY SUPPORTIVE ENVIRONMENT.",
+    "level": 2,
+    "pageStart": 206,
+    "pageEnd": 207
+  },
+  {
+    "title": "V. DEVELOPMENTALLY SUPPORTIVE CARE PRACTICES.",
+    "level": 2,
+    "pageStart": 208,
+    "pageEnd": 210
+  },
+  {
+    "title": "VI. PAIN AND STRESS.",
+    "level": 2,
+    "pageStart": 211,
+    "pageEnd": 211
+  },
+  {
+    "title": "VII. PARENT SUPPORT/EDUCATION",
+    "level": 2,
+    "pageStart": 211,
+    "pageEnd": 212
+  },
+  {
+    "title": "Temperature Control",
+    "level": 1,
+    "pageStart": 213,
+    "pageEnd": 213
+  },
+  {
+    "title": "I. BACKGROUND.",
+    "level": 2,
+    "pageStart": 213,
+    "pageEnd": 213
+  },
+  {
+    "title": "II. TEMPERATURE MAINTENANCE",
+    "level": 2,
+    "pageStart": 214,
+    "pageEnd": 214
+  },
+  {
+    "title": "III. MECHANISMS OF HEAT LOSS.",
+    "level": 2,
+    "pageStart": 215,
+    "pageEnd": 215
+  },
+  {
+    "title": "IV. THERMONEUTRAL ENVIRONMENT.",
+    "level": 2,
+    "pageStart": 216,
+    "pageEnd": 216
+  },
+  {
+    "title": "V. MANAGEMENT TO PREVENT HEAT LOSS",
+    "level": 2,
+    "pageStart": 216,
+    "pageEnd": 219
+  },
+  {
+    "title": "VI. HAZARDS OF TEMPERATURE CONTROL METHODS",
+    "level": 2,
+    "pageStart": 220,
+    "pageEnd": 221
+  },
+  {
+    "title": "Follow-up Care of Very Preterm and Very Low Birth Weight Infants",
+    "level": 1,
+    "pageStart": 222,
+    "pageEnd": 222
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 222,
+    "pageEnd": 222
+  },
+  {
+    "title": "II. MEDICAL CARE ISSUES",
+    "level": 2,
+    "pageStart": 223,
+    "pageEnd": 225
+  },
+  {
+    "title": "III. NEURODEVELOPMENTAL OUTCOMES.",
+    "level": 2,
+    "pageStart": 226,
+    "pageEnd": 229
+  },
+  {
+    "title": "IV. HIGH-RISK INFANT FOLLOW-UP PROGRAMS.",
+    "level": 2,
+    "pageStart": 230,
+    "pageEnd": 232
+  },
+  {
+    "title": "Neonatal Transport",
+    "level": 1,
+    "pageStart": 233,
+    "pageEnd": 233
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 233,
+    "pageEnd": 233
+  },
+  {
+    "title": "II. INDICATIONS",
+    "level": 2,
+    "pageStart": 233,
+    "pageEnd": 234
+  },
+  {
+    "title": "III. ORGANIZATION OF TRANSPORT SERVICES",
+    "level": 2,
+    "pageStart": 235,
+    "pageEnd": 238
+  },
+  {
+    "title": "IV. REFERRING HOSPITAL RESPONSIBILITIES",
+    "level": 2,
+    "pageStart": 239,
+    "pageEnd": 240
+  },
+  {
+    "title": "V. TRANSPORT TEAM RESPONSIBILITIES",
+    "level": 2,
+    "pageStart": 241,
+    "pageEnd": 241
+  },
+  {
+    "title": "VI. MEDICAL MANAGEMENT BEFORE TRANSPORT",
+    "level": 2,
+    "pageStart": 242,
+    "pageEnd": 242
+  },
+  {
+    "title": "VII. MEDICAL MANAGEMENT DURING RETURN TRANSPORT",
+    "level": 2,
+    "pageStart": 243,
+    "pageEnd": 243
+  },
+  {
+    "title": "VIII. ARRIVAL AT THE NEONATAL INTENSIVE CARE UNIT",
+    "level": 2,
+    "pageStart": 244,
+    "pageEnd": 244
+  },
+  {
+    "title": "IX. SPECIFIC CONDITIONS AND MANAGEMENT",
+    "level": 2,
+    "pageStart": 244,
+    "pageEnd": 245
+  },
+  {
+    "title": "X. PHYSIOLOGIC CONSIDERATIONS OF AIR TRANSPORTS.",
+    "level": 2,
+    "pageStart": 246,
+    "pageEnd": 246
+  },
+  {
+    "title": "XI. SIMULATION IN TRANSPORT MEDICINE.",
+    "level": 2,
+    "pageStart": 246,
+    "pageEnd": 246
+  },
+  {
+    "title": "Neonatal Intensive Care Unit Discharge Planning",
+    "level": 1,
+    "pageStart": 247,
+    "pageEnd": 247
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 247,
+    "pageEnd": 247
+  },
+  {
+    "title": "II. INFANT\u2019S DISCHARGE READINESS.",
+    "level": 2,
+    "pageStart": 247,
+    "pageEnd": 252
+  },
+  {
+    "title": "III. PARENT\u2019S DISCHARGE PREPARATION.",
+    "level": 2,
+    "pageStart": 253,
+    "pageEnd": 268
+  },
+  {
+    "title": "Decision Making and Ethical Dilemmas",
+    "level": 1,
+    "pageStart": 269,
+    "pageEnd": 269
+  },
+  {
+    "title": "I. BACKGROUND.",
+    "level": 2,
+    "pageStart": 269,
+    "pageEnd": 270
+  },
+  {
+    "title": "II. DEVELOPING A PROCESS FOR ETHICAL DECISION MAKING.",
+    "level": 2,
+    "pageStart": 271,
+    "pageEnd": 272
+  },
+  {
+    "title": "III. MATERNAL\u2013FETAL ETHICS.",
+    "level": 2,
+    "pageStart": 273,
+    "pageEnd": 273
+  },
+  {
+    "title": "IV. EXTREMELY PREMATURE INFANTS.",
+    "level": 2,
+    "pageStart": 273,
+    "pageEnd": 273
+  },
+  {
+    "title": "V. THE DECISION TO REDIRECT LIFE-SUSTAINING TREATMENT TO COMFORT MEASURES.",
+    "level": 2,
+    "pageStart": 274,
+    "pageEnd": 277
+  },
+  {
+    "title": "Management of Neonatal End-of-Life Care and Bereavement Follow-up",
+    "level": 1,
+    "pageStart": 278,
+    "pageEnd": 278
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 278,
+    "pageEnd": 278
+  },
+  {
+    "title": "II. FAMILY-CENTERED END-OF-LIFE CARE PRINCIPLES AND DOMAINS.",
+    "level": 2,
+    "pageStart": 279,
+    "pageEnd": 279
+  },
+  {
+    "title": "III. COORDINATION OF CARE",
+    "level": 2,
+    "pageStart": 279,
+    "pageEnd": 281
+  },
+  {
+    "title": "IV. BEREAVEMENT FOLLOW-UP",
+    "level": 2,
+    "pageStart": 282,
+    "pageEnd": 284
+  },
+  {
+    "title": "Nutrition",
+    "level": 1,
+    "pageStart": 285,
+    "pageEnd": 285
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 285,
+    "pageEnd": 285
+  },
+  {
+    "title": "II. GROWTH",
+    "level": 2,
+    "pageStart": 285,
+    "pageEnd": 292
+  },
+  {
+    "title": "III. NUTRIENT RECOMMENDATIONS FOR PRETERM INFANTS",
+    "level": 2,
+    "pageStart": 293,
+    "pageEnd": 304
+  },
+  {
+    "title": "IV. SPECIAL CONSIDERATIONS",
+    "level": 2,
+    "pageStart": 305,
+    "pageEnd": 308
+  },
+  {
+    "title": "V. NUTRITIONAL CONSIDERATIONS IN DISCHARGE PLANNING.",
+    "level": 2,
+    "pageStart": 309,
+    "pageEnd": 313
+  },
+  {
+    "title": "Breastfeeding and Maternal Medications",
+    "level": 1,
+    "pageStart": 314,
+    "pageEnd": 314
+  },
+  {
+    "title": "I. RATIONALE FOR BREASTFEEDING.",
+    "level": 2,
+    "pageStart": 314,
+    "pageEnd": 314
+  },
+  {
+    "title": "II. RECOMMENDATIONS ON BREASTFEEDING FOR HEALTHY TERM INFANTS INCLUDE THE FOLLOWING GENERAL PRINCIPLES (CENTERS FOR DISEASE CONT",
+    "level": 2,
+    "pageStart": 314,
+    "pageEnd": 314
+  },
+  {
+    "title": "III. MANAGEMENT AND SUPPORT ARE NEEDED FOR SUCCESSFUL BREASTFEEDING",
+    "level": 2,
+    "pageStart": 315,
+    "pageEnd": 315
+  },
+  {
+    "title": "IV. MANAGEMENT OF BREASTFEEDING PROBLEMS",
+    "level": 2,
+    "pageStart": 316,
+    "pageEnd": 316
+  },
+  {
+    "title": "V. SPECIAL SITUATIONS.",
+    "level": 2,
+    "pageStart": 317,
+    "pageEnd": 318
+  },
+  {
+    "title": "VI. CARE AND HANDLING OF EXPRESSED BREAST MILK.",
+    "level": 2,
+    "pageStart": 319,
+    "pageEnd": 319
+  },
+  {
+    "title": "VII. CONTRAINDICATIONS AND CONDITIONS NOT CONTRAINDICATED TO BREASTFEEDING.",
+    "level": 2,
+    "pageStart": 320,
+    "pageEnd": 320
+  },
+  {
+    "title": "VIII. MATERNAL MEDICATIONS AND BREASTFEEDING.",
+    "level": 2,
+    "pageStart": 321,
+    "pageEnd": 321
+  },
+  {
+    "title": "IX. DETERMINATION OF DRUG SAFETY DURING BREASTFEEDING.",
+    "level": 2,
+    "pageStart": 322,
+    "pageEnd": 322
+  },
+  {
+    "title": "X. RESOURCES",
+    "level": 2,
+    "pageStart": 323,
+    "pageEnd": 325
+  },
+  {
+    "title": "Fluid and Electrolyte Management",
+    "level": 1,
+    "pageStart": 326,
+    "pageEnd": 326
+  },
+  {
+    "title": "I. DISTRIBUTION OF BODY WATER",
+    "level": 2,
+    "pageStart": 326,
+    "pageEnd": 327
+  },
+  {
+    "title": "II. ASSESSMENT OF FLUID AND ELECTROLYTE STATUS",
+    "level": 2,
+    "pageStart": 328,
+    "pageEnd": 329
+  },
+  {
+    "title": "III. MANAGEMENT OF FLUIDS AND ELECTROLYTES.",
+    "level": 2,
+    "pageStart": 330,
+    "pageEnd": 330
+  },
+  {
+    "title": "IV. APPROACH TO DISORDERS OF NA AND WATER BALANCE.",
+    "level": 2,
+    "pageStart": 330,
+    "pageEnd": 332
+  },
+  {
+    "title": "V. OLIGURIA.",
+    "level": 2,
+    "pageStart": 333,
+    "pageEnd": 334
+  },
+  {
+    "title": "VI. METABOLIC ACID\u2013BASE DISORDERS",
+    "level": 2,
+    "pageStart": 335,
+    "pageEnd": 336
+  },
+  {
+    "title": "VII. DISORDERS OF K BALANCE.",
+    "level": 2,
+    "pageStart": 337,
+    "pageEnd": 339
+  },
+  {
+    "title": "VIII. COMMON CLINICAL SITUATIONS",
+    "level": 2,
+    "pageStart": 340,
+    "pageEnd": 342
+  },
+  {
+    "title": "Hypoglycemia and Hyperglycemia",
+    "level": 1,
+    "pageStart": 343,
+    "pageEnd": 343
+  },
+  {
+    "title": "I. HYPOGLYCEMIA.",
+    "level": 2,
+    "pageStart": 344,
+    "pageEnd": 352
+  },
+  {
+    "title": "II. HYPERGLYCEMIA.",
+    "level": 2,
+    "pageStart": 353,
+    "pageEnd": 357
+  },
+  {
+    "title": "Abnormalities of Serum Calcium and Magnesium",
+    "level": 1,
+    "pageStart": 358,
+    "pageEnd": 358
+  },
+  {
+    "title": "I. HYPOCALCEMIA",
+    "level": 2,
+    "pageStart": 358,
+    "pageEnd": 362
+  },
+  {
+    "title": "II. HYPERCALCEMIA",
+    "level": 2,
+    "pageStart": 363,
+    "pageEnd": 364
+  },
+  {
+    "title": "III. DISORDERS OF MAGNESIUM: HYPOMAGNESEMIA AND HYPERMAGNESEMIA",
+    "level": 2,
+    "pageStart": 365,
+    "pageEnd": 366
+  },
+  {
+    "title": "Neonatal Hyperbilirubinemia",
+    "level": 1,
+    "pageStart": 367,
+    "pageEnd": 367
+  },
+  {
+    "title": "I. BACKGROUND.",
+    "level": 2,
+    "pageStart": 367,
+    "pageEnd": 367
+  },
+  {
+    "title": "II. BILIRUBIN METABOLISM.",
+    "level": 2,
+    "pageStart": 367,
+    "pageEnd": 368
+  },
+  {
+    "title": "III. NONPATHOLOGIC (BENIGN) HYPERBILIRUBINEMIA.",
+    "level": 2,
+    "pageStart": 369,
+    "pageEnd": 369
+  },
+  {
+    "title": "IV. SIGNIFICANT HYPERBILIRUBINEMIA",
+    "level": 2,
+    "pageStart": 370,
+    "pageEnd": 372
+  },
+  {
+    "title": "V. PREVENTION OF HYPERBILIRUBINEMIA IN HEALTHY TERM AND LATE-PRETERM INFANTS.",
+    "level": 2,
+    "pageStart": 373,
+    "pageEnd": 374
+  },
+  {
+    "title": "VI. EVALUATION OF INFANTS WITH HYPERBILIRUBINEMIA",
+    "level": 2,
+    "pageStart": 375,
+    "pageEnd": 377
+  },
+  {
+    "title": "VII. FAMILY AND CAREGIVER EDUCATION.",
+    "level": 2,
+    "pageStart": 378,
+    "pageEnd": 378
+  },
+  {
+    "title": "VIII. CLINICAL MANAGEMENT",
+    "level": 2,
+    "pageStart": 379,
+    "pageEnd": 387
+  },
+  {
+    "title": "IX. BILIRUBIN NEUROTOXICITY.",
+    "level": 2,
+    "pageStart": 388,
+    "pageEnd": 389
+  },
+  {
+    "title": "X. NEONATAL CHOLESTASIS.",
+    "level": 2,
+    "pageStart": 390,
+    "pageEnd": 391
+  },
+  {
+    "title": "Necrotizing Enterocolitis",
+    "level": 1,
+    "pageStart": 392,
+    "pageEnd": 392
+  },
+  {
+    "title": "I. BACKGROUND.",
+    "level": 2,
+    "pageStart": 392,
+    "pageEnd": 394
+  },
+  {
+    "title": "II. DIAGNOSIS.",
+    "level": 2,
+    "pageStart": 395,
+    "pageEnd": 397
+  },
+  {
+    "title": "III. MANAGEMENT",
+    "level": 2,
+    "pageStart": 398,
+    "pageEnd": 401
+  },
+  {
+    "title": "IV. PROGNOSIS.",
+    "level": 2,
+    "pageStart": 402,
+    "pageEnd": 405
+  },
+  {
+    "title": "Neonatal Kidney Conditions",
+    "level": 1,
+    "pageStart": 406,
+    "pageEnd": 406
+  },
+  {
+    "title": "I. RENAL EMBRYOGENESIS AND FUNCTIONAL DEVELOPMENT",
+    "level": 2,
+    "pageStart": 406,
+    "pageEnd": 411
+  },
+  {
+    "title": "II. CLINICAL ASSESSMENT OF THE KIDNEYS AND URINARY TRACT.",
+    "level": 2,
+    "pageStart": 412,
+    "pageEnd": 420
+  },
+  {
+    "title": "III. COMMON CLINICAL KIDNEY PROBLEMS IN NEONATES",
+    "level": 2,
+    "pageStart": 421,
+    "pageEnd": 442
+  },
+  {
+    "title": "Mechanical Ventilation",
+    "level": 1,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "I. GENERAL PRINCIPLES.",
+    "level": 2,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "II. NONINVASIVE VENTILATORY SUPPORT",
+    "level": 2,
+    "pageStart": 443,
+    "pageEnd": 445
+  },
+  {
+    "title": "III. INVASIVE MECHANICAL VENTILATORY SUPPORT",
+    "level": 2,
+    "pageStart": 446,
+    "pageEnd": 450
+  },
+  {
+    "title": "IV. INDICATIONS FOR RESPIRATORY SUPPORT",
+    "level": 2,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "V. HOW VENTILATOR CHANGES AFFECT BLOOD GASES",
+    "level": 2,
+    "pageStart": 452,
+    "pageEnd": 455
+  },
+  {
+    "title": "VI. DISEASE STATES",
+    "level": 2,
+    "pageStart": 456,
+    "pageEnd": 461
+  },
+  {
+    "title": "VII. ADJUNCTS TO MECHANICAL VENTILATION",
+    "level": 2,
+    "pageStart": 462,
+    "pageEnd": 462
+  },
+  {
+    "title": "VIII. COMPLICATIONS AND SEQUELAE.",
+    "level": 2,
+    "pageStart": 462,
+    "pageEnd": 463
+  },
+  {
+    "title": "I. GENERAL PRINCIPLES.",
+    "level": 2,
+    "pageStart": 464,
+    "pageEnd": 464
+  },
+  {
+    "title": "II. OXYGEN USE AND MONITORING.",
+    "level": 2,
+    "pageStart": 464,
+    "pageEnd": 464
+  },
+  {
+    "title": "Blood Gas and Pulmonary Function Monitoring",
+    "level": 1,
+    "pageStart": 464,
+    "pageEnd": 466
+  },
+  {
+    "title": "III. ASSESSMENT OF PULMONARY VENTILATION.",
+    "level": 2,
+    "pageStart": 467,
+    "pageEnd": 470
+  },
+  {
+    "title": "IV. PULMONARY GRAPHICS MONITORING.",
+    "level": 2,
+    "pageStart": 471,
+    "pageEnd": 472
+  },
+  {
+    "title": "I. BACKGROUND",
+    "level": 2,
+    "pageStart": 473,
+    "pageEnd": 473
+  },
+  {
+    "title": "Apnea",
+    "level": 1,
+    "pageStart": 473,
+    "pageEnd": 473
+  },
+  {
+    "title": "II. PATHOGENESIS.",
+    "level": 2,
+    "pageStart": 474,
+    "pageEnd": 474
+  },
+  {
+    "title": "III. MONITORING AND EVALUATION",
+    "level": 2,
+    "pageStart": 475,
+    "pageEnd": 475
+  },
+  {
+    "title": "IV. TREATMENT",
+    "level": 2,
+    "pageStart": 476,
+    "pageEnd": 477
+  },
+  {
+    "title": "V. DISCHARGE CONSIDERATIONS",
+    "level": 2,
+    "pageStart": 478,
+    "pageEnd": 478
+  },
+  {
+    "title": "I. DEFINITION.",
+    "level": 2,
+    "pageStart": 479,
+    "pageEnd": 479
+  },
+  {
+    "title": "II. PATHOPHYSIOLOGY.",
+    "level": 2,
+    "pageStart": 479,
+    "pageEnd": 479
+  },
+  {
+    "title": "Transient Tachypnea of the Newborn",
+    "level": 1,
+    "pageStart": 479,
+    "pageEnd": 479
+  },
+  {
+    "title": "III. EPIDEMIOLOGY.",
+    "level": 2,
+    "pageStart": 480,
+    "pageEnd": 480
+  },
+  {
+    "title": "IV. CLINICAL PRESENTATION.",
+    "level": 2,
+    "pageStart": 480,
+    "pageEnd": 480
+  },
+  {
+    "title": "V. DIFFERENTIAL DIAGNOSIS.",
+    "level": 2,
+    "pageStart": 480,
+    "pageEnd": 480
+  },
+  {
+    "title": "VI. EVALUATION",
+    "level": 2,
+    "pageStart": 481,
+    "pageEnd": 481
+  },
+  {
+    "title": "VII. MANAGEMENT.",
+    "level": 2,
+    "pageStart": 481,
+    "pageEnd": 481
+  },
+  {
+    "title": "VIII. COMPLICATIONS.",
+    "level": 2,
+    "pageStart": 482,
+    "pageEnd": 482
+  },
+  {
+    "title": "IX. PROGNOSIS.",
+    "level": 2,
+    "pageStart": 482,
+    "pageEnd": 482
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 483,
+    "pageEnd": 483
+  },
+  {
+    "title": "Respiratory Distress Syndrome",
+    "level": 1,
+    "pageStart": 483,
+    "pageEnd": 483
+  },
+  {
+    "title": "II. DIAGNOSIS",
+    "level": 2,
+    "pageStart": 484,
+    "pageEnd": 486
+  },
+  {
+    "title": "III. PREVENTION.",
+    "level": 2,
+    "pageStart": 487,
+    "pageEnd": 487
+  },
+  {
+    "title": "IV. MANAGEMENT",
+    "level": 2,
+    "pageStart": 487,
+    "pageEnd": 493
+  },
+  {
+    "title": "Bronchopulmonary Dysplasia",
+    "level": 1,
+    "pageStart": 494,
+    "pageEnd": 494
+  },
+  {
+    "title": "I. BRONCHOPULMONARY DYSPLASIA (BPD)",
+    "level": 2,
+    "pageStart": 494,
+    "pageEnd": 495
+  },
+  {
+    "title": "II. EPIDEMIOLOGY",
+    "level": 2,
+    "pageStart": 496,
+    "pageEnd": 497
+  },
+  {
+    "title": "III. PATHOGENESIS.",
+    "level": 2,
+    "pageStart": 498,
+    "pageEnd": 498
+  },
+  {
+    "title": "IV. THE CLINICAL PRESENTATION",
+    "level": 2,
+    "pageStart": 498,
+    "pageEnd": 498
+  },
+  {
+    "title": "V. EFFORTS TO PREVENT BPD AND MINIMIZE LUNG INJURY",
+    "level": 2,
+    "pageStart": 499,
+    "pageEnd": 500
+  },
+  {
+    "title": "VI. MANAGEMENT OF INFANTS WITH ESTABLISHED BPD",
+    "level": 2,
+    "pageStart": 501,
+    "pageEnd": 501
+  },
+  {
+    "title": "VII. IDENTIFICATION AND TREATMENT OF COMPLICATIONS ASSOCIATED WITH BPD",
+    "level": 2,
+    "pageStart": 502,
+    "pageEnd": 502
+  },
+  {
+    "title": "VIII. DISCHARGE PLANNING",
+    "level": 2,
+    "pageStart": 503,
+    "pageEnd": 503
+  },
+  {
+    "title": "IX. OUTPATIENT THERAPY",
+    "level": 2,
+    "pageStart": 504,
+    "pageEnd": 504
+  },
+  {
+    "title": "X. CHILD AND ADULT OUTCOMES OF BPD",
+    "level": 2,
+    "pageStart": 505,
+    "pageEnd": 506
+  },
+  {
+    "title": "I. BACKGROUND",
+    "level": 2,
+    "pageStart": 507,
+    "pageEnd": 507
+  },
+  {
+    "title": "II. PATHOPHYSIOLOGY.",
+    "level": 2,
+    "pageStart": 507,
+    "pageEnd": 507
+  },
+  {
+    "title": "Meconium Aspiration",
+    "level": 1,
+    "pageStart": 507,
+    "pageEnd": 508
+  },
+  {
+    "title": "III. PREVENTION OF MECONIUM ASPIRATION SYNDROME",
+    "level": 2,
+    "pageStart": 509,
+    "pageEnd": 509
+  },
+  {
+    "title": "IV. MANAGEMENT OF INFANTS DELIVERED THROUGH MECONIUM-STAINED FLUID.",
+    "level": 2,
+    "pageStart": 509,
+    "pageEnd": 509
+  },
+  {
+    "title": "V. MANAGEMENT OF MECONIUM ASPIRATION SYNDROME",
+    "level": 2,
+    "pageStart": 510,
+    "pageEnd": 512
+  },
+  {
+    "title": "I. DEFINITION.",
+    "level": 2,
+    "pageStart": 513,
+    "pageEnd": 513
+  },
+  {
+    "title": "Persistent Pulmonary Hypertension of the Newborn",
+    "level": 1,
+    "pageStart": 513,
+    "pageEnd": 513
+  },
+  {
+    "title": "II. PHYSIOLOGY AND PATHOGENESIS",
+    "level": 2,
+    "pageStart": 514,
+    "pageEnd": 514
+  },
+  {
+    "title": "III. EPIDEMIOLOGIC ASSOCIATIONS AND RISK FACTORS.",
+    "level": 2,
+    "pageStart": 514,
+    "pageEnd": 514
+  },
+  {
+    "title": "IV. CLASSIFICATION.",
+    "level": 2,
+    "pageStart": 515,
+    "pageEnd": 516
+  },
+  {
+    "title": "V. DIAGNOSIS.",
+    "level": 2,
+    "pageStart": 517,
+    "pageEnd": 517
+  },
+  {
+    "title": "VI. MANAGEMENT.",
+    "level": 2,
+    "pageStart": 518,
+    "pageEnd": 523
+  },
+  {
+    "title": "VII. POSTNEONATAL OUTCOMES AMONG INFANTS WITH PPHN.",
+    "level": 2,
+    "pageStart": 524,
+    "pageEnd": 524
+  },
+  {
+    "title": "Pulmonary Hemorrhage",
+    "level": 1,
+    "pageStart": 525,
+    "pageEnd": 525
+  },
+  {
+    "title": "I. DEFINITION.",
+    "level": 2,
+    "pageStart": 525,
+    "pageEnd": 525
+  },
+  {
+    "title": "II. PATHOPHYSIOLOGY.",
+    "level": 2,
+    "pageStart": 525,
+    "pageEnd": 525
+  },
+  {
+    "title": "III. EPIDEMIOLOGY.",
+    "level": 2,
+    "pageStart": 526,
+    "pageEnd": 526
+  },
+  {
+    "title": "IV. PREDISPOSING FACTORS.",
+    "level": 2,
+    "pageStart": 526,
+    "pageEnd": 526
+  },
+  {
+    "title": "V. CLINICAL PRESENTATION.",
+    "level": 2,
+    "pageStart": 526,
+    "pageEnd": 526
+  },
+  {
+    "title": "VI. EVALUATION",
+    "level": 2,
+    "pageStart": 526,
+    "pageEnd": 526
+  },
+  {
+    "title": "VII. TREATMENT.",
+    "level": 2,
+    "pageStart": 527,
+    "pageEnd": 527
+  },
+  {
+    "title": "VIII. PROGNOSIS.",
+    "level": 2,
+    "pageStart": 528,
+    "pageEnd": 528
+  },
+  {
+    "title": "I. BACKGROUND",
+    "level": 2,
+    "pageStart": 529,
+    "pageEnd": 529
+  },
+  {
+    "title": "Pulmonary Air Leak",
+    "level": 1,
+    "pageStart": 529,
+    "pageEnd": 529
+  },
+  {
+    "title": "II. TYPES OF AIR LEAKS",
+    "level": 2,
+    "pageStart": 530,
+    "pageEnd": 538
+  },
+  {
+    "title": "I. BACKGROUND.",
+    "level": 2,
+    "pageStart": 539,
+    "pageEnd": 539
+  },
+  {
+    "title": "II. ECMO CIRCUIT.",
+    "level": 2,
+    "pageStart": 539,
+    "pageEnd": 539
+  },
+  {
+    "title": "Extracorporeal Membrane Oxygenation",
+    "level": 1,
+    "pageStart": 539,
+    "pageEnd": 540
+  },
+  {
+    "title": "III. INDICATIONS AND CONTRAINDICATIONS",
+    "level": 2,
+    "pageStart": 541,
+    "pageEnd": 541
+  },
+  {
+    "title": "IV. PHYSIOLOGY",
+    "level": 2,
+    "pageStart": 542,
+    "pageEnd": 542
+  },
+  {
+    "title": "V. MANAGEMENT",
+    "level": 2,
+    "pageStart": 543,
+    "pageEnd": 546
+  },
+  {
+    "title": "VI. SPECIAL SITUATIONS DURING EXTRACORPOREAL MEMBRANE OXYGENATION SUPPORT",
+    "level": 2,
+    "pageStart": 547,
+    "pageEnd": 547
+  },
+  {
+    "title": "VII. COMPLICATIONS",
+    "level": 2,
+    "pageStart": 548,
+    "pageEnd": 548
+  },
+  {
+    "title": "VIII. OUTCOME",
+    "level": 2,
+    "pageStart": 549,
+    "pageEnd": 549
+  },
+  {
+    "title": "Shock",
+    "level": 1,
+    "pageStart": 550,
+    "pageEnd": 550
+  },
+  {
+    "title": "I. DEFINITION.",
+    "level": 2,
+    "pageStart": 550,
+    "pageEnd": 550
+  },
+  {
+    "title": "II. PATHOPHYSIOLOGY OF NEONATAL SHOCK.",
+    "level": 2,
+    "pageStart": 550,
+    "pageEnd": 550
+  },
+  {
+    "title": "III. ETIOLOGY.",
+    "level": 2,
+    "pageStart": 551,
+    "pageEnd": 551
+  },
+  {
+    "title": "IV. DIAGNOSIS.",
+    "level": 2,
+    "pageStart": 552,
+    "pageEnd": 553
+  },
+  {
+    "title": "V. TREATMENT.",
+    "level": 2,
+    "pageStart": 554,
+    "pageEnd": 555
+  },
+  {
+    "title": "VI. TYPICAL CLINICAL SCENARIOS OF SHOCK IN NEONATES",
+    "level": 2,
+    "pageStart": 556,
+    "pageEnd": 558
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 559,
+    "pageEnd": 559
+  },
+  {
+    "title": "II. INCIDENCE AND SURVIVAL.",
+    "level": 2,
+    "pageStart": 559,
+    "pageEnd": 559
+  },
+  {
+    "title": "III. TIMING OF PRESENTATION.",
+    "level": 2,
+    "pageStart": 559,
+    "pageEnd": 559
+  },
+  {
+    "title": "Cardiac Disorders",
+    "level": 1,
+    "pageStart": 559,
+    "pageEnd": 561
+  },
+  {
+    "title": "IV. CLINICAL MANIFESTATIONS OF CONGENITAL HEART DISEASE.",
+    "level": 2,
+    "pageStart": 562,
+    "pageEnd": 567
+  },
+  {
+    "title": "V. EVALUATION OF THE NEONATE WITH SUSPECTED CONGENITAL HEART DISEASE",
+    "level": 2,
+    "pageStart": 568,
+    "pageEnd": 579
+  },
+  {
+    "title": "VI. \u201cLESION-SPECIFIC\u201d CARE FOLLOWING ANATOMIC DIAGNOSIS",
+    "level": 2,
+    "pageStart": 580,
+    "pageEnd": 606
+  },
+  {
+    "title": "VII. ACQUIRED HEART DISEASE",
+    "level": 2,
+    "pageStart": 607,
+    "pageEnd": 607
+  },
+  {
+    "title": "VIII. PHARMACOLOGY",
+    "level": 2,
+    "pageStart": 607,
+    "pageEnd": 610
+  },
+  {
+    "title": "IX. ARRHYTHMIAS",
+    "level": 2,
+    "pageStart": 611,
+    "pageEnd": 618
+  },
+  {
+    "title": "I. WHOLE BLOOD AND BLOOD COMPONENT TRANSFUSIONS",
+    "level": 2,
+    "pageStart": 619,
+    "pageEnd": 619
+  },
+  {
+    "title": "Blood Products Used in the Newborn",
+    "level": 1,
+    "pageStart": 619,
+    "pageEnd": 620
+  },
+  {
+    "title": "II. PACKED RED BLOOD CELLS",
+    "level": 2,
+    "pageStart": 621,
+    "pageEnd": 623
+  },
+  {
+    "title": "III. FRESH FROZEN PLASMA, THAWED PLASMA",
+    "level": 2,
+    "pageStart": 624,
+    "pageEnd": 624
+  },
+  {
+    "title": "IV. PLATELETS",
+    "level": 2,
+    "pageStart": 625,
+    "pageEnd": 625
+  },
+  {
+    "title": "V. GRANULOCYTES",
+    "level": 2,
+    "pageStart": 626,
+    "pageEnd": 626
+  },
+  {
+    "title": "VI. WHOLE BLOOD",
+    "level": 2,
+    "pageStart": 626,
+    "pageEnd": 626
+  },
+  {
+    "title": "VII. INTRAVENOUS IMMUNOGLOBULIN",
+    "level": 2,
+    "pageStart": 627,
+    "pageEnd": 627
+  },
+  {
+    "title": "VIII. UMBILICAL CORD BLOOD",
+    "level": 2,
+    "pageStart": 627,
+    "pageEnd": 628
+  },
+  {
+    "title": "I. ETIOLOGY",
+    "level": 2,
+    "pageStart": 629,
+    "pageEnd": 629
+  },
+  {
+    "title": "Bleeding",
+    "level": 1,
+    "pageStart": 629,
+    "pageEnd": 630
+  },
+  {
+    "title": "II. DIAGNOSTIC WORKUP OF THE BLEEDING NEONATE/INFANT",
+    "level": 2,
+    "pageStart": 631,
+    "pageEnd": 634
+  },
+  {
+    "title": "III. TREATMENT OF NEONATES WITH ABNORMAL COAGULATION LABS WITHOUT CLINICAL BLEEDING.",
+    "level": 2,
+    "pageStart": 635,
+    "pageEnd": 635
+  },
+  {
+    "title": "IV. TREATMENT OF BLEEDING",
+    "level": 2,
+    "pageStart": 635,
+    "pageEnd": 637
+  },
+  {
+    "title": "I. PHYSIOLOGY",
+    "level": 2,
+    "pageStart": 638,
+    "pageEnd": 638
+  },
+  {
+    "title": "Neonatal Thrombosis",
+    "level": 1,
+    "pageStart": 638,
+    "pageEnd": 638
+  },
+  {
+    "title": "II. EPIDEMIOLOGY AND RISK FACTORS",
+    "level": 2,
+    "pageStart": 639,
+    "pageEnd": 639
+  },
+  {
+    "title": "III. SPECIFIC CLINICAL CONDITIONS",
+    "level": 2,
+    "pageStart": 640,
+    "pageEnd": 644
+  },
+  {
+    "title": "IV. DIAGNOSTIC CONSIDERATIONS",
+    "level": 2,
+    "pageStart": 645,
+    "pageEnd": 645
+  },
+  {
+    "title": "V. MANAGEMENT",
+    "level": 2,
+    "pageStart": 645,
+    "pageEnd": 653
+  },
+  {
+    "title": "Anemia",
+    "level": 1,
+    "pageStart": 654,
+    "pageEnd": 654
+  },
+  {
+    "title": "I. HEMATOLOGIC PHYSIOLOGY OF THE NEWBORN.",
+    "level": 2,
+    "pageStart": 654,
+    "pageEnd": 655
+  },
+  {
+    "title": "II. ETIOLOGY OF ANEMIA IN THE NEONATE.",
+    "level": 2,
+    "pageStart": 656,
+    "pageEnd": 657
+  },
+  {
+    "title": "III. DIAGNOSTIC APPROACH TO ANEMIA IN THE NEWBORN",
+    "level": 2,
+    "pageStart": 658,
+    "pageEnd": 659
+  },
+  {
+    "title": "IV. THERAPY",
+    "level": 2,
+    "pageStart": 660,
+    "pageEnd": 664
+  },
+  {
+    "title": "I. DEFINITIONS",
+    "level": 2,
+    "pageStart": 665,
+    "pageEnd": 665
+  },
+  {
+    "title": "Polycythemia",
+    "level": 1,
+    "pageStart": 665,
+    "pageEnd": 665
+  },
+  {
+    "title": "II. INCIDENCE.",
+    "level": 2,
+    "pageStart": 666,
+    "pageEnd": 666
+  },
+  {
+    "title": "III. CAUSES OF POLYCYTHEMIA.",
+    "level": 2,
+    "pageStart": 666,
+    "pageEnd": 667
+  },
+  {
+    "title": "IV. SYMPTOMS.",
+    "level": 2,
+    "pageStart": 668,
+    "pageEnd": 668
+  },
+  {
+    "title": "V. SCREENING/DIAGNOSIS.",
+    "level": 2,
+    "pageStart": 668,
+    "pageEnd": 668
+  },
+  {
+    "title": "VI. MANAGEMENT.",
+    "level": 2,
+    "pageStart": 668,
+    "pageEnd": 668
+  },
+  {
+    "title": "VII. PVET.",
+    "level": 2,
+    "pageStart": 668,
+    "pageEnd": 670
+  },
+  {
+    "title": "VIII. OUTCOMES.",
+    "level": 2,
+    "pageStart": 671,
+    "pageEnd": 671
+  },
+  {
+    "title": "IX. CONCLUSION.",
+    "level": 2,
+    "pageStart": 671,
+    "pageEnd": 672
+  },
+  {
+    "title": "Neonatal Thrombocytopenia",
+    "level": 1,
+    "pageStart": 673,
+    "pageEnd": 673
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 674,
+    "pageEnd": 674
+  },
+  {
+    "title": "II. APPROACH TO THE THROMBOCYTOPENIC NEONATE.",
+    "level": 2,
+    "pageStart": 674,
+    "pageEnd": 677
+  },
+  {
+    "title": "III. IMMUNE THROMBOCYTOPENIA.",
+    "level": 2,
+    "pageStart": 678,
+    "pageEnd": 680
+  },
+  {
+    "title": "IV. PLATELET TRANSFUSIONS IN THE NICU.",
+    "level": 2,
+    "pageStart": 681,
+    "pageEnd": 684
+  },
+  {
+    "title": "Viral Infections",
+    "level": 1,
+    "pageStart": 685,
+    "pageEnd": 685
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 685,
+    "pageEnd": 685
+  },
+  {
+    "title": "II. CYTOMEGALOVIRUS (CMV) (CONGENITAL, PERIPARTUM, AND POSTNATAL).",
+    "level": 2,
+    "pageStart": 686,
+    "pageEnd": 693
+  },
+  {
+    "title": "III. HERPES SIMPLEX VIRUS (HSV: PERINATAL).",
+    "level": 2,
+    "pageStart": 694,
+    "pageEnd": 700
+  },
+  {
+    "title": "IV. PARVOVIRUS B19 (CONGENITAL).",
+    "level": 2,
+    "pageStart": 701,
+    "pageEnd": 704
+  },
+  {
+    "title": "V. HIV (CONGENITAL AND PERINATAL).",
+    "level": 2,
+    "pageStart": 705,
+    "pageEnd": 713
+  },
+  {
+    "title": "VI. HEPATITIS.",
+    "level": 2,
+    "pageStart": 714,
+    "pageEnd": 719
+  },
+  {
+    "title": "VII. VARICELLA-ZOSTER VIRUS (VZV: CONGENITAL OR PERIPARTUM).",
+    "level": 2,
+    "pageStart": 720,
+    "pageEnd": 723
+  },
+  {
+    "title": "VIII. ENTEROVIRUSES (CONGENITAL).",
+    "level": 2,
+    "pageStart": 724,
+    "pageEnd": 724
+  },
+  {
+    "title": "IX. RUBELLA (CONGENITAL).",
+    "level": 2,
+    "pageStart": 725,
+    "pageEnd": 728
+  },
+  {
+    "title": "X. RSV (NEONATAL).",
+    "level": 2,
+    "pageStart": 729,
+    "pageEnd": 729
+  },
+  {
+    "title": "XI. SEVERE ACUTE RESPIRATORY SYNDROME CORONAVIRUS 2 (SARSCOV2) (PERINATAL, NEONATAL).",
+    "level": 2,
+    "pageStart": 730,
+    "pageEnd": 733
+  },
+  {
+    "title": "XII. ZIKA VIRUS (ZIKV) (CONGENITAL, PERINATAL, NEONATAL).",
+    "level": 2,
+    "pageStart": 734,
+    "pageEnd": 739
+  },
+  {
+    "title": "Bacterial and Fungal Infections",
+    "level": 1,
+    "pageStart": 740,
+    "pageEnd": 740
+  },
+  {
+    "title": "I. BACTERIAL SEPSIS AND MENINGITIS",
+    "level": 2,
+    "pageStart": 740,
+    "pageEnd": 766
+  },
+  {
+    "title": "II. ANAEROBIC BACTERIAL INFECTIONS.",
+    "level": 2,
+    "pageStart": 767,
+    "pageEnd": 768
+  },
+  {
+    "title": "III. FUNGAL INFECTIONS",
+    "level": 2,
+    "pageStart": 769,
+    "pageEnd": 772
+  },
+  {
+    "title": "IV. FOCAL BACTERIAL INFECTIONS",
+    "level": 2,
+    "pageStart": 773,
+    "pageEnd": 779
+  },
+  {
+    "title": "Congenital Toxoplasmosis",
+    "level": 1,
+    "pageStart": 780,
+    "pageEnd": 780
+  },
+  {
+    "title": "I. EPIDEMIOLOGY.",
+    "level": 2,
+    "pageStart": 780,
+    "pageEnd": 780
+  },
+  {
+    "title": "II. PATHOPHYSIOLOGY",
+    "level": 2,
+    "pageStart": 781,
+    "pageEnd": 781
+  },
+  {
+    "title": "III. MATERNAL/FETAL INFECTION",
+    "level": 2,
+    "pageStart": 782,
+    "pageEnd": 783
+  },
+  {
+    "title": "IV. NEONATAL INFECTION",
+    "level": 2,
+    "pageStart": 784,
+    "pageEnd": 785
+  },
+  {
+    "title": "V. OUTCOMES.",
+    "level": 2,
+    "pageStart": 786,
+    "pageEnd": 787
+  },
+  {
+    "title": "Syphilis",
+    "level": 1,
+    "pageStart": 788,
+    "pageEnd": 788
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 788,
+    "pageEnd": 788
+  },
+  {
+    "title": "II. CLINICAL MANIFESTATIONS",
+    "level": 2,
+    "pageStart": 788,
+    "pageEnd": 789
+  },
+  {
+    "title": "III. EPIDEMIOLOGY.",
+    "level": 2,
+    "pageStart": 790,
+    "pageEnd": 790
+  },
+  {
+    "title": "IV. DIAGNOSTIC TESTS FOR SYPHILIS",
+    "level": 2,
+    "pageStart": 790,
+    "pageEnd": 793
+  },
+  {
+    "title": "V. EVALUATION AND TREATMENT OF CONGENITAL SYPHILIS.",
+    "level": 2,
+    "pageStart": 794,
+    "pageEnd": 795
+  },
+  {
+    "title": "VI. SCREENING AND TREATMENT OF PREGNANT WOMEN FOR SYPHILIS",
+    "level": 2,
+    "pageStart": 796,
+    "pageEnd": 797
+  },
+  {
+    "title": "VII. FOLLOW-UP ON INFANTS TREATED FOR CONGENITAL SYPHILIS.",
+    "level": 2,
+    "pageStart": 798,
+    "pageEnd": 798
+  },
+  {
+    "title": "VIII. INFECTION CONTROL",
+    "level": 2,
+    "pageStart": 798,
+    "pageEnd": 799
+  },
+  {
+    "title": "Tuberculosis",
+    "level": 1,
+    "pageStart": 800,
+    "pageEnd": 800
+  },
+  {
+    "title": "I. EPIDEMIOLOGY AND INCIDENCE.",
+    "level": 2,
+    "pageStart": 800,
+    "pageEnd": 801
+  },
+  {
+    "title": "II. TRANSMISSION AND PATHOGENESIS.",
+    "level": 2,
+    "pageStart": 802,
+    "pageEnd": 802
+  },
+  {
+    "title": "III. MATERNAL TB.",
+    "level": 2,
+    "pageStart": 803,
+    "pageEnd": 807
+  },
+  {
+    "title": "IV. TUBERCULOSIS OF THE FETUS OR NEWBORN",
+    "level": 2,
+    "pageStart": 808,
+    "pageEnd": 809
+  },
+  {
+    "title": "V. POSTNATAL TRANSMISSION OF",
+    "level": 2,
+    "pageStart": 810,
+    "pageEnd": 810
+  },
+  {
+    "title": "VI. TREATMENT OF NEONATAL TB DISEASE.",
+    "level": 2,
+    "pageStart": 810,
+    "pageEnd": 810
+  },
+  {
+    "title": "VII. MANAGEMENT OF AN EXPOSED NEONATE.",
+    "level": 2,
+    "pageStart": 811,
+    "pageEnd": 811
+  },
+  {
+    "title": "VIII. BCG.",
+    "level": 2,
+    "pageStart": 812,
+    "pageEnd": 816
+  },
+  {
+    "title": "Lyme Disease",
+    "level": 1,
+    "pageStart": 817,
+    "pageEnd": 817
+  },
+  {
+    "title": "I. LYME DISEASE.",
+    "level": 2,
+    "pageStart": 817,
+    "pageEnd": 817
+  },
+  {
+    "title": "II. DIAGNOSIS.",
+    "level": 2,
+    "pageStart": 818,
+    "pageEnd": 818
+  },
+  {
+    "title": "III. TREATMENT OF MOTHERS AND THE NEWBORN.",
+    "level": 2,
+    "pageStart": 818,
+    "pageEnd": 820
+  },
+  {
+    "title": "Intracranial Hemorrhage and White Matter Injury/Periventricular Leukomalacia",
+    "level": 1,
+    "pageStart": 821,
+    "pageEnd": 821
+  },
+  {
+    "title": "OVERVIEW",
+    "level": 2,
+    "pageStart": 822,
+    "pageEnd": 822
+  },
+  {
+    "title": "I. SUBDURAL HEMORRHAGE AND EPIDURAL HEMORRHAGE",
+    "level": 2,
+    "pageStart": 823,
+    "pageEnd": 824
+  },
+  {
+    "title": "II. SUBARACHNOID HEMORRHAGE",
+    "level": 2,
+    "pageStart": 825,
+    "pageEnd": 825
+  },
+  {
+    "title": "III. INTRAPARENCHYMAL HEMORRHAGE",
+    "level": 2,
+    "pageStart": 826,
+    "pageEnd": 827
+  },
+  {
+    "title": "IV. GERMINAL MATRIX HEMORRHAGE/INTRAVENTRICULAR HEMORRHAGE",
+    "level": 2,
+    "pageStart": 828,
+    "pageEnd": 843
+  },
+  {
+    "title": "V. WHITE MATTER INJURY/PERIVENTRICULAR LEUKOMALACIA",
+    "level": 2,
+    "pageStart": 844,
+    "pageEnd": 849
+  },
+  {
+    "title": "Perinatal Asphyxia and Hypoxic-Ischemic Encephalopathy",
+    "level": 1,
+    "pageStart": 850,
+    "pageEnd": 850
+  },
+  {
+    "title": "I. PERINATAL ASPHYXIA",
+    "level": 2,
+    "pageStart": 850,
+    "pageEnd": 850
+  },
+  {
+    "title": "II. INCIDENCE.",
+    "level": 2,
+    "pageStart": 851,
+    "pageEnd": 851
+  },
+  {
+    "title": "III. ETIOLOGY.",
+    "level": 2,
+    "pageStart": 852,
+    "pageEnd": 852
+  },
+  {
+    "title": "IV. PATHOPHYSIOLOGY",
+    "level": 2,
+    "pageStart": 852,
+    "pageEnd": 853
+  },
+  {
+    "title": "V. DIAGNOSIS",
+    "level": 2,
+    "pageStart": 854,
+    "pageEnd": 854
+  },
+  {
+    "title": "VI. NEUROLOGIC SIGNS.",
+    "level": 2,
+    "pageStart": 854,
+    "pageEnd": 855
+  },
+  {
+    "title": "VII. MULTIORGAN DYSFUNCTION.",
+    "level": 2,
+    "pageStart": 856,
+    "pageEnd": 856
+  },
+  {
+    "title": "VIII. LABORATORY EVALUATION OF ASPHYXIA",
+    "level": 2,
+    "pageStart": 857,
+    "pageEnd": 857
+  },
+  {
+    "title": "IX. BRAIN IMAGING",
+    "level": 2,
+    "pageStart": 857,
+    "pageEnd": 857
+  },
+  {
+    "title": "X. EEG.",
+    "level": 2,
+    "pageStart": 858,
+    "pageEnd": 858
+  },
+  {
+    "title": "XI. PATHOLOGIC FINDINGS OF BRAIN INJURY",
+    "level": 2,
+    "pageStart": 859,
+    "pageEnd": 859
+  },
+  {
+    "title": "XII. TREATMENT",
+    "level": 2,
+    "pageStart": 859,
+    "pageEnd": 862
+  },
+  {
+    "title": "XIII. NEUROPROTECTIVE STRATEGIES.",
+    "level": 2,
+    "pageStart": 863,
+    "pageEnd": 867
+  },
+  {
+    "title": "XIV. OUTCOME IN PERINATAL ASPHYXIA",
+    "level": 2,
+    "pageStart": 868,
+    "pageEnd": 871
+  },
+  {
+    "title": "Neonatal Seizures",
+    "level": 1,
+    "pageStart": 872,
+    "pageEnd": 872
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 872,
+    "pageEnd": 872
+  },
+  {
+    "title": "II. DIAGNOSIS.",
+    "level": 2,
+    "pageStart": 873,
+    "pageEnd": 875
+  },
+  {
+    "title": "III. ETIOLOGY.",
+    "level": 2,
+    "pageStart": 876,
+    "pageEnd": 883
+  },
+  {
+    "title": "IV. INVESTIGATIONS.",
+    "level": 2,
+    "pageStart": 884,
+    "pageEnd": 884
+  },
+  {
+    "title": "V. TREATMENT.",
+    "level": 2,
+    "pageStart": 884,
+    "pageEnd": 886
+  },
+  {
+    "title": "VI. PROGNOSIS.",
+    "level": 2,
+    "pageStart": 887,
+    "pageEnd": 889
+  },
+  {
+    "title": "Neural Tube Defects",
+    "level": 1,
+    "pageStart": 890,
+    "pageEnd": 890
+  },
+  {
+    "title": "I. DEFINITIONS AND PATHOLOGY.",
+    "level": 2,
+    "pageStart": 890,
+    "pageEnd": 892
+  },
+  {
+    "title": "II. DIAGNOSIS",
+    "level": 2,
+    "pageStart": 893,
+    "pageEnd": 893
+  },
+  {
+    "title": "III. EVALUATION",
+    "level": 2,
+    "pageStart": 894,
+    "pageEnd": 894
+  },
+  {
+    "title": "IV. CONSULTATION.",
+    "level": 2,
+    "pageStart": 895,
+    "pageEnd": 897
+  },
+  {
+    "title": "V. MANAGEMENT",
+    "level": 2,
+    "pageStart": 898,
+    "pageEnd": 900
+  },
+  {
+    "title": "VI. PROGNOSIS",
+    "level": 2,
+    "pageStart": 901,
+    "pageEnd": 905
+  },
+  {
+    "title": "Orthopedic Problems",
+    "level": 1,
+    "pageStart": 906,
+    "pageEnd": 906
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 906,
+    "pageEnd": 906
+  },
+  {
+    "title": "II. CONGENITAL MUSCULAR TORTICOLLIS",
+    "level": 2,
+    "pageStart": 906,
+    "pageEnd": 906
+  },
+  {
+    "title": "III. POLYDACTYLY",
+    "level": 2,
+    "pageStart": 907,
+    "pageEnd": 907
+  },
+  {
+    "title": "IV. ORTHOPEDIC BIRTH INJURIES",
+    "level": 2,
+    "pageStart": 908,
+    "pageEnd": 908
+  },
+  {
+    "title": "V. CONGENITAL AND INFANTILE SCOLIOSIS",
+    "level": 2,
+    "pageStart": 909,
+    "pageEnd": 909
+  },
+  {
+    "title": "VI. DEVELOPMENTAL DISLOCATION OF THE HIP",
+    "level": 2,
+    "pageStart": 910,
+    "pageEnd": 911
+  },
+  {
+    "title": "VII. GENU RECURVATUM",
+    "level": 2,
+    "pageStart": 912,
+    "pageEnd": 912
+  },
+  {
+    "title": "VIII. DEFORMITIES OF THE FEET",
+    "level": 2,
+    "pageStart": 913,
+    "pageEnd": 913
+  },
+  {
+    "title": "IX. COMPARTMENT SYNDROME OF THE NEWBORN",
+    "level": 2,
+    "pageStart": 914,
+    "pageEnd": 915
+  },
+  {
+    "title": "Osteopenia (Metabolic Bone Disease) of Prematurity",
+    "level": 1,
+    "pageStart": 916,
+    "pageEnd": 916
+  },
+  {
+    "title": "I. GENERAL PRINCIPLES",
+    "level": 2,
+    "pageStart": 916,
+    "pageEnd": 916
+  },
+  {
+    "title": "II. DIAGNOSIS",
+    "level": 2,
+    "pageStart": 917,
+    "pageEnd": 919
+  },
+  {
+    "title": "III. TREATMENT",
+    "level": 2,
+    "pageStart": 920,
+    "pageEnd": 922
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 923,
+    "pageEnd": 923
+  },
+  {
+    "title": "Inborn Errors of Metabolism",
+    "level": 1,
+    "pageStart": 923,
+    "pageEnd": 923
+  },
+  {
+    "title": "II. CLINICAL PRESENTATION.",
+    "level": 2,
+    "pageStart": 924,
+    "pageEnd": 924
+  },
+  {
+    "title": "III. EVALUATION AND MANAGEMENT.",
+    "level": 2,
+    "pageStart": 924,
+    "pageEnd": 930
+  },
+  {
+    "title": "IV. IEMs WITH METABOLIC ACIDOSIS.",
+    "level": 2,
+    "pageStart": 931,
+    "pageEnd": 936
+  },
+  {
+    "title": "V. IEMs WITH HYPERAMMONEMIA.",
+    "level": 2,
+    "pageStart": 937,
+    "pageEnd": 940
+  },
+  {
+    "title": "VI. IEMs WITH HYPOGLYCEMIA.",
+    "level": 2,
+    "pageStart": 941,
+    "pageEnd": 944
+  },
+  {
+    "title": "VII. IEMs WITH NEONATAL SEIZURES.",
+    "level": 2,
+    "pageStart": 945,
+    "pageEnd": 947
+  },
+  {
+    "title": "VIII. IEMs WITH HYPOTONIA.",
+    "level": 2,
+    "pageStart": 948,
+    "pageEnd": 949
+  },
+  {
+    "title": "IX. IEMs WITH LIVER DYSFUNCTION.",
+    "level": 2,
+    "pageStart": 950,
+    "pageEnd": 950
+  },
+  {
+    "title": "X. INBORN ERROR OF METABOLISM WITH CARDIOMYOPATHY.",
+    "level": 2,
+    "pageStart": 951,
+    "pageEnd": 951
+  },
+  {
+    "title": "XI. POSTMORTEM DIAGNOSIS.",
+    "level": 2,
+    "pageStart": 952,
+    "pageEnd": 952
+  },
+  {
+    "title": "XII. ROUTINE NEWBORN SCREENING.",
+    "level": 2,
+    "pageStart": 952,
+    "pageEnd": 955
+  },
+  {
+    "title": "Thyroid Disorders",
+    "level": 1,
+    "pageStart": 956,
+    "pageEnd": 956
+  },
+  {
+    "title": "I. THYROID PHYSIOLOGY IN PREGNANCY.",
+    "level": 2,
+    "pageStart": 956,
+    "pageEnd": 956
+  },
+  {
+    "title": "II. MATERNAL HYPERTHYROIDISM.",
+    "level": 2,
+    "pageStart": 957,
+    "pageEnd": 958
+  },
+  {
+    "title": "III. MATERNAL HYPOTHYROIDISM.",
+    "level": 2,
+    "pageStart": 959,
+    "pageEnd": 959
+  },
+  {
+    "title": "IV. FETAL AND NEONATAL GOITER",
+    "level": 2,
+    "pageStart": 960,
+    "pageEnd": 960
+  },
+  {
+    "title": "V. THYROID PHYSIOLOGY IN THE FETUS AND NEWBORN",
+    "level": 2,
+    "pageStart": 960,
+    "pageEnd": 960
+  },
+  {
+    "title": "VI. CONGENITAL HYPOTHYROIDISM",
+    "level": 2,
+    "pageStart": 961,
+    "pageEnd": 969
+  },
+  {
+    "title": "VII. NEONATAL HYPERTHYROIDISM",
+    "level": 2,
+    "pageStart": 970,
+    "pageEnd": 971
+  },
+  {
+    "title": "VIII. MATERNAL THYROID MEDICATIONS AND BREASTFEEDING",
+    "level": 2,
+    "pageStart": 972,
+    "pageEnd": 973
+  },
+  {
+    "title": "Neonatal Effects of Maternal Diabetes",
+    "level": 1,
+    "pageStart": 974,
+    "pageEnd": 974
+  },
+  {
+    "title": "I. BACKGROUND.",
+    "level": 2,
+    "pageStart": 974,
+    "pageEnd": 974
+  },
+  {
+    "title": "II. CLASSIFICATION OF DIABETES IN PREGNANCY.",
+    "level": 2,
+    "pageStart": 974,
+    "pageEnd": 978
+  },
+  {
+    "title": "III. MATERNAL MANAGEMENT AND DELIVERY.",
+    "level": 2,
+    "pageStart": 979,
+    "pageEnd": 979
+  },
+  {
+    "title": "IV. FETAL AND NEONATAL EFFECTS OF MATERNAL DIABETES MELLITUS",
+    "level": 2,
+    "pageStart": 980,
+    "pageEnd": 982
+  },
+  {
+    "title": "V. NEONATAL MANAGEMENT OF IDMS.",
+    "level": 2,
+    "pageStart": 983,
+    "pageEnd": 984
+  },
+  {
+    "title": "VI. LONG-TERM EFFECTS.",
+    "level": 2,
+    "pageStart": 985,
+    "pageEnd": 986
+  },
+  {
+    "title": "I. DEFINITION AND NOMENCLATURE.",
+    "level": 2,
+    "pageStart": 987,
+    "pageEnd": 987
+  },
+  {
+    "title": "Differences of Sex Development",
+    "level": 1,
+    "pageStart": 987,
+    "pageEnd": 987
+  },
+  {
+    "title": "II. IMMEDIATE POSTNATAL CONSIDERATIONS PRIOR TO SEX DESIGNATION.",
+    "level": 2,
+    "pageStart": 988,
+    "pageEnd": 988
+  },
+  {
+    "title": "III. TYPICAL SEX DEVELOPMENT.",
+    "level": 2,
+    "pageStart": 988,
+    "pageEnd": 990
+  },
+  {
+    "title": "IV. NURSERY EVALUATION OF A NEWBORN WITH A SUSPECTED DIFFERENCE OF SEX DEVELOPMENT",
+    "level": 2,
+    "pageStart": 991,
+    "pageEnd": 993
+  },
+  {
+    "title": "V. GONADAL DIFFERENTIATION DISORDERS",
+    "level": 2,
+    "pageStart": 994,
+    "pageEnd": 997
+  },
+  {
+    "title": "VI. OTHER XX DSD.",
+    "level": 2,
+    "pageStart": 998,
+    "pageEnd": 1000
+  },
+  {
+    "title": "VII. OTHER XY DSD.",
+    "level": 2,
+    "pageStart": 1001,
+    "pageEnd": 1003
+  },
+  {
+    "title": "VIII. ISSUES OF SEX/GENDER DESIGNATION.",
+    "level": 2,
+    "pageStart": 1004,
+    "pageEnd": 1006
+  },
+  {
+    "title": "I. PRENATAL FINDINGS ASSOCIATED WITH SURGICAL DISEASE",
+    "level": 2,
+    "pageStart": 1007,
+    "pageEnd": 1007
+  },
+  {
+    "title": "Surgical Conditions in the Newborn",
+    "level": 1,
+    "pageStart": 1007,
+    "pageEnd": 1007
+  },
+  {
+    "title": "II. POTENTIAL PRENATAL INTERVENTIONS TO AVOID POSTNATAL SURGICAL EMERGENCIES",
+    "level": 2,
+    "pageStart": 1008,
+    "pageEnd": 1009
+  },
+  {
+    "title": "III. POSTNATAL SURGICAL DISORDERS: DIAGNOSIS BY PRESENTING SYMPTOM",
+    "level": 2,
+    "pageStart": 1010,
+    "pageEnd": 1012
+  },
+  {
+    "title": "IV. LESIONS CAUSING RESPIRATORY DISTRESS",
+    "level": 2,
+    "pageStart": 1013,
+    "pageEnd": 1020
+  },
+  {
+    "title": "V. LESIONS CAUSING INTESTINAL OBSTRUCTION.",
+    "level": 2,
+    "pageStart": 1021,
+    "pageEnd": 1024
+  },
+  {
+    "title": "VI. OTHER GASTROINTESTINAL SURGICAL CONDITIONS",
+    "level": 2,
+    "pageStart": 1025,
+    "pageEnd": 1026
+  },
+  {
+    "title": "VII. RENAL DISORDERS",
+    "level": 2,
+    "pageStart": 1027,
+    "pageEnd": 1028
+  },
+  {
+    "title": "VIII. TUMORS",
+    "level": 2,
+    "pageStart": 1029,
+    "pageEnd": 1029
+  },
+  {
+    "title": "IX. ABDOMINAL MASSES",
+    "level": 2,
+    "pageStart": 1030,
+    "pageEnd": 1030
+  },
+  {
+    "title": "X. INGUINAL HERNIAS.",
+    "level": 2,
+    "pageStart": 1031,
+    "pageEnd": 1031
+  },
+  {
+    "title": "XI. SCROTAL SWELLING",
+    "level": 2,
+    "pageStart": 1031,
+    "pageEnd": 1031
+  },
+  {
+    "title": "XII. NEUROSURGICAL CONDITIONS",
+    "level": 2,
+    "pageStart": 1032,
+    "pageEnd": 1032
+  },
+  {
+    "title": "XIII. COMMON TESTS USED IN THE DIAGNOSIS OF SURGICAL CONDITIONS",
+    "level": 2,
+    "pageStart": 1033,
+    "pageEnd": 1033
+  },
+  {
+    "title": "XIV. GENERAL PREOPERATIVE MANAGEMENT",
+    "level": 2,
+    "pageStart": 1034,
+    "pageEnd": 1034
+  },
+  {
+    "title": "XV. GENERAL INTRAOPERATIVE MANAGEMENT",
+    "level": 2,
+    "pageStart": 1034,
+    "pageEnd": 1037
+  },
+  {
+    "title": "Skin Care and Conditions",
+    "level": 1,
+    "pageStart": 1038,
+    "pageEnd": 1038
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 1038,
+    "pageEnd": 1038
+  },
+  {
+    "title": "II. ANATOMY.",
+    "level": 2,
+    "pageStart": 1038,
+    "pageEnd": 1038
+  },
+  {
+    "title": "III. SKIN CARE PRACTICES.",
+    "level": 2,
+    "pageStart": 1039,
+    "pageEnd": 1041
+  },
+  {
+    "title": "IV. WOUND CARE.",
+    "level": 2,
+    "pageStart": 1042,
+    "pageEnd": 1042
+  },
+  {
+    "title": "V. IV EXTRAVASATION.",
+    "level": 2,
+    "pageStart": 1043,
+    "pageEnd": 1043
+  },
+  {
+    "title": "VI. COMMON SKIN LESIONS.",
+    "level": 2,
+    "pageStart": 1044,
+    "pageEnd": 1044
+  },
+  {
+    "title": "VII. VASCULAR ABNORMALITIES",
+    "level": 2,
+    "pageStart": 1045,
+    "pageEnd": 1045
+  },
+  {
+    "title": "VIII. PIGMENTATION ABNORMALITIES.",
+    "level": 2,
+    "pageStart": 1045,
+    "pageEnd": 1045
+  },
+  {
+    "title": "IX. DEVELOPMENTAL ABNORMALITIES OF THE SKIN",
+    "level": 2,
+    "pageStart": 1046,
+    "pageEnd": 1046
+  },
+  {
+    "title": "X. OTHER SKIN DISORDERS.",
+    "level": 2,
+    "pageStart": 1046,
+    "pageEnd": 1047
+  },
+  {
+    "title": "Vascular Anomalies",
+    "level": 1,
+    "pageStart": 1048,
+    "pageEnd": 1048
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 1048,
+    "pageEnd": 1048
+  },
+  {
+    "title": "II. VASCULAR TUMORS",
+    "level": 2,
+    "pageStart": 1048,
+    "pageEnd": 1052
+  },
+  {
+    "title": "III. VASCULAR MALFORMATIONS",
+    "level": 2,
+    "pageStart": 1053,
+    "pageEnd": 1055
+  },
+  {
+    "title": "Retinopathy of Prematurity",
+    "level": 1,
+    "pageStart": 1056,
+    "pageEnd": 1056
+  },
+  {
+    "title": "GENERAL PRINCIPLES I. DEFINITION.",
+    "level": 2,
+    "pageStart": 1056,
+    "pageEnd": 1056
+  },
+  {
+    "title": "II. PATHOGENESIS",
+    "level": 2,
+    "pageStart": 1056,
+    "pageEnd": 1056
+  },
+  {
+    "title": "III. DIAGNOSIS",
+    "level": 2,
+    "pageStart": 1057,
+    "pageEnd": 1057
+  },
+  {
+    "title": "IV. CLASSIFICATION AND DEFINITIONS",
+    "level": 2,
+    "pageStart": 1058,
+    "pageEnd": 1059
+  },
+  {
+    "title": "V. TIMING OF TREATMENT",
+    "level": 2,
+    "pageStart": 1060,
+    "pageEnd": 1060
+  },
+  {
+    "title": "VI. PROGNOSIS",
+    "level": 2,
+    "pageStart": 1061,
+    "pageEnd": 1061
+  },
+  {
+    "title": "VII. PREVENTION.",
+    "level": 2,
+    "pageStart": 1062,
+    "pageEnd": 1062
+  },
+  {
+    "title": "VIII. TREATMENT",
+    "level": 2,
+    "pageStart": 1062,
+    "pageEnd": 1064
+  },
+  {
+    "title": "I. DEFINITION",
+    "level": 2,
+    "pageStart": 1065,
+    "pageEnd": 1065
+  },
+  {
+    "title": "Hearing Health in Neonatal Intensive Care Unit Graduates",
+    "level": 1,
+    "pageStart": 1065,
+    "pageEnd": 1067
+  },
+  {
+    "title": "II. INCIDENCE.",
+    "level": 2,
+    "pageStart": 1068,
+    "pageEnd": 1068
+  },
+  {
+    "title": "III. ETIOLOGY",
+    "level": 2,
+    "pageStart": 1068,
+    "pageEnd": 1068
+  },
+  {
+    "title": "IV. SCREENING TESTS.",
+    "level": 2,
+    "pageStart": 1069,
+    "pageEnd": 1070
+  },
+  {
+    "title": "V. FOLLOW-UP TESTING.",
+    "level": 2,
+    "pageStart": 1071,
+    "pageEnd": 1071
+  },
+  {
+    "title": "VI. MEDICAL EVALUATION.",
+    "level": 2,
+    "pageStart": 1072,
+    "pageEnd": 1072
+  },
+  {
+    "title": "VII. INTERVENTIONS FOR OPTIMIZING LANGUAGE DEVELOPMENT",
+    "level": 2,
+    "pageStart": 1072,
+    "pageEnd": 1072
+  },
+  {
+    "title": "VIII. OUTCOMES.",
+    "level": 2,
+    "pageStart": 1073,
+    "pageEnd": 1074
+  },
+  {
+    "title": "Neonatal Procedures: Basic Principles and Considerations",
+    "level": 1,
+    "pageStart": 1075,
+    "pageEnd": 1075
+  },
+  {
+    "title": "I. INTRODUCTION.",
+    "level": 2,
+    "pageStart": 1075,
+    "pageEnd": 1075
+  },
+  {
+    "title": "II. GENERAL PRINCIPLES",
+    "level": 2,
+    "pageStart": 1075,
+    "pageEnd": 1077
+  },
+  {
+    "title": "III. BLOOD DRAWING.",
+    "level": 2,
+    "pageStart": 1078,
+    "pageEnd": 1080
+  },
+  {
+    "title": "IV. VASCULAR CATHETERIZATION",
+    "level": 2,
+    "pageStart": 1081,
+    "pageEnd": 1091
+  },
+  {
+    "title": "V. BLADDER CATHETERIZATION",
+    "level": 2,
+    "pageStart": 1092,
+    "pageEnd": 1092
+  },
+  {
+    "title": "VI. LUMBAR PUNCTURE",
+    "level": 2,
+    "pageStart": 1093,
+    "pageEnd": 1093
+  },
+  {
+    "title": "VII. INTUBATION",
+    "level": 2,
+    "pageStart": 1094,
+    "pageEnd": 1096
+  },
+  {
+    "title": "VIII. THORACENTESIS AND CHEST TUBE PLACEMENT",
+    "level": 2,
+    "pageStart": 1097,
+    "pageEnd": 1097
+  },
+  {
+    "title": "IX. ABDOMINAL PARACENTESIS FOR REMOVAL OF ASCITIC FLUID",
+    "level": 2,
+    "pageStart": 1097,
+    "pageEnd": 1097
+  },
+  {
+    "title": "X. PERICARDIOCENTESIS",
+    "level": 2,
+    "pageStart": 1098,
+    "pageEnd": 1100
+  },
+  {
+    "title": "Preventing and Treating Pain and Stress Among Infants in the Newborn Intensive Care Unit",
+    "level": 1,
+    "pageStart": 1101,
+    "pageEnd": 1101
+  },
+  {
+    "title": "I. BACKGROUND.",
+    "level": 2,
+    "pageStart": 1101,
+    "pageEnd": 1102
+  },
+  {
+    "title": "II. RECOMMENDATIONS ON PREVENTION AND MANAGEMENT OF PROCEDURAL PAIN IN THE NEONATE FROM THE COMMITTEE ON FETUS AND NEWBORN AND S",
+    "level": 2,
+    "pageStart": 1103,
+    "pageEnd": 1103
+  },
+  {
+    "title": "III. EVALUATING NEONATAL PAIN AND STRESS.",
+    "level": 2,
+    "pageStart": 1104,
+    "pageEnd": 1107
+  },
+  {
+    "title": "IV. MANAGEMENT: PAIN PREVENTION AND TREATMENT.",
+    "level": 2,
+    "pageStart": 1108,
+    "pageEnd": 1112
+  },
+  {
+    "title": "V. PHARMACOLOGIC TREATMENT OF PROCEDURE-RELATED PAIN",
+    "level": 2,
+    "pageStart": 1113,
+    "pageEnd": 1120
+  },
+  {
+    "title": "VI. CONCLUSION.",
+    "level": 2,
+    "pageStart": 1121,
+    "pageEnd": 1123
+  },
+  {
+    "title": "Racial Disparities in the Neonatal Intensive Care Unit",
+    "level": 1,
+    "pageStart": 1124,
+    "pageEnd": 1124
+  },
+  {
+    "title": "I. BACKGROUND.",
+    "level": 2,
+    "pageStart": 1124,
+    "pageEnd": 1124
+  },
+  {
+    "title": "II. DISPARITIES IN CAUSES OF INFANT MORTALITY.",
+    "level": 2,
+    "pageStart": 1124,
+    "pageEnd": 1124
+  },
+  {
+    "title": "III. CAUSES OF RACIAL DISPARITIES IN PRETERM BIRTH",
+    "level": 2,
+    "pageStart": 1125,
+    "pageEnd": 1125
+  },
+  {
+    "title": "IV. RACIAL DISPARITIES IN THE NICU",
+    "level": 2,
+    "pageStart": 1126,
+    "pageEnd": 1126
+  },
+  {
+    "title": "V. RECOMMENDATIONS",
+    "level": 2,
+    "pageStart": 1127,
+    "pageEnd": 1128
+  },
+  {
+    "title": "Patient Safety and Quality Improvement",
+    "level": 1,
+    "pageStart": 1129,
+    "pageEnd": 1129
+  },
+  {
+    "title": "I. PATIENT SAFETY",
+    "level": 2,
+    "pageStart": 1129,
+    "pageEnd": 1133
+  },
+  {
+    "title": "II. QUALITY IMPROVEMENT",
+    "level": 2,
+    "pageStart": 1134,
+    "pageEnd": 1140
+  },
+  {
+    "title": "III. QUALITY DASHBOARDS",
+    "level": 2,
+    "pageStart": 1141,
+    "pageEnd": 1142
+  },
+  {
+    "title": "IV. DEVELOPING A QUALITY AND SAFETY INFRASTRUCTURE",
+    "level": 2,
+    "pageStart": 1143,
+    "pageEnd": 1183
+  }
+]

@@ -1,0 +1,8750 @@
+[
+  {
+    "title": "About the pagination of this eBook",
+    "level": 1,
+    "pageStart": 2,
+    "pageEnd": 5
+  },
+  {
+    "title": "Goldsmith\u2019s assisted ventilation of the neonate: An evidence-based approach to newborn respiratory care",
+    "level": 2,
+    "pageStart": 6,
+    "pageEnd": 15
+  },
+  {
+    "title": "Table of Contents",
+    "level": 1,
+    "pageStart": 16,
+    "pageEnd": 17
+  },
+  {
+    "title": "Section 1 History, Pulmonary Physiology, and General Considerations",
+    "level": 1,
+    "pageStart": 18,
+    "pageEnd": 18
+  },
+  {
+    "title": "1 Introduction and historical aspects",
+    "level": 2,
+    "pageStart": 18,
+    "pageEnd": 18
+  },
+  {
+    "title": "History of neonatal ventilation: Earliest reports",
+    "level": 3,
+    "pageStart": 19,
+    "pageEnd": 19
+  },
+  {
+    "title": "Sixteenth and seventeenth centuries",
+    "level": 3,
+    "pageStart": 19,
+    "pageEnd": 19
+  },
+  {
+    "title": "Eighteenth and nineteenth century",
+    "level": 3,
+    "pageStart": 20,
+    "pageEnd": 20
+  },
+  {
+    "title": "Twentieth century",
+    "level": 3,
+    "pageStart": 21,
+    "pageEnd": 23
+  },
+  {
+    "title": "Breakthroughs in ventilation",
+    "level": 3,
+    "pageStart": 24,
+    "pageEnd": 25
+  },
+  {
+    "title": "Recent advances and outcomes",
+    "level": 3,
+    "pageStart": 26,
+    "pageEnd": 26
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 27,
+    "pageEnd": 29
+  },
+  {
+    "title": "2 Physiologic principles",
+    "level": 2,
+    "pageStart": 30,
+    "pageEnd": 30
+  },
+  {
+    "title": "Basic biochemistry of respiration: Oxygen and energy",
+    "level": 3,
+    "pageStart": 30,
+    "pageEnd": 30
+  },
+  {
+    "title": "Ontogeny recapitulates phylogeny: A brief overview of developmental anatomy",
+    "level": 3,
+    "pageStart": 31,
+    "pageEnd": 31
+  },
+  {
+    "title": "Lung development",
+    "level": 4,
+    "pageStart": 31,
+    "pageEnd": 31
+  },
+  {
+    "title": "Phases of lung development",
+    "level": 5,
+    "pageStart": 31,
+    "pageEnd": 31
+  },
+  {
+    "title": "Embryonic phase (weeks 3 to 6): Development of proximal airways",
+    "level": 5,
+    "pageStart": 31,
+    "pageEnd": 31
+  },
+  {
+    "title": "Pseudoglandular phase (weeks 6 to 16): Development of lower conducting airways",
+    "level": 5,
+    "pageStart": 31,
+    "pageEnd": 31
+  },
+  {
+    "title": "Canalicular phase (weeks 16 to 26): Formation of gas-exchanging units or acini",
+    "level": 5,
+    "pageStart": 31,
+    "pageEnd": 31
+  },
+  {
+    "title": "Terminal sac phase (weeks 26 to 36): Refinement of acini",
+    "level": 5,
+    "pageStart": 31,
+    "pageEnd": 31
+  },
+  {
+    "title": "Alveolar phase (week 36 to 3 years): Alveolar proliferation and development",
+    "level": 5,
+    "pageStart": 32,
+    "pageEnd": 32
+  },
+  {
+    "title": "Mechanics",
+    "level": 3,
+    "pageStart": 32,
+    "pageEnd": 34
+  },
+  {
+    "title": "Compliance",
+    "level": 4,
+    "pageStart": 35,
+    "pageEnd": 35
+  },
+  {
+    "title": "Static compliance",
+    "level": 5,
+    "pageStart": 35,
+    "pageEnd": 35
+  },
+  {
+    "title": "Dynamic compliance",
+    "level": 5,
+    "pageStart": 36,
+    "pageEnd": 36
+  },
+  {
+    "title": "Resistance",
+    "level": 4,
+    "pageStart": 37,
+    "pageEnd": 37
+  },
+  {
+    "title": "Flow rate",
+    "level": 5,
+    "pageStart": 38,
+    "pageEnd": 38
+  },
+  {
+    "title": "Airway or tube length",
+    "level": 5,
+    "pageStart": 38,
+    "pageEnd": 38
+  },
+  {
+    "title": "Airway or tube diameter",
+    "level": 5,
+    "pageStart": 38,
+    "pageEnd": 38
+  },
+  {
+    "title": "Viscosity and density",
+    "level": 5,
+    "pageStart": 39,
+    "pageEnd": 39
+  },
+  {
+    "title": "Work of breathing",
+    "level": 4,
+    "pageStart": 39,
+    "pageEnd": 39
+  },
+  {
+    "title": "Time constant",
+    "level": 4,
+    "pageStart": 39,
+    "pageEnd": 40
+  },
+  {
+    "title": "Gas transport",
+    "level": 3,
+    "pageStart": 41,
+    "pageEnd": 41
+  },
+  {
+    "title": "Mechanisms of gas transport",
+    "level": 4,
+    "pageStart": 41,
+    "pageEnd": 42
+  },
+  {
+    "title": "Oxygenation",
+    "level": 3,
+    "pageStart": 43,
+    "pageEnd": 44
+  },
+  {
+    "title": "Effects of altering ventilator settings on oxygenation",
+    "level": 4,
+    "pageStart": 45,
+    "pageEnd": 45
+  },
+  {
+    "title": "Ventilation",
+    "level": 3,
+    "pageStart": 46,
+    "pageEnd": 47
+  },
+  {
+    "title": "Perfusion",
+    "level": 3,
+    "pageStart": 48,
+    "pageEnd": 49
+  },
+  {
+    "title": "Control of ventilation",
+    "level": 3,
+    "pageStart": 50,
+    "pageEnd": 50
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 51,
+    "pageEnd": 51
+  },
+  {
+    "title": "Selected readings",
+    "level": 3,
+    "pageStart": 51,
+    "pageEnd": 54
+  },
+  {
+    "title": "3 Control of ventilation",
+    "level": 2,
+    "pageStart": 55,
+    "pageEnd": 55
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 55,
+    "pageEnd": 55
+  },
+  {
+    "title": "Pathogenesis of apnea of prematurity",
+    "level": 3,
+    "pageStart": 55,
+    "pageEnd": 55
+  },
+  {
+    "title": "Central carbon dioxide chemosensitivity",
+    "level": 4,
+    "pageStart": 55,
+    "pageEnd": 55
+  },
+  {
+    "title": "Peripheral (hypoxic) chemosensitivity",
+    "level": 4,
+    "pageStart": 56,
+    "pageEnd": 56
+  },
+  {
+    "title": "Role of mechanoreceptor (laryngeal) afferents",
+    "level": 4,
+    "pageStart": 56,
+    "pageEnd": 56
+  },
+  {
+    "title": "Genesis of central, mixed, and obstructive apnea",
+    "level": 3,
+    "pageStart": 56,
+    "pageEnd": 56
+  },
+  {
+    "title": "Relationship between apnea, bradycardia, and desaturation",
+    "level": 3,
+    "pageStart": 56,
+    "pageEnd": 56
+  },
+  {
+    "title": "Cardiorespiratory events in intubated infants",
+    "level": 3,
+    "pageStart": 57,
+    "pageEnd": 57
+  },
+  {
+    "title": "Therapeutic approaches",
+    "level": 3,
+    "pageStart": 57,
+    "pageEnd": 57
+  },
+  {
+    "title": "Optimization of mechanosensory inputs",
+    "level": 4,
+    "pageStart": 57,
+    "pageEnd": 57
+  },
+  {
+    "title": "Optimization of blood gas status",
+    "level": 4,
+    "pageStart": 57,
+    "pageEnd": 57
+  },
+  {
+    "title": "Role of gastroesophageal reflux",
+    "level": 4,
+    "pageStart": 58,
+    "pageEnd": 58
+  },
+  {
+    "title": "Xanthine therapy",
+    "level": 4,
+    "pageStart": 58,
+    "pageEnd": 58
+  },
+  {
+    "title": "Continuous positive airway pressure",
+    "level": 4,
+    "pageStart": 59,
+    "pageEnd": 59
+  },
+  {
+    "title": "Long-term consequences of neonatal apnea",
+    "level": 3,
+    "pageStart": 59,
+    "pageEnd": 59
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 60,
+    "pageEnd": 62
+  },
+  {
+    "title": "4 Ethical issues in assisted ventilation of the neonate",
+    "level": 2,
+    "pageStart": 63,
+    "pageEnd": 63
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 63,
+    "pageEnd": 63
+  },
+  {
+    "title": "An ethical basis for decision making",
+    "level": 3,
+    "pageStart": 63,
+    "pageEnd": 63
+  },
+  {
+    "title": "Withdrawing and withholding assisted ventilation",
+    "level": 3,
+    "pageStart": 64,
+    "pageEnd": 64
+  },
+  {
+    "title": "Nonescalation and \u201cheroic measures\u201d",
+    "level": 3,
+    "pageStart": 65,
+    "pageEnd": 65
+  },
+  {
+    "title": "Moral distress",
+    "level": 3,
+    "pageStart": 65,
+    "pageEnd": 65
+  },
+  {
+    "title": "Who makes the call? Shared decision making in the neonatal intensive care unit",
+    "level": 4,
+    "pageStart": 66,
+    "pageEnd": 66
+  },
+  {
+    "title": "Quality of life considerations",
+    "level": 4,
+    "pageStart": 67,
+    "pageEnd": 67
+  },
+  {
+    "title": "Coming to a consensus: When is withholding or withdrawal of assisted ventilation ethically permissible?",
+    "level": 3,
+    "pageStart": 67,
+    "pageEnd": 68
+  },
+  {
+    "title": "Chronic ventilation and tracheostomy",
+    "level": 3,
+    "pageStart": 69,
+    "pageEnd": 69
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 69,
+    "pageEnd": 69
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 69,
+    "pageEnd": 72
+  },
+  {
+    "title": "5 Evidence-based respiratory care",
+    "level": 2,
+    "pageStart": 73,
+    "pageEnd": 73
+  },
+  {
+    "title": "Background",
+    "level": 3,
+    "pageStart": 73,
+    "pageEnd": 73
+  },
+  {
+    "title": "The technical steps of evidence-based medicine",
+    "level": 3,
+    "pageStart": 73,
+    "pageEnd": 73
+  },
+  {
+    "title": "Formulating the question",
+    "level": 4,
+    "pageStart": 73,
+    "pageEnd": 73
+  },
+  {
+    "title": "Searching for the evidence",
+    "level": 4,
+    "pageStart": 73,
+    "pageEnd": 73
+  },
+  {
+    "title": "Evaluating evidence about therapy",
+    "level": 4,
+    "pageStart": 74,
+    "pageEnd": 74
+  },
+  {
+    "title": "Evaluating the quality (certainty) of evidence",
+    "level": 5,
+    "pageStart": 74,
+    "pageEnd": 75
+  },
+  {
+    "title": "Determining the quantitative effects of a therapy",
+    "level": 5,
+    "pageStart": 76,
+    "pageEnd": 77
+  },
+  {
+    "title": "Noninferiority trials",
+    "level": 5,
+    "pageStart": 78,
+    "pageEnd": 78
+  },
+  {
+    "title": "Systematic reviews of therapeutic interventions and meta-analyses",
+    "level": 5,
+    "pageStart": 78,
+    "pageEnd": 78
+  },
+  {
+    "title": "Weighing risks, benefits, and costs",
+    "level": 5,
+    "pageStart": 79,
+    "pageEnd": 79
+  },
+  {
+    "title": "Evaluating evidence about diagnostic tests",
+    "level": 4,
+    "pageStart": 79,
+    "pageEnd": 79
+  },
+  {
+    "title": "Evaluating the certainty of evidence for diagnostic tests",
+    "level": 5,
+    "pageStart": 79,
+    "pageEnd": 79
+  },
+  {
+    "title": "Determining diagnostic test accuracy",
+    "level": 5,
+    "pageStart": 79,
+    "pageEnd": 79
+  },
+  {
+    "title": "Bayesian reasoning in diagnostic testing",
+    "level": 4,
+    "pageStart": 79,
+    "pageEnd": 79
+  },
+  {
+    "title": "Special considerations in applying evidence to respiratory interventions",
+    "level": 4,
+    "pageStart": 80,
+    "pageEnd": 80
+  },
+  {
+    "title": "Cognitive skills for evidence-based practice",
+    "level": 3,
+    "pageStart": 80,
+    "pageEnd": 80
+  },
+  {
+    "title": "Critical thinking",
+    "level": 4,
+    "pageStart": 80,
+    "pageEnd": 80
+  },
+  {
+    "title": "Clinical reasoning and decision making",
+    "level": 4,
+    "pageStart": 81,
+    "pageEnd": 81
+  },
+  {
+    "title": "Translating evidence into practice",
+    "level": 3,
+    "pageStart": 81,
+    "pageEnd": 81
+  },
+  {
+    "title": "Summary",
+    "level": 3,
+    "pageStart": 81,
+    "pageEnd": 81
+  },
+  {
+    "title": "Suggested readings",
+    "level": 3,
+    "pageStart": 81,
+    "pageEnd": 82
+  },
+  {
+    "title": "6 Quality and safety in respiratory care",
+    "level": 2,
+    "pageStart": 83,
+    "pageEnd": 83
+  },
+  {
+    "title": "Quality and safety: Background",
+    "level": 3,
+    "pageStart": 83,
+    "pageEnd": 83
+  },
+  {
+    "title": "Donabedian\u2019s triad",
+    "level": 4,
+    "pageStart": 83,
+    "pageEnd": 83
+  },
+  {
+    "title": "The institute of medicine\u2019s domains of quality",
+    "level": 4,
+    "pageStart": 84,
+    "pageEnd": 84
+  },
+  {
+    "title": "Assessing and monitoring the quality of care",
+    "level": 3,
+    "pageStart": 84,
+    "pageEnd": 84
+  },
+  {
+    "title": "Quality indicators for comparative performance measures",
+    "level": 3,
+    "pageStart": 84,
+    "pageEnd": 84
+  },
+  {
+    "title": "Quality indicators for improvement",
+    "level": 3,
+    "pageStart": 85,
+    "pageEnd": 85
+  },
+  {
+    "title": "Improving the quality of care",
+    "level": 3,
+    "pageStart": 85,
+    "pageEnd": 85
+  },
+  {
+    "title": "The improvement team",
+    "level": 3,
+    "pageStart": 85,
+    "pageEnd": 85
+  },
+  {
+    "title": "Collaboration",
+    "level": 3,
+    "pageStart": 85,
+    "pageEnd": 85
+  },
+  {
+    "title": "Aim: What are we trying to accomplish?",
+    "level": 3,
+    "pageStart": 86,
+    "pageEnd": 86
+  },
+  {
+    "title": "Measurement: How will we know that a change is an improvement?",
+    "level": 3,
+    "pageStart": 86,
+    "pageEnd": 86
+  },
+  {
+    "title": "What changes can we make that will result in an improvement?",
+    "level": 3,
+    "pageStart": 86,
+    "pageEnd": 86
+  },
+  {
+    "title": "Plan\u2013do\u2013study\u2013act cycles",
+    "level": 3,
+    "pageStart": 87,
+    "pageEnd": 87
+  },
+  {
+    "title": "Ensuring the success of quality improvement projects",
+    "level": 3,
+    "pageStart": 87,
+    "pageEnd": 87
+  },
+  {
+    "title": "Leadership and unit culture",
+    "level": 3,
+    "pageStart": 88,
+    "pageEnd": 88
+  },
+  {
+    "title": "Why is quality improvement important in neonatal respiratory care?",
+    "level": 3,
+    "pageStart": 89,
+    "pageEnd": 89
+  },
+  {
+    "title": "Examples of quality and safety improvement in neonatal respiratory care",
+    "level": 3,
+    "pageStart": 89,
+    "pageEnd": 89
+  },
+  {
+    "title": "Quality improvement projects in individual units",
+    "level": 4,
+    "pageStart": 89,
+    "pageEnd": 89
+  },
+  {
+    "title": "Collaborative quality improvement projects",
+    "level": 4,
+    "pageStart": 89,
+    "pageEnd": 89
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 90,
+    "pageEnd": 90
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 90,
+    "pageEnd": 92
+  },
+  {
+    "title": "7 Medical and legal aspects of respiratory care",
+    "level": 2,
+    "pageStart": 93,
+    "pageEnd": 93
+  },
+  {
+    "title": "Disclaimer",
+    "level": 3,
+    "pageStart": 93,
+    "pageEnd": 93
+  },
+  {
+    "title": "General legal principles",
+    "level": 3,
+    "pageStart": 93,
+    "pageEnd": 93
+  },
+  {
+    "title": "Supervision of others",
+    "level": 3,
+    "pageStart": 93,
+    "pageEnd": 93
+  },
+  {
+    "title": "Malpractice",
+    "level": 3,
+    "pageStart": 94,
+    "pageEnd": 94
+  },
+  {
+    "title": "Duty",
+    "level": 4,
+    "pageStart": 94,
+    "pageEnd": 94
+  },
+  {
+    "title": "Breach",
+    "level": 4,
+    "pageStart": 94,
+    "pageEnd": 94
+  },
+  {
+    "title": "The expert witness",
+    "level": 4,
+    "pageStart": 95,
+    "pageEnd": 95
+  },
+  {
+    "title": "Causation",
+    "level": 4,
+    "pageStart": 95,
+    "pageEnd": 95
+  },
+  {
+    "title": "Damages",
+    "level": 4,
+    "pageStart": 95,
+    "pageEnd": 95
+  },
+  {
+    "title": "Burden of proof",
+    "level": 4,
+    "pageStart": 95,
+    "pageEnd": 95
+  },
+  {
+    "title": "Malpractice issues specific to neonatology and neonatal respiratory care",
+    "level": 3,
+    "pageStart": 95,
+    "pageEnd": 95
+  },
+  {
+    "title": "Resuscitation",
+    "level": 4,
+    "pageStart": 95,
+    "pageEnd": 95
+  },
+  {
+    "title": "Prematurity/periventricular leukomalacia",
+    "level": 4,
+    "pageStart": 96,
+    "pageEnd": 96
+  },
+  {
+    "title": "Respiratory failure/mechanical ventilation",
+    "level": 3,
+    "pageStart": 96,
+    "pageEnd": 96
+  },
+  {
+    "title": "Patient safety/culture of safety",
+    "level": 4,
+    "pageStart": 96,
+    "pageEnd": 96
+  },
+  {
+    "title": "Decreasing the risk of a malpractice lawsuit",
+    "level": 3,
+    "pageStart": 96,
+    "pageEnd": 96
+  },
+  {
+    "title": "Competency",
+    "level": 4,
+    "pageStart": 97,
+    "pageEnd": 97
+  },
+  {
+    "title": "Communication",
+    "level": 4,
+    "pageStart": 97,
+    "pageEnd": 97
+  },
+  {
+    "title": "Documentation",
+    "level": 4,
+    "pageStart": 97,
+    "pageEnd": 97
+  },
+  {
+    "title": "The future of malpractice litigation",
+    "level": 3,
+    "pageStart": 97,
+    "pageEnd": 97
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 97,
+    "pageEnd": 97
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 97,
+    "pageEnd": 99
+  },
+  {
+    "title": "Section 2 Patient Evaluation and Monitoring",
+    "level": 1,
+    "pageStart": 100,
+    "pageEnd": 100
+  },
+  {
+    "title": "8 Physical examination",
+    "level": 2,
+    "pageStart": 100,
+    "pageEnd": 100
+  },
+  {
+    "title": "Historical aspects",
+    "level": 3,
+    "pageStart": 100,
+    "pageEnd": 100
+  },
+  {
+    "title": "Importance of the physical examination",
+    "level": 3,
+    "pageStart": 100,
+    "pageEnd": 100
+  },
+  {
+    "title": "Technique of the physical examination",
+    "level": 3,
+    "pageStart": 101,
+    "pageEnd": 101
+  },
+  {
+    "title": "Overview",
+    "level": 4,
+    "pageStart": 101,
+    "pageEnd": 101
+  },
+  {
+    "title": "Performing the neonatal respiratory physical examination",
+    "level": 4,
+    "pageStart": 101,
+    "pageEnd": 101
+  },
+  {
+    "title": "Interpretation of the findings of physical examination",
+    "level": 3,
+    "pageStart": 102,
+    "pageEnd": 102
+  },
+  {
+    "title": "General physical examination findings",
+    "level": 4,
+    "pageStart": 102,
+    "pageEnd": 102
+  },
+  {
+    "title": "Special technique of examination: Transillumination",
+    "level": 4,
+    "pageStart": 103,
+    "pageEnd": 103
+  },
+  {
+    "title": "Physical examination findings in specific clinical situations",
+    "level": 3,
+    "pageStart": 103,
+    "pageEnd": 103
+  },
+  {
+    "title": "Examination at birth",
+    "level": 4,
+    "pageStart": 103,
+    "pageEnd": 103
+  },
+  {
+    "title": "Examination of an infant receiving face mask or laryngeal mask ventilation",
+    "level": 4,
+    "pageStart": 103,
+    "pageEnd": 103
+  },
+  {
+    "title": "Examination of the ventilated infant",
+    "level": 4,
+    "pageStart": 103,
+    "pageEnd": 103
+  },
+  {
+    "title": "Conventional ventilation",
+    "level": 4,
+    "pageStart": 103,
+    "pageEnd": 103
+  },
+  {
+    "title": "High-frequency ventilation: Oscillation",
+    "level": 4,
+    "pageStart": 104,
+    "pageEnd": 104
+  },
+  {
+    "title": "High-frequency ventilation: Jet ventilation",
+    "level": 4,
+    "pageStart": 105,
+    "pageEnd": 105
+  },
+  {
+    "title": "Examination of an infant on constant positive airway pressure",
+    "level": 4,
+    "pageStart": 105,
+    "pageEnd": 105
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 105,
+    "pageEnd": 105
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 105,
+    "pageEnd": 106
+  },
+  {
+    "title": "9 Imaging: Radiography, lung ultrasound, and other imaging modalities",
+    "level": 2,
+    "pageStart": 107,
+    "pageEnd": 107
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 107,
+    "pageEnd": 107
+  },
+  {
+    "title": "Radiation exposure",
+    "level": 3,
+    "pageStart": 107,
+    "pageEnd": 107
+  },
+  {
+    "title": "Imaging modalities",
+    "level": 3,
+    "pageStart": 108,
+    "pageEnd": 108
+  },
+  {
+    "title": "Chest radiograph",
+    "level": 4,
+    "pageStart": 108,
+    "pageEnd": 108
+  },
+  {
+    "title": "Ultrasound",
+    "level": 4,
+    "pageStart": 108,
+    "pageEnd": 109
+  },
+  {
+    "title": "Computed tomography",
+    "level": 4,
+    "pageStart": 110,
+    "pageEnd": 110
+  },
+  {
+    "title": "Fluoroscopy",
+    "level": 4,
+    "pageStart": 110,
+    "pageEnd": 110
+  },
+  {
+    "title": "Magnetic resonance imaging",
+    "level": 4,
+    "pageStart": 110,
+    "pageEnd": 110
+  },
+  {
+    "title": "Invasive support devices",
+    "level": 3,
+    "pageStart": 110,
+    "pageEnd": 110
+  },
+  {
+    "title": "Endotracheal tube",
+    "level": 4,
+    "pageStart": 110,
+    "pageEnd": 110
+  },
+  {
+    "title": "Vascular catheters",
+    "level": 4,
+    "pageStart": 111,
+    "pageEnd": 114
+  },
+  {
+    "title": "Common etiologies of respiratory distress in infants",
+    "level": 3,
+    "pageStart": 115,
+    "pageEnd": 115
+  },
+  {
+    "title": "Respiratory distress syndrome",
+    "level": 4,
+    "pageStart": 115,
+    "pageEnd": 116
+  },
+  {
+    "title": "Transient tachypnea of the newborn",
+    "level": 4,
+    "pageStart": 117,
+    "pageEnd": 117
+  },
+  {
+    "title": "Meconium aspiration syndrome",
+    "level": 4,
+    "pageStart": 117,
+    "pageEnd": 117
+  },
+  {
+    "title": "Pneumonia",
+    "level": 4,
+    "pageStart": 118,
+    "pageEnd": 119
+  },
+  {
+    "title": "Air leak syndromes",
+    "level": 4,
+    "pageStart": 120,
+    "pageEnd": 120
+  },
+  {
+    "title": "Pneumothorax",
+    "level": 5,
+    "pageStart": 120,
+    "pageEnd": 120
+  },
+  {
+    "title": "Pneumomediastinum",
+    "level": 5,
+    "pageStart": 120,
+    "pageEnd": 120
+  },
+  {
+    "title": "Pneumopericardium",
+    "level": 5,
+    "pageStart": 120,
+    "pageEnd": 121
+  },
+  {
+    "title": "Pulmonary interstitial emphysema",
+    "level": 5,
+    "pageStart": 122,
+    "pageEnd": 123
+  },
+  {
+    "title": "Pulmonary hemorrhage",
+    "level": 4,
+    "pageStart": 124,
+    "pageEnd": 124
+  },
+  {
+    "title": "Pleural effusion",
+    "level": 4,
+    "pageStart": 124,
+    "pageEnd": 124
+  },
+  {
+    "title": "Bronchopulmonary dysplasia",
+    "level": 4,
+    "pageStart": 124,
+    "pageEnd": 127
+  },
+  {
+    "title": "Congenital and surgical causes of respiratory distress",
+    "level": 3,
+    "pageStart": 128,
+    "pageEnd": 128
+  },
+  {
+    "title": "Congenital lung lesions",
+    "level": 4,
+    "pageStart": 128,
+    "pageEnd": 128
+  },
+  {
+    "title": "Pulmonary agenesis, aplasia, and hypoplasia",
+    "level": 5,
+    "pageStart": 128,
+    "pageEnd": 128
+  },
+  {
+    "title": "Bronchial atresia or stenosis",
+    "level": 5,
+    "pageStart": 128,
+    "pageEnd": 129
+  },
+  {
+    "title": "Congenital pulmonary airway malformation",
+    "level": 5,
+    "pageStart": 130,
+    "pageEnd": 130
+  },
+  {
+    "title": "Bronchopulmonary sequestration",
+    "level": 5,
+    "pageStart": 130,
+    "pageEnd": 130
+  },
+  {
+    "title": "Congenital lobar emphysema",
+    "level": 5,
+    "pageStart": 130,
+    "pageEnd": 131
+  },
+  {
+    "title": "Congenital diaphragmatic hernia",
+    "level": 4,
+    "pageStart": 132,
+    "pageEnd": 132
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 132,
+    "pageEnd": 138
+  },
+  {
+    "title": "10 Blood gases: Technical aspects and interpretation",
+    "level": 2,
+    "pageStart": 139,
+    "pageEnd": 139
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 139,
+    "pageEnd": 139
+  },
+  {
+    "title": "Blood gas physiology",
+    "level": 3,
+    "pageStart": 139,
+    "pageEnd": 139
+  },
+  {
+    "title": "Oxygen transport",
+    "level": 4,
+    "pageStart": 140,
+    "pageEnd": 140
+  },
+  {
+    "title": "Understanding the oxyhemoglobin dissociation curve",
+    "level": 4,
+    "pageStart": 140,
+    "pageEnd": 140
+  },
+  {
+    "title": "Considerations regarding fetal hemoglobin",
+    "level": 4,
+    "pageStart": 141,
+    "pageEnd": 141
+  },
+  {
+    "title": "Hypoxemia and hypoxia",
+    "level": 4,
+    "pageStart": 142,
+    "pageEnd": 142
+  },
+  {
+    "title": "Carbon dioxide transport",
+    "level": 4,
+    "pageStart": 142,
+    "pageEnd": 142
+  },
+  {
+    "title": "Metabolic acidosis",
+    "level": 4,
+    "pageStart": 143,
+    "pageEnd": 143
+  },
+  {
+    "title": "Metabolic alkalosis",
+    "level": 4,
+    "pageStart": 143,
+    "pageEnd": 143
+  },
+  {
+    "title": "Techniques for obtaining blood samples",
+    "level": 3,
+    "pageStart": 143,
+    "pageEnd": 143
+  },
+  {
+    "title": "Umbilical artery catheters",
+    "level": 4,
+    "pageStart": 143,
+    "pageEnd": 144
+  },
+  {
+    "title": "Subumbilical cutdown",
+    "level": 5,
+    "pageStart": 145,
+    "pageEnd": 145
+  },
+  {
+    "title": "Complications of umbilical artery catheterization",
+    "level": 5,
+    "pageStart": 145,
+    "pageEnd": 145
+  },
+  {
+    "title": "Other indwelling catheter sites",
+    "level": 4,
+    "pageStart": 146,
+    "pageEnd": 146
+  },
+  {
+    "title": "Infusion of fluids through arterial catheters",
+    "level": 4,
+    "pageStart": 147,
+    "pageEnd": 147
+  },
+  {
+    "title": "Arterial puncture",
+    "level": 4,
+    "pageStart": 147,
+    "pageEnd": 147
+  },
+  {
+    "title": "Arterialized capillary blood",
+    "level": 4,
+    "pageStart": 147,
+    "pageEnd": 147
+  },
+  {
+    "title": "Continuous invasive monitoring",
+    "level": 4,
+    "pageStart": 148,
+    "pageEnd": 148
+  },
+  {
+    "title": "Noninvasive estimation of blood gases",
+    "level": 4,
+    "pageStart": 148,
+    "pageEnd": 148
+  },
+  {
+    "title": "Pulse oximetry",
+    "level": 5,
+    "pageStart": 148,
+    "pageEnd": 148
+  },
+  {
+    "title": "Near-infrared spectroscopy",
+    "level": 5,
+    "pageStart": 149,
+    "pageEnd": 149
+  },
+  {
+    "title": "Choice of monitoring methods",
+    "level": 3,
+    "pageStart": 149,
+    "pageEnd": 149
+  },
+  {
+    "title": "Transcutaneous monitoring",
+    "level": 4,
+    "pageStart": 149,
+    "pageEnd": 149
+  },
+  {
+    "title": "Capnography",
+    "level": 4,
+    "pageStart": 149,
+    "pageEnd": 149
+  },
+  {
+    "title": "Blood gas analyzers",
+    "level": 3,
+    "pageStart": 150,
+    "pageEnd": 150
+  },
+  {
+    "title": "Measuring principle of a blood gas analyzer",
+    "level": 4,
+    "pageStart": 150,
+    "pageEnd": 150
+  },
+  {
+    "title": "Blood gas analyzer quality assurance",
+    "level": 4,
+    "pageStart": 151,
+    "pageEnd": 151
+  },
+  {
+    "title": "Clinical interpretation of blood gases",
+    "level": 3,
+    "pageStart": 151,
+    "pageEnd": 151
+  },
+  {
+    "title": "Components of blood gas testing that are measured directly",
+    "level": 3,
+    "pageStart": 151,
+    "pageEnd": 151
+  },
+  {
+    "title": "pH",
+    "level": 4,
+    "pageStart": 151,
+    "pageEnd": 151
+  },
+  {
+    "title": "Carbon dioxide",
+    "level": 4,
+    "pageStart": 152,
+    "pageEnd": 152
+  },
+  {
+    "title": "Partial pressure of oxygen",
+    "level": 4,
+    "pageStart": 152,
+    "pageEnd": 152
+  },
+  {
+    "title": "Components of blood gas testing that are not measured directly",
+    "level": 3,
+    "pageStart": 152,
+    "pageEnd": 152
+  },
+  {
+    "title": "Bicarbonate",
+    "level": 4,
+    "pageStart": 152,
+    "pageEnd": 152
+  },
+  {
+    "title": "Base excess",
+    "level": 4,
+    "pageStart": 153,
+    "pageEnd": 153
+  },
+  {
+    "title": "Oxygen saturation",
+    "level": 4,
+    "pageStart": 153,
+    "pageEnd": 153
+  },
+  {
+    "title": "Lactate",
+    "level": 4,
+    "pageStart": 153,
+    "pageEnd": 153
+  },
+  {
+    "title": "Errors in blood gas measurements",
+    "level": 3,
+    "pageStart": 153,
+    "pageEnd": 153
+  },
+  {
+    "title": "Assessing the accuracy of a blood gas result",
+    "level": 3,
+    "pageStart": 154,
+    "pageEnd": 154
+  },
+  {
+    "title": "Final thoughts",
+    "level": 3,
+    "pageStart": 154,
+    "pageEnd": 154
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 154,
+    "pageEnd": 159
+  },
+  {
+    "title": "11 Noninvasive monitoring of gas exchange",
+    "level": 2,
+    "pageStart": 160,
+    "pageEnd": 160
+  },
+  {
+    "title": "Noninvasive monitoring of oxygenation",
+    "level": 3,
+    "pageStart": 160,
+    "pageEnd": 160
+  },
+  {
+    "title": "Pulse oximetry",
+    "level": 4,
+    "pageStart": 160,
+    "pageEnd": 163
+  },
+  {
+    "title": "Indications for pulse oximetry",
+    "level": 5,
+    "pageStart": 164,
+    "pageEnd": 164
+  },
+  {
+    "title": "Delivery room resuscitation",
+    "level": 5,
+    "pageStart": 164,
+    "pageEnd": 164
+  },
+  {
+    "title": "Limitations of pulse oximetry",
+    "level": 5,
+    "pageStart": 164,
+    "pageEnd": 164
+  },
+  {
+    "title": "Functional versus fractional saturation",
+    "level": 5,
+    "pageStart": 164,
+    "pageEnd": 164
+  },
+  {
+    "title": "Additional considerations",
+    "level": 5,
+    "pageStart": 165,
+    "pageEnd": 165
+  },
+  {
+    "title": "Transcutaneous oxygen monitoring",
+    "level": 4,
+    "pageStart": 166,
+    "pageEnd": 166
+  },
+  {
+    "title": "Noninvasive assessment of partial pressure of carbon dioxide",
+    "level": 3,
+    "pageStart": 166,
+    "pageEnd": 166
+  },
+  {
+    "title": "Capnography and end-tidal carbon dioxide monitoring",
+    "level": 4,
+    "pageStart": 166,
+    "pageEnd": 166
+  },
+  {
+    "title": "Mainstream and sidestream capnography",
+    "level": 5,
+    "pageStart": 167,
+    "pageEnd": 167
+  },
+  {
+    "title": "Carbon dioxide monitoring in the neonatal intensive care unit",
+    "level": 5,
+    "pageStart": 167,
+    "pageEnd": 167
+  },
+  {
+    "title": "Capnography during neonatal anesthesia",
+    "level": 5,
+    "pageStart": 168,
+    "pageEnd": 168
+  },
+  {
+    "title": "Colorimetric carbon dioxide detectors",
+    "level": 5,
+    "pageStart": 168,
+    "pageEnd": 168
+  },
+  {
+    "title": "Optimizing ventilation settings with capnography",
+    "level": 5,
+    "pageStart": 168,
+    "pageEnd": 168
+  },
+  {
+    "title": "Limitations of capnography",
+    "level": 5,
+    "pageStart": 168,
+    "pageEnd": 168
+  },
+  {
+    "title": "Transcutaneous carbon dioxide monitoring",
+    "level": 4,
+    "pageStart": 168,
+    "pageEnd": 168
+  },
+  {
+    "title": "Tissue oxygen saturation monitoring using near-infrared spectroscopy",
+    "level": 3,
+    "pageStart": 169,
+    "pageEnd": 170
+  },
+  {
+    "title": "Normal values",
+    "level": 4,
+    "pageStart": 171,
+    "pageEnd": 171
+  },
+  {
+    "title": "Application of near-infrared spectroscopy in newborns",
+    "level": 4,
+    "pageStart": 171,
+    "pageEnd": 171
+  },
+  {
+    "title": "Management of hypotension",
+    "level": 5,
+    "pageStart": 171,
+    "pageEnd": 171
+  },
+  {
+    "title": "Resuscitation and stabilization in the delivery room",
+    "level": 5,
+    "pageStart": 171,
+    "pageEnd": 171
+  },
+  {
+    "title": "Patent ductus arteriosus",
+    "level": 5,
+    "pageStart": 171,
+    "pageEnd": 171
+  },
+  {
+    "title": "Cerebral perfusion with changes in mean airway pressure and ventilation",
+    "level": 5,
+    "pageStart": 171,
+    "pageEnd": 171
+  },
+  {
+    "title": "Mesenteric ischemia and risk of necrotizing enterocolitis",
+    "level": 5,
+    "pageStart": 171,
+    "pageEnd": 171
+  },
+  {
+    "title": "Limitations of near-infrared spectroscopy",
+    "level": 4,
+    "pageStart": 172,
+    "pageEnd": 172
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 172,
+    "pageEnd": 172
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 172,
+    "pageEnd": 175
+  },
+  {
+    "title": "12 Pulmonary function and graphics",
+    "level": 2,
+    "pageStart": 176,
+    "pageEnd": 176
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 176,
+    "pageEnd": 176
+  },
+  {
+    "title": "Technical aspects",
+    "level": 3,
+    "pageStart": 177,
+    "pageEnd": 177
+  },
+  {
+    "title": "Airflow measurement",
+    "level": 4,
+    "pageStart": 177,
+    "pageEnd": 177
+  },
+  {
+    "title": "Pressure measurement",
+    "level": 4,
+    "pageStart": 177,
+    "pageEnd": 177
+  },
+  {
+    "title": "End tidal CO\u2082 measurement",
+    "level": 4,
+    "pageStart": 178,
+    "pageEnd": 178
+  },
+  {
+    "title": "Volume measurement",
+    "level": 4,
+    "pageStart": 178,
+    "pageEnd": 178
+  },
+  {
+    "title": "Respiratory physiology and pathophysiology of respiratory diseases",
+    "level": 3,
+    "pageStart": 178,
+    "pageEnd": 178
+  },
+  {
+    "title": "Display of respiratory signals",
+    "level": 3,
+    "pageStart": 179,
+    "pageEnd": 179
+  },
+  {
+    "title": "Airway pressure",
+    "level": 4,
+    "pageStart": 179,
+    "pageEnd": 179
+  },
+  {
+    "title": "Peak inflation pressure, positive end expiratory pressure, continuous positive airway pressure",
+    "level": 5,
+    "pageStart": 179,
+    "pageEnd": 179
+  },
+  {
+    "title": "Mean airway pressure: five different ways to change map during conventional ventilation: Change in peak inflation pressure, positive end expiratory pressure, inspiratory time, inspiratory slope, and rate",
+    "level": 5,
+    "pageStart": 179,
+    "pageEnd": 179
+  },
+  {
+    "title": "Positive End Expiratory Pressure,Inspiratory Time, Inspiratory Slope, and Rate",
+    "level": 5,
+    "pageStart": 179,
+    "pageEnd": 179
+  },
+  {
+    "title": "Effect of inspiratory and expiratory time on tidal volume: Effect of the time constant on flow and volume",
+    "level": 4,
+    "pageStart": 180,
+    "pageEnd": 181
+  },
+  {
+    "title": "Measurement of airflow",
+    "level": 4,
+    "pageStart": 182,
+    "pageEnd": 182
+  },
+  {
+    "title": "Recognizing spontaneous respiratory efforts",
+    "level": 5,
+    "pageStart": 183,
+    "pageEnd": 183
+  },
+  {
+    "title": "Checking for synchronization",
+    "level": 5,
+    "pageStart": 183,
+    "pageEnd": 183
+  },
+  {
+    "title": "Cycling off the mechanical inflation (flow cycling)",
+    "level": 5,
+    "pageStart": 184,
+    "pageEnd": 184
+  },
+  {
+    "title": "Measurement of volume",
+    "level": 4,
+    "pageStart": 185,
+    "pageEnd": 185
+  },
+  {
+    "title": "Tidal volume\u2014minute ventilation",
+    "level": 5,
+    "pageStart": 185,
+    "pageEnd": 185
+  },
+  {
+    "title": "Tidal volume\u2014effect of endotracheal tube leaks",
+    "level": 5,
+    "pageStart": 185,
+    "pageEnd": 185
+  },
+  {
+    "title": "Effect of mechanical characteristics of the respiratory system on tidal volume",
+    "level": 5,
+    "pageStart": 185,
+    "pageEnd": 185
+  },
+  {
+    "title": "Display of pulmonary graphics using loops",
+    "level": 3,
+    "pageStart": 186,
+    "pageEnd": 186
+  },
+  {
+    "title": "Pressure-volume loops",
+    "level": 4,
+    "pageStart": 186,
+    "pageEnd": 188
+  },
+  {
+    "title": "Flow-volume loops",
+    "level": 4,
+    "pageStart": 189,
+    "pageEnd": 189
+  },
+  {
+    "title": "Pulmonary mechanics",
+    "level": 3,
+    "pageStart": 190,
+    "pageEnd": 190
+  },
+  {
+    "title": "Lung compliance",
+    "level": 4,
+    "pageStart": 190,
+    "pageEnd": 190
+  },
+  {
+    "title": "Clinical implications",
+    "level": 5,
+    "pageStart": 191,
+    "pageEnd": 191
+  },
+  {
+    "title": "Resistive properties",
+    "level": 4,
+    "pageStart": 192,
+    "pageEnd": 192
+  },
+  {
+    "title": "Clinical implications",
+    "level": 5,
+    "pageStart": 192,
+    "pageEnd": 192
+  },
+  {
+    "title": "End tidal CO\u2082 curve",
+    "level": 3,
+    "pageStart": 192,
+    "pageEnd": 192
+  },
+  {
+    "title": "Role of pulmonary graphics in daily ventilator management\u2014optimizing ventilator settings",
+    "level": 3,
+    "pageStart": 193,
+    "pageEnd": 193
+  },
+  {
+    "title": "Optimizing peak inflation pressure",
+    "level": 4,
+    "pageStart": 193,
+    "pageEnd": 193
+  },
+  {
+    "title": "Optimizing positive end expiratory pressure",
+    "level": 4,
+    "pageStart": 193,
+    "pageEnd": 193
+  },
+  {
+    "title": "Optimizing inspiratory and expiratory flow by adjusting inspiratory and expiratory time",
+    "level": 4,
+    "pageStart": 193,
+    "pageEnd": 193
+  },
+  {
+    "title": "Optimizing tidal volume",
+    "level": 4,
+    "pageStart": 193,
+    "pageEnd": 193
+  },
+  {
+    "title": "Optimizing synchrony",
+    "level": 4,
+    "pageStart": 193,
+    "pageEnd": 193
+  },
+  {
+    "title": "Optimizing oxygen exposure",
+    "level": 4,
+    "pageStart": 193,
+    "pageEnd": 193
+  },
+  {
+    "title": "Optimizing gas exchange\u2014permissive hypercapnia",
+    "level": 4,
+    "pageStart": 193,
+    "pageEnd": 193
+  },
+  {
+    "title": "Determining the relative contribution of spontaneous breaths versus mechanical inflations to minute ventilation",
+    "level": 4,
+    "pageStart": 193,
+    "pageEnd": 193
+  },
+  {
+    "title": "Special circumstances",
+    "level": 4,
+    "pageStart": 194,
+    "pageEnd": 194
+  },
+  {
+    "title": "Pitfalls of graphics monitoring\u2014troubleshooting",
+    "level": 3,
+    "pageStart": 194,
+    "pageEnd": 194
+  },
+  {
+    "title": "Evidence for the use of respiratory function monitoring to improve neonatal outcome",
+    "level": 3,
+    "pageStart": 194,
+    "pageEnd": 194
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 195,
+    "pageEnd": 197
+  },
+  {
+    "title": "13 Airway evaluation: Bronchoscopy, laryngoscopy, and tracheal aspirates",
+    "level": 2,
+    "pageStart": 198,
+    "pageEnd": 198
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 198,
+    "pageEnd": 198
+  },
+  {
+    "title": "Flexible nasopharyngolaryngoscopy in the neonate",
+    "level": 3,
+    "pageStart": 198,
+    "pageEnd": 198
+  },
+  {
+    "title": "Indications",
+    "level": 4,
+    "pageStart": 198,
+    "pageEnd": 198
+  },
+  {
+    "title": "Risks, contraindications, and limitations",
+    "level": 4,
+    "pageStart": 199,
+    "pageEnd": 199
+  },
+  {
+    "title": "Equipment",
+    "level": 4,
+    "pageStart": 199,
+    "pageEnd": 199
+  },
+  {
+    "title": "Direct microlaryngoscopy and rigid bronchoscopy in the neonate",
+    "level": 3,
+    "pageStart": 199,
+    "pageEnd": 199
+  },
+  {
+    "title": "Indications",
+    "level": 4,
+    "pageStart": 199,
+    "pageEnd": 200
+  },
+  {
+    "title": "Risks, contraindications, and limitations",
+    "level": 4,
+    "pageStart": 201,
+    "pageEnd": 201
+  },
+  {
+    "title": "Equipment",
+    "level": 4,
+    "pageStart": 201,
+    "pageEnd": 201
+  },
+  {
+    "title": "Fiberoptic flexible bronchoscopy",
+    "level": 3,
+    "pageStart": 201,
+    "pageEnd": 201
+  },
+  {
+    "title": "Indications",
+    "level": 4,
+    "pageStart": 201,
+    "pageEnd": 202
+  },
+  {
+    "title": "Risks, contraindications, and limitations",
+    "level": 4,
+    "pageStart": 203,
+    "pageEnd": 203
+  },
+  {
+    "title": "Equipment",
+    "level": 4,
+    "pageStart": 203,
+    "pageEnd": 203
+  },
+  {
+    "title": "Bronchoalveolar lavage and tracheal aspirates",
+    "level": 3,
+    "pageStart": 204,
+    "pageEnd": 204
+  },
+  {
+    "title": "Summary",
+    "level": 3,
+    "pageStart": 204,
+    "pageEnd": 204
+  },
+  {
+    "title": "Suggested readings",
+    "level": 3,
+    "pageStart": 204,
+    "pageEnd": 205
+  },
+  {
+    "title": "Section 3 Delivery Room Stabilization, Oxygen Therapy, and Respiratory Support",
+    "level": 1,
+    "pageStart": 206,
+    "pageEnd": 206
+  },
+  {
+    "title": "14 Delivery room stabilization and respiratory support",
+    "level": 2,
+    "pageStart": 206,
+    "pageEnd": 206
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 206,
+    "pageEnd": 206
+  },
+  {
+    "title": "Physiology of transition, asphyxia, and resuscitation",
+    "level": 3,
+    "pageStart": 206,
+    "pageEnd": 206
+  },
+  {
+    "title": "Physiology of normal transition",
+    "level": 4,
+    "pageStart": 206,
+    "pageEnd": 206
+  },
+  {
+    "title": "Physiology of asphyxia",
+    "level": 4,
+    "pageStart": 207,
+    "pageEnd": 207
+  },
+  {
+    "title": "Physiology of resuscitation",
+    "level": 4,
+    "pageStart": 207,
+    "pageEnd": 207
+  },
+  {
+    "title": "Anticipation and preparation for resuscitation",
+    "level": 3,
+    "pageStart": 208,
+    "pageEnd": 208
+  },
+  {
+    "title": "Training",
+    "level": 4,
+    "pageStart": 208,
+    "pageEnd": 208
+  },
+  {
+    "title": "Teamwork",
+    "level": 4,
+    "pageStart": 208,
+    "pageEnd": 208
+  },
+  {
+    "title": "Anticipation",
+    "level": 4,
+    "pageStart": 208,
+    "pageEnd": 208
+  },
+  {
+    "title": "Preparation",
+    "level": 4,
+    "pageStart": 209,
+    "pageEnd": 209
+  },
+  {
+    "title": "Clinical assessment, apgar score, saturation, and heart rate monitoring",
+    "level": 3,
+    "pageStart": 209,
+    "pageEnd": 209
+  },
+  {
+    "title": "Clinical evaluation",
+    "level": 4,
+    "pageStart": 209,
+    "pageEnd": 209
+  },
+  {
+    "title": "Pulse oximetry and electrocardiograph",
+    "level": 4,
+    "pageStart": 210,
+    "pageEnd": 210
+  },
+  {
+    "title": "Intervention basics: Cord clamping, warmth, position, suction, stimulation",
+    "level": 3,
+    "pageStart": 210,
+    "pageEnd": 210
+  },
+  {
+    "title": "Management of the umbilical cord",
+    "level": 4,
+    "pageStart": 210,
+    "pageEnd": 210
+  },
+  {
+    "title": "Warmth",
+    "level": 4,
+    "pageStart": 210,
+    "pageEnd": 210
+  },
+  {
+    "title": "Position",
+    "level": 4,
+    "pageStart": 211,
+    "pageEnd": 211
+  },
+  {
+    "title": "Suction",
+    "level": 4,
+    "pageStart": 211,
+    "pageEnd": 211
+  },
+  {
+    "title": "Meconium-stained amniotic fluid",
+    "level": 4,
+    "pageStart": 211,
+    "pageEnd": 211
+  },
+  {
+    "title": "Stimulation",
+    "level": 4,
+    "pageStart": 211,
+    "pageEnd": 211
+  },
+  {
+    "title": "Oxygen",
+    "level": 3,
+    "pageStart": 212,
+    "pageEnd": 212
+  },
+  {
+    "title": "Ventilation",
+    "level": 3,
+    "pageStart": 212,
+    "pageEnd": 212
+  },
+  {
+    "title": "Pressure sources",
+    "level": 3,
+    "pageStart": 213,
+    "pageEnd": 213
+  },
+  {
+    "title": "Interfaces",
+    "level": 3,
+    "pageStart": 214,
+    "pageEnd": 214
+  },
+  {
+    "title": "Endotracheal intubation",
+    "level": 3,
+    "pageStart": 215,
+    "pageEnd": 215
+  },
+  {
+    "title": "Intubation equipment and procedure",
+    "level": 3,
+    "pageStart": 215,
+    "pageEnd": 215
+  },
+  {
+    "title": "Laryngeal mask airway",
+    "level": 3,
+    "pageStart": 216,
+    "pageEnd": 216
+  },
+  {
+    "title": "Monitoring",
+    "level": 3,
+    "pageStart": 217,
+    "pageEnd": 217
+  },
+  {
+    "title": "Chest compressions",
+    "level": 3,
+    "pageStart": 217,
+    "pageEnd": 220
+  },
+  {
+    "title": "Epinephrine",
+    "level": 3,
+    "pageStart": 221,
+    "pageEnd": 221
+  },
+  {
+    "title": "Volume expansion",
+    "level": 3,
+    "pageStart": 221,
+    "pageEnd": 221
+  },
+  {
+    "title": "Special cases",
+    "level": 3,
+    "pageStart": 222,
+    "pageEnd": 222
+  },
+  {
+    "title": "Preterm neonates",
+    "level": 4,
+    "pageStart": 222,
+    "pageEnd": 222
+  },
+  {
+    "title": "Congenital diaphragmatic hernia",
+    "level": 4,
+    "pageStart": 222,
+    "pageEnd": 222
+  },
+  {
+    "title": "Fetal hydrops",
+    "level": 4,
+    "pageStart": 223,
+    "pageEnd": 223
+  },
+  {
+    "title": "Ethics",
+    "level": 3,
+    "pageStart": 223,
+    "pageEnd": 223
+  },
+  {
+    "title": "Deciding whether to commence resuscitation",
+    "level": 4,
+    "pageStart": 223,
+    "pageEnd": 223
+  },
+  {
+    "title": "Deciding whether to stop resuscitation",
+    "level": 4,
+    "pageStart": 224,
+    "pageEnd": 224
+  },
+  {
+    "title": "Postresuscitation care",
+    "level": 3,
+    "pageStart": 225,
+    "pageEnd": 225
+  },
+  {
+    "title": "Examination/monitoring",
+    "level": 4,
+    "pageStart": 225,
+    "pageEnd": 225
+  },
+  {
+    "title": "Therapeutic hypothermia for hypoxic ischemic encephalopathy",
+    "level": 4,
+    "pageStart": 225,
+    "pageEnd": 225
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 225,
+    "pageEnd": 234
+  },
+  {
+    "title": "15 Exogenous surfactant therapy",
+    "level": 2,
+    "pageStart": 235,
+    "pageEnd": 235
+  },
+  {
+    "title": "History",
+    "level": 3,
+    "pageStart": 235,
+    "pageEnd": 235
+  },
+  {
+    "title": "Surfactant function, composition, and metabolism",
+    "level": 3,
+    "pageStart": 235,
+    "pageEnd": 235
+  },
+  {
+    "title": "Function",
+    "level": 4,
+    "pageStart": 235,
+    "pageEnd": 235
+  },
+  {
+    "title": "Composition",
+    "level": 4,
+    "pageStart": 235,
+    "pageEnd": 235
+  },
+  {
+    "title": "Secretion and metabolism",
+    "level": 4,
+    "pageStart": 236,
+    "pageEnd": 236
+  },
+  {
+    "title": "Types of surfactant",
+    "level": 3,
+    "pageStart": 237,
+    "pageEnd": 237
+  },
+  {
+    "title": "Animal-derived surfactants",
+    "level": 4,
+    "pageStart": 237,
+    "pageEnd": 237
+  },
+  {
+    "title": "Synthetic surfactants without protein components",
+    "level": 4,
+    "pageStart": 237,
+    "pageEnd": 237
+  },
+  {
+    "title": "Protein-containing synthetic surfactants",
+    "level": 4,
+    "pageStart": 237,
+    "pageEnd": 237
+  },
+  {
+    "title": "Acute pulmonary and cardiac effects of surfactant therapy",
+    "level": 3,
+    "pageStart": 237,
+    "pageEnd": 237
+  },
+  {
+    "title": "Immediate pulmonary effects of surfactant therapy",
+    "level": 4,
+    "pageStart": 237,
+    "pageEnd": 237
+  },
+  {
+    "title": "Immediate effects on pulmonary circulation",
+    "level": 4,
+    "pageStart": 238,
+    "pageEnd": 238
+  },
+  {
+    "title": "Radiographic changes",
+    "level": 4,
+    "pageStart": 238,
+    "pageEnd": 238
+  },
+  {
+    "title": "Clinical trials of surfactant therapy",
+    "level": 3,
+    "pageStart": 239,
+    "pageEnd": 239
+  },
+  {
+    "title": "Surfactant therapy compared with placebo or no therapy",
+    "level": 4,
+    "pageStart": 239,
+    "pageEnd": 239
+  },
+  {
+    "title": "Prophylactic surfactant administration compared with post-birth stabilization on continuous positive airway pressure and selective surfactant administration",
+    "level": 4,
+    "pageStart": 239,
+    "pageEnd": 239
+  },
+  {
+    "title": "Early surfactant administration followed immediately by extubation to nasal continuous positive airway pressure",
+    "level": 4,
+    "pageStart": 240,
+    "pageEnd": 240
+  },
+  {
+    "title": "Targeted surfactant therapy",
+    "level": 4,
+    "pageStart": 240,
+    "pageEnd": 240
+  },
+  {
+    "title": "Single versus multiple surfactant doses",
+    "level": 4,
+    "pageStart": 240,
+    "pageEnd": 240
+  },
+  {
+    "title": "Criteria for repeat doses of surfactant",
+    "level": 4,
+    "pageStart": 241,
+    "pageEnd": 241
+  },
+  {
+    "title": "Methods of administration of surfactant",
+    "level": 3,
+    "pageStart": 241,
+    "pageEnd": 241
+  },
+  {
+    "title": "Administration through catheter, side port, or suction valve",
+    "level": 4,
+    "pageStart": 241,
+    "pageEnd": 241
+  },
+  {
+    "title": "Administration through dual-lumen endotracheal tube",
+    "level": 4,
+    "pageStart": 241,
+    "pageEnd": 241
+  },
+  {
+    "title": "Administration through a laryngeal mask airway",
+    "level": 4,
+    "pageStart": 241,
+    "pageEnd": 241
+  },
+  {
+    "title": "Nasopharyngeal administration of surfactant",
+    "level": 4,
+    "pageStart": 242,
+    "pageEnd": 242
+  },
+  {
+    "title": "Thin catheter endotracheal administration (less invasive surfactant administration)",
+    "level": 4,
+    "pageStart": 242,
+    "pageEnd": 242
+  },
+  {
+    "title": "Other methods",
+    "level": 4,
+    "pageStart": 242,
+    "pageEnd": 242
+  },
+  {
+    "title": "Chest position during administration of surfactant",
+    "level": 4,
+    "pageStart": 243,
+    "pageEnd": 243
+  },
+  {
+    "title": "Summary of administration methods",
+    "level": 4,
+    "pageStart": 243,
+    "pageEnd": 243
+  },
+  {
+    "title": "Choice of surfactant product",
+    "level": 3,
+    "pageStart": 243,
+    "pageEnd": 243
+  },
+  {
+    "title": "Comparison of animal-derived surfactant extract versus protein-free synthetic surfactant for the prevention and treatment of respiratory distress syndrome",
+    "level": 4,
+    "pageStart": 243,
+    "pageEnd": 243
+  },
+  {
+    "title": "Comparison of protein-containing synthetic surfactant versus animal-derived surfactant extract for the prevention and treatment of respiratory distress syndrome",
+    "level": 4,
+    "pageStart": 243,
+    "pageEnd": 243
+  },
+  {
+    "title": "Comparison of protein-containing synthetic surfactant versus protein-free synthetic surfactant for the prevention and treatment of respiratory distress syndrome",
+    "level": 4,
+    "pageStart": 244,
+    "pageEnd": 244
+  },
+  {
+    "title": "Comparison of different types of bovine surfactants",
+    "level": 4,
+    "pageStart": 244,
+    "pageEnd": 244
+  },
+  {
+    "title": "Comparison of porcine and bovine surfactants",
+    "level": 4,
+    "pageStart": 244,
+    "pageEnd": 244
+  },
+  {
+    "title": "Adverse effects of surfactant therapy",
+    "level": 3,
+    "pageStart": 244,
+    "pageEnd": 244
+  },
+  {
+    "title": "Economic aspects of surfactant therapy",
+    "level": 3,
+    "pageStart": 245,
+    "pageEnd": 245
+  },
+  {
+    "title": "Factors affecting the response to surfactant therapy",
+    "level": 3,
+    "pageStart": 245,
+    "pageEnd": 245
+  },
+  {
+    "title": "Long-term outcomes after surfactant therapy",
+    "level": 3,
+    "pageStart": 246,
+    "pageEnd": 246
+  },
+  {
+    "title": "Neurodevelopmental outcomes",
+    "level": 4,
+    "pageStart": 246,
+    "pageEnd": 246
+  },
+  {
+    "title": "Long-term respiratory outcomes",
+    "level": 4,
+    "pageStart": 246,
+    "pageEnd": 246
+  },
+  {
+    "title": "Physical growth",
+    "level": 4,
+    "pageStart": 246,
+    "pageEnd": 246
+  },
+  {
+    "title": "Outcomes of prophylactic versus rescue treatment strategies",
+    "level": 4,
+    "pageStart": 246,
+    "pageEnd": 246
+  },
+  {
+    "title": "Exogenous surfactant therapy for conditions other than respiratory distress syndrome",
+    "level": 3,
+    "pageStart": 246,
+    "pageEnd": 246
+  },
+  {
+    "title": "Meconium aspiration syndrome",
+    "level": 4,
+    "pageStart": 246,
+    "pageEnd": 246
+  },
+  {
+    "title": "Acute respiratory distress syndrome",
+    "level": 4,
+    "pageStart": 247,
+    "pageEnd": 247
+  },
+  {
+    "title": "Other conditions",
+    "level": 4,
+    "pageStart": 247,
+    "pageEnd": 247
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 247,
+    "pageEnd": 247
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 247,
+    "pageEnd": 253
+  },
+  {
+    "title": "16 Oxygen therapy",
+    "level": 2,
+    "pageStart": 254,
+    "pageEnd": 254
+  },
+  {
+    "title": "History of the use of oxygen in clinical medicine",
+    "level": 3,
+    "pageStart": 254,
+    "pageEnd": 254
+  },
+  {
+    "title": "Basic principles of oxygen physiology",
+    "level": 3,
+    "pageStart": 255,
+    "pageEnd": 255
+  },
+  {
+    "title": "Aerobic metabolism",
+    "level": 4,
+    "pageStart": 255,
+    "pageEnd": 255
+  },
+  {
+    "title": "Reactive oxygen species, redox regulation, and antioxidant enzymes",
+    "level": 4,
+    "pageStart": 255,
+    "pageEnd": 255
+  },
+  {
+    "title": "Redox regulation",
+    "level": 4,
+    "pageStart": 256,
+    "pageEnd": 256
+  },
+  {
+    "title": "Antioxidant defenses",
+    "level": 4,
+    "pageStart": 257,
+    "pageEnd": 257
+  },
+  {
+    "title": "Biomarkers of oxidative stress",
+    "level": 4,
+    "pageStart": 257,
+    "pageEnd": 257
+  },
+  {
+    "title": "Oxygen-sensing mechanisms and physiologic response",
+    "level": 4,
+    "pageStart": 258,
+    "pageEnd": 258
+  },
+  {
+    "title": "Oxygen in the fetal-to-neonatal transition and postnatal adaptation",
+    "level": 3,
+    "pageStart": 259,
+    "pageEnd": 259
+  },
+  {
+    "title": "Fetal-to-neonatal transition",
+    "level": 4,
+    "pageStart": 259,
+    "pageEnd": 259
+  },
+  {
+    "title": "Arterial oxygen saturation nomogram",
+    "level": 4,
+    "pageStart": 259,
+    "pageEnd": 259
+  },
+  {
+    "title": "Oxygen saturation in preterm infants with positive pressure ventilation and air",
+    "level": 3,
+    "pageStart": 260,
+    "pageEnd": 260
+  },
+  {
+    "title": "Oxygen administration in the delivery room",
+    "level": 4,
+    "pageStart": 260,
+    "pageEnd": 260
+  },
+  {
+    "title": "Oxygen during neonatal care in the neonatal intensive care unit",
+    "level": 3,
+    "pageStart": 261,
+    "pageEnd": 261
+  },
+  {
+    "title": "Evolving oxygen needs in the first weeks of life and new metabolic indices",
+    "level": 3,
+    "pageStart": 262,
+    "pageEnd": 262
+  },
+  {
+    "title": "Going home on oxygen",
+    "level": 3,
+    "pageStart": 263,
+    "pageEnd": 263
+  },
+  {
+    "title": "Oxygen saturation recommendations",
+    "level": 3,
+    "pageStart": 264,
+    "pageEnd": 264
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 264,
+    "pageEnd": 266
+  },
+  {
+    "title": "17 Respiratory gas conditioning",
+    "level": 2,
+    "pageStart": 267,
+    "pageEnd": 267
+  },
+  {
+    "title": "Physiology and pathophysiology",
+    "level": 3,
+    "pageStart": 267,
+    "pageEnd": 267
+  },
+  {
+    "title": "Basics of the physical relationships among temperature, water vapor, and energy content of gases",
+    "level": 4,
+    "pageStart": 267,
+    "pageEnd": 267
+  },
+  {
+    "title": "Standards on humidification of medical gases for use with artificial respiratory support modalities",
+    "level": 3,
+    "pageStart": 268,
+    "pageEnd": 268
+  },
+  {
+    "title": "Procedures and devices for respiratory gas conditioning",
+    "level": 3,
+    "pageStart": 269,
+    "pageEnd": 269
+  },
+  {
+    "title": "Cold passover, bubble-through, and heated water humidifiers for use with nasal cannula therapy",
+    "level": 4,
+    "pageStart": 269,
+    "pageEnd": 269
+  },
+  {
+    "title": "Heated humidifiers with heated wire tubing circuitry",
+    "level": 4,
+    "pageStart": 269,
+    "pageEnd": 269
+  },
+  {
+    "title": "Heat and moisture exchangers (\u201cartificial noses\u201d)",
+    "level": 4,
+    "pageStart": 269,
+    "pageEnd": 269
+  },
+  {
+    "title": "Aerosol application",
+    "level": 4,
+    "pageStart": 270,
+    "pageEnd": 270
+  },
+  {
+    "title": "Irrigation of the airway",
+    "level": 4,
+    "pageStart": 270,
+    "pageEnd": 270
+  },
+  {
+    "title": "Estimation and measurement of the efficiency of respiratory gas conditioning device brands",
+    "level": 3,
+    "pageStart": 270,
+    "pageEnd": 270
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 271,
+    "pageEnd": 273
+  },
+  {
+    "title": "18 Noninvasive respiratory support",
+    "level": 2,
+    "pageStart": 274,
+    "pageEnd": 274
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 274,
+    "pageEnd": 274
+  },
+  {
+    "title": "History of noninvasive respiratory support",
+    "level": 4,
+    "pageStart": 274,
+    "pageEnd": 274
+  },
+  {
+    "title": "What are the clinical indications and how does noninvasive respiratory support help?",
+    "level": 4,
+    "pageStart": 274,
+    "pageEnd": 274
+  },
+  {
+    "title": "Respiratory distress syndrome",
+    "level": 5,
+    "pageStart": 274,
+    "pageEnd": 274
+  },
+  {
+    "title": "Apnea of prematurity",
+    "level": 5,
+    "pageStart": 275,
+    "pageEnd": 275
+  },
+  {
+    "title": "Postextubation care",
+    "level": 5,
+    "pageStart": 275,
+    "pageEnd": 275
+  },
+  {
+    "title": "An overview of equipment used to provide noninvasive respiratory support",
+    "level": 4,
+    "pageStart": 275,
+    "pageEnd": 275
+  },
+  {
+    "title": "Interfaces",
+    "level": 5,
+    "pageStart": 275,
+    "pageEnd": 275
+  },
+  {
+    "title": "Pressure generators",
+    "level": 5,
+    "pageStart": 275,
+    "pageEnd": 275
+  },
+  {
+    "title": "Continuous positive airway pressure",
+    "level": 3,
+    "pageStart": 275,
+    "pageEnd": 275
+  },
+  {
+    "title": "Indications for continuous positive airway pressure support",
+    "level": 4,
+    "pageStart": 275,
+    "pageEnd": 275
+  },
+  {
+    "title": "Continuous positive airway pressure support for preterm infants from birth",
+    "level": 5,
+    "pageStart": 275,
+    "pageEnd": 275
+  },
+  {
+    "title": "Continuous positive airway pressure support for preterm infants postextubation",
+    "level": 5,
+    "pageStart": 275,
+    "pageEnd": 275
+  },
+  {
+    "title": "Continuous positive airway pressure support for apnea of prematurity",
+    "level": 5,
+    "pageStart": 276,
+    "pageEnd": 276
+  },
+  {
+    "title": "Continuous positive airway pressure support for other conditions",
+    "level": 5,
+    "pageStart": 276,
+    "pageEnd": 276
+  },
+  {
+    "title": "Contraindications to continuous positive airway pressure support",
+    "level": 5,
+    "pageStart": 276,
+    "pageEnd": 276
+  },
+  {
+    "title": "Continuous positive airway pressure devices and interfaces",
+    "level": 4,
+    "pageStart": 276,
+    "pageEnd": 276
+  },
+  {
+    "title": "Ventilator-generated continuous positive airway pressure",
+    "level": 5,
+    "pageStart": 276,
+    "pageEnd": 276
+  },
+  {
+    "title": "Bubble continuous positive airway pressure",
+    "level": 5,
+    "pageStart": 276,
+    "pageEnd": 276
+  },
+  {
+    "title": "Variable-flow continuous positive airway pressure",
+    "level": 5,
+    "pageStart": 277,
+    "pageEnd": 277
+  },
+  {
+    "title": "Benveniste gas-jet valve continuous positive airway pressure",
+    "level": 5,
+    "pageStart": 277,
+    "pageEnd": 277
+  },
+  {
+    "title": "Comparison of continuous positive airway pressure devices",
+    "level": 4,
+    "pageStart": 277,
+    "pageEnd": 277
+  },
+  {
+    "title": "Ventilator continuous positive airway pressure versus variable-flow (infant flow) continuous positive airway pressure",
+    "level": 5,
+    "pageStart": 278,
+    "pageEnd": 278
+  },
+  {
+    "title": "Ventilator continuous positive airway pressure versus bubble continuous positive airway pressure",
+    "level": 5,
+    "pageStart": 278,
+    "pageEnd": 278
+  },
+  {
+    "title": "Variable-flow continuous positive airway pressure versus bubble continuous positive airway pressure",
+    "level": 5,
+    "pageStart": 278,
+    "pageEnd": 278
+  },
+  {
+    "title": "Continuous positive airway pressure interfaces",
+    "level": 4,
+    "pageStart": 278,
+    "pageEnd": 278
+  },
+  {
+    "title": "Mononasal prongs, cut-down endotracheal tubes, and binasal nasopharyngeal prongs",
+    "level": 5,
+    "pageStart": 279,
+    "pageEnd": 279
+  },
+  {
+    "title": "Short binasal prongs",
+    "level": 5,
+    "pageStart": 279,
+    "pageEnd": 279
+  },
+  {
+    "title": "Future nasal prong development",
+    "level": 5,
+    "pageStart": 279,
+    "pageEnd": 279
+  },
+  {
+    "title": "Nasal masks",
+    "level": 5,
+    "pageStart": 279,
+    "pageEnd": 279
+  },
+  {
+    "title": "Nasal cannulae",
+    "level": 5,
+    "pageStart": 280,
+    "pageEnd": 280
+  },
+  {
+    "title": "Comparison between nasal interfaces",
+    "level": 4,
+    "pageStart": 280,
+    "pageEnd": 280
+  },
+  {
+    "title": "Comparison between nasal prong types",
+    "level": 5,
+    "pageStart": 280,
+    "pageEnd": 280
+  },
+  {
+    "title": "Comparison between nasal masks and nasal prongs",
+    "level": 5,
+    "pageStart": 280,
+    "pageEnd": 280
+  },
+  {
+    "title": "Comparison between standard interfaces and nasal cannulae",
+    "level": 5,
+    "pageStart": 280,
+    "pageEnd": 280
+  },
+  {
+    "title": "Optimal continuous positive airway pressure",
+    "level": 4,
+    "pageStart": 281,
+    "pageEnd": 281
+  },
+  {
+    "title": "Supportive care during continuous positive airway pressure",
+    "level": 4,
+    "pageStart": 281,
+    "pageEnd": 281
+  },
+  {
+    "title": "Administration of surfactant to infants on continuous positive airway pressure",
+    "level": 4,
+    "pageStart": 282,
+    "pageEnd": 282
+  },
+  {
+    "title": "Oropharyngeal, nebulized, and laryngeal mask airway surfactant administration",
+    "level": 5,
+    "pageStart": 282,
+    "pageEnd": 282
+  },
+  {
+    "title": "Less invasive surfactant administration and minimally invasive surfactant treatment: Surfactant administration via thin catheter",
+    "level": 5,
+    "pageStart": 282,
+    "pageEnd": 282
+  },
+  {
+    "title": "When has treatment with continuous positive airway pressure \u201cfailed?\u201d",
+    "level": 4,
+    "pageStart": 283,
+    "pageEnd": 283
+  },
+  {
+    "title": "Complications of continuous positive airway pressure",
+    "level": 4,
+    "pageStart": 283,
+    "pageEnd": 283
+  },
+  {
+    "title": "Gaseous intestinal distension",
+    "level": 5,
+    "pageStart": 283,
+    "pageEnd": 283
+  },
+  {
+    "title": "Pneumothorax or other air leak",
+    "level": 5,
+    "pageStart": 283,
+    "pageEnd": 283
+  },
+  {
+    "title": "Nasal skin trauma",
+    "level": 5,
+    "pageStart": 284,
+    "pageEnd": 284
+  },
+  {
+    "title": "Continuous positive airway pressure weaning",
+    "level": 4,
+    "pageStart": 284,
+    "pageEnd": 284
+  },
+  {
+    "title": "Nasal ventilation",
+    "level": 3,
+    "pageStart": 284,
+    "pageEnd": 284
+  },
+  {
+    "title": "Physiologic mechanisms",
+    "level": 4,
+    "pageStart": 285,
+    "pageEnd": 285
+  },
+  {
+    "title": "Clinical trials",
+    "level": 4,
+    "pageStart": 285,
+    "pageEnd": 285
+  },
+  {
+    "title": "Nasal intermittent positive pressure ventilation",
+    "level": 5,
+    "pageStart": 285,
+    "pageEnd": 285
+  },
+  {
+    "title": "Synchronized nasal intermittent positive pressure ventilation",
+    "level": 5,
+    "pageStart": 286,
+    "pageEnd": 286
+  },
+  {
+    "title": "High-frequency nasal ventilation",
+    "level": 3,
+    "pageStart": 287,
+    "pageEnd": 287
+  },
+  {
+    "title": "Mechanisms of gas exchange",
+    "level": 4,
+    "pageStart": 287,
+    "pageEnd": 287
+  },
+  {
+    "title": "Clinical trials",
+    "level": 4,
+    "pageStart": 288,
+    "pageEnd": 288
+  },
+  {
+    "title": "Future directions",
+    "level": 4,
+    "pageStart": 289,
+    "pageEnd": 289
+  },
+  {
+    "title": "Nasal high flow",
+    "level": 3,
+    "pageStart": 289,
+    "pageEnd": 289
+  },
+  {
+    "title": "Clinical trials in preterm infants",
+    "level": 4,
+    "pageStart": 290,
+    "pageEnd": 290
+  },
+  {
+    "title": "Primary (early) respiratory support",
+    "level": 5,
+    "pageStart": 290,
+    "pageEnd": 290
+  },
+  {
+    "title": "Postextubation/surfactant respiratory support",
+    "level": 5,
+    "pageStart": 290,
+    "pageEnd": 291
+  },
+  {
+    "title": "Future directions",
+    "level": 4,
+    "pageStart": 292,
+    "pageEnd": 292
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 292,
+    "pageEnd": 292
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 293,
+    "pageEnd": 300
+  },
+  {
+    "title": "19 Overview of assisted ventilation",
+    "level": 2,
+    "pageStart": 301,
+    "pageEnd": 301
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 301,
+    "pageEnd": 301
+  },
+  {
+    "title": "Unique challenges in mechanical ventilation of newborn infants",
+    "level": 3,
+    "pageStart": 301,
+    "pageEnd": 301
+  },
+  {
+    "title": "Lung mechanics",
+    "level": 4,
+    "pageStart": 302,
+    "pageEnd": 302
+  },
+  {
+    "title": "Uncuffed endotracheal tubes",
+    "level": 4,
+    "pageStart": 302,
+    "pageEnd": 302
+  },
+  {
+    "title": "Measurement of tidal volume",
+    "level": 4,
+    "pageStart": 302,
+    "pageEnd": 302
+  },
+  {
+    "title": "Basic ventilator mode classification",
+    "level": 3,
+    "pageStart": 302,
+    "pageEnd": 302
+  },
+  {
+    "title": "Initiation of mechanical ventilation",
+    "level": 3,
+    "pageStart": 303,
+    "pageEnd": 303
+  },
+  {
+    "title": "Indications for mechanical ventilation",
+    "level": 4,
+    "pageStart": 303,
+    "pageEnd": 303
+  },
+  {
+    "title": "Choosing the ventilator mode",
+    "level": 4,
+    "pageStart": 304,
+    "pageEnd": 306
+  },
+  {
+    "title": "Initial settings for pressure controlled ventilation",
+    "level": 4,
+    "pageStart": 307,
+    "pageEnd": 307
+  },
+  {
+    "title": "Assessment after starting ventilation",
+    "level": 4,
+    "pageStart": 307,
+    "pageEnd": 308
+  },
+  {
+    "title": "Subsequent ventilator adjustments",
+    "level": 4,
+    "pageStart": 309,
+    "pageEnd": 309
+  },
+  {
+    "title": "Oxygenation",
+    "level": 5,
+    "pageStart": 309,
+    "pageEnd": 309
+  },
+  {
+    "title": "Ventilation/carbon dioxide elimination",
+    "level": 5,
+    "pageStart": 309,
+    "pageEnd": 309
+  },
+  {
+    "title": "Monitoring and documentation during mechanical ventilation",
+    "level": 3,
+    "pageStart": 310,
+    "pageEnd": 310
+  },
+  {
+    "title": "Ventilation protocols",
+    "level": 3,
+    "pageStart": 310,
+    "pageEnd": 310
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 310,
+    "pageEnd": 312
+  },
+  {
+    "title": "20 Basic modes of synchronized ventilation",
+    "level": 2,
+    "pageStart": 313,
+    "pageEnd": 313
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 313,
+    "pageEnd": 313
+  },
+  {
+    "title": "Trigger technology",
+    "level": 3,
+    "pageStart": 314,
+    "pageEnd": 314
+  },
+  {
+    "title": "Patient-ventilator interactions with synchronized ventilation",
+    "level": 3,
+    "pageStart": 315,
+    "pageEnd": 315
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation",
+    "level": 3,
+    "pageStart": 316,
+    "pageEnd": 316
+  },
+  {
+    "title": "Assist control",
+    "level": 4,
+    "pageStart": 317,
+    "pageEnd": 317
+  },
+  {
+    "title": "Pressure support ventilation",
+    "level": 5,
+    "pageStart": 317,
+    "pageEnd": 318
+  },
+  {
+    "title": "Choice of assisted ventilation modes",
+    "level": 3,
+    "pageStart": 319,
+    "pageEnd": 319
+  },
+  {
+    "title": "Guidelines for clinical application",
+    "level": 3,
+    "pageStart": 319,
+    "pageEnd": 319
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation",
+    "level": 4,
+    "pageStart": 320,
+    "pageEnd": 320
+  },
+  {
+    "title": "Assist control",
+    "level": 4,
+    "pageStart": 320,
+    "pageEnd": 320
+  },
+  {
+    "title": "Pressure support ventilation",
+    "level": 4,
+    "pageStart": 321,
+    "pageEnd": 321
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 321,
+    "pageEnd": 321
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 321,
+    "pageEnd": 322
+  },
+  {
+    "title": "21 Principles of lung-protective ventilation",
+    "level": 2,
+    "pageStart": 323,
+    "pageEnd": 323
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 323,
+    "pageEnd": 323
+  },
+  {
+    "title": "Neonatal respiratory failure",
+    "level": 3,
+    "pageStart": 323,
+    "pageEnd": 323
+  },
+  {
+    "title": "Ventilator-induced lung injury",
+    "level": 3,
+    "pageStart": 323,
+    "pageEnd": 323
+  },
+  {
+    "title": "Risk factors for ventilator-induced lung injury",
+    "level": 4,
+    "pageStart": 323,
+    "pageEnd": 323
+  },
+  {
+    "title": "Volutrauma",
+    "level": 5,
+    "pageStart": 323,
+    "pageEnd": 323
+  },
+  {
+    "title": "Atelectrauma",
+    "level": 5,
+    "pageStart": 324,
+    "pageEnd": 324
+  },
+  {
+    "title": "Oxygen toxicity",
+    "level": 5,
+    "pageStart": 324,
+    "pageEnd": 324
+  },
+  {
+    "title": "Pulmonary and systemic consequences of ventilator-induced lung injury",
+    "level": 4,
+    "pageStart": 324,
+    "pageEnd": 324
+  },
+  {
+    "title": "Structural injury",
+    "level": 5,
+    "pageStart": 324,
+    "pageEnd": 324
+  },
+  {
+    "title": "Biotrauma",
+    "level": 5,
+    "pageStart": 324,
+    "pageEnd": 324
+  },
+  {
+    "title": "Surfactant dysfunction",
+    "level": 5,
+    "pageStart": 325,
+    "pageEnd": 325
+  },
+  {
+    "title": "Lung development",
+    "level": 5,
+    "pageStart": 325,
+    "pageEnd": 325
+  },
+  {
+    "title": "Susceptibility of newborn lungs to ventilator-induced lung injury",
+    "level": 4,
+    "pageStart": 325,
+    "pageEnd": 325
+  },
+  {
+    "title": "Lung-protective ventilation: Basic principles",
+    "level": 3,
+    "pageStart": 325,
+    "pageEnd": 325
+  },
+  {
+    "title": "Minimizing volutrauma",
+    "level": 4,
+    "pageStart": 325,
+    "pageEnd": 325
+  },
+  {
+    "title": "Minimizing atelectrauma",
+    "level": 4,
+    "pageStart": 325,
+    "pageEnd": 326
+  },
+  {
+    "title": "Lung-protective ventilation: Conventional mechanical ventilation",
+    "level": 3,
+    "pageStart": 327,
+    "pageEnd": 327
+  },
+  {
+    "title": "Low tidal volume ventilation",
+    "level": 4,
+    "pageStart": 327,
+    "pageEnd": 327
+  },
+  {
+    "title": "Tidal volume stabilization",
+    "level": 4,
+    "pageStart": 327,
+    "pageEnd": 327
+  },
+  {
+    "title": "Permissive hypercarbia",
+    "level": 4,
+    "pageStart": 328,
+    "pageEnd": 328
+  },
+  {
+    "title": "Open lung ventilation",
+    "level": 4,
+    "pageStart": 328,
+    "pageEnd": 328
+  },
+  {
+    "title": "Lung-protective ventilation: High-frequency ventilation",
+    "level": 3,
+    "pageStart": 328,
+    "pageEnd": 329
+  },
+  {
+    "title": "Lung-protective ventilation: Weaning and extubation",
+    "level": 3,
+    "pageStart": 330,
+    "pageEnd": 330
+  },
+  {
+    "title": "Implications for practice and research",
+    "level": 3,
+    "pageStart": 330,
+    "pageEnd": 330
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 330,
+    "pageEnd": 333
+  },
+  {
+    "title": "22 Volume-targeted ventilation",
+    "level": 2,
+    "pageStart": 334,
+    "pageEnd": 334
+  },
+  {
+    "title": "Rationale for tidal volume-targeted ventilation",
+    "level": 3,
+    "pageStart": 334,
+    "pageEnd": 334
+  },
+  {
+    "title": "Volume-controlled versus volume-targeted ventilation",
+    "level": 3,
+    "pageStart": 335,
+    "pageEnd": 335
+  },
+  {
+    "title": "Neonatal tidal volume-targeted ventilation",
+    "level": 3,
+    "pageStart": 336,
+    "pageEnd": 336
+  },
+  {
+    "title": "Volume guarantee",
+    "level": 3,
+    "pageStart": 336,
+    "pageEnd": 337
+  },
+  {
+    "title": "Suggested clinical guidelines (see also table 22.3)",
+    "level": 3,
+    "pageStart": 338,
+    "pageEnd": 341
+  },
+  {
+    "title": "Pressure-regulated volume control",
+    "level": 3,
+    "pageStart": 342,
+    "pageEnd": 343
+  },
+  {
+    "title": "Volume ventilation plus",
+    "level": 3,
+    "pageStart": 344,
+    "pageEnd": 344
+  },
+  {
+    "title": "Volume targeted ventilation/adaptive pressure ventilation",
+    "level": 3,
+    "pageStart": 345,
+    "pageEnd": 345
+  },
+  {
+    "title": "Targeted tidal volume",
+    "level": 3,
+    "pageStart": 345,
+    "pageEnd": 345
+  },
+  {
+    "title": "Importance of open lung strategy",
+    "level": 3,
+    "pageStart": 345,
+    "pageEnd": 345
+  },
+  {
+    "title": "Alarms/troubleshooting",
+    "level": 3,
+    "pageStart": 345,
+    "pageEnd": 345
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 346,
+    "pageEnd": 346
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 346,
+    "pageEnd": 349
+  },
+  {
+    "title": "23 Special techniques of respiratory support",
+    "level": 2,
+    "pageStart": 350,
+    "pageEnd": 350
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 350,
+    "pageEnd": 350
+  },
+  {
+    "title": "Automated control of inspired oxygen",
+    "level": 3,
+    "pageStart": 350,
+    "pageEnd": 351
+  },
+  {
+    "title": "Ventilation techniques that provide support proportional to patient effort",
+    "level": 3,
+    "pageStart": 352,
+    "pageEnd": 352
+  },
+  {
+    "title": "Proportional assist ventilation",
+    "level": 4,
+    "pageStart": 352,
+    "pageEnd": 352
+  },
+  {
+    "title": "Neurally adjusted ventilatory assist",
+    "level": 4,
+    "pageStart": 352,
+    "pageEnd": 352
+  },
+  {
+    "title": "Airway pressure release ventilation",
+    "level": 4,
+    "pageStart": 353,
+    "pageEnd": 353
+  },
+  {
+    "title": "Ventilation techniques designed to maintain minute ventilation",
+    "level": 3,
+    "pageStart": 354,
+    "pageEnd": 354
+  },
+  {
+    "title": "Targeted minute ventilation",
+    "level": 4,
+    "pageStart": 354,
+    "pageEnd": 354
+  },
+  {
+    "title": "Mandatory minute ventilation",
+    "level": 4,
+    "pageStart": 354,
+    "pageEnd": 354
+  },
+  {
+    "title": "Apnea backup ventilation",
+    "level": 4,
+    "pageStart": 354,
+    "pageEnd": 354
+  },
+  {
+    "title": "Adaptive backup ventilation",
+    "level": 4,
+    "pageStart": 354,
+    "pageEnd": 354
+  },
+  {
+    "title": "Adaptive support ventilation",
+    "level": 4,
+    "pageStart": 355,
+    "pageEnd": 355
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 355,
+    "pageEnd": 355
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 355,
+    "pageEnd": 357
+  },
+  {
+    "title": "24 High-frequency ventilation",
+    "level": 2,
+    "pageStart": 358,
+    "pageEnd": 358
+  },
+  {
+    "title": "Types of high-frequency ventilators",
+    "level": 3,
+    "pageStart": 359,
+    "pageEnd": 359
+  },
+  {
+    "title": "High-frequency jet ventilators",
+    "level": 4,
+    "pageStart": 359,
+    "pageEnd": 360
+  },
+  {
+    "title": "High-frequency oscillators",
+    "level": 4,
+    "pageStart": 361,
+    "pageEnd": 363
+  },
+  {
+    "title": "High-frequency flow interrupters/percussive ventilators",
+    "level": 4,
+    "pageStart": 364,
+    "pageEnd": 366
+  },
+  {
+    "title": "Evidence base for clinical applications of high-frequency ventilation",
+    "level": 3,
+    "pageStart": 367,
+    "pageEnd": 367
+  },
+  {
+    "title": "Elective versus rescue high-frequency ventilation",
+    "level": 4,
+    "pageStart": 367,
+    "pageEnd": 367
+  },
+  {
+    "title": "Lung protective strategies with HFV: Limiting pressure while optimizing volume",
+    "level": 3,
+    "pageStart": 368,
+    "pageEnd": 368
+  },
+  {
+    "title": "Clinical applications of high-frequency ventilation in specific diseases",
+    "level": 3,
+    "pageStart": 369,
+    "pageEnd": 369
+  },
+  {
+    "title": "Respiratory distress syndrome",
+    "level": 4,
+    "pageStart": 369,
+    "pageEnd": 369
+  },
+  {
+    "title": "High-frequency oscillatory ventilation strategy in respiratory distress syndrome",
+    "level": 5,
+    "pageStart": 369,
+    "pageEnd": 370
+  },
+  {
+    "title": "High-frequency jet ventilation strategy in respiratory distress syndrome",
+    "level": 5,
+    "pageStart": 371,
+    "pageEnd": 371
+  },
+  {
+    "title": "Air-leak syndromes",
+    "level": 4,
+    "pageStart": 372,
+    "pageEnd": 372
+  },
+  {
+    "title": "High-frequency jet ventilation strategy in air-leak syndromes",
+    "level": 5,
+    "pageStart": 372,
+    "pageEnd": 372
+  },
+  {
+    "title": "High-frequency oscillatory ventilation strategy in air leak",
+    "level": 5,
+    "pageStart": 373,
+    "pageEnd": 373
+  },
+  {
+    "title": "Pulmonary hypoplasia and congenital diaphragmatic hernia",
+    "level": 4,
+    "pageStart": 374,
+    "pageEnd": 374
+  },
+  {
+    "title": "High-frequency oscillatory ventilation strategy in congenital diaphragmatic hernia and other lung hypoplasia conditions",
+    "level": 5,
+    "pageStart": 374,
+    "pageEnd": 374
+  },
+  {
+    "title": "High-frequency jet ventilation strategy congenital diaphragmatic hernia and other lung hypoplasia conditions",
+    "level": 5,
+    "pageStart": 374,
+    "pageEnd": 374
+  },
+  {
+    "title": "Hypoxemic respiratory failure in term infants",
+    "level": 4,
+    "pageStart": 374,
+    "pageEnd": 374
+  },
+  {
+    "title": "Knowledge gaps and research directions",
+    "level": 3,
+    "pageStart": 374,
+    "pageEnd": 374
+  },
+  {
+    "title": "Summary",
+    "level": 3,
+    "pageStart": 375,
+    "pageEnd": 375
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 376,
+    "pageEnd": 381
+  },
+  {
+    "title": "25 Mechanical ventilation: Disease-specific strategies",
+    "level": 2,
+    "pageStart": 382,
+    "pageEnd": 382
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 382,
+    "pageEnd": 382
+  },
+  {
+    "title": "Respiratory distress syndrome",
+    "level": 3,
+    "pageStart": 382,
+    "pageEnd": 382
+  },
+  {
+    "title": "Key pathophysiologic features",
+    "level": 4,
+    "pageStart": 382,
+    "pageEnd": 382
+  },
+  {
+    "title": "Lung surfactant",
+    "level": 5,
+    "pageStart": 382,
+    "pageEnd": 382
+  },
+  {
+    "title": "Lung liquid",
+    "level": 5,
+    "pageStart": 383,
+    "pageEnd": 383
+  },
+  {
+    "title": "Developmental lung biology",
+    "level": 5,
+    "pageStart": 383,
+    "pageEnd": 383
+  },
+  {
+    "title": "Relevant principles of ventilation",
+    "level": 4,
+    "pageStart": 383,
+    "pageEnd": 383
+  },
+  {
+    "title": "High-frequency ventilation",
+    "level": 5,
+    "pageStart": 384,
+    "pageEnd": 385
+  },
+  {
+    "title": "Conventional ventilation",
+    "level": 5,
+    "pageStart": 386,
+    "pageEnd": 386
+  },
+  {
+    "title": "Extubation",
+    "level": 5,
+    "pageStart": 386,
+    "pageEnd": 386
+  },
+  {
+    "title": "Evidenced-based recommendations",
+    "level": 4,
+    "pageStart": 386,
+    "pageEnd": 386
+  },
+  {
+    "title": "Gaps in knowledge",
+    "level": 4,
+    "pageStart": 386,
+    "pageEnd": 386
+  },
+  {
+    "title": "Meconium aspiration syndrome",
+    "level": 3,
+    "pageStart": 387,
+    "pageEnd": 387
+  },
+  {
+    "title": "Key pathophysiologic features",
+    "level": 4,
+    "pageStart": 387,
+    "pageEnd": 387
+  },
+  {
+    "title": "Surfactant dysfunction",
+    "level": 5,
+    "pageStart": 387,
+    "pageEnd": 387
+  },
+  {
+    "title": "Airway resistance",
+    "level": 5,
+    "pageStart": 387,
+    "pageEnd": 387
+  },
+  {
+    "title": "Pulmonary hypertension",
+    "level": 5,
+    "pageStart": 388,
+    "pageEnd": 388
+  },
+  {
+    "title": "Relevant principles of ventilation",
+    "level": 4,
+    "pageStart": 388,
+    "pageEnd": 388
+  },
+  {
+    "title": "High-frequency ventilation",
+    "level": 5,
+    "pageStart": 389,
+    "pageEnd": 389
+  },
+  {
+    "title": "Conventional ventilation",
+    "level": 5,
+    "pageStart": 389,
+    "pageEnd": 389
+  },
+  {
+    "title": "Evidenced-based recommendations",
+    "level": 4,
+    "pageStart": 389,
+    "pageEnd": 389
+  },
+  {
+    "title": "Gaps in knowledge",
+    "level": 4,
+    "pageStart": 389,
+    "pageEnd": 389
+  },
+  {
+    "title": "Lung hypoplasia disorders",
+    "level": 3,
+    "pageStart": 389,
+    "pageEnd": 389
+  },
+  {
+    "title": "Key pathophysiologic features",
+    "level": 4,
+    "pageStart": 390,
+    "pageEnd": 390
+  },
+  {
+    "title": "Lung hypoplasia",
+    "level": 5,
+    "pageStart": 390,
+    "pageEnd": 390
+  },
+  {
+    "title": "Pulmonary vascular bed",
+    "level": 5,
+    "pageStart": 390,
+    "pageEnd": 390
+  },
+  {
+    "title": "Relevant principles of ventilation",
+    "level": 4,
+    "pageStart": 390,
+    "pageEnd": 390
+  },
+  {
+    "title": "Pulmonary hypertension",
+    "level": 4,
+    "pageStart": 391,
+    "pageEnd": 391
+  },
+  {
+    "title": "Evidenced-based recommendations",
+    "level": 4,
+    "pageStart": 392,
+    "pageEnd": 392
+  },
+  {
+    "title": "Gaps in knowledge",
+    "level": 4,
+    "pageStart": 392,
+    "pageEnd": 392
+  },
+  {
+    "title": "Bronchopulmonary dysplasia",
+    "level": 3,
+    "pageStart": 392,
+    "pageEnd": 392
+  },
+  {
+    "title": "Key pathophysiologic features",
+    "level": 4,
+    "pageStart": 392,
+    "pageEnd": 392
+  },
+  {
+    "title": "Lung pathology",
+    "level": 5,
+    "pageStart": 393,
+    "pageEnd": 393
+  },
+  {
+    "title": "Lung mechanics and function",
+    "level": 5,
+    "pageStart": 393,
+    "pageEnd": 393
+  },
+  {
+    "title": "Relevant general principles of mechanical ventilation",
+    "level": 4,
+    "pageStart": 394,
+    "pageEnd": 394
+  },
+  {
+    "title": "Tracheostomy",
+    "level": 5,
+    "pageStart": 395,
+    "pageEnd": 395
+  },
+  {
+    "title": "Pulmonary hypertension",
+    "level": 5,
+    "pageStart": 395,
+    "pageEnd": 395
+  },
+  {
+    "title": "Evidenced-based recommendations",
+    "level": 4,
+    "pageStart": 395,
+    "pageEnd": 395
+  },
+  {
+    "title": "Gaps in knowledge",
+    "level": 4,
+    "pageStart": 395,
+    "pageEnd": 395
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 396,
+    "pageEnd": 396
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 396,
+    "pageEnd": 402
+  },
+  {
+    "title": "26 Weaning and extubation from mechanical ventilation",
+    "level": 2,
+    "pageStart": 403,
+    "pageEnd": 403
+  },
+  {
+    "title": "Background",
+    "level": 3,
+    "pageStart": 403,
+    "pageEnd": 403
+  },
+  {
+    "title": "Weaning from ventilatory support",
+    "level": 3,
+    "pageStart": 403,
+    "pageEnd": 403
+  },
+  {
+    "title": "Weaning from pressure-controlled ventilation",
+    "level": 3,
+    "pageStart": 404,
+    "pageEnd": 404
+  },
+  {
+    "title": "Weaning from high-frequency ventilation",
+    "level": 3,
+    "pageStart": 405,
+    "pageEnd": 405
+  },
+  {
+    "title": "General strategies to facilitate weaning",
+    "level": 3,
+    "pageStart": 405,
+    "pageEnd": 405
+  },
+  {
+    "title": "Permissive hypercarbia",
+    "level": 4,
+    "pageStart": 405,
+    "pageEnd": 405
+  },
+  {
+    "title": "Permissive hypoxemia",
+    "level": 4,
+    "pageStart": 406,
+    "pageEnd": 406
+  },
+  {
+    "title": "Weaning protocols",
+    "level": 4,
+    "pageStart": 406,
+    "pageEnd": 406
+  },
+  {
+    "title": "Adjunctive therapies",
+    "level": 4,
+    "pageStart": 407,
+    "pageEnd": 407
+  },
+  {
+    "title": "Caffeine",
+    "level": 5,
+    "pageStart": 407,
+    "pageEnd": 407
+  },
+  {
+    "title": "Diuretics",
+    "level": 5,
+    "pageStart": 407,
+    "pageEnd": 407
+  },
+  {
+    "title": "Closure of patent ductus arteriosus",
+    "level": 5,
+    "pageStart": 407,
+    "pageEnd": 407
+  },
+  {
+    "title": "Avoidance of routine sedation",
+    "level": 5,
+    "pageStart": 407,
+    "pageEnd": 407
+  },
+  {
+    "title": "Nutritional support",
+    "level": 5,
+    "pageStart": 408,
+    "pageEnd": 408
+  },
+  {
+    "title": "Chest physiotherapy",
+    "level": 5,
+    "pageStart": 408,
+    "pageEnd": 408
+  },
+  {
+    "title": "Systemic corticosteroids",
+    "level": 5,
+    "pageStart": 408,
+    "pageEnd": 408
+  },
+  {
+    "title": "Inhaled and intratracheal corticosteroids",
+    "level": 5,
+    "pageStart": 408,
+    "pageEnd": 408
+  },
+  {
+    "title": "Assessment of extubation readiness",
+    "level": 3,
+    "pageStart": 409,
+    "pageEnd": 409
+  },
+  {
+    "title": "Clinical predictors",
+    "level": 4,
+    "pageStart": 409,
+    "pageEnd": 409
+  },
+  {
+    "title": "Extubation readiness tests",
+    "level": 4,
+    "pageStart": 409,
+    "pageEnd": 409
+  },
+  {
+    "title": "Physiological assessments",
+    "level": 5,
+    "pageStart": 410,
+    "pageEnd": 410
+  },
+  {
+    "title": "Clinical assessments",
+    "level": 5,
+    "pageStart": 410,
+    "pageEnd": 410
+  },
+  {
+    "title": "Analysis of the dynamics of physiologic signals before extubation",
+    "level": 5,
+    "pageStart": 411,
+    "pageEnd": 411
+  },
+  {
+    "title": "Postextubation management",
+    "level": 3,
+    "pageStart": 411,
+    "pageEnd": 411
+  },
+  {
+    "title": "Adjunctive therapies",
+    "level": 4,
+    "pageStart": 412,
+    "pageEnd": 412
+  },
+  {
+    "title": "Caffeine",
+    "level": 5,
+    "pageStart": 412,
+    "pageEnd": 412
+  },
+  {
+    "title": "Nebulized racemic epinephrine and dexamethasone",
+    "level": 5,
+    "pageStart": 412,
+    "pageEnd": 412
+  },
+  {
+    "title": "Postnatal corticosteroids for the prevention and treatment of postextubation stridor",
+    "level": 5,
+    "pageStart": 412,
+    "pageEnd": 412
+  },
+  {
+    "title": "Chest physiotherapy",
+    "level": 5,
+    "pageStart": 412,
+    "pageEnd": 412
+  },
+  {
+    "title": "Extubation failure",
+    "level": 3,
+    "pageStart": 412,
+    "pageEnd": 412
+  },
+  {
+    "title": "Summary",
+    "level": 3,
+    "pageStart": 413,
+    "pageEnd": 413
+  },
+  {
+    "title": "Suggested readings",
+    "level": 3,
+    "pageStart": 414,
+    "pageEnd": 419
+  },
+  {
+    "title": "27 Common devices used for mechanical ventilation",
+    "level": 2,
+    "pageStart": 420,
+    "pageEnd": 420
+  },
+  {
+    "title": "Introduction to ventilators",
+    "level": 3,
+    "pageStart": 420,
+    "pageEnd": 420
+  },
+  {
+    "title": "Power inputs",
+    "level": 4,
+    "pageStart": 420,
+    "pageEnd": 420
+  },
+  {
+    "title": "Power conversion and control",
+    "level": 4,
+    "pageStart": 421,
+    "pageEnd": 421
+  },
+  {
+    "title": "Flow control valves",
+    "level": 5,
+    "pageStart": 421,
+    "pageEnd": 421
+  },
+  {
+    "title": "Control subsystems",
+    "level": 5,
+    "pageStart": 422,
+    "pageEnd": 422
+  },
+  {
+    "title": "Power outputs",
+    "level": 4,
+    "pageStart": 422,
+    "pageEnd": 422
+  },
+  {
+    "title": "Idealized pressure, volume, and flow waveforms",
+    "level": 5,
+    "pageStart": 422,
+    "pageEnd": 422
+  },
+  {
+    "title": "Ventilator alarm systems",
+    "level": 5,
+    "pageStart": 422,
+    "pageEnd": 422
+  },
+  {
+    "title": "Operator\u2013ventilator interface: Displays",
+    "level": 4,
+    "pageStart": 423,
+    "pageEnd": 423
+  },
+  {
+    "title": "Alphanumeric values",
+    "level": 5,
+    "pageStart": 423,
+    "pageEnd": 423
+  },
+  {
+    "title": "Trends",
+    "level": 5,
+    "pageStart": 423,
+    "pageEnd": 423
+  },
+  {
+    "title": "Waveforms and loops",
+    "level": 5,
+    "pageStart": 423,
+    "pageEnd": 423
+  },
+  {
+    "title": "Patient\u2013ventilator interface: Circuits",
+    "level": 4,
+    "pageStart": 424,
+    "pageEnd": 424
+  },
+  {
+    "title": "Understanding modes of ventilation",
+    "level": 3,
+    "pageStart": 425,
+    "pageEnd": 425
+  },
+  {
+    "title": "Defining a breath/inflation",
+    "level": 4,
+    "pageStart": 425,
+    "pageEnd": 425
+  },
+  {
+    "title": "Defining assisted breath",
+    "level": 4,
+    "pageStart": 426,
+    "pageEnd": 426
+  },
+  {
+    "title": "Assistance with volume or pressure control",
+    "level": 4,
+    "pageStart": 426,
+    "pageEnd": 426
+  },
+  {
+    "title": "Trigger and cycle events",
+    "level": 4,
+    "pageStart": 426,
+    "pageEnd": 426
+  },
+  {
+    "title": "Machine versus patient trigger and cycle events",
+    "level": 4,
+    "pageStart": 427,
+    "pageEnd": 427
+  },
+  {
+    "title": "Spontaneous versus mandatory breaths/inflations",
+    "level": 4,
+    "pageStart": 427,
+    "pageEnd": 427
+  },
+  {
+    "title": "Breath sequences",
+    "level": 4,
+    "pageStart": 427,
+    "pageEnd": 427
+  },
+  {
+    "title": "Ventilatory patterns",
+    "level": 4,
+    "pageStart": 428,
+    "pageEnd": 428
+  },
+  {
+    "title": "Targeting schemes",
+    "level": 4,
+    "pageStart": 428,
+    "pageEnd": 428
+  },
+  {
+    "title": "Full mode taxonomy",
+    "level": 4,
+    "pageStart": 428,
+    "pageEnd": 428
+  },
+  {
+    "title": "How to classify a mode of ventilation",
+    "level": 4,
+    "pageStart": 429,
+    "pageEnd": 429
+  },
+  {
+    "title": "Universal intensive care ventilators used for neonatal ventilation",
+    "level": 3,
+    "pageStart": 429,
+    "pageEnd": 429
+  },
+  {
+    "title": "AVEA CVS",
+    "level": 4,
+    "pageStart": 430,
+    "pageEnd": 430
+  },
+  {
+    "title": "Modes",
+    "level": 5,
+    "pageStart": 430,
+    "pageEnd": 430
+  },
+  {
+    "title": "Airway pressure release ventilation/biphasic.",
+    "level": 6,
+    "pageStart": 430,
+    "pageEnd": 430
+  },
+  {
+    "title": "Continuous positive airway pressure/pressure support.",
+    "level": 6,
+    "pageStart": 430,
+    "pageEnd": 430
+  },
+  {
+    "title": "Continuous positive airway pressure/pressure support with volume limit.",
+    "level": 6,
+    "pageStart": 430,
+    "pageEnd": 430
+  },
+  {
+    "title": "Infant nasal continuous positive airway pressure.",
+    "level": 6,
+    "pageStart": 430,
+    "pageEnd": 430
+  },
+  {
+    "title": "Infant nasal intermittent mandatory ventilation.",
+    "level": 6,
+    "pageStart": 430,
+    "pageEnd": 431
+  },
+  {
+    "title": "Pressure assist-control.",
+    "level": 6,
+    "pageStart": 432,
+    "pageEnd": 432
+  },
+  {
+    "title": "Pressure assist-control with flow cycle.",
+    "level": 6,
+    "pageStart": 432,
+    "pageEnd": 432
+  },
+  {
+    "title": "Pressure assist-control with machine volume.",
+    "level": 6,
+    "pageStart": 432,
+    "pageEnd": 432
+  },
+  {
+    "title": "Pressure assist-control with volume guarantee.",
+    "level": 6,
+    "pageStart": 432,
+    "pageEnd": 432
+  },
+  {
+    "title": "Pressure-regulated volume control assist-control (not available for neonatal ventilation).",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Pressure-regulated volume control assist-control with flow cycle (not available for neonatal ventilation).",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Pressure-regulated volume control synchronized intermittent mandatory ventilation with flow cycle (not available for neonatal ventilation).",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Pressure-regulated volume control synchronized intermittent mandatory ventilation (not available for neonatal ventilation).",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Pressure synchronized intermittent mandatory ventilation.",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Pressure synchronized intermittent mandatory ventilation with volume guarantee (available for neonatal patient size setting only).",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Time-cycled pressure-limited assist-control (available for neonatal patient size setting only).",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Time-cycled pressure-limited assist-control with flow cycle.",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Time-cycled pressure-limited assist-control with flow cycle and volume guarantee.",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Time-cycled pressure-limited assist-control with volume guarantee (available for neonatal patient size setting only).",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Time-cycled pressure-limited synchronized intermittent mandatory ventilation (available for neonatal patient size setting only).",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Time-cycled pressure-limited synchronized intermittent mandatory ventilation with volume guarantee (available for neonatal patient size setting only).",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Volume assist-control (with demand flow).",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Volume assist-control with Vsync.",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Volume assist-control with Vsync and flow cycle.",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Volume synchronized intermittent mandatory ventilation.",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "Volume synchronized intermittent mandatory ventilation with Vsync.",
+    "level": 6,
+    "pageStart": 433,
+    "pageEnd": 433
+  },
+  {
+    "title": "PB 980",
+    "level": 4,
+    "pageStart": 434,
+    "pageEnd": 434
+  },
+  {
+    "title": "Modes",
+    "level": 5,
+    "pageStart": 434,
+    "pageEnd": 434
+  },
+  {
+    "title": "Assist-control pressure control.",
+    "level": 6,
+    "pageStart": 434,
+    "pageEnd": 434
+  },
+  {
+    "title": "Assist-control volume ventilation plus.",
+    "level": 6,
+    "pageStart": 434,
+    "pageEnd": 434
+  },
+  {
+    "title": "Assist-control volume control.",
+    "level": 6,
+    "pageStart": 434,
+    "pageEnd": 434
+  },
+  {
+    "title": "Bilevel + pressure support.",
+    "level": 6,
+    "pageStart": 434,
+    "pageEnd": 434
+  },
+  {
+    "title": "Bilevel + tube compensation.",
+    "level": 6,
+    "pageStart": 434,
+    "pageEnd": 434
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation pressure control + pressure support.",
+    "level": 6,
+    "pageStart": 435,
+    "pageEnd": 435
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation pressure control + tube compensation.",
+    "level": 6,
+    "pageStart": 435,
+    "pageEnd": 435
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation volume control + pressure support.",
+    "level": 6,
+    "pageStart": 435,
+    "pageEnd": 435
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation volume ventilation plus + pressure support.",
+    "level": 6,
+    "pageStart": 435,
+    "pageEnd": 435
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation volume control plus + tube compensation.",
+    "level": 6,
+    "pageStart": 435,
+    "pageEnd": 435
+  },
+  {
+    "title": "Spont pressure support.",
+    "level": 6,
+    "pageStart": 435,
+    "pageEnd": 435
+  },
+  {
+    "title": "Spont volume support.",
+    "level": 6,
+    "pageStart": 435,
+    "pageEnd": 435
+  },
+  {
+    "title": "Neonatal ventilation.",
+    "level": 6,
+    "pageStart": 435,
+    "pageEnd": 435
+  },
+  {
+    "title": "Bellavista 1000",
+    "level": 4,
+    "pageStart": 435,
+    "pageEnd": 435
+  },
+  {
+    "title": "Modes",
+    "level": 5,
+    "pageStart": 435,
+    "pageEnd": 435
+  },
+  {
+    "title": "Adaptive ventilation mode.",
+    "level": 6,
+    "pageStart": 436,
+    "pageEnd": 436
+  },
+  {
+    "title": "Airway pressure release ventilation.",
+    "level": 6,
+    "pageStart": 437,
+    "pageEnd": 437
+  },
+  {
+    "title": "beLevel.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Continuous positive airway pressure.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Nasal continuous positive airway pressure.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Nasal intermittent positive pressure ventilation.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Pressure control-synchronized intermittent mandatory ventilation.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Pressure control-synchronized intermittent mandatory ventilation + targetvent.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Pressure assist-control ventilation.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Pressure assist-control + targetvent.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Pressure-controlled ventilation.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Pressure support ventilation.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Pressure support ventilation + targetvent.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Spontaneous.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Spontaneous + targetvent.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Spontaneous/timed.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Spontaneous/timed + targetvent.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Timed.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Volume assist-control.",
+    "level": 6,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Evita infinity V500, V600/800",
+    "level": 4,
+    "pageStart": 438,
+    "pageEnd": 438
+  },
+  {
+    "title": "Modes",
+    "level": 5,
+    "pageStart": 439,
+    "pageEnd": 439
+  },
+  {
+    "title": "Pressure control assist-control.",
+    "level": 6,
+    "pageStart": 440,
+    "pageEnd": 440
+  },
+  {
+    "title": "Pressure control airway pressure release ventilation.",
+    "level": 6,
+    "pageStart": 440,
+    "pageEnd": 440
+  },
+  {
+    "title": "Pressure control continuous mandatory ventilation.",
+    "level": 6,
+    "pageStart": 440,
+    "pageEnd": 440
+  },
+  {
+    "title": "Pressure control pressure support.",
+    "level": 6,
+    "pageStart": 440,
+    "pageEnd": 440
+  },
+  {
+    "title": "Pressure control synchronized intermittent mandatory ventilation.",
+    "level": 6,
+    "pageStart": 440,
+    "pageEnd": 440
+  },
+  {
+    "title": "Smartcare/pressure support.",
+    "level": 6,
+    "pageStart": 440,
+    "pageEnd": 440
+  },
+  {
+    "title": "Spontaneous continuous positive airway pressure.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Spontaneous continuous positive airway pressure/pressure support.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Spontaneous continuous positive airway pressure/variable support.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Spontaneous continuous positive airway pressure/volume support.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Spontaneous/proportional pressure support.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Volume control assist-control.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Volume control assist-control + autoflow/volume guarantee.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Volume control assist-control + pressure limitation.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Volume control continuous mandatory ventilation.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Volume control continuous mandatory ventilation + autoflow.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Volume control continuous mandatory ventilation + pressure limitation.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Volume control mandatory minute volume ventilation.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Volume control mandatory minute volume ventilation + autoflow/volume guarantee.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Volume control continuous positive airway pressure.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Volume control synchronized intermittent mandatory ventilation + autoflow/volume guarantee.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Volume control synchronized intermittent mandatory ventilation + pressure limitation.",
+    "level": 6,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Neonatal ventilation",
+    "level": 5,
+    "pageStart": 441,
+    "pageEnd": 441
+  },
+  {
+    "title": "Evita infinity V600/800",
+    "level": 4,
+    "pageStart": 442,
+    "pageEnd": 442
+  },
+  {
+    "title": "SERVO-I and SERVO-U",
+    "level": 4,
+    "pageStart": 442,
+    "pageEnd": 442
+  },
+  {
+    "title": "Modes",
+    "level": 5,
+    "pageStart": 442,
+    "pageEnd": 442
+  },
+  {
+    "title": "Automode (pressure control to pressure support).",
+    "level": 6,
+    "pageStart": 442,
+    "pageEnd": 442
+  },
+  {
+    "title": "Automode (pressure-regulated volume control to volume support).",
+    "level": 6,
+    "pageStart": 442,
+    "pageEnd": 442
+  },
+  {
+    "title": "Automode (volume control to volume support).",
+    "level": 6,
+    "pageStart": 442,
+    "pageEnd": 442
+  },
+  {
+    "title": "BiVent.",
+    "level": 6,
+    "pageStart": 442,
+    "pageEnd": 442
+  },
+  {
+    "title": "Neurally adjusted ventilatory assist.",
+    "level": 6,
+    "pageStart": 442,
+    "pageEnd": 442
+  },
+  {
+    "title": "Pressure control.",
+    "level": 6,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "Pressure-regulated volume control.",
+    "level": 6,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "Pressure support.",
+    "level": 6,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation (volume control).",
+    "level": 6,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation (pressure-regulated volume control).",
+    "level": 6,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation (pressure control).",
+    "level": 6,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "Spontaneous/continuous positive airway pressure.",
+    "level": 6,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "Volume control.",
+    "level": 6,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "Volume support.",
+    "level": 6,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "Neonatal ventilation with SERVO-I.",
+    "level": 6,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "SERVO-n and SERVO-U",
+    "level": 4,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "Carescape R860",
+    "level": 4,
+    "pageStart": 443,
+    "pageEnd": 443
+  },
+  {
+    "title": "Modes",
+    "level": 5,
+    "pageStart": 444,
+    "pageEnd": 444
+  },
+  {
+    "title": "Assist-control pressure control.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Assist-control pressure regulated volume control.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Assist-control volume control.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Assist-control volume control + pressure limit.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Airway pressure release ventilation.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Bilevel airway pressure ventilation.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Bilevel airway pressure ventilation + volume guaranteed.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Continuous positive airway pressure/pressure support.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Noninvasive ventilation.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation pressure controlled.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation pressure regulated volume control.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation volume control.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation volume control + pressure limit.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Spontaneous breathing trial.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Volume support.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Neonatal ventilation.",
+    "level": 6,
+    "pageStart": 445,
+    "pageEnd": 445
+  },
+  {
+    "title": "Hamilton G5",
+    "level": 4,
+    "pageStart": 446,
+    "pageEnd": 446
+  },
+  {
+    "title": "Modes",
+    "level": 5,
+    "pageStart": 446,
+    "pageEnd": 446
+  },
+  {
+    "title": "Adaptive support ventilation.",
+    "level": 6,
+    "pageStart": 446,
+    "pageEnd": 446
+  },
+  {
+    "title": "Airway pressure release ventilation.",
+    "level": 6,
+    "pageStart": 446,
+    "pageEnd": 446
+  },
+  {
+    "title": "Adaptive pressure ventilation continuous mandatory ventilation (APVCMV).",
+    "level": 6,
+    "pageStart": 446,
+    "pageEnd": 446
+  },
+  {
+    "title": "Adaptive pressure ventilation intermittent mandatory ventilation (APVIMV).",
+    "level": 6,
+    "pageStart": 446,
+    "pageEnd": 446
+  },
+  {
+    "title": "DuoPositive airway pressure.",
+    "level": 6,
+    "pageStart": 446,
+    "pageEnd": 446
+  },
+  {
+    "title": "INTELLiVENT adaptive support ventilation.",
+    "level": 6,
+    "pageStart": 446,
+    "pageEnd": 446
+  },
+  {
+    "title": "Nasal continuous positive airway pressure/pressure support.",
+    "level": 6,
+    "pageStart": 446,
+    "pageEnd": 446
+  },
+  {
+    "title": "Noninvasive ventilation.",
+    "level": 6,
+    "pageStart": 446,
+    "pageEnd": 446
+  },
+  {
+    "title": "Noninvasive ventilation-spontaneous/timed.",
+    "level": 6,
+    "pageStart": 446,
+    "pageEnd": 446
+  },
+  {
+    "title": "Positive-continuous mandatory ventilation.",
+    "level": 6,
+    "pageStart": 447,
+    "pageEnd": 447
+  },
+  {
+    "title": "Positive-synchronized intermittent mandatory ventilation.",
+    "level": 6,
+    "pageStart": 447,
+    "pageEnd": 447
+  },
+  {
+    "title": "Synchronized continuous mandatory ventilation.",
+    "level": 6,
+    "pageStart": 447,
+    "pageEnd": 447
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation.",
+    "level": 6,
+    "pageStart": 447,
+    "pageEnd": 447
+  },
+  {
+    "title": "Spontaneous.",
+    "level": 6,
+    "pageStart": 447,
+    "pageEnd": 447
+  },
+  {
+    "title": "Volume support.",
+    "level": 6,
+    "pageStart": 447,
+    "pageEnd": 447
+  },
+  {
+    "title": "Specialized neonatal ventilators",
+    "level": 3,
+    "pageStart": 448,
+    "pageEnd": 448
+  },
+  {
+    "title": "Babylog VN500 and 600/800",
+    "level": 4,
+    "pageStart": 448,
+    "pageEnd": 448
+  },
+  {
+    "title": "Modes",
+    "level": 5,
+    "pageStart": 448,
+    "pageEnd": 448
+  },
+  {
+    "title": "Pressure control-assist-control.",
+    "level": 6,
+    "pageStart": 448,
+    "pageEnd": 448
+  },
+  {
+    "title": "Pressure control-assist-control + volume guarantee.",
+    "level": 6,
+    "pageStart": 448,
+    "pageEnd": 448
+  },
+  {
+    "title": "Pressure control-airway pressure release ventilation.",
+    "level": 6,
+    "pageStart": 449,
+    "pageEnd": 449
+  },
+  {
+    "title": "Pressure control-continuous mandatory ventilation.",
+    "level": 6,
+    "pageStart": 449,
+    "pageEnd": 449
+  },
+  {
+    "title": "Pressure control-continuous mandatory ventilation + volume guarantee.",
+    "level": 6,
+    "pageStart": 449,
+    "pageEnd": 449
+  },
+  {
+    "title": "Pressure control-mandatory minute volume ventilation + volume guarantee.",
+    "level": 6,
+    "pageStart": 449,
+    "pageEnd": 449
+  },
+  {
+    "title": "Pressure control-pressure support ventilation.",
+    "level": 6,
+    "pageStart": 450,
+    "pageEnd": 450
+  },
+  {
+    "title": "Pressure control-pressure support ventilation + volume guarantee.",
+    "level": 6,
+    "pageStart": 450,
+    "pageEnd": 450
+  },
+  {
+    "title": "Pressure control-synchronized intermittent mandatory ventilation.",
+    "level": 6,
+    "pageStart": 450,
+    "pageEnd": 450
+  },
+  {
+    "title": "Pressure control-synchronized intermittent mandatory ventilation + volume guarantee.",
+    "level": 6,
+    "pageStart": 450,
+    "pageEnd": 450
+  },
+  {
+    "title": "Spontaneous continuous positive airway pressure/pressure support.",
+    "level": 6,
+    "pageStart": 450,
+    "pageEnd": 450
+  },
+  {
+    "title": "Spontaneous continuous positive airway pressure/volume support.",
+    "level": 6,
+    "pageStart": 450,
+    "pageEnd": 450
+  },
+  {
+    "title": "Spontaneous proportional pressure support.",
+    "level": 6,
+    "pageStart": 450,
+    "pageEnd": 450
+  },
+  {
+    "title": "Automatic tube compensation (ATC).",
+    "level": 6,
+    "pageStart": 450,
+    "pageEnd": 450
+  },
+  {
+    "title": "High-frequency oscillatory ventilation (with volume guarantee).",
+    "level": 6,
+    "pageStart": 450,
+    "pageEnd": 450
+  },
+  {
+    "title": "Babylog VN600/800",
+    "level": 4,
+    "pageStart": 450,
+    "pageEnd": 450
+  },
+  {
+    "title": "SERVO-n and SERVO-U",
+    "level": 4,
+    "pageStart": 450,
+    "pageEnd": 450
+  },
+  {
+    "title": "Fabian high-frequency oscillatory",
+    "level": 4,
+    "pageStart": 450,
+    "pageEnd": 450
+  },
+  {
+    "title": "Modes",
+    "level": 5,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "Intermittent positive-pressure ventilation (continuous mandatory ventilation).",
+    "level": 6,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "Intermittent positive-pressure ventilation (continuous mandatory ventilation) + volume guarantee.",
+    "level": 6,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "Synchronized intermittent positive pressure ventilation (ASSIST).",
+    "level": 6,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "Synchronized intermittent positive pressure ventilation (ASSIST) + volume guarantee.",
+    "level": 6,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation.",
+    "level": 6,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "Synchronized intermittent mandatory ventilation + pressure support ventilation.",
+    "level": 6,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "Pressure support ventilation.",
+    "level": 6,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "Pressure support ventilation + volume guarantee.",
+    "level": 6,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "High-frequency oscillatory ventilation.",
+    "level": 6,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "Continuous positive airway pressure.",
+    "level": 6,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "Nasal continuous positive airway pressure/duo positive airway pressure.",
+    "level": 6,
+    "pageStart": 451,
+    "pageEnd": 451
+  },
+  {
+    "title": "Leoni plus",
+    "level": 4,
+    "pageStart": 452,
+    "pageEnd": 452
+  },
+  {
+    "title": "Modes",
+    "level": 5,
+    "pageStart": 452,
+    "pageEnd": 452
+  },
+  {
+    "title": "Continuous positive airway pressure.",
+    "level": 6,
+    "pageStart": 452,
+    "pageEnd": 452
+  },
+  {
+    "title": "High-frequency oscillation.",
+    "level": 6,
+    "pageStart": 452,
+    "pageEnd": 452
+  },
+  {
+    "title": "Intermittent positive-pressure ventilation/intermittent mandatory ventilation.",
+    "level": 6,
+    "pageStart": 452,
+    "pageEnd": 452
+  },
+  {
+    "title": "Intermittent positive-pressure ventilation/intermittent mandatory ventilation + volume guarantee.",
+    "level": 6,
+    "pageStart": 452,
+    "pageEnd": 452
+  },
+  {
+    "title": "Nasal continuous positive airway pressure.",
+    "level": 6,
+    "pageStart": 452,
+    "pageEnd": 452
+  },
+  {
+    "title": "Nasal intermittent positive pressure ventilation.",
+    "level": 6,
+    "pageStart": 452,
+    "pageEnd": 452
+  },
+  {
+    "title": "Pressure support-intermittent mandatory ventilation.",
+    "level": 6,
+    "pageStart": 452,
+    "pageEnd": 452
+  },
+  {
+    "title": "Pressure support-intermittent mandatory ventilation + volume guarantee.",
+    "level": 6,
+    "pageStart": 452,
+    "pageEnd": 452
+  },
+  {
+    "title": "Pressure support-S intermittent positive pressure ventilation.",
+    "level": 6,
+    "pageStart": 453,
+    "pageEnd": 453
+  },
+  {
+    "title": "Pressure support-intermittent positive pressure ventilation + volume guarantee.",
+    "level": 6,
+    "pageStart": 453,
+    "pageEnd": 453
+  },
+  {
+    "title": "S-intermittent mandatory ventilation.",
+    "level": 6,
+    "pageStart": 453,
+    "pageEnd": 453
+  },
+  {
+    "title": "S-intermittent mandatory ventilation + volume guarantee.",
+    "level": 6,
+    "pageStart": 453,
+    "pageEnd": 453
+  },
+  {
+    "title": "S-intermittent positive pressure ventilation.",
+    "level": 6,
+    "pageStart": 453,
+    "pageEnd": 453
+  },
+  {
+    "title": "S-I intermittent positive pressure ventilation + volume guarantee.",
+    "level": 6,
+    "pageStart": 453,
+    "pageEnd": 453
+  },
+  {
+    "title": "Vyaire infant flow SiPAP",
+    "level": 4,
+    "pageStart": 453,
+    "pageEnd": 453
+  },
+  {
+    "title": "Modes",
+    "level": 5,
+    "pageStart": 453,
+    "pageEnd": 453
+  },
+  {
+    "title": "BiPhasic.",
+    "level": 6,
+    "pageStart": 453,
+    "pageEnd": 454
+  },
+  {
+    "title": "BiPhasic tr.",
+    "level": 6,
+    "pageStart": 455,
+    "pageEnd": 455
+  },
+  {
+    "title": "Continuous positive airway pressure.",
+    "level": 6,
+    "pageStart": 455,
+    "pageEnd": 455
+  },
+  {
+    "title": "Summary",
+    "level": 3,
+    "pageStart": 455,
+    "pageEnd": 455
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 455,
+    "pageEnd": 456
+  },
+  {
+    "title": "28 Extracorporeal membrane oxygenation",
+    "level": 2,
+    "pageStart": 457,
+    "pageEnd": 457
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 457,
+    "pageEnd": 457
+  },
+  {
+    "title": "History of cardiopulmonary bypass",
+    "level": 3,
+    "pageStart": 458,
+    "pageEnd": 458
+  },
+  {
+    "title": "Development of membrane oxygenators",
+    "level": 3,
+    "pageStart": 458,
+    "pageEnd": 458
+  },
+  {
+    "title": "Development of a pump",
+    "level": 4,
+    "pageStart": 458,
+    "pageEnd": 458
+  },
+  {
+    "title": "Vascular access",
+    "level": 4,
+    "pageStart": 459,
+    "pageEnd": 459
+  },
+  {
+    "title": "Physiology of extracorporeal circulation",
+    "level": 3,
+    "pageStart": 459,
+    "pageEnd": 459
+  },
+  {
+    "title": "Membrane lung",
+    "level": 4,
+    "pageStart": 459,
+    "pageEnd": 459
+  },
+  {
+    "title": "Oxygen and carbon dioxide transfer",
+    "level": 4,
+    "pageStart": 459,
+    "pageEnd": 459
+  },
+  {
+    "title": "Patient selection",
+    "level": 3,
+    "pageStart": 460,
+    "pageEnd": 460
+  },
+  {
+    "title": "Disease states",
+    "level": 4,
+    "pageStart": 460,
+    "pageEnd": 460
+  },
+  {
+    "title": "Selection criteria",
+    "level": 4,
+    "pageStart": 460,
+    "pageEnd": 460
+  },
+  {
+    "title": "Alveolar-arterial oxygen gradient",
+    "level": 4,
+    "pageStart": 460,
+    "pageEnd": 460
+  },
+  {
+    "title": "Oxygenation index",
+    "level": 4,
+    "pageStart": 461,
+    "pageEnd": 461
+  },
+  {
+    "title": "Acute deterioration",
+    "level": 4,
+    "pageStart": 461,
+    "pageEnd": 461
+  },
+  {
+    "title": "Ventilator-associated lung injury",
+    "level": 4,
+    "pageStart": 462,
+    "pageEnd": 462
+  },
+  {
+    "title": "Contraindications",
+    "level": 4,
+    "pageStart": 462,
+    "pageEnd": 462
+  },
+  {
+    "title": "Evaluation before extracorporeal membrane oxygenation",
+    "level": 4,
+    "pageStart": 462,
+    "pageEnd": 462
+  },
+  {
+    "title": "Technique for beginning extracorporeal membrane oxygenation",
+    "level": 3,
+    "pageStart": 463,
+    "pageEnd": 463
+  },
+  {
+    "title": "Before cannulation",
+    "level": 4,
+    "pageStart": 463,
+    "pageEnd": 463
+  },
+  {
+    "title": "Venoarterial versus venovenous cannulation",
+    "level": 4,
+    "pageStart": 463,
+    "pageEnd": 463
+  },
+  {
+    "title": "Operative procedure",
+    "level": 4,
+    "pageStart": 464,
+    "pageEnd": 464
+  },
+  {
+    "title": "Daily management",
+    "level": 3,
+    "pageStart": 465,
+    "pageEnd": 465
+  },
+  {
+    "title": "Weaning",
+    "level": 3,
+    "pageStart": 465,
+    "pageEnd": 465
+  },
+  {
+    "title": "Decannulation",
+    "level": 3,
+    "pageStart": 466,
+    "pageEnd": 466
+  },
+  {
+    "title": "Outcome",
+    "level": 3,
+    "pageStart": 466,
+    "pageEnd": 466
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 467,
+    "pageEnd": 470
+  },
+  {
+    "title": "Section 4 Bedside Care, Nutritional and Pharmacologic Support",
+    "level": 1,
+    "pageStart": 471,
+    "pageEnd": 471
+  },
+  {
+    "title": "29 Respiratory care of the newborn",
+    "level": 2,
+    "pageStart": 471,
+    "pageEnd": 471
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 471,
+    "pageEnd": 471
+  },
+  {
+    "title": "Techniques to provide positive-pressure ventilation",
+    "level": 3,
+    "pageStart": 471,
+    "pageEnd": 471
+  },
+  {
+    "title": "Manual ventilation",
+    "level": 4,
+    "pageStart": 471,
+    "pageEnd": 471
+  },
+  {
+    "title": "Face masks for ventilation",
+    "level": 4,
+    "pageStart": 472,
+    "pageEnd": 472
+  },
+  {
+    "title": "Endotracheal intubation",
+    "level": 4,
+    "pageStart": 473,
+    "pageEnd": 473
+  },
+  {
+    "title": "Routes of intubation",
+    "level": 4,
+    "pageStart": 473,
+    "pageEnd": 473
+  },
+  {
+    "title": "Equipment",
+    "level": 4,
+    "pageStart": 474,
+    "pageEnd": 474
+  },
+  {
+    "title": "Types of tubes",
+    "level": 4,
+    "pageStart": 475,
+    "pageEnd": 475
+  },
+  {
+    "title": "Depth of tube insertion",
+    "level": 4,
+    "pageStart": 476,
+    "pageEnd": 476
+  },
+  {
+    "title": "Determination of placement",
+    "level": 4,
+    "pageStart": 476,
+    "pageEnd": 476
+  },
+  {
+    "title": "Tube fixation",
+    "level": 4,
+    "pageStart": 476,
+    "pageEnd": 476
+  },
+  {
+    "title": "Acquisition and maintenance of intubation skills",
+    "level": 4,
+    "pageStart": 476,
+    "pageEnd": 478
+  },
+  {
+    "title": "Laryngeal mask airway",
+    "level": 4,
+    "pageStart": 479,
+    "pageEnd": 479
+  },
+  {
+    "title": "Noninvasive ventilation and continuous positive airway pressure",
+    "level": 3,
+    "pageStart": 479,
+    "pageEnd": 479
+  },
+  {
+    "title": "Heated humidified high-flow nasal cannula",
+    "level": 3,
+    "pageStart": 479,
+    "pageEnd": 479
+  },
+  {
+    "title": "Monitoring during respiratory support",
+    "level": 3,
+    "pageStart": 479,
+    "pageEnd": 479
+  },
+  {
+    "title": "Monitoring during noninvasive respiratory support",
+    "level": 4,
+    "pageStart": 479,
+    "pageEnd": 479
+  },
+  {
+    "title": "Monitoring during conventional and high-frequency ventilation",
+    "level": 4,
+    "pageStart": 480,
+    "pageEnd": 480
+  },
+  {
+    "title": "Humidification and warming during respiratory support",
+    "level": 3,
+    "pageStart": 481,
+    "pageEnd": 481
+  },
+  {
+    "title": "Airway clearance techniques",
+    "level": 3,
+    "pageStart": 482,
+    "pageEnd": 484
+  },
+  {
+    "title": "Chest physiotherapy",
+    "level": 4,
+    "pageStart": 485,
+    "pageEnd": 485
+  },
+  {
+    "title": "Positioning of the patient",
+    "level": 4,
+    "pageStart": 485,
+    "pageEnd": 486
+  },
+  {
+    "title": "Percussion and vibration",
+    "level": 4,
+    "pageStart": 487,
+    "pageEnd": 487
+  },
+  {
+    "title": "Administration of medications into the respiratory tract",
+    "level": 3,
+    "pageStart": 487,
+    "pageEnd": 487
+  },
+  {
+    "title": "Surfactant treatment",
+    "level": 4,
+    "pageStart": 487,
+    "pageEnd": 487
+  },
+  {
+    "title": "Surfactant administration",
+    "level": 4,
+    "pageStart": 487,
+    "pageEnd": 487
+  },
+  {
+    "title": "Optimization of aerosol drug delivery",
+    "level": 4,
+    "pageStart": 488,
+    "pageEnd": 489
+  },
+  {
+    "title": "Clinician-based ventilator and weaning protocols",
+    "level": 3,
+    "pageStart": 490,
+    "pageEnd": 490
+  },
+  {
+    "title": "Resuscitation and stabilization at delivery",
+    "level": 3,
+    "pageStart": 490,
+    "pageEnd": 490
+  },
+  {
+    "title": "Key readings",
+    "level": 3,
+    "pageStart": 491,
+    "pageEnd": 496
+  },
+  {
+    "title": "30 Nursing care",
+    "level": 2,
+    "pageStart": 497,
+    "pageEnd": 497
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 497,
+    "pageEnd": 497
+  },
+  {
+    "title": "Assessment of the neonate",
+    "level": 3,
+    "pageStart": 497,
+    "pageEnd": 497
+  },
+  {
+    "title": "Pain assessment",
+    "level": 3,
+    "pageStart": 498,
+    "pageEnd": 498
+  },
+  {
+    "title": "Respiratory care",
+    "level": 3,
+    "pageStart": 499,
+    "pageEnd": 499
+  },
+  {
+    "title": "Oxygen saturation monitoring",
+    "level": 4,
+    "pageStart": 499,
+    "pageEnd": 499
+  },
+  {
+    "title": "Positioning and containment",
+    "level": 4,
+    "pageStart": 500,
+    "pageEnd": 500
+  },
+  {
+    "title": "Noninvasive ventilation",
+    "level": 4,
+    "pageStart": 500,
+    "pageEnd": 501
+  },
+  {
+    "title": "Mechanical ventilation",
+    "level": 4,
+    "pageStart": 502,
+    "pageEnd": 502
+  },
+  {
+    "title": "Airway security",
+    "level": 5,
+    "pageStart": 502,
+    "pageEnd": 502
+  },
+  {
+    "title": "Endotracheal tube movement and malposition",
+    "level": 5,
+    "pageStart": 502,
+    "pageEnd": 502
+  },
+  {
+    "title": "Suctioning",
+    "level": 5,
+    "pageStart": 503,
+    "pageEnd": 503
+  },
+  {
+    "title": "Ventilator-associated pneumonia",
+    "level": 5,
+    "pageStart": 503,
+    "pageEnd": 503
+  },
+  {
+    "title": "High-frequency ventilation",
+    "level": 4,
+    "pageStart": 504,
+    "pageEnd": 504
+  },
+  {
+    "title": "Inhaled nitric oxide",
+    "level": 4,
+    "pageStart": 504,
+    "pageEnd": 504
+  },
+  {
+    "title": "Sudden deterioration",
+    "level": 4,
+    "pageStart": 505,
+    "pageEnd": 505
+  },
+  {
+    "title": "General care of the neonate",
+    "level": 3,
+    "pageStart": 505,
+    "pageEnd": 505
+  },
+  {
+    "title": "Thermal instability",
+    "level": 4,
+    "pageStart": 505,
+    "pageEnd": 505
+  },
+  {
+    "title": "Nutrition",
+    "level": 4,
+    "pageStart": 506,
+    "pageEnd": 506
+  },
+  {
+    "title": "Skin care",
+    "level": 4,
+    "pageStart": 506,
+    "pageEnd": 506
+  },
+  {
+    "title": "Adhesive application and removal",
+    "level": 5,
+    "pageStart": 506,
+    "pageEnd": 506
+  },
+  {
+    "title": "Pressure ulcers and skin injury",
+    "level": 5,
+    "pageStart": 506,
+    "pageEnd": 506
+  },
+  {
+    "title": "Managing pain",
+    "level": 4,
+    "pageStart": 507,
+    "pageEnd": 507
+  },
+  {
+    "title": "Developmental care",
+    "level": 4,
+    "pageStart": 508,
+    "pageEnd": 508
+  },
+  {
+    "title": "Skin-to-skin holding",
+    "level": 4,
+    "pageStart": 508,
+    "pageEnd": 508
+  },
+  {
+    "title": "Care of the family",
+    "level": 3,
+    "pageStart": 508,
+    "pageEnd": 508
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 509,
+    "pageEnd": 509
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 509,
+    "pageEnd": 512
+  },
+  {
+    "title": "31 Nutritional support",
+    "level": 2,
+    "pageStart": 513,
+    "pageEnd": 513
+  },
+  {
+    "title": "The importance of nutrition during critical stages of lung development",
+    "level": 3,
+    "pageStart": 513,
+    "pageEnd": 513
+  },
+  {
+    "title": "Nutritional requirements",
+    "level": 3,
+    "pageStart": 514,
+    "pageEnd": 514
+  },
+  {
+    "title": "Water requirement",
+    "level": 4,
+    "pageStart": 514,
+    "pageEnd": 514
+  },
+  {
+    "title": "Insensible water loss",
+    "level": 5,
+    "pageStart": 514,
+    "pageEnd": 514
+  },
+  {
+    "title": "Renal function and water excretion",
+    "level": 5,
+    "pageStart": 514,
+    "pageEnd": 514
+  },
+  {
+    "title": "Energy requirement",
+    "level": 4,
+    "pageStart": 514,
+    "pageEnd": 514
+  },
+  {
+    "title": "Protein requirement",
+    "level": 4,
+    "pageStart": 515,
+    "pageEnd": 515
+  },
+  {
+    "title": "Lipid requirement",
+    "level": 4,
+    "pageStart": 515,
+    "pageEnd": 515
+  },
+  {
+    "title": "Carbohydrate requirement",
+    "level": 4,
+    "pageStart": 516,
+    "pageEnd": 516
+  },
+  {
+    "title": "Mineral requirements",
+    "level": 4,
+    "pageStart": 517,
+    "pageEnd": 517
+  },
+  {
+    "title": "Vitamin requirements",
+    "level": 4,
+    "pageStart": 518,
+    "pageEnd": 518
+  },
+  {
+    "title": "Parenteral nutrition",
+    "level": 3,
+    "pageStart": 519,
+    "pageEnd": 519
+  },
+  {
+    "title": "Composition of total parenteral nutrition",
+    "level": 4,
+    "pageStart": 519,
+    "pageEnd": 519
+  },
+  {
+    "title": "Enteral nutrition",
+    "level": 3,
+    "pageStart": 520,
+    "pageEnd": 520
+  },
+  {
+    "title": "Advantages of enteral nutrition",
+    "level": 4,
+    "pageStart": 520,
+    "pageEnd": 520
+  },
+  {
+    "title": "Methods of gavage feeding",
+    "level": 4,
+    "pageStart": 520,
+    "pageEnd": 520
+  },
+  {
+    "title": "Minimal enteral feedings and enteral feeding advancement",
+    "level": 4,
+    "pageStart": 520,
+    "pageEnd": 520
+  },
+  {
+    "title": "Human milk",
+    "level": 4,
+    "pageStart": 521,
+    "pageEnd": 521
+  },
+  {
+    "title": "Donor human milk",
+    "level": 4,
+    "pageStart": 521,
+    "pageEnd": 521
+  },
+  {
+    "title": "Human milk fortification",
+    "level": 4,
+    "pageStart": 522,
+    "pageEnd": 522
+  },
+  {
+    "title": "Formulas",
+    "level": 4,
+    "pageStart": 522,
+    "pageEnd": 522
+  },
+  {
+    "title": "Special nutritional considerations for infants with established bronchopulmonary dysplasia",
+    "level": 3,
+    "pageStart": 522,
+    "pageEnd": 522
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 523,
+    "pageEnd": 530
+  },
+  {
+    "title": "32 Pharmacologic therapies",
+    "level": 2,
+    "pageStart": 531,
+    "pageEnd": 531
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 531,
+    "pageEnd": 531
+  },
+  {
+    "title": "Steroids",
+    "level": 3,
+    "pageStart": 531,
+    "pageEnd": 531
+  },
+  {
+    "title": "Early postnatal (<8 days) steroid therapy for prevention of bronchopulmonary dysplasia",
+    "level": 4,
+    "pageStart": 532,
+    "pageEnd": 532
+  },
+  {
+    "title": "Late (\u22658 days) postnatal steroid therapy for prevention or therapy of bronchopulmonary dysplasia in preterm infants",
+    "level": 4,
+    "pageStart": 532,
+    "pageEnd": 533
+  },
+  {
+    "title": "Sedation and analgesia",
+    "level": 3,
+    "pageStart": 534,
+    "pageEnd": 534
+  },
+  {
+    "title": "Opioids",
+    "level": 4,
+    "pageStart": 534,
+    "pageEnd": 534
+  },
+  {
+    "title": "Morphine",
+    "level": 5,
+    "pageStart": 535,
+    "pageEnd": 535
+  },
+  {
+    "title": "Fentanyl",
+    "level": 5,
+    "pageStart": 536,
+    "pageEnd": 536
+  },
+  {
+    "title": "Dexmedetomidine",
+    "level": 5,
+    "pageStart": 536,
+    "pageEnd": 536
+  },
+  {
+    "title": "Benzodiazepines",
+    "level": 4,
+    "pageStart": 537,
+    "pageEnd": 537
+  },
+  {
+    "title": "Midazolam",
+    "level": 5,
+    "pageStart": 537,
+    "pageEnd": 537
+  },
+  {
+    "title": "Lorazepam",
+    "level": 5,
+    "pageStart": 538,
+    "pageEnd": 538
+  },
+  {
+    "title": "Diazepam",
+    "level": 5,
+    "pageStart": 538,
+    "pageEnd": 538
+  },
+  {
+    "title": "Other sedative agents",
+    "level": 4,
+    "pageStart": 538,
+    "pageEnd": 538
+  },
+  {
+    "title": "Muscle relaxants",
+    "level": 3,
+    "pageStart": 538,
+    "pageEnd": 538
+  },
+  {
+    "title": "Pancuronium",
+    "level": 4,
+    "pageStart": 539,
+    "pageEnd": 539
+  },
+  {
+    "title": "Vecuronium",
+    "level": 4,
+    "pageStart": 540,
+    "pageEnd": 540
+  },
+  {
+    "title": "Rocuronium",
+    "level": 4,
+    "pageStart": 540,
+    "pageEnd": 540
+  },
+  {
+    "title": "Cisatracurium",
+    "level": 4,
+    "pageStart": 540,
+    "pageEnd": 540
+  },
+  {
+    "title": "Bronchodilators and mucolytic agents",
+    "level": 3,
+    "pageStart": 540,
+    "pageEnd": 540
+  },
+  {
+    "title": "Albuterol (salbutamol)",
+    "level": 4,
+    "pageStart": 541,
+    "pageEnd": 541
+  },
+  {
+    "title": "Cromoglycic acid",
+    "level": 4,
+    "pageStart": 541,
+    "pageEnd": 541
+  },
+  {
+    "title": "Ipratropium bromide",
+    "level": 4,
+    "pageStart": 542,
+    "pageEnd": 542
+  },
+  {
+    "title": "Racemic epinephrine",
+    "level": 4,
+    "pageStart": 542,
+    "pageEnd": 542
+  },
+  {
+    "title": "N-acetylcysteine",
+    "level": 4,
+    "pageStart": 542,
+    "pageEnd": 542
+  },
+  {
+    "title": "Combination therapies",
+    "level": 4,
+    "pageStart": 542,
+    "pageEnd": 542
+  },
+  {
+    "title": "Diuretics",
+    "level": 3,
+    "pageStart": 542,
+    "pageEnd": 542
+  },
+  {
+    "title": "Furosemide",
+    "level": 4,
+    "pageStart": 543,
+    "pageEnd": 543
+  },
+  {
+    "title": "Bumetanide",
+    "level": 4,
+    "pageStart": 544,
+    "pageEnd": 544
+  },
+  {
+    "title": "Thiazides and potassium-sparing diuretics",
+    "level": 4,
+    "pageStart": 544,
+    "pageEnd": 544
+  },
+  {
+    "title": "Respiratory stimulants",
+    "level": 3,
+    "pageStart": 544,
+    "pageEnd": 544
+  },
+  {
+    "title": "Theophylline",
+    "level": 4,
+    "pageStart": 544,
+    "pageEnd": 544
+  },
+  {
+    "title": "Caffeine",
+    "level": 4,
+    "pageStart": 545,
+    "pageEnd": 545
+  },
+  {
+    "title": "Doxapram",
+    "level": 4,
+    "pageStart": 545,
+    "pageEnd": 545
+  },
+  {
+    "title": "Summary",
+    "level": 3,
+    "pageStart": 546,
+    "pageEnd": 546
+  },
+  {
+    "title": "Key readings",
+    "level": 3,
+    "pageStart": 546,
+    "pageEnd": 553
+  },
+  {
+    "title": "33 Common hemodynamic problems in the neonate requiring respiratory support",
+    "level": 2,
+    "pageStart": 554,
+    "pageEnd": 554
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 554,
+    "pageEnd": 554
+  },
+  {
+    "title": "Normal transition",
+    "level": 3,
+    "pageStart": 555,
+    "pageEnd": 555
+  },
+  {
+    "title": "Hemodynamic problems in the neonate",
+    "level": 3,
+    "pageStart": 555,
+    "pageEnd": 555
+  },
+  {
+    "title": "Persistent pulmonary hypertension of the newborn",
+    "level": 4,
+    "pageStart": 555,
+    "pageEnd": 555
+  },
+  {
+    "title": "Clinical evaluation",
+    "level": 5,
+    "pageStart": 555,
+    "pageEnd": 555
+  },
+  {
+    "title": "Intervention",
+    "level": 5,
+    "pageStart": 555,
+    "pageEnd": 555
+  },
+  {
+    "title": "Specific therapy.",
+    "level": 6,
+    "pageStart": 555,
+    "pageEnd": 555
+  },
+  {
+    "title": "Cardiovascular support.",
+    "level": 6,
+    "pageStart": 555,
+    "pageEnd": 555
+  },
+  {
+    "title": "Research needs",
+    "level": 5,
+    "pageStart": 556,
+    "pageEnd": 556
+  },
+  {
+    "title": "Septic shock",
+    "level": 4,
+    "pageStart": 556,
+    "pageEnd": 556
+  },
+  {
+    "title": "Clinical evaluation",
+    "level": 5,
+    "pageStart": 556,
+    "pageEnd": 556
+  },
+  {
+    "title": "Research needs",
+    "level": 5,
+    "pageStart": 556,
+    "pageEnd": 556
+  },
+  {
+    "title": "Hypoxic ischemic encephalopathy",
+    "level": 4,
+    "pageStart": 557,
+    "pageEnd": 557
+  },
+  {
+    "title": "Cardiogenic shock",
+    "level": 4,
+    "pageStart": 557,
+    "pageEnd": 557
+  },
+  {
+    "title": "Hypotension in the extremely low gestational age newborn",
+    "level": 4,
+    "pageStart": 557,
+    "pageEnd": 557
+  },
+  {
+    "title": "Research needs",
+    "level": 5,
+    "pageStart": 558,
+    "pageEnd": 558
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 558,
+    "pageEnd": 558
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 558,
+    "pageEnd": 560
+  },
+  {
+    "title": "Section 5 Treatment of Specific Conditions, Surgical Interventions and Other Considerations",
+    "level": 1,
+    "pageStart": 561,
+    "pageEnd": 561
+  },
+  {
+    "title": "34 Diagnosis and management of persistent pulmonary hypertension of the newborn",
+    "level": 2,
+    "pageStart": 561,
+    "pageEnd": 561
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 561,
+    "pageEnd": 561
+  },
+  {
+    "title": "Etiology",
+    "level": 3,
+    "pageStart": 561,
+    "pageEnd": 561
+  },
+  {
+    "title": "Clinical features",
+    "level": 3,
+    "pageStart": 561,
+    "pageEnd": 561
+  },
+  {
+    "title": "Hypoxemia in persistent pulmonary hypertension of the newborn",
+    "level": 3,
+    "pageStart": 562,
+    "pageEnd": 562
+  },
+  {
+    "title": "Diagnosis",
+    "level": 4,
+    "pageStart": 563,
+    "pageEnd": 563
+  },
+  {
+    "title": "Echocardiography and hemodynamic assessment in persistent pulmonary hypertension of the newborn\u00b2\u2070",
+    "level": 3,
+    "pageStart": 563,
+    "pageEnd": 564
+  },
+  {
+    "title": "Severity of persistent pulmonary hypertension of the newborn",
+    "level": 4,
+    "pageStart": 565,
+    "pageEnd": 565
+  },
+  {
+    "title": "Ventricular function",
+    "level": 4,
+    "pageStart": 565,
+    "pageEnd": 565
+  },
+  {
+    "title": "Shunt direction",
+    "level": 4,
+    "pageStart": 565,
+    "pageEnd": 565
+  },
+  {
+    "title": "Precapillary versus pulmonary venous hypertension",
+    "level": 4,
+    "pageStart": 565,
+    "pageEnd": 565
+  },
+  {
+    "title": "Supportive management",
+    "level": 4,
+    "pageStart": 566,
+    "pageEnd": 566
+  },
+  {
+    "title": "Asphyxia, hypothermia, and persistent pulmonary hypertension of the newborn",
+    "level": 3,
+    "pageStart": 567,
+    "pageEnd": 567
+  },
+  {
+    "title": "Oxygen",
+    "level": 4,
+    "pageStart": 567,
+    "pageEnd": 567
+  },
+  {
+    "title": "Carbon dioxide and pH targets",
+    "level": 4,
+    "pageStart": 568,
+    "pageEnd": 568
+  },
+  {
+    "title": "Noninvasive ventilation",
+    "level": 4,
+    "pageStart": 569,
+    "pageEnd": 569
+  },
+  {
+    "title": "Invasive ventilation",
+    "level": 4,
+    "pageStart": 569,
+    "pageEnd": 569
+  },
+  {
+    "title": "Surfactants in persistent pulmonary hypertension of the newborn",
+    "level": 3,
+    "pageStart": 570,
+    "pageEnd": 570
+  },
+  {
+    "title": "Inhaled nitric oxide",
+    "level": 3,
+    "pageStart": 570,
+    "pageEnd": 570
+  },
+  {
+    "title": "Initiation of inhaled nitric oxide",
+    "level": 4,
+    "pageStart": 570,
+    "pageEnd": 571
+  },
+  {
+    "title": "Weaning inhaled nitric oxide",
+    "level": 4,
+    "pageStart": 572,
+    "pageEnd": 572
+  },
+  {
+    "title": "Sildenafil",
+    "level": 3,
+    "pageStart": 572,
+    "pageEnd": 572
+  },
+  {
+    "title": "Milrinone",
+    "level": 3,
+    "pageStart": 573,
+    "pageEnd": 573
+  },
+  {
+    "title": "Prostaglandin E1",
+    "level": 3,
+    "pageStart": 574,
+    "pageEnd": 574
+  },
+  {
+    "title": "Endothelin receptor antagonists",
+    "level": 3,
+    "pageStart": 574,
+    "pageEnd": 574
+  },
+  {
+    "title": "Management of systemic hypotension in persistent pulmonary hypertension of the newborn",
+    "level": 3,
+    "pageStart": 575,
+    "pageEnd": 575
+  },
+  {
+    "title": "Fluid management",
+    "level": 4,
+    "pageStart": 576,
+    "pageEnd": 576
+  },
+  {
+    "title": "Sodium bicarbonate",
+    "level": 4,
+    "pageStart": 576,
+    "pageEnd": 576
+  },
+  {
+    "title": "Vasoactive infusions",
+    "level": 4,
+    "pageStart": 576,
+    "pageEnd": 576
+  },
+  {
+    "title": "Hydrocortisone",
+    "level": 5,
+    "pageStart": 576,
+    "pageEnd": 576
+  },
+  {
+    "title": "Preterm infants with early pulmonary hypertension (preterm persistent pulmonary hypertension of the newborn)",
+    "level": 3,
+    "pageStart": 577,
+    "pageEnd": 577
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 577,
+    "pageEnd": 577
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 577,
+    "pageEnd": 581
+  },
+  {
+    "title": "35 Care of the infant with congenital diaphragmatic hernia",
+    "level": 2,
+    "pageStart": 582,
+    "pageEnd": 582
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 582,
+    "pageEnd": 582
+  },
+  {
+    "title": "Antenatal assessment of severity and fetal management",
+    "level": 3,
+    "pageStart": 582,
+    "pageEnd": 582
+  },
+  {
+    "title": "Initial treatment and procedures in the delivery room",
+    "level": 3,
+    "pageStart": 582,
+    "pageEnd": 583
+  },
+  {
+    "title": "Transport from delivery room to neonatal intensive care unit",
+    "level": 3,
+    "pageStart": 584,
+    "pageEnd": 584
+  },
+  {
+    "title": "Initial ventilation in congenital diaphragmatic hernia",
+    "level": 3,
+    "pageStart": 585,
+    "pageEnd": 585
+  },
+  {
+    "title": "Gentle ventilation in congenital diaphragmatic hernia",
+    "level": 3,
+    "pageStart": 586,
+    "pageEnd": 588
+  },
+  {
+    "title": "Supportive measures",
+    "level": 3,
+    "pageStart": 589,
+    "pageEnd": 589
+  },
+  {
+    "title": "Echocardiogram",
+    "level": 4,
+    "pageStart": 589,
+    "pageEnd": 589
+  },
+  {
+    "title": "Pulmonary vasodilator therapy",
+    "level": 3,
+    "pageStart": 589,
+    "pageEnd": 589
+  },
+  {
+    "title": "Inhaled nitric oxide",
+    "level": 4,
+    "pageStart": 589,
+    "pageEnd": 589
+  },
+  {
+    "title": "Milrinone",
+    "level": 4,
+    "pageStart": 589,
+    "pageEnd": 590
+  },
+  {
+    "title": "Prostaglandin infusion",
+    "level": 4,
+    "pageStart": 591,
+    "pageEnd": 591
+  },
+  {
+    "title": "Sildenafil",
+    "level": 4,
+    "pageStart": 591,
+    "pageEnd": 591
+  },
+  {
+    "title": "Extracorporeal membrane oxygenation",
+    "level": 3,
+    "pageStart": 592,
+    "pageEnd": 592
+  },
+  {
+    "title": "Surgical repair",
+    "level": 3,
+    "pageStart": 592,
+    "pageEnd": 592
+  },
+  {
+    "title": "Pulmonary and nutritional outcome",
+    "level": 3,
+    "pageStart": 592,
+    "pageEnd": 592
+  },
+  {
+    "title": "Discharge and follow-up",
+    "level": 3,
+    "pageStart": 592,
+    "pageEnd": 592
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 592,
+    "pageEnd": 592
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 592,
+    "pageEnd": 595
+  },
+  {
+    "title": "36 Management of the infant with bronchopulmonary dysplasia",
+    "level": 2,
+    "pageStart": 596,
+    "pageEnd": 596
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 596,
+    "pageEnd": 596
+  },
+  {
+    "title": "Epidemiology, pathophysiology, and diagnosis of bronchopulmonary dysplasia",
+    "level": 3,
+    "pageStart": 596,
+    "pageEnd": 597
+  },
+  {
+    "title": "Prevention of bronchopulmonary dysplasia",
+    "level": 3,
+    "pageStart": 598,
+    "pageEnd": 598
+  },
+  {
+    "title": "Clinical presentation and evaluation of infants with established bronchopulmonary dysplasia",
+    "level": 3,
+    "pageStart": 598,
+    "pageEnd": 598
+  },
+  {
+    "title": "Clinical presentation of severe bronchopulmonary dysplasia",
+    "level": 4,
+    "pageStart": 598,
+    "pageEnd": 598
+  },
+  {
+    "title": "Severe lung parenchymal disease as the leading feature of severe bronchopulmonary dysplasia",
+    "level": 5,
+    "pageStart": 599,
+    "pageEnd": 599
+  },
+  {
+    "title": "Pulmonary hypertension as the leading feature of severe bronchopulmonary dysplasia",
+    "level": 5,
+    "pageStart": 599,
+    "pageEnd": 599
+  },
+  {
+    "title": "Airway disease as the leading feature of severe bronchopulmonary dysplasia",
+    "level": 5,
+    "pageStart": 599,
+    "pageEnd": 599
+  },
+  {
+    "title": "Evaluation of infants with severe bronchopulmonary dysplasia",
+    "level": 4,
+    "pageStart": 599,
+    "pageEnd": 599
+  },
+  {
+    "title": "Physiologic basis for respiratory support in infants with established bronchopulmonary dysplasia",
+    "level": 3,
+    "pageStart": 600,
+    "pageEnd": 600
+  },
+  {
+    "title": "Ventilatory control in infants with bronchopulmonary dysplasia",
+    "level": 4,
+    "pageStart": 600,
+    "pageEnd": 600
+  },
+  {
+    "title": "Pulmonary mechanics in infants with bronchopulmonary dysplasia",
+    "level": 4,
+    "pageStart": 600,
+    "pageEnd": 600
+  },
+  {
+    "title": "Management of infants with established bronchopulmonary dysplasia",
+    "level": 3,
+    "pageStart": 600,
+    "pageEnd": 600
+  },
+  {
+    "title": "Keys to successful bronchopulmonary dysplasia management",
+    "level": 4,
+    "pageStart": 600,
+    "pageEnd": 600
+  },
+  {
+    "title": "Respiratory management in infants with established bronchopulmonary dysplasia",
+    "level": 4,
+    "pageStart": 601,
+    "pageEnd": 601
+  },
+  {
+    "title": "Noninvasive ventilation",
+    "level": 5,
+    "pageStart": 601,
+    "pageEnd": 601
+  },
+  {
+    "title": "Mechanical ventilation",
+    "level": 5,
+    "pageStart": 601,
+    "pageEnd": 601
+  },
+  {
+    "title": "Conventional mechanical ventilation.",
+    "level": 6,
+    "pageStart": 602,
+    "pageEnd": 604
+  },
+  {
+    "title": "High-frequency ventilation.",
+    "level": 6,
+    "pageStart": 605,
+    "pageEnd": 605
+  },
+  {
+    "title": "Adjunctive respiratory support therapies in infants with established bronchopulmonary dysplasia",
+    "level": 3,
+    "pageStart": 605,
+    "pageEnd": 605
+  },
+  {
+    "title": "Heliox",
+    "level": 4,
+    "pageStart": 605,
+    "pageEnd": 605
+  },
+  {
+    "title": "Pharmacotherapies",
+    "level": 4,
+    "pageStart": 606,
+    "pageEnd": 606
+  },
+  {
+    "title": "Management of pulmonary hypertension",
+    "level": 4,
+    "pageStart": 606,
+    "pageEnd": 607
+  },
+  {
+    "title": "Management of persistent ductus arteriosus",
+    "level": 4,
+    "pageStart": 608,
+    "pageEnd": 608
+  },
+  {
+    "title": "Nutritional support",
+    "level": 4,
+    "pageStart": 608,
+    "pageEnd": 608
+  },
+  {
+    "title": "Minimizing pulmonary micro-aspiration",
+    "level": 4,
+    "pageStart": 609,
+    "pageEnd": 609
+  },
+  {
+    "title": "Role of tracheostomy in infants requiring long-term support",
+    "level": 4,
+    "pageStart": 610,
+    "pageEnd": 610
+  },
+  {
+    "title": "Pulmonary outcomes in infants with bronchopulmonary dysplasia",
+    "level": 3,
+    "pageStart": 610,
+    "pageEnd": 610
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 610,
+    "pageEnd": 610
+  },
+  {
+    "title": "Selected readings",
+    "level": 3,
+    "pageStart": 610,
+    "pageEnd": 615
+  },
+  {
+    "title": "37 Medical and surgical interventions for respiratory distress and airway management",
+    "level": 2,
+    "pageStart": 616,
+    "pageEnd": 616
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 616,
+    "pageEnd": 616
+  },
+  {
+    "title": "Medical management of the neonatal airway",
+    "level": 3,
+    "pageStart": 616,
+    "pageEnd": 616
+  },
+  {
+    "title": "Anatomic disadvantages of the neonatal airway",
+    "level": 3,
+    "pageStart": 616,
+    "pageEnd": 616
+  },
+  {
+    "title": "Medical management of neonates with common respiratory disorders requiring surgical intervention",
+    "level": 3,
+    "pageStart": 617,
+    "pageEnd": 617
+  },
+  {
+    "title": "Congenital airway disorders",
+    "level": 4,
+    "pageStart": 617,
+    "pageEnd": 617
+  },
+  {
+    "title": "Acquired airway disorders",
+    "level": 4,
+    "pageStart": 618,
+    "pageEnd": 618
+  },
+  {
+    "title": "Surgical management of the neonatal airway",
+    "level": 3,
+    "pageStart": 618,
+    "pageEnd": 618
+  },
+  {
+    "title": "The pediatric surgeon/otolaryngologist as diagnostician and therapist",
+    "level": 3,
+    "pageStart": 619,
+    "pageEnd": 619
+  },
+  {
+    "title": "Developmental abnormalities of the airway",
+    "level": 4,
+    "pageStart": 619,
+    "pageEnd": 619
+  },
+  {
+    "title": "Nasopharyngeal obstruction",
+    "level": 5,
+    "pageStart": 619,
+    "pageEnd": 619
+  },
+  {
+    "title": "Choanal atresia",
+    "level": 5,
+    "pageStart": 619,
+    "pageEnd": 619
+  },
+  {
+    "title": "Oropharyngeal obstruction",
+    "level": 5,
+    "pageStart": 620,
+    "pageEnd": 620
+  },
+  {
+    "title": "Macroglossia.",
+    "level": 6,
+    "pageStart": 620,
+    "pageEnd": 620
+  },
+  {
+    "title": "Beckwith-Wiedemann syndrome.",
+    "level": 6,
+    "pageStart": 620,
+    "pageEnd": 620
+  },
+  {
+    "title": "Metabolic disorders.",
+    "level": 6,
+    "pageStart": 620,
+    "pageEnd": 620
+  },
+  {
+    "title": "Trisomy 21 (Down syndrome).",
+    "level": 6,
+    "pageStart": 620,
+    "pageEnd": 620
+  },
+  {
+    "title": "Severe bronchopulmonary dysplasia.",
+    "level": 6,
+    "pageStart": 620,
+    "pageEnd": 620
+  },
+  {
+    "title": "Lingual thyroid.",
+    "level": 6,
+    "pageStart": 620,
+    "pageEnd": 620
+  },
+  {
+    "title": "Craniofacial Dysmorphology syndromes.",
+    "level": 6,
+    "pageStart": 621,
+    "pageEnd": 621
+  },
+  {
+    "title": "Pierre Robin sequence.",
+    "level": 6,
+    "pageStart": 621,
+    "pageEnd": 621
+  },
+  {
+    "title": "Treacher Collins syndrome.",
+    "level": 6,
+    "pageStart": 621,
+    "pageEnd": 621
+  },
+  {
+    "title": "Hallermann-Streiff syndrome.",
+    "level": 6,
+    "pageStart": 621,
+    "pageEnd": 621
+  },
+  {
+    "title": "M\u00f6bius syndrome.",
+    "level": 6,
+    "pageStart": 621,
+    "pageEnd": 621
+  },
+  {
+    "title": "Freeman-Sheldon syndrome.",
+    "level": 6,
+    "pageStart": 622,
+    "pageEnd": 622
+  },
+  {
+    "title": "Nager syndrome.",
+    "level": 6,
+    "pageStart": 622,
+    "pageEnd": 622
+  },
+  {
+    "title": "Laryngeal anomalies",
+    "level": 5,
+    "pageStart": 622,
+    "pageEnd": 622
+  },
+  {
+    "title": "Laryngeal atresia.",
+    "level": 6,
+    "pageStart": 622,
+    "pageEnd": 622
+  },
+  {
+    "title": "Laryngeal web.",
+    "level": 6,
+    "pageStart": 622,
+    "pageEnd": 622
+  },
+  {
+    "title": "Congenital vocal cord paralysis.",
+    "level": 6,
+    "pageStart": 623,
+    "pageEnd": 623
+  },
+  {
+    "title": "Laryngomalacia.",
+    "level": 6,
+    "pageStart": 623,
+    "pageEnd": 623
+  },
+  {
+    "title": "Congenital subglottic stenosis.",
+    "level": 6,
+    "pageStart": 624,
+    "pageEnd": 624
+  },
+  {
+    "title": "Acquired subglottic stenosis.",
+    "level": 6,
+    "pageStart": 624,
+    "pageEnd": 624
+  },
+  {
+    "title": "Laryngeal cleft.",
+    "level": 6,
+    "pageStart": 624,
+    "pageEnd": 624
+  },
+  {
+    "title": "Subglottic hemangioma.",
+    "level": 6,
+    "pageStart": 624,
+    "pageEnd": 624
+  },
+  {
+    "title": "Tracheal anomalies",
+    "level": 5,
+    "pageStart": 624,
+    "pageEnd": 624
+  },
+  {
+    "title": "Intrinsic tracheal compression.",
+    "level": 6,
+    "pageStart": 624,
+    "pageEnd": 624
+  },
+  {
+    "title": "Tracheomalacia.",
+    "level": 7,
+    "pageStart": 624,
+    "pageEnd": 624
+  },
+  {
+    "title": "Tracheal stenosis.",
+    "level": 7,
+    "pageStart": 625,
+    "pageEnd": 625
+  },
+  {
+    "title": "Necrotizing tracheobronchitis.",
+    "level": 7,
+    "pageStart": 625,
+    "pageEnd": 625
+  },
+  {
+    "title": "Extrinsic tracheal compression.",
+    "level": 6,
+    "pageStart": 626,
+    "pageEnd": 626
+  },
+  {
+    "title": "Cystic hygroma.",
+    "level": 7,
+    "pageStart": 626,
+    "pageEnd": 626
+  },
+  {
+    "title": "Vascular rings.",
+    "level": 7,
+    "pageStart": 626,
+    "pageEnd": 626
+  },
+  {
+    "title": "Developmental abnormalities of the lung",
+    "level": 4,
+    "pageStart": 626,
+    "pageEnd": 626
+  },
+  {
+    "title": "Pulmonary and lobar agenesis",
+    "level": 5,
+    "pageStart": 626,
+    "pageEnd": 626
+  },
+  {
+    "title": "Pulmonary hypoplasia",
+    "level": 5,
+    "pageStart": 627,
+    "pageEnd": 627
+  },
+  {
+    "title": "Congenital lobar emphysema",
+    "level": 5,
+    "pageStart": 627,
+    "pageEnd": 627
+  },
+  {
+    "title": "Congenital pulmonary airway malformation",
+    "level": 5,
+    "pageStart": 627,
+    "pageEnd": 627
+  },
+  {
+    "title": "Sequestration",
+    "level": 5,
+    "pageStart": 627,
+    "pageEnd": 627
+  },
+  {
+    "title": "Pulmonary cystic lesions",
+    "level": 5,
+    "pageStart": 628,
+    "pageEnd": 628
+  },
+  {
+    "title": "Developmental abnormalities of the diaphragm",
+    "level": 4,
+    "pageStart": 628,
+    "pageEnd": 628
+  },
+  {
+    "title": "Diaphragmatic hernia of bochdalek",
+    "level": 5,
+    "pageStart": 628,
+    "pageEnd": 628
+  },
+  {
+    "title": "Diaphragmatic paralysis/eventration",
+    "level": 5,
+    "pageStart": 629,
+    "pageEnd": 629
+  },
+  {
+    "title": "Developmental abnormalities of the skeleton",
+    "level": 4,
+    "pageStart": 629,
+    "pageEnd": 629
+  },
+  {
+    "title": "The pediatric surgeon/otolaryngologist as consultant",
+    "level": 3,
+    "pageStart": 629,
+    "pageEnd": 629
+  },
+  {
+    "title": "Neonatal bronchoscopy",
+    "level": 4,
+    "pageStart": 629,
+    "pageEnd": 629
+  },
+  {
+    "title": "Anatomic considerations",
+    "level": 5,
+    "pageStart": 629,
+    "pageEnd": 629
+  },
+  {
+    "title": "Pathophysiology",
+    "level": 4,
+    "pageStart": 629,
+    "pageEnd": 629
+  },
+  {
+    "title": "Evaluation of intubation",
+    "level": 4,
+    "pageStart": 629,
+    "pageEnd": 629
+  },
+  {
+    "title": "Endoscopes",
+    "level": 5,
+    "pageStart": 629,
+    "pageEnd": 629
+  },
+  {
+    "title": "Tracheostomy",
+    "level": 4,
+    "pageStart": 630,
+    "pageEnd": 630
+  },
+  {
+    "title": "Procedure",
+    "level": 5,
+    "pageStart": 630,
+    "pageEnd": 630
+  },
+  {
+    "title": "Anterior cricoid split procedure",
+    "level": 5,
+    "pageStart": 631,
+    "pageEnd": 631
+  },
+  {
+    "title": "Tracheostomy tubes",
+    "level": 5,
+    "pageStart": 632,
+    "pageEnd": 632
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 633,
+    "pageEnd": 635
+  },
+  {
+    "title": "38 Intraoperative management of the neonate",
+    "level": 2,
+    "pageStart": 636,
+    "pageEnd": 636
+  },
+  {
+    "title": "Transitional physiology and pulmonary hypertension",
+    "level": 3,
+    "pageStart": 636,
+    "pageEnd": 636
+  },
+  {
+    "title": "Pulmonary development and lung injury",
+    "level": 3,
+    "pageStart": 637,
+    "pageEnd": 637
+  },
+  {
+    "title": "Anatomic considerations",
+    "level": 3,
+    "pageStart": 638,
+    "pageEnd": 638
+  },
+  {
+    "title": "Intrathoracic masses",
+    "level": 4,
+    "pageStart": 638,
+    "pageEnd": 638
+  },
+  {
+    "title": "Abdominal wall defects",
+    "level": 4,
+    "pageStart": 639,
+    "pageEnd": 639
+  },
+  {
+    "title": "Location of operation",
+    "level": 3,
+    "pageStart": 639,
+    "pageEnd": 639
+  },
+  {
+    "title": "Premedication for intubation",
+    "level": 4,
+    "pageStart": 640,
+    "pageEnd": 640
+  },
+  {
+    "title": "Selection and placement of the endotracheal tube",
+    "level": 4,
+    "pageStart": 640,
+    "pageEnd": 641
+  },
+  {
+    "title": "Operative management",
+    "level": 3,
+    "pageStart": 642,
+    "pageEnd": 642
+  },
+  {
+    "title": "Ventilator mode",
+    "level": 4,
+    "pageStart": 642,
+    "pageEnd": 642
+  },
+  {
+    "title": "Vital signs",
+    "level": 4,
+    "pageStart": 642,
+    "pageEnd": 642
+  },
+  {
+    "title": "Intraoperative fluid management and electrolyte management",
+    "level": 4,
+    "pageStart": 643,
+    "pageEnd": 643
+  },
+  {
+    "title": "Additional operative considerations",
+    "level": 3,
+    "pageStart": 644,
+    "pageEnd": 644
+  },
+  {
+    "title": "Troubleshooting",
+    "level": 4,
+    "pageStart": 644,
+    "pageEnd": 644
+  },
+  {
+    "title": "Temperature regulation",
+    "level": 4,
+    "pageStart": 644,
+    "pageEnd": 644
+  },
+  {
+    "title": "Neonate pain perception",
+    "level": 4,
+    "pageStart": 644,
+    "pageEnd": 644
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 645,
+    "pageEnd": 645
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 645,
+    "pageEnd": 647
+  },
+  {
+    "title": "39 Complications of respiratory support",
+    "level": 2,
+    "pageStart": 648,
+    "pageEnd": 648
+  },
+  {
+    "title": "Complications of respiratory support",
+    "level": 3,
+    "pageStart": 648,
+    "pageEnd": 648
+  },
+  {
+    "title": "Mechanical ventilation",
+    "level": 3,
+    "pageStart": 648,
+    "pageEnd": 648
+  },
+  {
+    "title": "Endotracheal intubation",
+    "level": 3,
+    "pageStart": 648,
+    "pageEnd": 648
+  },
+  {
+    "title": "Unplanned extubation",
+    "level": 3,
+    "pageStart": 648,
+    "pageEnd": 648
+  },
+  {
+    "title": "Ventilator-induced lung injury",
+    "level": 3,
+    "pageStart": 649,
+    "pageEnd": 649
+  },
+  {
+    "title": "Ventilator-associated pneumonia",
+    "level": 3,
+    "pageStart": 649,
+    "pageEnd": 649
+  },
+  {
+    "title": "Ventilator-associated events and ventilator-associated conditions",
+    "level": 3,
+    "pageStart": 650,
+    "pageEnd": 650
+  },
+  {
+    "title": "Noninvasive respiratory support",
+    "level": 3,
+    "pageStart": 650,
+    "pageEnd": 650
+  },
+  {
+    "title": "Continuous positive airway pressure",
+    "level": 4,
+    "pageStart": 650,
+    "pageEnd": 650
+  },
+  {
+    "title": "High-flow nasal cannula",
+    "level": 4,
+    "pageStart": 650,
+    "pageEnd": 650
+  },
+  {
+    "title": "Positive pressure ventilation",
+    "level": 4,
+    "pageStart": 650,
+    "pageEnd": 650
+  },
+  {
+    "title": "Nasal intermittent positive pressure ventilation",
+    "level": 4,
+    "pageStart": 651,
+    "pageEnd": 651
+  },
+  {
+    "title": "Less invasive surfactant administration",
+    "level": 4,
+    "pageStart": 651,
+    "pageEnd": 651
+  },
+  {
+    "title": "Suggested readings",
+    "level": 3,
+    "pageStart": 651,
+    "pageEnd": 653
+  },
+  {
+    "title": "40 Neonatal respiratory care in resource-limited countries",
+    "level": 2,
+    "pageStart": 654,
+    "pageEnd": 654
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 654,
+    "pageEnd": 654
+  },
+  {
+    "title": "Scope of the need",
+    "level": 3,
+    "pageStart": 654,
+    "pageEnd": 654
+  },
+  {
+    "title": "Limiting factors",
+    "level": 3,
+    "pageStart": 655,
+    "pageEnd": 655
+  },
+  {
+    "title": "Current status",
+    "level": 3,
+    "pageStart": 655,
+    "pageEnd": 655
+  },
+  {
+    "title": "Asia",
+    "level": 4,
+    "pageStart": 655,
+    "pageEnd": 655
+  },
+  {
+    "title": "India",
+    "level": 5,
+    "pageStart": 655,
+    "pageEnd": 655
+  },
+  {
+    "title": "Other countries",
+    "level": 5,
+    "pageStart": 656,
+    "pageEnd": 656
+  },
+  {
+    "title": "Africa",
+    "level": 4,
+    "pageStart": 656,
+    "pageEnd": 656
+  },
+  {
+    "title": "Latin America",
+    "level": 4,
+    "pageStart": 656,
+    "pageEnd": 656
+  },
+  {
+    "title": "Establishing respiratory care programs",
+    "level": 3,
+    "pageStart": 657,
+    "pageEnd": 661
+  },
+  {
+    "title": "Outcomes of neonatal ventilation",
+    "level": 3,
+    "pageStart": 662,
+    "pageEnd": 662
+  },
+  {
+    "title": "Projected growth in neonatal ventilation: A global perspective",
+    "level": 3,
+    "pageStart": 662,
+    "pageEnd": 662
+  },
+  {
+    "title": "Ethical dilemmas",
+    "level": 3,
+    "pageStart": 663,
+    "pageEnd": 663
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 663,
+    "pageEnd": 663
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 663,
+    "pageEnd": 667
+  },
+  {
+    "title": "41 Transport of the ventilated infant",
+    "level": 2,
+    "pageStart": 668,
+    "pageEnd": 668
+  },
+  {
+    "title": "Important role of the transport team",
+    "level": 3,
+    "pageStart": 668,
+    "pageEnd": 668
+  },
+  {
+    "title": "Regionalized care",
+    "level": 3,
+    "pageStart": 668,
+    "pageEnd": 668
+  },
+  {
+    "title": "Transport team composition",
+    "level": 3,
+    "pageStart": 669,
+    "pageEnd": 669
+  },
+  {
+    "title": "Transport education",
+    "level": 3,
+    "pageStart": 670,
+    "pageEnd": 670
+  },
+  {
+    "title": "Transport physiology",
+    "level": 3,
+    "pageStart": 670,
+    "pageEnd": 670
+  },
+  {
+    "title": "Hypoxia",
+    "level": 4,
+    "pageStart": 670,
+    "pageEnd": 670
+  },
+  {
+    "title": "Air expansion",
+    "level": 4,
+    "pageStart": 671,
+    "pageEnd": 671
+  },
+  {
+    "title": "Noise and vibration",
+    "level": 4,
+    "pageStart": 671,
+    "pageEnd": 671
+  },
+  {
+    "title": "Thermoregulation",
+    "level": 4,
+    "pageStart": 671,
+    "pageEnd": 671
+  },
+  {
+    "title": "Stabilization",
+    "level": 3,
+    "pageStart": 671,
+    "pageEnd": 671
+  },
+  {
+    "title": "Clinical issues",
+    "level": 3,
+    "pageStart": 671,
+    "pageEnd": 671
+  },
+  {
+    "title": "Equipment",
+    "level": 3,
+    "pageStart": 672,
+    "pageEnd": 673
+  },
+  {
+    "title": "Transport ventilators",
+    "level": 4,
+    "pageStart": 674,
+    "pageEnd": 674
+  },
+  {
+    "title": "High-frequency ventilation",
+    "level": 4,
+    "pageStart": 674,
+    "pageEnd": 674
+  },
+  {
+    "title": "Continuous positive airway pressure",
+    "level": 4,
+    "pageStart": 675,
+    "pageEnd": 675
+  },
+  {
+    "title": "Surfactant administration",
+    "level": 4,
+    "pageStart": 676,
+    "pageEnd": 676
+  },
+  {
+    "title": "Inhaled nitric oxide",
+    "level": 4,
+    "pageStart": 676,
+    "pageEnd": 676
+  },
+  {
+    "title": "Extracorporeal membrane oxygenation",
+    "level": 4,
+    "pageStart": 676,
+    "pageEnd": 676
+  },
+  {
+    "title": "Hypothermia for hypoxic ischemic encephalopathy",
+    "level": 4,
+    "pageStart": 676,
+    "pageEnd": 676
+  },
+  {
+    "title": "Future directions",
+    "level": 3,
+    "pageStart": 677,
+    "pageEnd": 677
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 677,
+    "pageEnd": 679
+  },
+  {
+    "title": "42 Discharge and transition to home care",
+    "level": 2,
+    "pageStart": 680,
+    "pageEnd": 680
+  },
+  {
+    "title": "Factors to consider when determining readiness for discharge",
+    "level": 3,
+    "pageStart": 680,
+    "pageEnd": 680
+  },
+  {
+    "title": "Discharge team",
+    "level": 3,
+    "pageStart": 681,
+    "pageEnd": 681
+  },
+  {
+    "title": "Predischarge needs assessment",
+    "level": 3,
+    "pageStart": 681,
+    "pageEnd": 681
+  },
+  {
+    "title": "Home environment",
+    "level": 3,
+    "pageStart": 682,
+    "pageEnd": 682
+  },
+  {
+    "title": "Equipment and supplies",
+    "level": 3,
+    "pageStart": 682,
+    "pageEnd": 682
+  },
+  {
+    "title": "Personnel resources",
+    "level": 3,
+    "pageStart": 682,
+    "pageEnd": 682
+  },
+  {
+    "title": "Home nursing",
+    "level": 3,
+    "pageStart": 682,
+    "pageEnd": 682
+  },
+  {
+    "title": "Emergency planning",
+    "level": 3,
+    "pageStart": 682,
+    "pageEnd": 682
+  },
+  {
+    "title": "Postdischarge follow-up",
+    "level": 3,
+    "pageStart": 682,
+    "pageEnd": 682
+  },
+  {
+    "title": "Tracheostomy care",
+    "level": 3,
+    "pageStart": 683,
+    "pageEnd": 683
+  },
+  {
+    "title": "Changing tracheostomy tubes",
+    "level": 3,
+    "pageStart": 683,
+    "pageEnd": 683
+  },
+  {
+    "title": "Outpatient management of supplemental oxygen therapy",
+    "level": 3,
+    "pageStart": 683,
+    "pageEnd": 683
+  },
+  {
+    "title": "Indications for home oxygen therapy",
+    "level": 3,
+    "pageStart": 683,
+    "pageEnd": 683
+  },
+  {
+    "title": "Hypoxemia",
+    "level": 4,
+    "pageStart": 683,
+    "pageEnd": 683
+  },
+  {
+    "title": "Growth failure",
+    "level": 4,
+    "pageStart": 684,
+    "pageEnd": 684
+  },
+  {
+    "title": "Intermittent hypoxemia and pulmonary hypertension",
+    "level": 4,
+    "pageStart": 684,
+    "pageEnd": 684
+  },
+  {
+    "title": "Oxygen delivery systems for home oxygen therapy",
+    "level": 3,
+    "pageStart": 684,
+    "pageEnd": 684
+  },
+  {
+    "title": "Oxygen concentrator",
+    "level": 4,
+    "pageStart": 684,
+    "pageEnd": 684
+  },
+  {
+    "title": "Liquid oxygen",
+    "level": 4,
+    "pageStart": 684,
+    "pageEnd": 684
+  },
+  {
+    "title": "Compressed gas system",
+    "level": 4,
+    "pageStart": 684,
+    "pageEnd": 684
+  },
+  {
+    "title": "Strategies for discontinuation of home oxygen therapy",
+    "level": 3,
+    "pageStart": 684,
+    "pageEnd": 684
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 685,
+    "pageEnd": 687
+  },
+  {
+    "title": "43 Neurologic effects of respiratory support in the neonatal intensive care unit",
+    "level": 2,
+    "pageStart": 688,
+    "pageEnd": 688
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 688,
+    "pageEnd": 688
+  },
+  {
+    "title": "Cerebral blood flow in the neonate",
+    "level": 3,
+    "pageStart": 688,
+    "pageEnd": 688
+  },
+  {
+    "title": "Cerebral autoregulation and pressure-passive circulation",
+    "level": 4,
+    "pageStart": 688,
+    "pageEnd": 688
+  },
+  {
+    "title": "Brain injury in the preterm infant",
+    "level": 3,
+    "pageStart": 689,
+    "pageEnd": 689
+  },
+  {
+    "title": "Periventricular-intraventricular hemorrhage",
+    "level": 4,
+    "pageStart": 689,
+    "pageEnd": 689
+  },
+  {
+    "title": "Physiologic factors contributing to intraventricular hemorrhage",
+    "level": 5,
+    "pageStart": 689,
+    "pageEnd": 689
+  },
+  {
+    "title": "Inflammation and intraventricular hemorrhage",
+    "level": 5,
+    "pageStart": 690,
+    "pageEnd": 690
+  },
+  {
+    "title": "Antenatal corticosteroids and indomethacin",
+    "level": 5,
+    "pageStart": 690,
+    "pageEnd": 690
+  },
+  {
+    "title": "Delayed cord clamping",
+    "level": 5,
+    "pageStart": 690,
+    "pageEnd": 690
+  },
+  {
+    "title": "Diagnosis of intraventricular hemorrhage",
+    "level": 5,
+    "pageStart": 690,
+    "pageEnd": 690
+  },
+  {
+    "title": "Periventricular hemorrhagic infarction (grade 4 intraventricular hemorrhage)",
+    "level": 4,
+    "pageStart": 691,
+    "pageEnd": 691
+  },
+  {
+    "title": "Periventricular leukomalacia and diffuse white matter injury",
+    "level": 4,
+    "pageStart": 691,
+    "pageEnd": 691
+  },
+  {
+    "title": "Pathogenesis of white matter injury",
+    "level": 5,
+    "pageStart": 691,
+    "pageEnd": 691
+  },
+  {
+    "title": "Influence of oxygen concentration and carbon dioxide on cerebral blood flow",
+    "level": 3,
+    "pageStart": 692,
+    "pageEnd": 692
+  },
+  {
+    "title": "Oxygen and hemoglobin",
+    "level": 4,
+    "pageStart": 692,
+    "pageEnd": 692
+  },
+  {
+    "title": "Carbon dioxide",
+    "level": 4,
+    "pageStart": 692,
+    "pageEnd": 692
+  },
+  {
+    "title": "Linking changes in carbon dioxide and oxygen concentration to hemorrhagic\u2013ischemic injury",
+    "level": 4,
+    "pageStart": 692,
+    "pageEnd": 692
+  },
+  {
+    "title": "Hypocarbia and white matter injury",
+    "level": 5,
+    "pageStart": 692,
+    "pageEnd": 692
+  },
+  {
+    "title": "Hypercarbia and intraventricular hemorrhage",
+    "level": 5,
+    "pageStart": 692,
+    "pageEnd": 692
+  },
+  {
+    "title": "Oxygen and brain injury",
+    "level": 5,
+    "pageStart": 693,
+    "pageEnd": 693
+  },
+  {
+    "title": "Mode of ventilation and brain injury",
+    "level": 3,
+    "pageStart": 693,
+    "pageEnd": 693
+  },
+  {
+    "title": "Continuous positive airway pressure",
+    "level": 4,
+    "pageStart": 693,
+    "pageEnd": 693
+  },
+  {
+    "title": "Conventional mechanical ventilation",
+    "level": 4,
+    "pageStart": 693,
+    "pageEnd": 693
+  },
+  {
+    "title": "High-frequency oscillatory ventilation",
+    "level": 4,
+    "pageStart": 694,
+    "pageEnd": 694
+  },
+  {
+    "title": "Medications used to treat respiratory conditions",
+    "level": 3,
+    "pageStart": 694,
+    "pageEnd": 694
+  },
+  {
+    "title": "Surfactant",
+    "level": 4,
+    "pageStart": 694,
+    "pageEnd": 694
+  },
+  {
+    "title": "Methylxanthines",
+    "level": 4,
+    "pageStart": 694,
+    "pageEnd": 694
+  },
+  {
+    "title": "Inhaled nitric oxide",
+    "level": 4,
+    "pageStart": 695,
+    "pageEnd": 695
+  },
+  {
+    "title": "Postnatal steroids",
+    "level": 4,
+    "pageStart": 695,
+    "pageEnd": 695
+  },
+  {
+    "title": "Summary",
+    "level": 3,
+    "pageStart": 695,
+    "pageEnd": 695
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 696,
+    "pageEnd": 700
+  },
+  {
+    "title": "44 Pulmonary and neurodevelopmental outcomes following ventilation",
+    "level": 2,
+    "pageStart": 701,
+    "pageEnd": 701
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 701,
+    "pageEnd": 701
+  },
+  {
+    "title": "Incidence and definitions of bronchopulmonary dysplasia",
+    "level": 3,
+    "pageStart": 701,
+    "pageEnd": 702
+  },
+  {
+    "title": "Pulmonary outcomes",
+    "level": 3,
+    "pageStart": 703,
+    "pageEnd": 703
+  },
+  {
+    "title": "Pulmonary function testing and imaging",
+    "level": 4,
+    "pageStart": 703,
+    "pageEnd": 703
+  },
+  {
+    "title": "Longer-term respiratory morbidity",
+    "level": 4,
+    "pageStart": 704,
+    "pageEnd": 704
+  },
+  {
+    "title": "Health care utilization",
+    "level": 3,
+    "pageStart": 704,
+    "pageEnd": 704
+  },
+  {
+    "title": "Neurodevelopmental outcomes of preterm infants with bronchopulmonary dysplasia",
+    "level": 3,
+    "pageStart": 705,
+    "pageEnd": 705
+  },
+  {
+    "title": "Outcomes after neonatal hypoxic respiratory failure",
+    "level": 3,
+    "pageStart": 706,
+    "pageEnd": 706
+  },
+  {
+    "title": "Inhaled nitric oxide",
+    "level": 4,
+    "pageStart": 706,
+    "pageEnd": 706
+  },
+  {
+    "title": "Extracorporeal membrane oxygenation",
+    "level": 4,
+    "pageStart": 706,
+    "pageEnd": 707
+  },
+  {
+    "title": "Conclusion",
+    "level": 3,
+    "pageStart": 708,
+    "pageEnd": 708
+  },
+  {
+    "title": "Key references",
+    "level": 3,
+    "pageStart": 708,
+    "pageEnd": 711
+  },
+  {
+    "title": "45 Gaps in knowledge and future directions for research",
+    "level": 2,
+    "pageStart": 712,
+    "pageEnd": 712
+  },
+  {
+    "title": "Introduction",
+    "level": 3,
+    "pageStart": 712,
+    "pageEnd": 712
+  },
+  {
+    "title": "Development and application of new methods of generating knowledge",
+    "level": 3,
+    "pageStart": 712,
+    "pageEnd": 712
+  },
+  {
+    "title": "Basic and clinical study designs",
+    "level": 4,
+    "pageStart": 713,
+    "pageEnd": 713
+  },
+  {
+    "title": "Respiratory care",
+    "level": 3,
+    "pageStart": 713,
+    "pageEnd": 713
+  },
+  {
+    "title": "Delivery room management",
+    "level": 4,
+    "pageStart": 713,
+    "pageEnd": 714
+  },
+  {
+    "title": "Mechanical ventilation",
+    "level": 4,
+    "pageStart": 715,
+    "pageEnd": 715
+  },
+  {
+    "title": "Noninvasive respiratory support",
+    "level": 4,
+    "pageStart": 715,
+    "pageEnd": 715
+  },
+  {
+    "title": "Exogenous surfactant administration",
+    "level": 4,
+    "pageStart": 716,
+    "pageEnd": 716
+  },
+  {
+    "title": "Management of specific respiratory and nonrespiratory conditions requiring assisted ventilation",
+    "level": 3,
+    "pageStart": 717,
+    "pageEnd": 717
+  },
+  {
+    "title": "Bronchopulmonary dysplasia",
+    "level": 4,
+    "pageStart": 717,
+    "pageEnd": 717
+  },
+  {
+    "title": "Other conditions requiring ventilatory support",
+    "level": 4,
+    "pageStart": 718,
+    "pageEnd": 718
+  },
+  {
+    "title": "Congenital diaphragmatic hernia",
+    "level": 5,
+    "pageStart": 718,
+    "pageEnd": 718
+  },
+  {
+    "title": "Pulmonary hypertension of the newborn",
+    "level": 5,
+    "pageStart": 719,
+    "pageEnd": 719
+  },
+  {
+    "title": "Ancillary support",
+    "level": 3,
+    "pageStart": 720,
+    "pageEnd": 720
+  },
+  {
+    "title": "Nutritional support",
+    "level": 4,
+    "pageStart": 720,
+    "pageEnd": 720
+  },
+  {
+    "title": "Development of devices",
+    "level": 3,
+    "pageStart": 720,
+    "pageEnd": 720
+  },
+  {
+    "title": "Current research",
+    "level": 3,
+    "pageStart": 721,
+    "pageEnd": 721
+  },
+  {
+    "title": "Ongoing clinical trials around the world",
+    "level": 4,
+    "pageStart": 721,
+    "pageEnd": 721
+  },
+  {
+    "title": "Concluding comments",
+    "level": 3,
+    "pageStart": 721,
+    "pageEnd": 725
+  },
+  {
+    "title": "Selected readings",
+    "level": 3,
+    "pageStart": 726,
+    "pageEnd": 731
+  },
+  {
+    "title": "Appendices",
+    "level": 1,
+    "pageStart": 732,
+    "pageEnd": 732
+  },
+  {
+    "title": "Lung volumes in the infant",
+    "level": 3,
+    "pageStart": 733,
+    "pageEnd": 733
+  },
+  {
+    "title": "Changes in respiratory system dimensions with growth\u00aa",
+    "level": 3,
+    "pageStart": 733,
+    "pageEnd": 733
+  },
+  {
+    "title": "Effect of age on lung size\u00aa",
+    "level": 3,
+    "pageStart": 733,
+    "pageEnd": 733
+  },
+  {
+    "title": "Normal lung function data for term newborns during the neonatal period",
+    "level": 3,
+    "pageStart": 734,
+    "pageEnd": 734
+  },
+  {
+    "title": "Allen\u2019s test",
+    "level": 3,
+    "pageStart": 734,
+    "pageEnd": 734
+  },
+  {
+    "title": "Procedure for obtaining capillary blood gases",
+    "level": 3,
+    "pageStart": 734,
+    "pageEnd": 734
+  },
+  {
+    "title": "Normal umbilical cord blood gas values",
+    "level": 3,
+    "pageStart": 734,
+    "pageEnd": 734
+  },
+  {
+    "title": "Arterial blood gas values in normal full-term infants\u00aa",
+    "level": 3,
+    "pageStart": 735,
+    "pageEnd": 735
+  },
+  {
+    "title": "Arterial blood gas values in normal premature infants\u00aa",
+    "level": 3,
+    "pageStart": 735,
+    "pageEnd": 735
+  },
+  {
+    "title": "Capillary blood gas reference values in healthy term neonates",
+    "level": 3,
+    "pageStart": 736,
+    "pageEnd": 736
+  },
+  {
+    "title": "Blood gas values in cord blood and in arterial blood at various ages during the neonatal period",
+    "level": 3,
+    "pageStart": 736,
+    "pageEnd": 736
+  },
+  {
+    "title": "A. Oxygen tension",
+    "level": 4,
+    "pageStart": 736,
+    "pageEnd": 736
+  },
+  {
+    "title": "B. Carbon dioxide tension",
+    "level": 4,
+    "pageStart": 736,
+    "pageEnd": 736
+  },
+  {
+    "title": "C. pH",
+    "level": 4,
+    "pageStart": 737,
+    "pageEnd": 737
+  },
+  {
+    "title": "D. Base excess",
+    "level": 4,
+    "pageStart": 737,
+    "pageEnd": 737
+  },
+  {
+    "title": "Conversion tables",
+    "level": 3,
+    "pageStart": 737,
+    "pageEnd": 737
+  },
+  {
+    "title": "A. Torr to kilopascal",
+    "level": 4,
+    "pageStart": 737,
+    "pageEnd": 737
+  },
+  {
+    "title": "B. Kilopascal to torr",
+    "level": 4,
+    "pageStart": 737,
+    "pageEnd": 737
+  },
+  {
+    "title": "Siggaard-Andersen alignment nomogram",
+    "level": 3,
+    "pageStart": 738,
+    "pageEnd": 738
+  },
+  {
+    "title": "Systolic, diastolic, and mean blood pressure by birth weight and gestational age",
+    "level": 3,
+    "pageStart": 739,
+    "pageEnd": 739
+  },
+  {
+    "title": "Systolic and diastolic blood pressure in the first 5 days of life",
+    "level": 3,
+    "pageStart": 740,
+    "pageEnd": 740
+  },
+  {
+    "title": "Neonatal resuscitation record",
+    "level": 3,
+    "pageStart": 741,
+    "pageEnd": 741
+  },
+  {
+    "title": "Effective FiO\u2082 conversion tables for infants on nasal cannula",
+    "level": 3,
+    "pageStart": 742,
+    "pageEnd": 743
+  },
+  {
+    "title": "Neonatal indications and doses for administration of selected cardiorespiratory drugs",
+    "level": 3,
+    "pageStart": 744,
+    "pageEnd": 744
+  },
+  {
+    "title": "Cardiorespiratory pharmacopeia for the newborn period",
+    "level": 4,
+    "pageStart": 744,
+    "pageEnd": 744
+  },
+  {
+    "title": "Administration routes",
+    "level": 4,
+    "pageStart": 744,
+    "pageEnd": 747
+  },
+  {
+    "title": "Appendix 17 apps",
+    "level": 2,
+    "pageStart": 748,
+    "pageEnd": 748
+  },
+  {
+    "title": "Alveolar-arterial oxygen gradient",
+    "level": 3,
+    "pageStart": 748,
+    "pageEnd": 748
+  },
+  {
+    "title": "Respiratory quotient and barometric pressure",
+    "level": 2,
+    "pageStart": 748,
+    "pageEnd": 748
+  },
+  {
+    "title": "Information about alveolar\u2013arterial oxygen gradient and PAO\u2082/FiO\u2082 ratio",
+    "level": 2,
+    "pageStart": 748,
+    "pageEnd": 748
+  },
+  {
+    "title": "Complete ABG",
+    "level": 2,
+    "pageStart": 749,
+    "pageEnd": 749
+  },
+  {
+    "title": "For metabolic alkalosis",
+    "level": 3,
+    "pageStart": 750,
+    "pageEnd": 751
+  },
+  {
+    "title": "ETCO\u2082 tutor",
+    "level": 2,
+    "pageStart": 752,
+    "pageEnd": 753
+  },
+  {
+    "title": "A",
+    "level": 2,
+    "pageStart": 754,
+    "pageEnd": 754
+  },
+  {
+    "title": "B",
+    "level": 2,
+    "pageStart": 755,
+    "pageEnd": 755
+  },
+  {
+    "title": "C",
+    "level": 2,
+    "pageStart": 755,
+    "pageEnd": 756
+  },
+  {
+    "title": "D",
+    "level": 2,
+    "pageStart": 757,
+    "pageEnd": 757
+  },
+  {
+    "title": "E",
+    "level": 2,
+    "pageStart": 757,
+    "pageEnd": 757
+  },
+  {
+    "title": "F",
+    "level": 2,
+    "pageStart": 758,
+    "pageEnd": 758
+  },
+  {
+    "title": "G",
+    "level": 2,
+    "pageStart": 758,
+    "pageEnd": 758
+  },
+  {
+    "title": "H",
+    "level": 2,
+    "pageStart": 758,
+    "pageEnd": 758
+  },
+  {
+    "title": "I",
+    "level": 2,
+    "pageStart": 759,
+    "pageEnd": 759
+  },
+  {
+    "title": "J",
+    "level": 2,
+    "pageStart": 760,
+    "pageEnd": 760
+  },
+  {
+    "title": "K",
+    "level": 2,
+    "pageStart": 760,
+    "pageEnd": 760
+  },
+  {
+    "title": "L",
+    "level": 2,
+    "pageStart": 760,
+    "pageEnd": 760
+  },
+  {
+    "title": "M",
+    "level": 2,
+    "pageStart": 760,
+    "pageEnd": 760
+  },
+  {
+    "title": "N",
+    "level": 2,
+    "pageStart": 761,
+    "pageEnd": 761
+  },
+  {
+    "title": "O",
+    "level": 2,
+    "pageStart": 762,
+    "pageEnd": 762
+  },
+  {
+    "title": "P",
+    "level": 2,
+    "pageStart": 763,
+    "pageEnd": 764
+  },
+  {
+    "title": "Q",
+    "level": 2,
+    "pageStart": 765,
+    "pageEnd": 765
+  },
+  {
+    "title": "R",
+    "level": 2,
+    "pageStart": 765,
+    "pageEnd": 765
+  },
+  {
+    "title": "S",
+    "level": 2,
+    "pageStart": 766,
+    "pageEnd": 766
+  },
+  {
+    "title": "T",
+    "level": 2,
+    "pageStart": 767,
+    "pageEnd": 767
+  },
+  {
+    "title": "U",
+    "level": 2,
+    "pageStart": 768,
+    "pageEnd": 768
+  },
+  {
+    "title": "V",
+    "level": 2,
+    "pageStart": 768,
+    "pageEnd": 768
+  },
+  {
+    "title": "W",
+    "level": 2,
+    "pageStart": 769,
+    "pageEnd": 769
+  },
+  {
+    "title": "X",
+    "level": 2,
+    "pageStart": 769,
+    "pageEnd": 770
+  }
+]

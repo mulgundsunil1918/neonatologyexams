@@ -64,7 +64,10 @@ async function main() {
   await db.subtopic.deleteMany();
   await db.topic.deleteMany();
   await db.system.deleteMany();
+  await db.resourcePage.deleteMany();
+  await db.chapter.deleteMany();
   await db.resource.deleteMany();
+  await db.$executeRawUnsafe(`DROP TABLE IF EXISTS resource_page_fts`);
 
   console.log("Seeding systems...");
   const systemIdByName = new Map<string, string>();
@@ -110,7 +113,48 @@ async function main() {
     { title: "Fanaroff and Martin's Neonatal-Perinatal Medicine", shortName: "fanaroff-martin", edition: null, year: null, category: "textbook", fileName: "Fanaroff and Martin's Neonatal-Perinatal Medicine_1.pdf", pageCount: 2157 },
     { title: "Volpe's Neurology of the Newborn", shortName: "volpe", edition: "6th", year: 2018, category: "textbook", fileName: "Volpe's Neurology of the Newborn-Sixth Edition 2018.pdf", pageCount: 1491 },
   ];
-  for (const r of resources) await db.resource.create({ data: r });
+  const resourceIdByShortName = new Map<string, string>();
+  for (const r of resources) {
+    const row = await db.resource.create({ data: r });
+    resourceIdByShortName.set(r.shortName, row.id);
+  }
+
+  console.log("Loading chapter outlines + full page text (scripts/ingest_resources.py output)...");
+  const resourcesDir = path.join(DATA, "resources");
+  let totalChapters = 0, totalPages = 0;
+  for (const [shortName, resourceId] of resourceIdByShortName) {
+    const chapPath = path.join(resourcesDir, `${shortName}_chapters.json`);
+    const pagesPath = path.join(resourcesDir, `${shortName}_pages.json`);
+    if (!fs.existsSync(chapPath) || !fs.existsSync(pagesPath)) {
+      continue; // the QBank resource itself has no ingest_resources.py output — expected
+    }
+    const chapters = readJson<{ title: string; level: number; pageStart: number; pageEnd: number }[]>(
+      `resources/${shortName}_chapters.json`
+    );
+    const pages = readJson<{ page: number; text: string }[]>(`resources/${shortName}_pages.json`);
+
+    await db.chapter.createMany({
+      data: chapters.map((c) => ({ resourceId, title: c.title, level: c.level, pageStart: c.pageStart, pageEnd: c.pageEnd })),
+    });
+    await db.resourcePage.createMany({
+      data: pages.map((p) => ({ resourceId, pageNumber: p.page, text: p.text })),
+    });
+    totalChapters += chapters.length;
+    totalPages += pages.length;
+    console.log(`  ${shortName}: ${chapters.length} chapters, ${pages.length} pages`);
+  }
+
+  console.log("Building full-text search index (SQLite FTS5) over resource pages...");
+  await db.$executeRawUnsafe(`
+    CREATE VIRTUAL TABLE resource_page_fts USING fts5(
+      text, resourcePageId UNINDEXED, resourceId UNINDEXED, pageNumber UNINDEXED,
+      tokenize = 'porter unicode61'
+    )
+  `);
+  await db.$executeRawUnsafe(`
+    INSERT INTO resource_page_fts (rowid, text, resourcePageId, resourceId, pageNumber)
+    SELECT rowid, text, id, resourceId, pageNumber FROM ResourcePage
+  `);
 
   console.log("Seeding master questions, options, sub-parts, answers, occurrences...");
   const mqs = readJson<MasterQ[]>("master/master_questions_classified.json");
@@ -187,6 +231,8 @@ async function main() {
     options: await db.option.count(),
     answers: await db.answer.count(),
     resources: await db.resource.count(),
+    chapters: await db.chapter.count(),
+    resourcePages: await db.resourcePage.count(),
   };
   console.log("\nSeed complete:");
   console.table(counts);

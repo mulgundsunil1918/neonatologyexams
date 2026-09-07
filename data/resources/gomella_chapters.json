@@ -1,0 +1,1148 @@
+[
+  {
+    "title": "Section I: Antepartum, Intrapartum, Delivery, and Transport Management",
+    "level": 1,
+    "pageStart": 25,
+    "pageEnd": 25
+  },
+  {
+    "title": "1 Fetal Assessment",
+    "level": 2,
+    "pageStart": 25,
+    "pageEnd": 32
+  },
+  {
+    "title": "2 Obstetric Anesthesia and the Neonate",
+    "level": 2,
+    "pageStart": 33,
+    "pageEnd": 38
+  },
+  {
+    "title": "3 Resuscitation of the Newborn",
+    "level": 2,
+    "pageStart": 39,
+    "pageEnd": 47
+  },
+  {
+    "title": "4 Infant Transport",
+    "level": 2,
+    "pageStart": 48,
+    "pageEnd": 52
+  },
+  {
+    "title": "Section II: Basic Management",
+    "level": 1,
+    "pageStart": 53,
+    "pageEnd": 53
+  },
+  {
+    "title": "5 Gestational Age and Birthweight Classification",
+    "level": 2,
+    "pageStart": 53,
+    "pageEnd": 66
+  },
+  {
+    "title": "6 Newborn Physical Examination",
+    "level": 2,
+    "pageStart": 67,
+    "pageEnd": 88
+  },
+  {
+    "title": "7 Temperature Regulation",
+    "level": 2,
+    "pageStart": 89,
+    "pageEnd": 94
+  },
+  {
+    "title": "8 Respiratory Management",
+    "level": 2,
+    "pageStart": 95,
+    "pageEnd": 112
+  },
+  {
+    "title": "9 Fluid and Electrolytes",
+    "level": 2,
+    "pageStart": 113,
+    "pageEnd": 121
+  },
+  {
+    "title": "10 Nutritional Management",
+    "level": 2,
+    "pageStart": 122,
+    "pageEnd": 156
+  },
+  {
+    "title": "Section III: Advanced Management",
+    "level": 1,
+    "pageStart": 157,
+    "pageEnd": 157
+  },
+  {
+    "title": "11 Imaging Studies",
+    "level": 2,
+    "pageStart": 157,
+    "pageEnd": 180
+  },
+  {
+    "title": "12 Management of the Extremely Low Birthweight Infant During the First Week of Life",
+    "level": 2,
+    "pageStart": 181,
+    "pageEnd": 192
+  },
+  {
+    "title": "13 Management of the Late Preterm Infant",
+    "level": 2,
+    "pageStart": 193,
+    "pageEnd": 195
+  },
+  {
+    "title": "14 Pain in the Neonate",
+    "level": 2,
+    "pageStart": 196,
+    "pageEnd": 199
+  },
+  {
+    "title": "15 Newborn Screening",
+    "level": 2,
+    "pageStart": 200,
+    "pageEnd": 204
+  },
+  {
+    "title": "16 Studies for Neurologic Evaluation",
+    "level": 2,
+    "pageStart": 205,
+    "pageEnd": 212
+  },
+  {
+    "title": "17 Blood Component Therapy",
+    "level": 2,
+    "pageStart": 213,
+    "pageEnd": 218
+  },
+  {
+    "title": "18 Extracorporeal Life Support in the Neonate",
+    "level": 2,
+    "pageStart": 219,
+    "pageEnd": 232
+  },
+  {
+    "title": "19 Follow-Up of High-Risk Infants",
+    "level": 2,
+    "pageStart": 233,
+    "pageEnd": 236
+  },
+  {
+    "title": "20 Complementary and Alternative Medical Therapies in Neonatology",
+    "level": 2,
+    "pageStart": 237,
+    "pageEnd": 244
+  },
+  {
+    "title": "21 Neonatal Bioethics",
+    "level": 2,
+    "pageStart": 245,
+    "pageEnd": 250
+  },
+  {
+    "title": "Section IV: Procedures: Principles of Neonatal Procedures",
+    "level": 1,
+    "pageStart": 251,
+    "pageEnd": 253
+  },
+  {
+    "title": "22 Arterial Access: Arterial Puncture (Radial Artery Puncture)",
+    "level": 2,
+    "pageStart": 254,
+    "pageEnd": 255
+  },
+  {
+    "title": "23 Arterial Access: Percutaneous Arterial Catheterization (Radial Arterial Line)",
+    "level": 2,
+    "pageStart": 256,
+    "pageEnd": 259
+  },
+  {
+    "title": "24 Arterial Access: Umbilical Artery Catheterization",
+    "level": 2,
+    "pageStart": 260,
+    "pageEnd": 267
+  },
+  {
+    "title": "25 Bladder Aspiration (Suprapubic Urine Collection)",
+    "level": 2,
+    "pageStart": 268,
+    "pageEnd": 269
+  },
+  {
+    "title": "26 Bladder Catheterization",
+    "level": 2,
+    "pageStart": 270,
+    "pageEnd": 272
+  },
+  {
+    "title": "27 Chest Tube Placement",
+    "level": 2,
+    "pageStart": 273,
+    "pageEnd": 278
+  },
+  {
+    "title": "28 Defibrillation and Cardioversion",
+    "level": 2,
+    "pageStart": 279,
+    "pageEnd": 281
+  },
+  {
+    "title": "29 Endotracheal Intubation and Extubation",
+    "level": 2,
+    "pageStart": 282,
+    "pageEnd": 290
+  },
+  {
+    "title": "30 Exchange Transfusion",
+    "level": 2,
+    "pageStart": 291,
+    "pageEnd": 295
+  },
+  {
+    "title": "31 Peripheral IV Extravasation and Infiltration: Initial Management",
+    "level": 2,
+    "pageStart": 296,
+    "pageEnd": 296
+  },
+  {
+    "title": "32 Gastric and Transpyloric Intubation",
+    "level": 2,
+    "pageStart": 297,
+    "pageEnd": 301
+  },
+  {
+    "title": "33 Heelstick (Capillary Blood Sampling)",
+    "level": 2,
+    "pageStart": 302,
+    "pageEnd": 305
+  },
+  {
+    "title": "34 Laryngeal Mask Airway",
+    "level": 2,
+    "pageStart": 306,
+    "pageEnd": 307
+  },
+  {
+    "title": "35 Lumbar Puncture (Spinal Tap)",
+    "level": 2,
+    "pageStart": 308,
+    "pageEnd": 312
+  },
+  {
+    "title": "36 Ostomy Care",
+    "level": 2,
+    "pageStart": 313,
+    "pageEnd": 315
+  },
+  {
+    "title": "37 Paracentesis (Abdominal)",
+    "level": 2,
+    "pageStart": 316,
+    "pageEnd": 318
+  },
+  {
+    "title": "38 Pericardiocentesis",
+    "level": 2,
+    "pageStart": 319,
+    "pageEnd": 320
+  },
+  {
+    "title": "39 Therapeutic Hypothermia",
+    "level": 2,
+    "pageStart": 321,
+    "pageEnd": 324
+  },
+  {
+    "title": "40 Transillumination",
+    "level": 2,
+    "pageStart": 325,
+    "pageEnd": 326
+  },
+  {
+    "title": "41 Venous Access: Intraosseous Infusion",
+    "level": 2,
+    "pageStart": 327,
+    "pageEnd": 329
+  },
+  {
+    "title": "42 Venous Access: Percutaneous Central Venous Catheterization",
+    "level": 2,
+    "pageStart": 330,
+    "pageEnd": 335
+  },
+  {
+    "title": "43 Venous Access: Peripheral Intravenous Catheterization",
+    "level": 2,
+    "pageStart": 336,
+    "pageEnd": 339
+  },
+  {
+    "title": "44 Venous Access: Umbilical Vein Catheterization",
+    "level": 2,
+    "pageStart": 340,
+    "pageEnd": 345
+  },
+  {
+    "title": "45 Venous Access: Venipuncture (Phlebotomy)",
+    "level": 2,
+    "pageStart": 346,
+    "pageEnd": 348
+  },
+  {
+    "title": "Section V: On-Call Problems",
+    "level": 1,
+    "pageStart": 349,
+    "pageEnd": 349
+  },
+  {
+    "title": "46 Abnormal Blood Gas",
+    "level": 2,
+    "pageStart": 349,
+    "pageEnd": 356
+  },
+  {
+    "title": "47 Apnea and Bradycardia (\u201cA\u2019s and B\u2019s\u201d)",
+    "level": 2,
+    "pageStart": 357,
+    "pageEnd": 366
+  },
+  {
+    "title": "48 Arrhythmia",
+    "level": 2,
+    "pageStart": 367,
+    "pageEnd": 374
+  },
+  {
+    "title": "49 Bloody Stool",
+    "level": 2,
+    "pageStart": 375,
+    "pageEnd": 380
+  },
+  {
+    "title": "50 Counseling Parents Before High-Risk Delivery",
+    "level": 2,
+    "pageStart": 381,
+    "pageEnd": 384
+  },
+  {
+    "title": "51 Cyanosls",
+    "level": 2,
+    "pageStart": 385,
+    "pageEnd": 391
+  },
+  {
+    "title": "52 Death of an Infant",
+    "level": 2,
+    "pageStart": 392,
+    "pageEnd": 395
+  },
+  {
+    "title": "53 Eye Discharge and Conjunctivitis",
+    "level": 2,
+    "pageStart": 396,
+    "pageEnd": 402
+  },
+  {
+    "title": "54 Gastric Aspirate (Residuals)",
+    "level": 2,
+    "pageStart": 403,
+    "pageEnd": 408
+  },
+  {
+    "title": "55 Gastrointestinal Bleeding from the Upper Tract",
+    "level": 2,
+    "pageStart": 409,
+    "pageEnd": 413
+  },
+  {
+    "title": "56 Hematuria",
+    "level": 2,
+    "pageStart": 414,
+    "pageEnd": 415
+  },
+  {
+    "title": "57 Hyperbilirubinemia, Conjugated",
+    "level": 2,
+    "pageStart": 416,
+    "pageEnd": 423
+  },
+  {
+    "title": "58 Hyperbilirubinemia, Unconjugated",
+    "level": 2,
+    "pageStart": 424,
+    "pageEnd": 432
+  },
+  {
+    "title": "59 Hyperglycemia",
+    "level": 2,
+    "pageStart": 433,
+    "pageEnd": 438
+  },
+  {
+    "title": "60 Hyperkalemia",
+    "level": 2,
+    "pageStart": 439,
+    "pageEnd": 443
+  },
+  {
+    "title": "61 Hypertension",
+    "level": 2,
+    "pageStart": 444,
+    "pageEnd": 450
+  },
+  {
+    "title": "62 Hypoglycemia",
+    "level": 2,
+    "pageStart": 451,
+    "pageEnd": 460
+  },
+  {
+    "title": "63 Hypokalemia",
+    "level": 2,
+    "pageStart": 461,
+    "pageEnd": 463
+  },
+  {
+    "title": "64 Hyponatremia",
+    "level": 2,
+    "pageStart": 464,
+    "pageEnd": 468
+  },
+  {
+    "title": "65 Hypotension and Shock",
+    "level": 2,
+    "pageStart": 469,
+    "pageEnd": 479
+  },
+  {
+    "title": "66 Is the Infant Ready for Discharge?",
+    "level": 2,
+    "pageStart": 480,
+    "pageEnd": 483
+  },
+  {
+    "title": "67 No Stool in 48 Hours",
+    "level": 2,
+    "pageStart": 484,
+    "pageEnd": 489
+  },
+  {
+    "title": "68 No Urine Output in 24 Hours",
+    "level": 2,
+    "pageStart": 490,
+    "pageEnd": 495
+  },
+  {
+    "title": "69 Pneumoperitoneum",
+    "level": 2,
+    "pageStart": 496,
+    "pageEnd": 501
+  },
+  {
+    "title": "70 Pneumothorax",
+    "level": 2,
+    "pageStart": 502,
+    "pageEnd": 507
+  },
+  {
+    "title": "71 Polycythemia",
+    "level": 2,
+    "pageStart": 508,
+    "pageEnd": 512
+  },
+  {
+    "title": "72 Poor Perfusion",
+    "level": 2,
+    "pageStart": 513,
+    "pageEnd": 515
+  },
+  {
+    "title": "73 Postdelivery Antibiotics",
+    "level": 2,
+    "pageStart": 516,
+    "pageEnd": 524
+  },
+  {
+    "title": "74 Pulmonary Hemorrhage",
+    "level": 2,
+    "pageStart": 525,
+    "pageEnd": 529
+  },
+  {
+    "title": "75 Rash and Dermatologic Problems",
+    "level": 2,
+    "pageStart": 530,
+    "pageEnd": 538
+  },
+  {
+    "title": "76 Sedation and Analgesia",
+    "level": 2,
+    "pageStart": 539,
+    "pageEnd": 544
+  },
+  {
+    "title": "77 Seizure Activity",
+    "level": 2,
+    "pageStart": 545,
+    "pageEnd": 552
+  },
+  {
+    "title": "78 Traumatic Delivery",
+    "level": 2,
+    "pageStart": 553,
+    "pageEnd": 560
+  },
+  {
+    "title": "79 Vasospasms and Thromboembolism",
+    "level": 2,
+    "pageStart": 561,
+    "pageEnd": 570
+  },
+  {
+    "title": "Section VI: Diseases and Disorders",
+    "level": 1,
+    "pageStart": 571,
+    "pageEnd": 571
+  },
+  {
+    "title": "80 ABO Incompatibility",
+    "level": 2,
+    "pageStart": 571,
+    "pageEnd": 572
+  },
+  {
+    "title": "81 Air Leak Syndromes",
+    "level": 2,
+    "pageStart": 573,
+    "pageEnd": 584
+  },
+  {
+    "title": "82 Anemia",
+    "level": 2,
+    "pageStart": 585,
+    "pageEnd": 592
+  },
+  {
+    "title": "83 Apnea",
+    "level": 2,
+    "pageStart": 593,
+    "pageEnd": 597
+  },
+  {
+    "title": "84 Bronchopulmonary Dysplasia/Chronic Lung Disease",
+    "level": 2,
+    "pageStart": 598,
+    "pageEnd": 603
+  },
+  {
+    "title": "85 Calcium Disorders (Hypocalcemia, Hypercalcemia)",
+    "level": 2,
+    "pageStart": 604,
+    "pageEnd": 608
+  },
+  {
+    "title": "86 Chlamydial Infection",
+    "level": 2,
+    "pageStart": 609,
+    "pageEnd": 611
+  },
+  {
+    "title": "87 Coagulation Disorders",
+    "level": 2,
+    "pageStart": 612,
+    "pageEnd": 626
+  },
+  {
+    "title": "88 Common Multiple Congenital Anomaly Syndromes",
+    "level": 2,
+    "pageStart": 627,
+    "pageEnd": 633
+  },
+  {
+    "title": "89 Congenital Heart Disease",
+    "level": 2,
+    "pageStart": 634,
+    "pageEnd": 642
+  },
+  {
+    "title": "90 Cytomegalovirus",
+    "level": 2,
+    "pageStart": 643,
+    "pageEnd": 646
+  },
+  {
+    "title": "91 Disorders of Sex Development",
+    "level": 2,
+    "pageStart": 647,
+    "pageEnd": 654
+  },
+  {
+    "title": "92 Enteroviruses and Parechoviruses",
+    "level": 2,
+    "pageStart": 655,
+    "pageEnd": 658
+  },
+  {
+    "title": "93 Eye Disorders of the Newborn",
+    "level": 2,
+    "pageStart": 659,
+    "pageEnd": 663
+  },
+  {
+    "title": "94 Gonorrhea",
+    "level": 2,
+    "pageStart": 664,
+    "pageEnd": 664
+  },
+  {
+    "title": "95 Hepatitis",
+    "level": 2,
+    "pageStart": 665,
+    "pageEnd": 672
+  },
+  {
+    "title": "96 Herpes Simplex Viruses",
+    "level": 2,
+    "pageStart": 673,
+    "pageEnd": 676
+  },
+  {
+    "title": "97 Human Immunodeficiency Virus",
+    "level": 2,
+    "pageStart": 677,
+    "pageEnd": 684
+  },
+  {
+    "title": "98 Hydrocephalus and Ventriculomegaly",
+    "level": 2,
+    "pageStart": 685,
+    "pageEnd": 690
+  },
+  {
+    "title": "99 Hyperbilirubinemia, Direct (Conjugated Hyperbilirubinemia)",
+    "level": 2,
+    "pageStart": 691,
+    "pageEnd": 699
+  },
+  {
+    "title": "100 Hyperbilirubinemia, Indirect (Unconjugated Hyperbilirubinemia)",
+    "level": 2,
+    "pageStart": 700,
+    "pageEnd": 713
+  },
+  {
+    "title": "101 Inborn Errors of Metabolism with Acute Neonatal Onset",
+    "level": 2,
+    "pageStart": 714,
+    "pageEnd": 736
+  },
+  {
+    "title": "102 Infant of a Diabetic Mother",
+    "level": 2,
+    "pageStart": 737,
+    "pageEnd": 742
+  },
+  {
+    "title": "103 Infant of Substance-Abusing Mother",
+    "level": 2,
+    "pageStart": 743,
+    "pageEnd": 751
+  },
+  {
+    "title": "104 Intracranial Hemorrhage",
+    "level": 2,
+    "pageStart": 752,
+    "pageEnd": 759
+  },
+  {
+    "title": "105 Intrauterine Growth Restriction (Small for Gestational Age)",
+    "level": 2,
+    "pageStart": 760,
+    "pageEnd": 770
+  },
+  {
+    "title": "106 Lyme Disease",
+    "level": 2,
+    "pageStart": 771,
+    "pageEnd": 773
+  },
+  {
+    "title": "107 Magnesium Disorders (Hypomagnesemia, Hypermagnesemia)",
+    "level": 2,
+    "pageStart": 774,
+    "pageEnd": 776
+  },
+  {
+    "title": "108 Meconium Aspiration",
+    "level": 2,
+    "pageStart": 777,
+    "pageEnd": 781
+  },
+  {
+    "title": "109 Meningitis",
+    "level": 2,
+    "pageStart": 782,
+    "pageEnd": 784
+  },
+  {
+    "title": "110 Methicillin-Resistant Staphylococcus aureus Infections",
+    "level": 2,
+    "pageStart": 785,
+    "pageEnd": 789
+  },
+  {
+    "title": "111 Multiple Gestation",
+    "level": 2,
+    "pageStart": 790,
+    "pageEnd": 794
+  },
+  {
+    "title": "112 Myasthenia Gravis (Transient Neonatal)",
+    "level": 2,
+    "pageStart": 795,
+    "pageEnd": 796
+  },
+  {
+    "title": "113 Necrotizing Enterocolitis",
+    "level": 2,
+    "pageStart": 797,
+    "pageEnd": 803
+  },
+  {
+    "title": "114 Neural Tube Defects",
+    "level": 2,
+    "pageStart": 804,
+    "pageEnd": 811
+  },
+  {
+    "title": "115 Orthopedic and Musculoskeletal Problems",
+    "level": 2,
+    "pageStart": 812,
+    "pageEnd": 819
+  },
+  {
+    "title": "116 Osteopenia of Prematurity",
+    "level": 2,
+    "pageStart": 820,
+    "pageEnd": 824
+  },
+  {
+    "title": "117 Parvovirus B19 Infection",
+    "level": 2,
+    "pageStart": 825,
+    "pageEnd": 827
+  },
+  {
+    "title": "118 Patent Ductus Arteriosus",
+    "level": 2,
+    "pageStart": 828,
+    "pageEnd": 832
+  },
+  {
+    "title": "119 Perinatal Asphyxia",
+    "level": 2,
+    "pageStart": 833,
+    "pageEnd": 842
+  },
+  {
+    "title": "120 Persistent Pulmonary Hypertension of the Newborn",
+    "level": 2,
+    "pageStart": 843,
+    "pageEnd": 850
+  },
+  {
+    "title": "121 Pertussis",
+    "level": 2,
+    "pageStart": 851,
+    "pageEnd": 853
+  },
+  {
+    "title": "122 Polycythemia and Hyperviscosity",
+    "level": 2,
+    "pageStart": 854,
+    "pageEnd": 857
+  },
+  {
+    "title": "123 Renal Failure, Acute (Acute Kidney Injury)",
+    "level": 2,
+    "pageStart": 858,
+    "pageEnd": 861
+  },
+  {
+    "title": "124 Respiratory Distress Syndrome",
+    "level": 2,
+    "pageStart": 862,
+    "pageEnd": 867
+  },
+  {
+    "title": "125 Respiratory Syncytial Virus",
+    "level": 2,
+    "pageStart": 868,
+    "pageEnd": 871
+  },
+  {
+    "title": "126 Retinopathy of Prematurity",
+    "level": 2,
+    "pageStart": 872,
+    "pageEnd": 876
+  },
+  {
+    "title": "127 Rh Incompatibility",
+    "level": 2,
+    "pageStart": 877,
+    "pageEnd": 881
+  },
+  {
+    "title": "128 Rubella",
+    "level": 2,
+    "pageStart": 882,
+    "pageEnd": 884
+  },
+  {
+    "title": "129 Seizures",
+    "level": 2,
+    "pageStart": 885,
+    "pageEnd": 892
+  },
+  {
+    "title": "130 Sepsis",
+    "level": 2,
+    "pageStart": 893,
+    "pageEnd": 901
+  },
+  {
+    "title": "131 Spontaneous Intestinal Perforation",
+    "level": 2,
+    "pageStart": 902,
+    "pageEnd": 904
+  },
+  {
+    "title": "132 Surgical Diseases of the Newborn: Abdominal Masses",
+    "level": 2,
+    "pageStart": 905,
+    "pageEnd": 906
+  },
+  {
+    "title": "133 Surgical Diseases of the Newborn: Abdominal Wall Defects",
+    "level": 2,
+    "pageStart": 907,
+    "pageEnd": 908
+  },
+  {
+    "title": "134 Surgical Diseases of the Newborn: Alimentary Tract Obstruction",
+    "level": 2,
+    "pageStart": 909,
+    "pageEnd": 912
+  },
+  {
+    "title": "135 Surgical Diseases of the Newborn: Diseases of the Airway, Tracheobronchial Tree, and Lungs",
+    "level": 2,
+    "pageStart": 913,
+    "pageEnd": 917
+  },
+  {
+    "title": "136 Surgical Diseases of the Newborn: Retroperitoneal Tumors",
+    "level": 2,
+    "pageStart": 918,
+    "pageEnd": 919
+  },
+  {
+    "title": "137 Surgical Diseases of the Newborn: Urologic Disorders",
+    "level": 2,
+    "pageStart": 920,
+    "pageEnd": 923
+  },
+  {
+    "title": "138 Syphilis",
+    "level": 2,
+    "pageStart": 924,
+    "pageEnd": 929
+  },
+  {
+    "title": "139 Thrombocytopenia and Platelet Dysfunction",
+    "level": 2,
+    "pageStart": 930,
+    "pageEnd": 935
+  },
+  {
+    "title": "140 Thyroid Disorders",
+    "level": 2,
+    "pageStart": 936,
+    "pageEnd": 941
+  },
+  {
+    "title": "141 TORCH Infections",
+    "level": 2,
+    "pageStart": 942,
+    "pageEnd": 942
+  },
+  {
+    "title": "142 Toxoplasmosis",
+    "level": 2,
+    "pageStart": 942,
+    "pageEnd": 946
+  },
+  {
+    "title": "143 Transient Tachypnea of the Newborn",
+    "level": 2,
+    "pageStart": 947,
+    "pageEnd": 953
+  },
+  {
+    "title": "144 Tuberculosis",
+    "level": 2,
+    "pageStart": 954,
+    "pageEnd": 957
+  },
+  {
+    "title": "145 Ureaplasma Infection",
+    "level": 2,
+    "pageStart": 958,
+    "pageEnd": 959
+  },
+  {
+    "title": "146 Urinary Tract Infection",
+    "level": 2,
+    "pageStart": 960,
+    "pageEnd": 961
+  },
+  {
+    "title": "147 Varicella-Zoster Infections",
+    "level": 2,
+    "pageStart": 962,
+    "pageEnd": 966
+  },
+  {
+    "title": "Section VII: Neonatal Pharmacology",
+    "level": 1,
+    "pageStart": 967,
+    "pageEnd": 967
+  },
+  {
+    "title": "148 Medications Used in the Neonatal Intensive Care Unit",
+    "level": 2,
+    "pageStart": 967,
+    "pageEnd": 1032
+  },
+  {
+    "title": "149 Effects of Drugs and Substances on Lactation and Infants",
+    "level": 2,
+    "pageStart": 1033,
+    "pageEnd": 1056
+  },
+  {
+    "title": "Appendices",
+    "level": 1,
+    "pageStart": 1057,
+    "pageEnd": 1057
+  },
+  {
+    "title": "A: Abbreviations Used in Neonatology",
+    "level": 2,
+    "pageStart": 1057,
+    "pageEnd": 1066
+  },
+  {
+    "title": "B: Apgar Scoring",
+    "level": 2,
+    "pageStart": 1067,
+    "pageEnd": 1067
+  },
+  {
+    "title": "C: Blood Pressure Determinations",
+    "level": 2,
+    "pageStart": 1068,
+    "pageEnd": 1068
+  },
+  {
+    "title": "D: Chartwork",
+    "level": 2,
+    "pageStart": 1069,
+    "pageEnd": 1072
+  },
+  {
+    "title": "E: Immunization Tables",
+    "level": 2,
+    "pageStart": 1073,
+    "pageEnd": 1074
+  },
+  {
+    "title": "F: Isolation Guidelines",
+    "level": 2,
+    "pageStart": 1075,
+    "pageEnd": 1084
+  },
+  {
+    "title": "G: Temperature Conversion Table",
+    "level": 2,
+    "pageStart": 1085,
+    "pageEnd": 1085
+  },
+  {
+    "title": "H: Weight Conversion Table",
+    "level": 2,
+    "pageStart": 1086,
+    "pageEnd": 1086
+  },
+  {
+    "title": "A",
+    "level": 2,
+    "pageStart": 1087,
+    "pageEnd": 1090
+  },
+  {
+    "title": "B",
+    "level": 2,
+    "pageStart": 1091,
+    "pageEnd": 1093
+  },
+  {
+    "title": "C",
+    "level": 2,
+    "pageStart": 1094,
+    "pageEnd": 1099
+  },
+  {
+    "title": "D",
+    "level": 2,
+    "pageStart": 1100,
+    "pageEnd": 1101
+  },
+  {
+    "title": "E",
+    "level": 2,
+    "pageStart": 1102,
+    "pageEnd": 1104
+  },
+  {
+    "title": "F",
+    "level": 2,
+    "pageStart": 1105,
+    "pageEnd": 1105
+  },
+  {
+    "title": "G",
+    "level": 2,
+    "pageStart": 1106,
+    "pageEnd": 1107
+  },
+  {
+    "title": "H",
+    "level": 2,
+    "pageStart": 1108,
+    "pageEnd": 1111
+  },
+  {
+    "title": "I",
+    "level": 2,
+    "pageStart": 1112,
+    "pageEnd": 1114
+  },
+  {
+    "title": "J",
+    "level": 2,
+    "pageStart": 1115,
+    "pageEnd": 1115
+  },
+  {
+    "title": "K",
+    "level": 2,
+    "pageStart": 1115,
+    "pageEnd": 1115
+  },
+  {
+    "title": "L",
+    "level": 2,
+    "pageStart": 1116,
+    "pageEnd": 1117
+  },
+  {
+    "title": "M",
+    "level": 2,
+    "pageStart": 1118,
+    "pageEnd": 1120
+  },
+  {
+    "title": "N",
+    "level": 2,
+    "pageStart": 1121,
+    "pageEnd": 1122
+  },
+  {
+    "title": "O",
+    "level": 2,
+    "pageStart": 1123,
+    "pageEnd": 1123
+  },
+  {
+    "title": "P",
+    "level": 2,
+    "pageStart": 1124,
+    "pageEnd": 1129
+  },
+  {
+    "title": "Q",
+    "level": 2,
+    "pageStart": 1130,
+    "pageEnd": 1130
+  },
+  {
+    "title": "R",
+    "level": 2,
+    "pageStart": 1130,
+    "pageEnd": 1131
+  },
+  {
+    "title": "S",
+    "level": 2,
+    "pageStart": 1132,
+    "pageEnd": 1135
+  },
+  {
+    "title": "T",
+    "level": 2,
+    "pageStart": 1136,
+    "pageEnd": 1137
+  },
+  {
+    "title": "U",
+    "level": 2,
+    "pageStart": 1138,
+    "pageEnd": 1138
+  },
+  {
+    "title": "V",
+    "level": 2,
+    "pageStart": 1139,
+    "pageEnd": 1140
+  },
+  {
+    "title": "W",
+    "level": 2,
+    "pageStart": 1141,
+    "pageEnd": 1141
+  },
+  {
+    "title": "X",
+    "level": 2,
+    "pageStart": 1141,
+    "pageEnd": 1141
+  },
+  {
+    "title": "Y",
+    "level": 2,
+    "pageStart": 1141,
+    "pageEnd": 1141
+  },
+  {
+    "title": "Z",
+    "level": 2,
+    "pageStart": 1141,
+    "pageEnd": 1142
+  }
+]

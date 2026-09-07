@@ -1,0 +1,248 @@
+[
+  {
+    "title": "Section 1: Fetal and Perinatal Care",
+    "level": 2,
+    "pageStart": 24,
+    "pageEnd": 25
+  },
+  {
+    "title": "1. Care during Pregnancy and Common Obstetric Illnessesand their Effect on the Fetus and Neonate",
+    "level": 3,
+    "pageStart": 26,
+    "pageEnd": 35
+  },
+  {
+    "title": "2. Antenatal Corticosteroid Therapy for Preterm Birth",
+    "level": 3,
+    "pageStart": 36,
+    "pageEnd": 41
+  },
+  {
+    "title": "Section 2: Issues in Care of Normal and High-risk Newborns",
+    "level": 2,
+    "pageStart": 42,
+    "pageEnd": 43
+  },
+  {
+    "title": "3. Care of Normal Newborn",
+    "level": 3,
+    "pageStart": 44,
+    "pageEnd": 53
+  },
+  {
+    "title": "4. Common External Markers",
+    "level": 3,
+    "pageStart": 54,
+    "pageEnd": 58
+  },
+  {
+    "title": "5. Thermal Management",
+    "level": 3,
+    "pageStart": 59,
+    "pageEnd": 67
+  },
+  {
+    "title": "6. Golden-hour Management of High-risk Newborn",
+    "level": 3,
+    "pageStart": 68,
+    "pageEnd": 77
+  },
+  {
+    "title": "7. Birth Injury",
+    "level": 3,
+    "pageStart": 78,
+    "pageEnd": 81
+  },
+  {
+    "title": "Section 3: Central Nervous System",
+    "level": 2,
+    "pageStart": 82,
+    "pageEnd": 83
+  },
+  {
+    "title": "8. Post-resuscitation Management of Asphyxiated Neonates",
+    "level": 3,
+    "pageStart": 84,
+    "pageEnd": 100
+  },
+  {
+    "title": "9. Neonatal Seizures",
+    "level": 3,
+    "pageStart": 101,
+    "pageEnd": 116
+  },
+  {
+    "title": "10. Preterm Brain Injury",
+    "level": 3,
+    "pageStart": 117,
+    "pageEnd": 125
+  },
+  {
+    "title": "Section 4: Cardiovascular System",
+    "level": 2,
+    "pageStart": 126,
+    "pageEnd": 127
+  },
+  {
+    "title": "11. Patent Ductus Arteriosus in a Preterm Neonate",
+    "level": 3,
+    "pageStart": 128,
+    "pageEnd": 144
+  },
+  {
+    "title": "12. Approach to a Neonate with Shock",
+    "level": 3,
+    "pageStart": 145,
+    "pageEnd": 160
+  },
+  {
+    "title": "13. Approach to a Neonate with Suspected Congenital HeartDisease",
+    "level": 3,
+    "pageStart": 161,
+    "pageEnd": 177
+  },
+  {
+    "title": "Section 5: Respiratory System",
+    "level": 2,
+    "pageStart": 178,
+    "pageEnd": 179
+  },
+  {
+    "title": "14. Approach to Respiratory Distress in the Newborn",
+    "level": 3,
+    "pageStart": 180,
+    "pageEnd": 193
+  },
+  {
+    "title": "15. Respiratory Distress in Term Neonates",
+    "level": 3,
+    "pageStart": 194,
+    "pageEnd": 204
+  },
+  {
+    "title": "16. Respiratory Distress in Preterm Neonates",
+    "level": 3,
+    "pageStart": 205,
+    "pageEnd": 215
+  },
+  {
+    "title": "17. Apnea",
+    "level": 3,
+    "pageStart": 216,
+    "pageEnd": 224
+  },
+  {
+    "title": "18. Congenital Diaphragmatic Hernia",
+    "level": 3,
+    "pageStart": 225,
+    "pageEnd": 228
+  },
+  {
+    "title": "19. Tracheoesophageal Fistula",
+    "level": 3,
+    "pageStart": 229,
+    "pageEnd": 233
+  },
+  {
+    "title": "Section 6: Gastrointestinal and Hepatobiliary Tract andNutrition",
+    "level": 2,
+    "pageStart": 234,
+    "pageEnd": 235
+  },
+  {
+    "title": "20. Jaundice in the Newborn",
+    "level": 3,
+    "pageStart": 236,
+    "pageEnd": 247
+  },
+  {
+    "title": "21. Feeding of Low Birth Weight Infants",
+    "level": 3,
+    "pageStart": 248,
+    "pageEnd": 262
+  },
+  {
+    "title": "22. Postnatal Growth Monitoring and Extrauterine GrowthRestriction",
+    "level": 3,
+    "pageStart": 263,
+    "pageEnd": 270
+  },
+  {
+    "title": "23. Necrotizing Enterocolitis",
+    "level": 3,
+    "pageStart": 271,
+    "pageEnd": 279
+  },
+  {
+    "title": "Section 7: Infections",
+    "level": 2,
+    "pageStart": 280,
+    "pageEnd": 281
+  },
+  {
+    "title": "24. Neonatal Sepsis",
+    "level": 3,
+    "pageStart": 282,
+    "pageEnd": 294
+  },
+  {
+    "title": "25. Perinatal HIV",
+    "level": 3,
+    "pageStart": 295,
+    "pageEnd": 300
+  },
+  {
+    "title": "26. Management Algorithms of Infants Born toMother with Various Infections",
+    "level": 3,
+    "pageStart": 301,
+    "pageEnd": 301
+  },
+  {
+    "title": "a. Neonates Born to Mothers with Tuberculosis (TB)",
+    "level": 4,
+    "pageStart": 301,
+    "pageEnd": 301
+  },
+  {
+    "title": "b. Neonates Born to Mothers with Hepatitis B Virus(HBV) Infection",
+    "level": 4,
+    "pageStart": 302,
+    "pageEnd": 302
+  },
+  {
+    "title": "c. Neonate Born to Mother with Hepatitis C Virus(HCV) Infection",
+    "level": 4,
+    "pageStart": 303,
+    "pageEnd": 303
+  },
+  {
+    "title": "d. Neonates Born to Mothers with Syphilis",
+    "level": 4,
+    "pageStart": 304,
+    "pageEnd": 305
+  },
+  {
+    "title": "e. Neonates Born to Mothers with Toxoplasmosis",
+    "level": 4,
+    "pageStart": 306,
+    "pageEnd": 306
+  },
+  {
+    "title": "f. Approach to Neonates with Suspected CongenitalCytomegalovirus (CMV) Infection",
+    "level": 4,
+    "pageStart": 307,
+    "pageEnd": 307
+  },
+  {
+    "title": "g. Neonates Born to Mothers with Varicella Infection",
+    "level": 4,
+    "pageStart": 308,
+    "pageEnd": 309
+  },
+  {
+    "title": "h. Neonates Born to Mothers with Active HerpesGenital Lesions",
+    "level": 4,
+    "pageStart": 310,
+    "pageEnd": 320
+  }
+]

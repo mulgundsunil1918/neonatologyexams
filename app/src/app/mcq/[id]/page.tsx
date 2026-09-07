@@ -1,5 +1,7 @@
 import { db } from "@/lib/db";
-import { DEFAULT_USER_ID, CONFIDENCE_META } from "@/lib/constants";
+import { DEFAULT_USER_ID, CONFIDENCE_META, RESOURCES_ROOT } from "@/lib/constants";
+
+const SOURCE_RANK: Record<string, number> = { SOURCE_CONFIRMED: 0, SOURCE_SUPPORTED: 1, SOURCE_DEPENDENT: 2, NOT_FOUND: 3 };
 import { TierBadge } from "@/components/tier-badge";
 import { QuestionAttempt } from "./question-attempt";
 import Link from "next/link";
@@ -128,17 +130,42 @@ export default async function McqDetailPage({ params }: PageProps<"/mcq/[id]">) 
           </div>
 
           <div>
-            <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">Sources</div>
+            <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">Sources</div>
             {question.sources.length > 0 ? (
-              <ul className="text-sm space-y-1">
-                {question.sources.map((s) => (
-                  <li key={s.id}>
-                    <span className="font-medium">{s.resource.title}</span>
-                    {s.chapter && <span className="text-muted-foreground"> — {s.chapter}</span>}
-                    {s.pageRef && <span className="text-muted-foreground font-mono text-xs"> (p.{s.pageRef})</span>}
-                  </li>
-                ))}
-              </ul>
+              <div className="space-y-2.5">
+                {[...question.sources]
+                  .sort((a, b) => SOURCE_RANK[a.confidenceStatus] - SOURCE_RANK[b.confidenceStatus] || (a.role === "primary" ? -1 : 1))
+                  .map((s) => {
+                    const meta = CONFIDENCE_META[s.confidenceStatus] ?? CONFIDENCE_META.NOT_FOUND;
+                    const fileHref = `file://${RESOURCES_ROOT}/${encodeURIComponent(s.resource.fileName)}#page=${s.pageRef}`;
+                    return (
+                      <div key={s.id} className="rounded-md border border-border p-3">
+                        <div className="flex items-start justify-between gap-3">
+                          <div>
+                            <a href={fileHref} className="font-medium text-sm hover:underline hover:text-primary" title="Open the original PDF at this page (works when opened on the machine holding the source library)">
+                              {s.resource.title}
+                            </a>
+                            {s.chapter && <div className="text-xs text-muted-foreground mt-0.5">{s.chapter}</div>}
+                          </div>
+                          <span className="text-xs font-mono text-muted-foreground shrink-0">p.{s.pageRef}</span>
+                        </div>
+                        {s.matchedSnippet && (
+                          <p className="text-xs text-muted-foreground mt-2 leading-relaxed line-clamp-2">&ldquo;{s.matchedSnippet}&hellip;&rdquo;</p>
+                        )}
+                        <span
+                          className={
+                            "inline-block mt-2 text-[10px] font-mono px-1.5 py-0.5 rounded-full border " +
+                            (meta.tone === "good" ? "text-good border-good/30 bg-good-bg" :
+                             meta.tone === "bad" ? "text-bad border-bad/30 bg-bad-bg" :
+                             "text-muted-foreground border-border")
+                          }
+                        >
+                          {meta.label}
+                        </span>
+                      </div>
+                    );
+                  })}
+              </div>
             ) : (
               <p className="text-sm text-muted-foreground italic">Not found in uploaded resources yet.</p>
             )}

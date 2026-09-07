@@ -16,3 +16,9 @@ app/dev.db-journal
 app/prisma/dev.db-journal
 app/src/generated/
 app/.env
+
+# Extracted full page-text of copyrighted textbooks — same concern as the source PDFs
+# (this IS their content, just reformatted). Regenerate any time with:
+#   .venv/bin/python scripts/ingest_resources.py
+# Chapter/TOC metadata (titles + page numbers only, not the prose) is fine to keep in git.
+data/resources/*_pages.json

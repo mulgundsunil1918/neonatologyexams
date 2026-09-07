@@ -25,9 +25,43 @@ model Resource {
   pageCount Int?
   createdAt DateTime @default(now())
 
-  sources QuestionSource[]
+  sources  QuestionSource[]
+  chapters Chapter[]
+  pages    ResourcePage[]
 
   @@index([category])
+}
+
+// A navigable unit from the book's own embedded outline (never re-derived from prose) —
+// see scripts/ingest_resources.py. Two resources have no embedded outline at all
+// (NEOCON Ventilation, AIIMS Vol.2); those get one chapter row spanning the whole book
+// rather than a guessed breakdown.
+model Chapter {
+  id         String @id @default(cuid())
+  resourceId String
+  title      String
+  level      Int
+  pageStart  Int
+  pageEnd    Int
+
+  resource Resource         @relation(fields: [resourceId], references: [id])
+  sources  QuestionSource[]
+
+  @@index([resourceId, pageStart])
+}
+
+// Full page text — the substrate for full-text search (see src/lib/search.ts, which builds
+// a SQLite FTS5 index over this table) and for verifying a citation actually says what it's
+// cited for, rather than trusting a keyword match blindly.
+model ResourcePage {
+  id         String @id @default(cuid())
+  resourceId String
+  pageNumber Int
+  text       String
+
+  resource Resource @relation(fields: [resourceId], references: [id])
+
+  @@unique([resourceId, pageNumber])
 }
 
 // ---------- Content: exam structure ----------
@@ -212,13 +246,22 @@ model QuestionSource {
   id               String  @id @default(cuid())
   masterQuestionId String
   resourceId       String
+  chapterId        String?
   role             String // "primary" | "additional"
-  chapter          String?
+  chapter          String? // denormalized chapter title, kept even if chapterId is null
   pageRef          String?
   tableOrFigure    String?
+  matchedSnippet   String? // the actual passage text the citation is based on — shown in the UI
+                            // so a reader can judge the match themselves rather than trust a label
+  confidenceStatus String  @default("NOT_FOUND")
+  // "SOURCE_CONFIRMED" (a person/LLM read the passage and confirmed it) |
+  // "SOURCE_DEPENDENT" (a search match found this page; passage not yet read/verified) |
+  // "NOT_FOUND"
+  matchMethod      String? // "keyword_search" | "human_verified"
 
   masterQuestion MasterQuestion @relation(fields: [masterQuestionId], references: [id])
   resource       Resource       @relation(fields: [resourceId], references: [id])
+  chapterRef     Chapter?       @relation(fields: [chapterId], references: [id])
 
   @@index([masterQuestionId])
 }
