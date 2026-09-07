@@ -67,6 +67,7 @@ export function FilterBar({ systems, sittings }: { systems: SystemOpt[]; sitting
               {systems.map((s) => (
                 <SelectItem key={s.id} value={s.id}>{s.name}</SelectItem>
               ))}
+              <SelectItem value="unclassified">Unclassified</SelectItem>
             </SelectContent>
           </Select>
         </Field>

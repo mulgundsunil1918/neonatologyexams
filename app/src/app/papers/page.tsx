@@ -1,5 +1,6 @@
 import { db } from "@/lib/db";
 import { PageHeader } from "@/components/page-header";
+import { BackLink } from "@/components/back-link";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
 
@@ -22,6 +23,7 @@ export default async function PapersPage() {
       <PageHeader
         title="Paper-wise Solving"
         subtitle="Solve a paper exactly as it was originally set — original numbering, original sequence, no reordering by topic."
+        right={<BackLink href="/nnf-iap">NNF/IAP Fellowship</BackLink>}
       />
       <div className="p-8 grid md:grid-cols-2 gap-4">
         {sittings.map((s) => (

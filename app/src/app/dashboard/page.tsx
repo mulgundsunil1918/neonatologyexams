@@ -74,7 +74,9 @@ export default async function DashboardPage() {
             Repetition-tier completion
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            {(Object.keys(TIER_META) as Tier[]).map((tier) => {
+            {(Object.keys(TIER_META) as Tier[])
+              .filter((tier) => (tierTotalMap[tier] ?? 0) > 0)
+              .map((tier) => {
               const total = tierTotalMap[tier] ?? 0;
               const done = tierAttemptedMap[tier]?.size ?? 0;
               const pct = total ? Math.round((done / total) * 100) : 0;

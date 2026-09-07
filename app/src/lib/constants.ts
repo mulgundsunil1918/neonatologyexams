@@ -7,13 +7,17 @@ export const TIER_META = {
 
 export type Tier = keyof typeof TIER_META;
 
-export const CONFIDENCE_META: Record<string, { label: string; tone: "good" | "neutral" | "bad" }> = {
+// "external" gets its own tone (amber, never green) so it can never visually read as the same
+// thing as an uploaded-source confirmation — see EXTERNAL_VERIFICATION below and Part 1 of the
+// spec: "Never present external information as if it came from the uploaded books."
+export const CONFIDENCE_META: Record<string, { label: string; tone: "good" | "neutral" | "bad" | "external" }> = {
   SOURCE_CONFIRMED: { label: "Source confirmed", tone: "good" },
   SOURCE_SUPPORTED: { label: "Source supported", tone: "good" },
   SOURCE_DEPENDENT: { label: "Candidate match — not yet verified", tone: "neutral" },
   QUESTION_OPTION_FLAWED: { label: "Question/option flawed", tone: "bad" },
   OUTDATED_SOURCE: { label: "Outdated source", tone: "bad" },
   NOT_FOUND: { label: "Not found in uploaded resources", tone: "neutral" },
+  EXTERNAL_VERIFICATION: { label: "External/current verification — not from uploaded resources", tone: "external" },
 };
 
 export const DEFAULT_USER_ID = "local-user";

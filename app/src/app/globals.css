@@ -58,6 +58,8 @@
   --color-good-bg: var(--good-bg);
   --color-bad: var(--bad);
   --color-bad-bg: var(--bad-bg);
+  --color-external: var(--external);
+  --color-external-bg: var(--external-bg);
 }
 
 :root {
@@ -106,6 +108,8 @@
   --good-bg: oklch(0.95 0.03 155);
   --bad: oklch(0.5 0.17 25);
   --bad-bg: oklch(0.96 0.03 25);
+  --external: oklch(0.5 0.15 255);
+  --external-bg: oklch(0.95 0.03 255);
 }
 
 .dark {
@@ -153,6 +157,8 @@
   --good-bg: oklch(0.24 0.05 155);
   --bad: oklch(0.72 0.14 25);
   --bad-bg: oklch(0.28 0.05 25);
+  --external: oklch(0.72 0.13 255);
+  --external-bg: oklch(0.26 0.05 255);
 }
 
 @layer base {

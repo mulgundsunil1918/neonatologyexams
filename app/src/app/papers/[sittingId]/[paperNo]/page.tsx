@@ -1,8 +1,8 @@
 import { db } from "@/lib/db";
 import { PageHeader } from "@/components/page-header";
-import { PaperRunner } from "./paper-runner";
+import { TestRunner } from "@/components/test-runner";
 import { notFound } from "next/navigation";
-import Link from "next/link";
+import { BackLink } from "@/components/back-link";
 
 // Always reflect live DB state (attempts, bookmarks) — never statically cache this page.
 export const dynamic = 'force-dynamic';
@@ -22,6 +22,8 @@ export default async function PaperPage({ params }: PageProps<"/papers/[sittingI
               options: { orderBy: { sortOrder: "asc" } },
               subParts: { orderBy: { sortOrder: "asc" } },
               answer: true,
+              explanation: true,
+              sources: { include: { resource: true } },
             },
           },
         },
@@ -35,19 +37,31 @@ export default async function PaperPage({ params }: PageProps<"/papers/[sittingI
       <PageHeader
         title={`${paper.sitting.label} — Paper ${paper.paperNo}`}
         subtitle={`${paper.paperType === "MCQ" ? "Multiple choice" : "Theory / essay"} · original sequence, original numbering · pages ${paper.pageStart}–${paper.pageEnd} of the source QBank`}
-        right={<Link href="/papers" className="text-xs text-muted-foreground hover:text-foreground shrink-0">← All papers</Link>}
+        right={<BackLink href="/papers">All papers</BackLink>}
       />
       <div className="max-w-3xl mx-auto px-8 py-8">
         {paper.paperType === "MCQ" ? (
-          <PaperRunner
-            paperId={paper.id}
+          <TestRunner
+            mode="paperwise"
+            submitLabel="Submit Paper"
             questions={paper.occurrences.map((o) => ({
               id: o.masterQuestion.id,
-              originalQnum: o.originalQnum,
+              label: String(o.originalQnum),
               stem: o.masterQuestion.stem,
               repetitionTier: o.masterQuestion.repetitionTier,
               options: o.masterQuestion.options,
               correctLetter: o.masterQuestion.answer?.correctLetter ?? null,
+              answerConfidenceStatus: o.masterQuestion.answer?.confidenceStatus ?? "NOT_FOUND",
+              explanation: o.masterQuestion.explanation?.body ?? null,
+              sources: o.masterQuestion.sources.map((s) => ({
+                id: s.id,
+                resourceTitle: s.resource.title,
+                fileName: s.resource.fileName,
+                chapter: s.chapter,
+                pageRef: s.pageRef,
+                matchedSnippet: s.matchedSnippet,
+                confidenceStatus: s.confidenceStatus,
+              })),
             }))}
           />
         ) : (

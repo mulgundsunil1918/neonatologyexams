@@ -4,13 +4,13 @@ import { db } from "@/lib/db";
 import { DEFAULT_USER_ID } from "@/lib/constants";
 import { revalidatePath } from "next/cache";
 
-export async function submitPaper(
-  paperId: string,
+export async function submitTest(
+  mode: "paperwise" | "mcq_test",
   answers: { masterQuestionId: string; selectedLetter: string | null }[],
   timeSpentSecs: number
 ) {
   const session = await db.studySession.create({
-    data: { userId: DEFAULT_USER_ID, mode: "paperwise", endedAt: new Date() },
+    data: { userId: DEFAULT_USER_ID, mode, endedAt: new Date() },
   });
 
   const knownAnswers = await db.answer.findMany({

@@ -1,9 +1,6 @@
 import {
   LayoutDashboard,
-  ListChecks,
-  FileText,
-  Stethoscope,
-  BookOpen,
+  GraduationCap,
   ClipboardList,
   Library,
   RefreshCw,
@@ -14,10 +11,7 @@ import {
 
 export const NAV = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
-  { href: "/mcq", label: "MCQs", icon: ListChecks },
-  { href: "/papers", label: "Papers", icon: FileText },
-  { href: "/systems", label: "Systems", icon: Stethoscope },
-  { href: "/theory", label: "Theory", icon: BookOpen },
+  { href: "/nnf-iap", label: "NNF/IAP Fellowship", icon: GraduationCap },
   { href: "/cases", label: "Clinical Cases", icon: ClipboardList },
   { href: "/resources", label: "Resources", icon: Library },
   { href: "/revision", label: "Revision", icon: RefreshCw },

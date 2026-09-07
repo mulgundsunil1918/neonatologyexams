@@ -2,10 +2,12 @@ import { db } from "@/lib/db";
 import { DEFAULT_USER_ID } from "@/lib/constants";
 import { PageHeader } from "@/components/page-header";
 import { TierBadge } from "@/components/tier-badge";
+import { BackLink } from "@/components/back-link";
 import { FilterBar } from "./filter-bar";
+import { buildMcqWhere, currentFilterQueryString } from "@/lib/mcq-filters";
+import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
-import { ImageIcon, TableIcon } from "lucide-react";
-import type { Prisma } from "@/generated/prisma/client";
+import { ImageIcon, TableIcon, ArrowLeft, ArrowRight } from "lucide-react";
 
 // Always reflect live DB state (attempts, bookmarks) — never statically cache this page.
 export const dynamic = 'force-dynamic';
@@ -16,14 +18,7 @@ export default async function McqListPage({ searchParams }: PageProps<"/mcq">) {
   const sp = await searchParams;
   const page = Math.max(1, parseInt((sp.page as string) ?? "1", 10) || 1);
 
-  const where: Prisma.MasterQuestionWhereInput = { paperType: "MCQ" };
-  if (sp.tier && sp.tier !== "all") where.repetitionTier = sp.tier as string;
-  if (sp.system && sp.system !== "all") where.primarySystemId = sp.system as string;
-  if (sp.image === "yes") where.hasImage = true;
-  if (sp.q) where.stem = { contains: sp.q as string };
-  if (sp.sitting && sp.sitting !== "all") {
-    where.occurrences = { some: { paper: { sittingId: sp.sitting as string } } };
-  }
+  const where = await buildMcqWhere(sp);
 
   const attempts = await db.attempt.findMany({
     where: { userId: DEFAULT_USER_ID },
@@ -33,9 +28,7 @@ export default async function McqListPage({ searchParams }: PageProps<"/mcq">) {
   const attemptByQ = new Map<string, boolean | null>();
   for (const a of attempts) if (!attemptByQ.has(a.masterQuestionId)) attemptByQ.set(a.masterQuestionId, a.isCorrect);
 
-  if (sp.attempted === "yes") where.id = { in: [...attemptByQ.keys()] };
-  if (sp.attempted === "no") where.id = { notIn: [...attemptByQ.keys()] };
-  if (sp.attempted === "incorrect") where.id = { in: [...attemptByQ.entries()].filter(([, c]) => c === false).map(([id]) => id) };
+  const qs = currentFilterQueryString(sp);
 
   const [systems, sittings, total, questions] = await Promise.all([
     db.system.findMany({ orderBy: { sortOrder: "asc" }, select: { id: true, name: true } }),
@@ -60,8 +53,23 @@ export default async function McqListPage({ searchParams }: PageProps<"/mcq">) {
       <PageHeader
         title="MCQ Master"
         subtitle={`${total} question${total === 1 ? "" : "s"} matching your filters — ${await db.masterQuestion.count({ where: { paperType: "MCQ" } })} total in the bank.`}
+        right={<BackLink href="/nnf-iap/mcq">MCQ</BackLink>}
       />
       <FilterBar systems={systems} sittings={sittings} />
+
+      <div className="flex items-center justify-between px-8 py-3 border-b border-border bg-muted/10">
+        <p className="text-xs text-muted-foreground">
+          Learn (tap-to-reveal) is the default below — click any question. Or study the current {total} filtered question{total === 1 ? "" : "s"} in:
+        </p>
+        <div className="flex gap-2 shrink-0">
+          <Link href={`/mcq/learn${qs ? `?${qs}` : ""}`} className={buttonVariants({ variant: "outline", size: "sm" })}>
+            Full Learn Mode
+          </Link>
+          <Link href={`/mcq/test${qs ? `?${qs}` : ""}`} className={buttonVariants({ variant: "default", size: "sm" })}>
+            Start Test
+          </Link>
+        </div>
+      </div>
 
       <div className="divide-y divide-border">
         {questions.map((q) => {
@@ -70,7 +78,7 @@ export default async function McqListPage({ searchParams }: PageProps<"/mcq">) {
           return (
             <Link
               key={q.id}
-              href={`/mcq/${q.id}`}
+              href={`/mcq/${q.id}${qs ? `?${qs}` : ""}`}
               className="flex items-start gap-4 px-8 py-4 hover:bg-muted/40 transition-colors"
             >
               <TierBadge tier={q.repetitionTier} showLabel={false} className="mt-0.5" />
@@ -100,9 +108,17 @@ export default async function McqListPage({ searchParams }: PageProps<"/mcq">) {
 
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-4 py-6 text-sm">
-          {page > 1 && <PageLink sp={sp} page={page - 1}>← Previous</PageLink>}
+          {page > 1 ? (
+            <PageLink sp={sp} page={page - 1}><ArrowLeft className="size-3.5" /> Previous</PageLink>
+          ) : (
+            <span className={buttonVariants({ variant: "outline", size: "sm" }) + " opacity-40 pointer-events-none"}><ArrowLeft className="size-3.5" /> Previous</span>
+          )}
           <span className="text-muted-foreground font-mono text-xs">Page {page} of {totalPages}</span>
-          {page < totalPages && <PageLink sp={sp} page={page + 1}>Next →</PageLink>}
+          {page < totalPages ? (
+            <PageLink sp={sp} page={page + 1}>Next <ArrowRight className="size-3.5" /></PageLink>
+          ) : (
+            <span className={buttonVariants({ variant: "outline", size: "sm" }) + " opacity-40 pointer-events-none"}>Next <ArrowRight className="size-3.5" /></span>
+          )}
         </div>
       )}
     </div>
@@ -113,5 +129,5 @@ function PageLink({ sp, page, children }: { sp: Record<string, string | string[]
   const params = new URLSearchParams();
   for (const [k, v] of Object.entries(sp)) if (v && typeof v === "string") params.set(k, v);
   params.set("page", String(page));
-  return <Link href={`/mcq?${params.toString()}`} className="text-primary hover:underline">{children}</Link>;
+  return <Link href={`/mcq?${params.toString()}`} className={buttonVariants({ variant: "outline", size: "sm" })}>{children}</Link>;
 }

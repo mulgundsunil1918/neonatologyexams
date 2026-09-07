@@ -1,18 +1,21 @@
 import { db } from "@/lib/db";
 import { DEFAULT_USER_ID, CONFIDENCE_META, RESOURCES_ROOT } from "@/lib/constants";
-
-const SOURCE_RANK: Record<string, number> = { SOURCE_CONFIRMED: 0, SOURCE_SUPPORTED: 1, SOURCE_DEPENDENT: 2, NOT_FOUND: 3 };
+import { toneClasses, SOURCE_RANK } from "@/lib/confidence-ui";
+import { buildMcqWhere, currentFilterQueryString } from "@/lib/mcq-filters";
 import { TierBadge } from "@/components/tier-badge";
+import { BackLink } from "@/components/back-link";
 import { QuestionAttempt } from "./question-attempt";
+import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ImageIcon, TableIcon, AlertTriangle } from "lucide-react";
+import { ImageIcon, TableIcon, AlertTriangle, ArrowRight } from "lucide-react";
 
 // Always reflect live DB state (attempts, bookmarks) — never statically cache this page.
 export const dynamic = 'force-dynamic';
 
-export default async function McqDetailPage({ params }: PageProps<"/mcq/[id]">) {
+export default async function McqDetailPage({ params, searchParams }: PageProps<"/mcq/[id]">) {
   const { id } = await params;
+  const sp = await searchParams;
 
   const question = await db.masterQuestion.findUnique({
     where: { id },
@@ -32,14 +35,29 @@ export default async function McqDetailPage({ params }: PageProps<"/mcq/[id]">) 
   });
   if (!question) notFound();
 
-  const [priorAttempt, bookmark] = await Promise.all([
+  const [priorAttempt, bookmark, sequence] = await Promise.all([
     db.attempt.findFirst({
       where: { userId: DEFAULT_USER_ID, masterQuestionId: id },
       orderBy: { attemptedAt: "desc" },
       select: { selectedLetter: true, isCorrect: true },
     }),
     db.bookmark.findUnique({ where: { userId_masterQuestionId: { userId: DEFAULT_USER_ID, masterQuestionId: id } } }),
+    db.masterQuestion.findMany({
+      where: await buildMcqWhere(sp, question.paperType as "MCQ" | "THEORY"),
+      orderBy: [{ repetitionTier: "asc" }, { id: "asc" }],
+      select: { id: true },
+    }),
   ]);
+
+  // Previous/Next within the SAME filtered sequence the reader arrived from (year/system/etc.),
+  // so paging through questions never forces a detour back to the list.
+  const qs = currentFilterQueryString(sp);
+  const idx = sequence.findIndex((q) => q.id === id);
+  const prevId = idx > 0 ? sequence[idx - 1].id : null;
+  const nextId = idx >= 0 && idx < sequence.length - 1 ? sequence[idx + 1].id : null;
+  const withQs = (qid: string) => `/mcq/${qid}${qs ? `?${qs}` : ""}`;
+  const listHref = question.paperType === "THEORY" ? `/theory${qs ? `?${qs}` : ""}` : `/mcq${qs ? `?${qs}` : ""}`;
+  const listLabel = question.paperType === "THEORY" ? "Back to Theory" : "Back to MCQ Master";
 
   // The answer's OWN confidence status, not the question's general flaw/confidence flag —
   // a question can be a perfectly sound question (SOURCE_CONFIRMED at the question level)
@@ -47,9 +65,32 @@ export default async function McqDetailPage({ params }: PageProps<"/mcq/[id]">) 
   const answerConfStatus = question.answer?.confidenceStatus ?? "NOT_FOUND";
   const confMeta = CONFIDENCE_META[answerConfStatus] ?? CONFIDENCE_META.NOT_FOUND;
 
+  // Once an answer is known to be externally researched (not in the uploaded books), an
+  // unverified keyword-matched "candidate" citation from those same books is actively
+  // misleading to show alongside it — it reads as if the books back the answer when they
+  // were never confirmed to. Only show sources here that were actually hand-verified.
+  const isExternalAnswer = answerConfStatus === "EXTERNAL_VERIFICATION";
+  const visibleSources = isExternalAnswer
+    ? question.sources.filter((s) => s.confidenceStatus === "SOURCE_CONFIRMED" || s.confidenceStatus === "SOURCE_SUPPORTED")
+    : question.sources;
+
   return (
     <div className="max-w-3xl mx-auto px-8 py-8">
-      <Link href="/mcq" className="text-xs text-muted-foreground hover:text-foreground">← Back to MCQ Master</Link>
+      <div className="flex items-center justify-between gap-3 flex-wrap">
+        <BackLink href={listHref}>{listLabel}</BackLink>
+        <div className="flex items-center gap-2">
+          {prevId ? (
+            <Link href={withQs(prevId)} className={buttonVariants({ variant: "outline", size: "sm" })}>← Previous</Link>
+          ) : (
+            <span className={buttonVariants({ variant: "outline", size: "sm" }) + " opacity-40 pointer-events-none"}>← Previous</span>
+          )}
+          {nextId ? (
+            <Link href={withQs(nextId)} className={buttonVariants({ variant: "outline", size: "sm" })}>Next <ArrowRight className="size-3.5" /></Link>
+          ) : (
+            <span className={buttonVariants({ variant: "outline", size: "sm" }) + " opacity-40 pointer-events-none"}>Next <ArrowRight className="size-3.5" /></span>
+          )}
+        </div>
+      </div>
 
       <div className="flex items-center gap-2 mt-4 mb-1 flex-wrap">
         <TierBadge tier={question.repetitionTier} />
@@ -103,37 +144,39 @@ export default async function McqDetailPage({ params }: PageProps<"/mcq/[id]">) 
       {/* Answer / confidence status — shown once attempted for MCQ, always for Theory */}
       {(priorAttempt || question.paperType === "THEORY") && (
         <div className="mt-6 pt-6 border-t border-border space-y-4">
-          <div>
-            <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">Correct answer</div>
-            {question.answer?.correctLetter ? (
-              <p className="text-sm font-mono">{question.answer.correctLetter}</p>
-            ) : (
-              <p className="text-sm text-muted-foreground italic">Not found in uploaded resources yet.</p>
-            )}
-            <span
-              className={
-                "inline-block mt-1 text-[11px] font-mono px-2 py-0.5 rounded-full border " +
-                (confMeta.tone === "good" ? "text-good border-good/30 bg-good-bg" :
-                 confMeta.tone === "bad" ? "text-bad border-bad/30 bg-bad-bg" :
-                 "text-muted-foreground border-border")
-              }
-            >
-              {confMeta.label}
-            </span>
-          </div>
+          {question.paperType === "MCQ" && (
+            <div>
+              <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">Correct answer</div>
+              {question.answer?.correctLetter ? (
+                <p className="text-sm font-mono">{question.answer.correctLetter}</p>
+              ) : (
+                <p className="text-sm text-muted-foreground italic">Not found in uploaded resources yet.</p>
+              )}
+              <span className={"inline-block mt-1 text-[11px] font-mono px-2 py-0.5 rounded-full border " + toneClasses(confMeta.tone)}>
+                {confMeta.label}
+              </span>
+            </div>
+          )}
 
           <div>
-            <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">Explanation</div>
-            <p className="text-sm text-muted-foreground italic">
+            <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">
+              {question.paperType === "THEORY" ? "Model answer" : "Explanation"}
+            </div>
+            {question.paperType === "THEORY" && question.explanation?.body && (
+              <span className={"inline-block mb-2 text-[11px] font-mono px-2 py-0.5 rounded-full border " + toneClasses(confMeta.tone)}>
+                {confMeta.label}
+              </span>
+            )}
+            <p className="text-sm text-muted-foreground whitespace-pre-line leading-relaxed">
               {question.explanation?.body ?? "Not yet ingested from the reference library — explanations are sourced from the textbook/protocol cross-reference pass, which hasn't run for this question yet."}
             </p>
           </div>
 
           <div>
             <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-2">Sources</div>
-            {question.sources.length > 0 ? (
+            {visibleSources.length > 0 ? (
               <div className="space-y-2.5">
-                {[...question.sources]
+                {[...visibleSources]
                   .sort((a, b) => SOURCE_RANK[a.confidenceStatus] - SOURCE_RANK[b.confidenceStatus] || (a.role === "primary" ? -1 : 1))
                   .map((s) => {
                     const meta = CONFIDENCE_META[s.confidenceStatus] ?? CONFIDENCE_META.NOT_FOUND;
@@ -152,20 +195,15 @@ export default async function McqDetailPage({ params }: PageProps<"/mcq/[id]">) 
                         {s.matchedSnippet && (
                           <p className="text-xs text-muted-foreground mt-2 leading-relaxed line-clamp-2">&ldquo;{s.matchedSnippet}&hellip;&rdquo;</p>
                         )}
-                        <span
-                          className={
-                            "inline-block mt-2 text-[10px] font-mono px-1.5 py-0.5 rounded-full border " +
-                            (meta.tone === "good" ? "text-good border-good/30 bg-good-bg" :
-                             meta.tone === "bad" ? "text-bad border-bad/30 bg-bad-bg" :
-                             "text-muted-foreground border-border")
-                          }
-                        >
+                        <span className={"inline-block mt-2 text-[10px] font-mono px-1.5 py-0.5 rounded-full border " + toneClasses(meta.tone)}>
                           {meta.label}
                         </span>
                       </div>
                     );
                   })}
               </div>
+            ) : isExternalAnswer ? (
+              <p className="text-sm text-muted-foreground italic">Not sourced from the uploaded books — this answer came from external/current verification (see the badge above).</p>
             ) : (
               <p className="text-sm text-muted-foreground italic">Not found in uploaded resources yet.</p>
             )}
@@ -189,6 +227,18 @@ export default async function McqDetailPage({ params }: PageProps<"/mcq/[id]">) 
             </Link>
           ))}
         </div>
+      </div>
+
+      <div className="mt-8 flex justify-end">
+        {nextId ? (
+          <Link href={withQs(nextId)} className={buttonVariants({ variant: "default", size: "default" })}>
+            Next question <ArrowRight className="size-4" />
+          </Link>
+        ) : (
+          <span className={buttonVariants({ variant: "outline", size: "default" }) + " opacity-40 pointer-events-none"}>
+            End of list
+          </span>
+        )}
       </div>
     </div>
   );
