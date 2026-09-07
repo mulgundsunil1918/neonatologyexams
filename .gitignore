@@ -4,6 +4,7 @@
 
 .venv/
 __pycache__/
+.claude/scheduled_tasks.lock
 *.pyc
 .DS_Store
 

@@ -310,6 +310,62 @@ model Note {
   masterQuestion MasterQuestion @relation(fields: [masterQuestionId], references: [id])
 }
 
+// ---------- NRP 9th Edition module ----------
+// Deliberately separate from MasterQuestion/QuestionOccurrence above — this content is NOT
+// extracted from any exam paper (there is no NRP source document in the uploaded resources).
+// It is externally-authored study material (AAP/NRP 9th edition official materials, released
+// Oct 2025), so every row here is confidenceStatus "EXTERNAL_VERIFICATION" by construction —
+// never to be presented as if it came from the uploaded books.
+
+model NrpChange {
+  id           String  @id @default(cuid())
+  topic        String // e.g. "Cord management", "Initial steps", "Airway", "Ventilation"
+  eighthEd     String // what 8th edition said/did
+  ninthEd      String // what changed in 9th edition
+  whyItMatters String?
+  highYield    Boolean @default(true)
+  sortOrder    Int
+}
+
+model NrpQuestion {
+  id        String @id @default(cuid())
+  stem      String
+  topic     String
+  sortOrder Int
+
+  options     NrpOption[]
+  answer      NrpAnswer?
+  explanation NrpExplanation?
+}
+
+model NrpOption {
+  id         String @id @default(cuid())
+  questionId String
+  letter     String
+  text       String
+  sortOrder  Int
+
+  question NrpQuestion @relation(fields: [questionId], references: [id])
+
+  @@index([questionId])
+}
+
+model NrpAnswer {
+  id            String @id @default(cuid())
+  questionId    String @unique
+  correctLetter String
+
+  question NrpQuestion @relation(fields: [questionId], references: [id])
+}
+
+model NrpExplanation {
+  id         String @id @default(cuid())
+  questionId String @unique
+  body       String
+
+  question NrpQuestion @relation(fields: [questionId], references: [id])
+}
+
 model StudySession {
   id        String    @id @default(cuid())
   userId    String
