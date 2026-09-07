@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# the local SQLite database — never deployed; production reads Turso instead (see src/lib/db.ts)
+dev.db*
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
