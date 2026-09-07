@@ -44,8 +44,7 @@ model Chapter {
   pageStart  Int
   pageEnd    Int
 
-  resource Resource         @relation(fields: [resourceId], references: [id])
-  sources  QuestionSource[]
+  resource Resource @relation(fields: [resourceId], references: [id])
 
   @@index([resourceId, pageStart])
 }
@@ -234,7 +233,6 @@ model QuestionSource {
   id               String  @id @default(cuid())
   masterQuestionId String
   resourceId       String
-  chapterId        String?
   role             String // "primary" | "additional"
   chapter          String? // denormalized chapter title, kept even if chapterId is null
   pageRef          String?
@@ -249,7 +247,6 @@ model QuestionSource {
 
   masterQuestion MasterQuestion @relation(fields: [masterQuestionId], references: [id])
   resource       Resource       @relation(fields: [resourceId], references: [id])
-  chapterRef     Chapter?       @relation(fields: [chapterId], references: [id])
 
   @@index([masterQuestionId])
 }

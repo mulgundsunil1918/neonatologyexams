@@ -2,7 +2,12 @@
 // npm install --save-dev prisma dotenv
 import "dotenv/config";
 import { defineConfig, env } from "prisma/config";
+import { PrismaBetterSqlite3 } from "@prisma/adapter-better-sqlite3";
+import { PrismaLibSql } from "@prisma/adapter-libsql";
 
+// `prisma db push`/`migrate` need a driver adapter too, not just the app runtime (src/lib/db.ts)
+// — same TURSO_DATABASE_URL switch, so `db push` against Turso works via `--url` env vars
+// without a second code path to keep in sync.
 export default defineConfig({
   schema: "prisma/schema.prisma",
   migrations: {
@@ -10,5 +15,14 @@ export default defineConfig({
   },
   datasource: {
     url: env("DATABASE_URL"),
+  },
+  async adapter() {
+    if (process.env.TURSO_DATABASE_URL) {
+      return new PrismaLibSql({
+        url: process.env.TURSO_DATABASE_URL,
+        authToken: process.env.TURSO_AUTH_TOKEN,
+      });
+    }
+    return new PrismaBetterSqlite3({ url: process.env.DATABASE_URL ?? "file:./dev.db" });
   },
 });
