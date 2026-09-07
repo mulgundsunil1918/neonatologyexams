@@ -59,7 +59,11 @@ export function FilterBar({ systems, sittings }: { systems: SystemOpt[]; sitting
         </Field>
         <Field label="System">
           <Select value={searchParams.get("system") ?? "all"} onValueChange={(v) => set("system", v ?? "all")}>
-            <SelectTrigger className="h-8 w-[160px] text-sm"><SelectValue placeholder="System" /></SelectTrigger>
+            <SelectTrigger className="h-8 w-[160px] text-sm">
+              <SelectValue placeholder="System">
+                {(v: string) => (v === "all" ? "All systems" : v === "unclassified" ? "Unclassified" : systems.find((s) => s.id === v)?.name ?? v)}
+              </SelectValue>
+            </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">All systems</SelectItem>
               {systems.map((s) => (
@@ -71,11 +75,15 @@ export function FilterBar({ systems, sittings }: { systems: SystemOpt[]; sitting
         </Field>
         <Field label="Sitting">
           <Select value={searchParams.get("sitting") ?? "all"} onValueChange={(v) => set("sitting", v ?? "all")}>
-            <SelectTrigger className="h-8 w-[150px] text-sm"><SelectValue placeholder="Sitting" /></SelectTrigger>
+            <SelectTrigger className="h-8 w-[150px] text-sm">
+              <SelectValue placeholder="Sitting">
+                {(v: string) => (v === "all" ? "All sittings" : sittings.find((s) => s.id === v)?.label ?? v)}
+              </SelectValue>
+            </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">All sittings</SelectItem>
               {sittings.map((s) => (
-                <SelectItem key={s.id} value={s.id}>{s.id}</SelectItem>
+                <SelectItem key={s.id} value={s.id}>{s.label}</SelectItem>
               ))}
             </SelectContent>
           </Select>
