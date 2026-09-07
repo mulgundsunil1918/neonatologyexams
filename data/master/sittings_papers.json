@@ -1,0 +1,244 @@
+[
+  {
+    "sittingId": "2019-10",
+    "sittingLabel": "NNF Doctor's Fellowship Exit Examination, October 2019",
+    "papers": [
+      {
+        "paperNo": 1,
+        "paperType": "MCQ",
+        "pageStart": 1,
+        "pageEnd": 20,
+        "nMainQuestions": 100,
+        "formatNote": null
+      },
+      {
+        "paperNo": 2,
+        "paperType": "THEORY",
+        "pageStart": 21,
+        "pageEnd": 22,
+        "nMainQuestions": 4,
+        "formatNote": null
+      }
+    ]
+  },
+  {
+    "sittingId": "2022-04",
+    "sittingLabel": "NNF Fellowship Examination, April 2022",
+    "papers": [
+      {
+        "paperNo": 1,
+        "paperType": "THEORY",
+        "pageStart": 23,
+        "pageEnd": 24,
+        "nMainQuestions": 10,
+        "formatNote": null
+      },
+      {
+        "paperNo": 2,
+        "paperType": "MCQ",
+        "pageStart": 25,
+        "pageEnd": 35,
+        "nMainQuestions": 50,
+        "formatNote": "dup_scan p164-174 is a hand-marked candidate answer script (checkmarks/circles) of this same paper."
+      }
+    ]
+  },
+  {
+    "sittingId": "2021-07",
+    "sittingLabel": "NNF Fellowship Examination, 22nd July 2021",
+    "papers": [
+      {
+        "paperNo": 2,
+        "paperType": "MCQ",
+        "pageStart": 36,
+        "pageEnd": 57,
+        "nMainQuestions": 100,
+        "formatNote": null
+      },
+      {
+        "paperNo": 1,
+        "paperType": "THEORY",
+        "pageStart": 58,
+        "pageEnd": 60,
+        "nMainQuestions": 10,
+        "formatNote": null
+      }
+    ]
+  },
+  {
+    "sittingId": "2021-10",
+    "sittingLabel": "NNF Fellowship Exit Exam, 21st October 2021",
+    "papers": [
+      {
+        "paperNo": 2,
+        "paperType": "MCQ",
+        "pageStart": 61,
+        "pageEnd": 80,
+        "nMainQuestions": 100,
+        "formatNote": null
+      },
+      {
+        "paperNo": 1,
+        "paperType": "THEORY",
+        "pageStart": 101,
+        "pageEnd": 102,
+        "nMainQuestions": 10,
+        "formatNote": null
+      }
+    ]
+  },
+  {
+    "sittingId": "2022-10",
+    "sittingLabel": "NNF Fellowship Examination, October 2022",
+    "papers": [
+      {
+        "paperNo": 1,
+        "paperType": "THEORY",
+        "pageStart": 150,
+        "pageEnd": 151,
+        "nMainQuestions": 10,
+        "formatNote": null
+      },
+      {
+        "paperNo": 2,
+        "paperType": "MCQ",
+        "pageStart": 152,
+        "pageEnd": 160,
+        "nMainQuestions": 50,
+        "formatNote": null
+      }
+    ]
+  },
+  {
+    "sittingId": "2023-04",
+    "sittingLabel": "NNF Fellowship Examination, April 2023",
+    "papers": [
+      {
+        "paperNo": 1,
+        "paperType": "THEORY",
+        "pageStart": 175,
+        "pageEnd": 177,
+        "nMainQuestions": 10,
+        "formatNote": null
+      },
+      {
+        "paperNo": 2,
+        "paperType": "MCQ",
+        "pageStart": 178,
+        "pageEnd": 185,
+        "nMainQuestions": 50,
+        "formatNote": null
+      }
+    ]
+  },
+  {
+    "sittingId": "2023-10",
+    "sittingLabel": "NNF Fellowship for Doctors, October 2023 Examination",
+    "papers": [
+      {
+        "paperNo": 1,
+        "paperType": "THEORY",
+        "pageStart": 186,
+        "pageEnd": 188,
+        "nMainQuestions": 9,
+        "formatNote": "Verified complete at Q9 (text ends cleanly, no truncation). This paper genuinely has 9 main questions, not 10."
+      },
+      {
+        "paperNo": 2,
+        "paperType": "MCQ",
+        "pageStart": 193,
+        "pageEnd": 200,
+        "nMainQuestions": 50,
+        "formatNote": null
+      }
+    ]
+  },
+  {
+    "sittingId": "2024-04",
+    "sittingLabel": "NNF Fellowship for Doctors, April 2024 Examination",
+    "papers": [
+      {
+        "paperNo": 1,
+        "paperType": "THEORY",
+        "pageStart": 189,
+        "pageEnd": 192,
+        "nMainQuestions": 11,
+        "formatNote": null
+      },
+      {
+        "paperNo": 2,
+        "paperType": "MCQ",
+        "pageStart": 201,
+        "pageEnd": 208,
+        "nMainQuestions": 50,
+        "formatNote": null
+      }
+    ]
+  },
+  {
+    "sittingId": "2025-04",
+    "sittingLabel": "NNF Clinical Fellowship for Doctors, 25th April 2025",
+    "papers": [
+      {
+        "paperNo": 1,
+        "paperType": "THEORY",
+        "pageStart": 211,
+        "pageEnd": 213,
+        "nMainQuestions": 10,
+        "formatNote": null
+      },
+      {
+        "paperNo": 2,
+        "paperType": "MCQ",
+        "pageStart": 214,
+        "pageEnd": 228,
+        "nMainQuestions": 50,
+        "formatNote": null
+      }
+    ]
+  },
+  {
+    "sittingId": "2025-10",
+    "sittingLabel": "Clinical Fellowship in Neonatology for Doctors, October 2025",
+    "papers": [
+      {
+        "paperNo": 1,
+        "paperType": "THEORY",
+        "pageStart": 229,
+        "pageEnd": 231,
+        "nMainQuestions": 10,
+        "formatNote": null
+      },
+      {
+        "paperNo": 2,
+        "paperType": "MCQ",
+        "pageStart": 232,
+        "pageEnd": 245,
+        "nMainQuestions": 50,
+        "formatNote": null
+      }
+    ]
+  },
+  {
+    "sittingId": "2026-04",
+    "sittingLabel": "Exit Exam for NNF Clinical Fellowship for Doctors, 24th April 2026",
+    "papers": [
+      {
+        "paperNo": 1,
+        "paperType": "THEORY",
+        "pageStart": 263,
+        "pageEnd": 265,
+        "nMainQuestions": 10,
+        "formatNote": null
+      },
+      {
+        "paperNo": 2,
+        "paperType": "MCQ",
+        "pageStart": 266,
+        "pageEnd": 276,
+        "nMainQuestions": 50,
+        "formatNote": null
+      }
+    ]
+  }
+]
