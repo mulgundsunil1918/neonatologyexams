@@ -23,3 +23,9 @@ app/.env
 #   .venv/bin/python scripts/ingest_resources.py
 # Chapter/TOC metadata (titles + page numbers only, not the prose) is fine to keep in git.
 data/resources/*_pages.json
+
+# Scratch output for in-progress content batches (MCQ/Theory rewrite JSON) — intermediate
+# working files applied to dev.db then discarded, not part of the app itself. Kept outside
+# /private/tmp (which was found mid-project to get cleared, e.g. on reboot, losing completed
+# but not-yet-applied agent work) so it survives until explicitly cleaned up.
+/recovered/
