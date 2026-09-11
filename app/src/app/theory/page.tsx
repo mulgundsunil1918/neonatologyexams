@@ -49,6 +49,15 @@ export default async function TheoryPage({ searchParams }: PageProps<"/theory">)
         title="Theory &amp; Short Notes"
         subtitle={`${questions.length} essay question${questions.length === 1 ? "" : "s"}${filterLabel ? ` — ${filterLabel}` : ""} — ${answeredCount} with a model answer so far.`}
         right={<BackLink href="/nnf-iap/theory">Theory</BackLink>}
+        legend={
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
+            <span className="font-medium text-foreground/80">Topic priority:</span>
+            <span className="inline-flex items-center gap-1"><span className="inline-block size-2 rounded-full bg-tier-red" /> Red — this clinical topic has been asked in 3 or more different sittings</span>
+            <span className="inline-flex items-center gap-1"><span className="inline-block size-2 rounded-full bg-tier-orange" /> Orange — asked in 2 sittings</span>
+            <span className="inline-flex items-center gap-1"><span className="inline-block size-2 rounded-full bg-muted-foreground/40" /> Plain — asked once so far</span>
+            <span className="italic">— badges are per sub-part, by topic, not exact wording (essay questions are almost never worded identically twice)</span>
+          </div>
+        }
       />
       <div className="divide-y divide-border">
         {questions.map((q) => {

@@ -54,6 +54,13 @@ export default async function McqListPage({ searchParams }: PageProps<"/mcq">) {
         title="MCQ Master"
         subtitle={`${total} question${total === 1 ? "" : "s"} matching your filters — ${await db.masterQuestion.count({ where: { paperType: "MCQ" } })} total in the bank.`}
         right={<BackLink href="/nnf-iap/mcq">MCQ</BackLink>}
+        legend={
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
+            <span className="font-medium text-foreground/80">Priority:</span>
+            <span className="inline-flex items-center gap-1"><span>🔴</span> Red — this exact question was asked word-for-word in 2 different sittings</span>
+            <span className="inline-flex items-center gap-1"><span>🟠</span> Orange — asked once so far, no exact repeat yet</span>
+          </div>
+        }
       />
       <FilterBar systems={systems} sittings={sittings} />
 
