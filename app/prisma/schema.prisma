@@ -110,6 +110,12 @@ model MasterQuestion {
   topicId            String?
   subtopicId         String?
 
+  // Free-text clinical-topic tag for Theory questions with no subParts (a "discuss in
+  // detail" single-topic essay) — used to compute cross-paper repeat counts the same way
+  // subParts.topicTag does for lettered questions. Null for MCQs and for Theory questions
+  // that have subParts (their tagging lives on the SubPart rows instead).
+  topicTag  String?
+
   createdAt DateTime @default(now())
 
   occurrences  QuestionOccurrence[]
@@ -167,6 +173,12 @@ model SubPart {
   text             String
   marks            String? // free text, e.g. "3+3+4" as printed
   sortOrder        Int
+
+  // Free-text clinical-topic tag (e.g. "CDH", "Bilirubin encephalopathy (BIND)") assigned
+  // by clinical reading of each sub-part, not text-matching — used to compute how many
+  // separate Theory questions across all sittings have touched that topic, for the
+  // priority/colour tiering on the Theory list and detail pages. Null until tagged.
+  topicTag String?
 
   masterQuestion MasterQuestion @relation(fields: [masterQuestionId], references: [id])
 

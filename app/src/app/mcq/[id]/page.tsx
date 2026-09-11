@@ -3,9 +3,11 @@ import { DEFAULT_USER_ID, CONFIDENCE_META, RESOURCES_ROOT } from "@/lib/constant
 import { toneClasses, SOURCE_RANK } from "@/lib/confidence-ui";
 import { buildMcqWhere, currentFilterQueryString } from "@/lib/mcq-filters";
 import { TierBadge } from "@/components/tier-badge";
+import { TopicBadge } from "@/components/topic-badge";
 import { BackLink } from "@/components/back-link";
 import { QuestionAttempt } from "./question-attempt";
 import { MarkdownBody } from "@/components/markdown-body";
+import { getTopicCounts, topicTier } from "@/lib/theory-topics";
 import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -75,6 +77,11 @@ export default async function McqDetailPage({ params, searchParams }: PageProps<
     ? question.sources.filter((s) => s.confidenceStatus === "SOURCE_CONFIRMED" || s.confidenceStatus === "SOURCE_SUPPORTED")
     : question.sources;
 
+  // Theory-only: how many different Theory papers have touched each sub-part's clinical
+  // topic — the concept-level priority signal, since essay questions are almost never worded
+  // identically twice the way MCQs sometimes are.
+  const topicCounts = question.paperType === "THEORY" ? await getTopicCounts() : null;
+
   return (
     <div className="max-w-3xl mx-auto px-8 py-8">
       <div className="flex items-center justify-between gap-3 flex-wrap">
@@ -116,6 +123,17 @@ export default async function McqDetailPage({ params, searchParams }: PageProps<
 
       <h1 className="text-lg leading-relaxed text-foreground font-medium mb-1">{question.stem}</h1>
 
+      {/* Whole-question Theory essays (no lettered sub-parts) carry their own topic tag */}
+      {topicCounts && question.subParts.length === 0 && question.topicTag && (
+        <div className="mb-2">
+          <TopicBadge
+            topic={question.topicTag}
+            count={topicCounts.get(question.topicTag) ?? 1}
+            tier={topicTier(topicCounts.get(question.topicTag) ?? 1)}
+          />
+        </div>
+      )}
+
       {question.flawNote && (
         <div className="flex items-start gap-2 mt-3 mb-4 text-xs text-tier-orange bg-tier-orange-bg border border-tier-orange/30 rounded-md px-3 py-2">
           <AlertTriangle className="size-3.5 mt-0.5 shrink-0" />
@@ -136,7 +154,14 @@ export default async function McqDetailPage({ params, searchParams }: PageProps<
           {question.subParts.map((sp) => (
             <div key={sp.id} className="text-sm flex gap-2">
               <span className="font-mono font-semibold text-muted-foreground shrink-0">{sp.label})</span>
-              <span>{sp.text} {sp.marks && <span className="text-muted-foreground font-mono text-xs">({sp.marks})</span>}</span>
+              <div className="space-y-1.5">
+                <span>{sp.text} {sp.marks && <span className="text-muted-foreground font-mono text-xs">({sp.marks})</span>}</span>
+                {topicCounts && sp.topicTag && (
+                  <div>
+                    <TopicBadge topic={sp.topicTag} count={topicCounts.get(sp.topicTag) ?? 1} tier={topicTier(topicCounts.get(sp.topicTag) ?? 1)} />
+                  </div>
+                )}
+              </div>
             </div>
           ))}
         </div>

@@ -1,7 +1,9 @@
 import { db } from "@/lib/db";
 import { PageHeader } from "@/components/page-header";
 import { BackLink } from "@/components/back-link";
+import { TopicBadge } from "@/components/topic-badge";
 import { buildMcqWhere, currentFilterQueryString } from "@/lib/mcq-filters";
+import { getQuestionTopicSummaries } from "@/lib/theory-topics";
 import Link from "next/link";
 
 // Always reflect live DB state (attempts, bookmarks) — never statically cache this page.
@@ -20,7 +22,7 @@ export default async function TheoryPage({ searchParams }: PageProps<"/theory">)
       orderBy: { id: "asc" },
       include: {
         occurrences: { include: { paper: { include: { sitting: true } } }, orderBy: { paper: { sittingId: "asc" } } },
-        subParts: { orderBy: { sortOrder: "asc" }, take: 1 },
+        subParts: { orderBy: { sortOrder: "asc" } },
         primarySystem: { select: { name: true } },
         answer: { select: { id: true } },
       },
@@ -29,6 +31,17 @@ export default async function TheoryPage({ searchParams }: PageProps<"/theory">)
 
   const filterLabel = sitting?.label ?? system?.name ?? null;
   const answeredCount = questions.filter((q) => q.answer).length;
+
+  // Topic-priority badges per question — computed once for the whole list rather than
+  // per-row, since getQuestionTopicSummaries shares the same cached topic-count map.
+  const topicsByQuestion = new Map(
+    await Promise.all(
+      questions.map(async (q) => {
+        const tags = q.subParts.length > 0 ? q.subParts.map((sp) => sp.topicTag) : [q.topicTag];
+        return [q.id, await getQuestionTopicSummaries(tags)] as const;
+      })
+    )
+  );
 
   return (
     <div>
@@ -40,6 +53,7 @@ export default async function TheoryPage({ searchParams }: PageProps<"/theory">)
       <div className="divide-y divide-border">
         {questions.map((q) => {
           const first = q.occurrences[0];
+          const topics = topicsByQuestion.get(q.id) ?? [];
           return (
             <Link key={q.id} href={`/mcq/${q.id}${qs ? `?${qs}` : ""}`} className="flex items-start gap-4 px-8 py-4 hover:bg-muted/40">
               <div className="min-w-0 flex-1">
@@ -49,6 +63,13 @@ export default async function TheoryPage({ searchParams }: PageProps<"/theory">)
                   {q.occurrences.length > 1 && <span className="text-tier-orange">repeated {q.occurrences.length}×</span>}
                   {q.primarySystem && <span>{q.primarySystem.name}</span>}
                 </div>
+                {topics.length > 0 && (
+                  <div className="flex flex-wrap items-center gap-1.5 mt-2">
+                    {topics.map((t) => (
+                      <TopicBadge key={t.topic} topic={t.topic} count={t.count} tier={t.tier} />
+                    ))}
+                  </div>
+                )}
               </div>
               <div className="shrink-0 mt-0.5">
                 {q.answer ? (
