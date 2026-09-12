@@ -161,3 +161,19 @@
     text-wrap: balance;
   }
 }
+
+/* Route-transition loading trace (app/loading.tsx) — a bright segment sweeps once around
+   the pulse-blip path per cycle. pathLength="1" normalizes the path so these dash values
+   are fractions of it regardless of the actual SVG geometry. Gated behind no-preference so
+   motion-sensitive users get the same path fully drawn and static instead. */
+@keyframes pulse-trace-sweep {
+  from { stroke-dashoffset: 0; }
+  to { stroke-dashoffset: -1.6; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .pulse-trace-sweep {
+    stroke-dasharray: 0.2 1.4;
+    animation: pulse-trace-sweep 1.6s linear infinite;
+  }
+}
