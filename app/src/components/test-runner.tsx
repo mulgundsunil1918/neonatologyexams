@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { submitTest } from "@/app/test-actions";
 import { TierBadge } from "@/components/tier-badge";
+import { MarkdownBody } from "@/components/markdown-body";
 import { CONFIDENCE_META, RESOURCES_ROOT } from "@/lib/constants";
 import { toneClasses, SOURCE_RANK } from "@/lib/confidence-ui";
 
@@ -132,7 +133,7 @@ export function TestRunner({
                   {q.explanation && (
                     <div>
                       <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">Explanation</div>
-                      <p className="text-sm text-muted-foreground italic leading-relaxed">{q.explanation}</p>
+                      <MarkdownBody>{q.explanation}</MarkdownBody>
                     </div>
                   )}
 

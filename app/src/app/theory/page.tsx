@@ -67,10 +67,10 @@ export default async function TheoryPage({ searchParams }: PageProps<"/theory">)
             <Link key={q.id} href={`/mcq/${q.id}${qs ? `?${qs}` : ""}`} className="flex items-start gap-4 px-8 py-4 hover:bg-muted/40">
               <div className="min-w-0 flex-1">
                 <p className="text-sm leading-snug line-clamp-2">{q.stem || q.subParts[0]?.text}</p>
-                <div className="flex items-center gap-3 mt-1.5 text-[11px] text-muted-foreground font-mono">
-                  {first && <span>{first.paper.sittingId} · P{first.paper.paperNo} · Q{first.originalQnum}</span>}
-                  {q.occurrences.length > 1 && <span className="text-tier-orange">repeated {q.occurrences.length}×</span>}
-                  {q.primarySystem && <span>{q.primarySystem.name}</span>}
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1.5 text-[11px] text-muted-foreground font-mono">
+                  {first && <span className="whitespace-nowrap">{first.paper.sittingId} · P{first.paper.paperNo} · Q{first.originalQnum}</span>}
+                  {q.occurrences.length > 1 && <span className="whitespace-nowrap text-tier-orange">repeated {q.occurrences.length}×</span>}
+                  {q.primarySystem && <span className="whitespace-nowrap">{q.primarySystem.name}</span>}
                 </div>
                 {topics.length > 0 && (
                   <div className="flex flex-wrap items-center gap-1.5 mt-2">

@@ -10,7 +10,11 @@ export function MarkdownBody({ children }: { children: string }) {
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{
-          table: (props) => <div className="overflow-x-auto mb-2.5"><table className="w-full text-left border-collapse" {...props} /></div>,
+          // min-w-full (not w-full): lets the table grow past the viewport when its content
+          // needs more room — e.g. prose-heavy cells on a phone screen — so the wrapping div's
+          // overflow-x-auto can scroll it horizontally instead of the browser's auto table
+          // layout crushing every column down to fit, which wraps mid-word and is unreadable.
+          table: (props) => <div className="overflow-x-auto mb-2.5"><table className="min-w-full text-left border-collapse" {...props} /></div>,
           thead: (props) => <thead {...props} />,
           th: (props) => <th className="text-foreground font-semibold text-xs uppercase tracking-wide border-b border-border pb-1.5 pr-4" {...props} />,
           td: (props) => <td className="border-b border-border/60 py-1.5 pr-4 align-top" {...props} />,

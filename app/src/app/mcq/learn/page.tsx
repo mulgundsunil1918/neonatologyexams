@@ -3,6 +3,7 @@ import { CONFIDENCE_META, RESOURCES_ROOT } from "@/lib/constants";
 import { toneClasses, SOURCE_RANK } from "@/lib/confidence-ui";
 import { PageHeader } from "@/components/page-header";
 import { TierBadge } from "@/components/tier-badge";
+import { MarkdownBody } from "@/components/markdown-body";
 import { buildMcqWhere, currentFilterQueryString } from "@/lib/mcq-filters";
 import { BackLink } from "@/components/back-link";
 import { buttonVariants } from "@/components/ui/button";
@@ -87,9 +88,11 @@ export default async function McqFullLearnPage({ searchParams }: PageProps<"/mcq
 
                 <div>
                   <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">Explanation</div>
-                  <p className="text-sm text-muted-foreground italic leading-relaxed">
-                    {q.explanation?.body ?? "Not yet ingested from the reference library."}
-                  </p>
+                  {q.explanation?.body ? (
+                    <MarkdownBody>{q.explanation.body}</MarkdownBody>
+                  ) : (
+                    <p className="text-sm text-muted-foreground italic leading-relaxed">Not yet ingested from the reference library.</p>
+                  )}
                 </div>
 
                 {q.sources.length > 0 && (

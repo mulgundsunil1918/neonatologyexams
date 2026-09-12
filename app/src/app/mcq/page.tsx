@@ -64,7 +64,7 @@ export default async function McqListPage({ searchParams }: PageProps<"/mcq">) {
       />
       <FilterBar systems={systems} sittings={sittings} />
 
-      <div className="flex items-center justify-between px-8 py-3 border-b border-border bg-muted/10">
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 px-8 py-3 border-b border-border bg-muted/10">
         <p className="text-xs text-muted-foreground">
           Learn (tap-to-reveal) is the default below — click any question. Or study the current {total} filtered question{total === 1 ? "" : "s"} in:
         </p>
@@ -91,12 +91,12 @@ export default async function McqListPage({ searchParams }: PageProps<"/mcq">) {
               <TierBadge tier={q.repetitionTier} showLabel={false} className="mt-0.5" />
               <div className="min-w-0 flex-1">
                 <p className="text-sm text-foreground leading-snug line-clamp-2">{q.stem}</p>
-                <div className="flex items-center gap-3 mt-1.5 text-[11px] text-muted-foreground font-mono">
-                  {firstOcc && <span>{firstOcc.paper.sittingId} · P{firstOcc.paper.paperNo} · Q{firstOcc.originalQnum}</span>}
-                  {q.occurrences.length > 1 && <span className="text-tier-orange">repeated {q.occurrences.length}×</span>}
-                  {q.primarySystem && <span>{q.primarySystem.name}</span>}
-                  {q.hasImage && <ImageIcon className="size-3" />}
-                  {q.hasTable && <TableIcon className="size-3" />}
+                <div className="flex flex-wrap items-center gap-x-3 gap-y-1 mt-1.5 text-[11px] text-muted-foreground font-mono">
+                  {firstOcc && <span className="whitespace-nowrap">{firstOcc.paper.sittingId} · P{firstOcc.paper.paperNo} · Q{firstOcc.originalQnum}</span>}
+                  {q.occurrences.length > 1 && <span className="whitespace-nowrap text-tier-orange">repeated {q.occurrences.length}×</span>}
+                  {q.primarySystem && <span className="whitespace-nowrap">{q.primarySystem.name}</span>}
+                  {q.hasImage && <ImageIcon className="size-3 shrink-0" />}
+                  {q.hasTable && <TableIcon className="size-3 shrink-0" />}
                 </div>
               </div>
               <div className="shrink-0 mt-0.5">

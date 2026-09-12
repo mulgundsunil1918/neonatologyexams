@@ -1,6 +1,7 @@
 import { db } from "@/lib/db";
 import { toneClasses } from "@/lib/confidence-ui";
 import { BackLink } from "@/components/back-link";
+import { MarkdownBody } from "@/components/markdown-body";
 import { NrpQuestionAttempt } from "./nrp-question-attempt";
 import { buttonVariants } from "@/components/ui/button";
 import Link from "next/link";
@@ -58,7 +59,7 @@ export default async function NrpQuestionPage({ params }: PageProps<"/nrp/mcq/[i
           <span className={"inline-block mb-2 text-[11px] font-mono px-2 py-0.5 rounded-full border " + toneClasses("external")}>
             External/current verification — not from your uploaded resources
           </span>
-          <p className="text-sm text-muted-foreground whitespace-pre-line leading-relaxed">{question.explanation?.body}</p>
+          {question.explanation?.body && <MarkdownBody>{question.explanation.body}</MarkdownBody>}
         </div>
       </div>
 
