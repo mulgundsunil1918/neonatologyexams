@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { submitTest } from "@/app/test-actions";
 import { TierBadge } from "@/components/tier-badge";
+import { BookmarkButton } from "@/components/bookmark-button";
 import { MarkdownBody } from "@/components/markdown-body";
 import { CONFIDENCE_META, RESOURCES_ROOT } from "@/lib/constants";
 import { toneClasses, SOURCE_RANK } from "@/lib/confidence-ui";
@@ -14,6 +15,7 @@ export type TestQuestionT = {
   label: string; // e.g. "Q42" or "3"
   stem: string;
   repetitionTier: string;
+  isBookmarked: boolean;
   options: { id: string; letter: string; text: string }[];
   correctLetter: string | null;
   answerConfidenceStatus: string;
@@ -92,6 +94,7 @@ export function TestRunner({
               <div className="flex items-center gap-2 mb-2">
                 <span className="font-mono text-sm font-semibold text-muted-foreground">Q{q.label}</span>
                 {submitted && <TierBadge tier={q.repetitionTier} showLabel={false} />}
+                <BookmarkButton masterQuestionId={q.id} isBookmarked={q.isBookmarked} variant="icon" className="ml-auto" />
               </div>
               <p className="text-sm leading-relaxed mb-3">{q.stem}</p>
               <div className="flex flex-col gap-2">

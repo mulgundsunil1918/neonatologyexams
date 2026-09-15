@@ -24,19 +24,5 @@ export async function submitAnswer(masterQuestionId: string, selectedLetter: str
   return { isCorrect, correctLetter: answer?.correctLetter ?? null };
 }
 
-export async function toggleBookmark(masterQuestionId: string, flag: "important" | "revise" | null) {
-  const existing = await db.bookmark.findUnique({
-    where: { userId_masterQuestionId: { userId: DEFAULT_USER_ID, masterQuestionId } },
-  });
-  if (existing) {
-    if (flag === null) {
-      await db.bookmark.delete({ where: { id: existing.id } });
-    } else {
-      await db.bookmark.update({ where: { id: existing.id }, data: { flag } });
-    }
-  } else if (flag !== null) {
-    await db.bookmark.create({ data: { userId: DEFAULT_USER_ID, masterQuestionId, flag } });
-  }
-  revalidatePath(`/mcq/${masterQuestionId}`);
-  revalidatePath("/bookmarks");
-}
+// toggleBookmark moved to src/app/bookmark-actions.ts — it's shared with the Theory branch
+// of this same page and with the Bookmarks list, not MCQ-specific.

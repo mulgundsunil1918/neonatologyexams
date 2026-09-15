@@ -3,8 +3,8 @@
 import { useState, useTransition } from "react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { submitAnswer, toggleBookmark } from "./actions";
-import { Bookmark, BookmarkCheck } from "lucide-react";
+import { submitAnswer } from "./actions";
+import { BookmarkButton } from "@/components/bookmark-button";
 
 type OptionT = { id: string; letter: string; text: string };
 
@@ -25,7 +25,6 @@ export function QuestionAttempt({
   const [result, setResult] = useState<{ isCorrect: boolean | null; correctLetter: string | null } | null>(
     priorAttempt ? { isCorrect: priorAttempt.isCorrect, correctLetter: knownAnswer } : null
   );
-  const [bookmarked, setBookmarked] = useState(isBookmarked);
   const [pending, startTransition] = useTransition();
 
   const submitted = result !== null;
@@ -36,12 +35,6 @@ export function QuestionAttempt({
       const r = await submitAnswer(masterQuestionId, selected);
       setResult(r);
     });
-  }
-
-  function handleBookmark() {
-    const next = !bookmarked;
-    setBookmarked(next);
-    startTransition(() => toggleBookmark(masterQuestionId, next ? "important" : null));
   }
 
   return (
@@ -82,10 +75,7 @@ export function QuestionAttempt({
             {result.isCorrect === null && <span className="text-muted-foreground">Recorded — no source-confirmed answer to grade against yet</span>}
           </div>
         )}
-        <Button variant="ghost" size="sm" onClick={handleBookmark} className="ml-auto text-muted-foreground">
-          {bookmarked ? <BookmarkCheck className="size-4 mr-1.5" /> : <Bookmark className="size-4 mr-1.5" />}
-          {bookmarked ? "Bookmarked" : "Bookmark"}
-        </Button>
+        <BookmarkButton masterQuestionId={masterQuestionId} isBookmarked={isBookmarked} className="ml-auto" />
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 import { db } from "@/lib/db";
+import { DEFAULT_USER_ID } from "@/lib/constants";
 import { PageHeader } from "@/components/page-header";
 import { TestRunner } from "@/components/test-runner";
 import { buildMcqWhere } from "@/lib/mcq-filters";
@@ -22,6 +23,7 @@ export default async function McqTestPage({ searchParams }: PageProps<"/mcq/test
       answer: true,
       explanation: true,
       sources: { include: { resource: true } },
+      bookmarks: { where: { userId: DEFAULT_USER_ID }, select: { id: true } },
     },
   });
 
@@ -44,6 +46,7 @@ export default async function McqTestPage({ searchParams }: PageProps<"/mcq/test
               label: String(i + 1),
               stem: q.stem,
               repetitionTier: q.repetitionTier,
+              isBookmarked: q.bookmarks.length > 0,
               options: q.options,
               correctLetter: q.answer?.correctLetter ?? null,
               answerConfidenceStatus: q.answer?.confidenceStatus ?? "NOT_FOUND",

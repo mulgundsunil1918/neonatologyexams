@@ -1,8 +1,9 @@
 import { db } from "@/lib/db";
-import { CONFIDENCE_META, RESOURCES_ROOT } from "@/lib/constants";
+import { CONFIDENCE_META, RESOURCES_ROOT, DEFAULT_USER_ID } from "@/lib/constants";
 import { toneClasses, SOURCE_RANK } from "@/lib/confidence-ui";
 import { PageHeader } from "@/components/page-header";
 import { TierBadge } from "@/components/tier-badge";
+import { BookmarkButton } from "@/components/bookmark-button";
 import { MarkdownBody } from "@/components/markdown-body";
 import { buildMcqWhere, currentFilterQueryString } from "@/lib/mcq-filters";
 import { BackLink } from "@/components/back-link";
@@ -33,6 +34,7 @@ export default async function McqFullLearnPage({ searchParams }: PageProps<"/mcq
         answer: true,
         explanation: true,
         sources: { include: { resource: true } },
+        bookmarks: { where: { userId: DEFAULT_USER_ID }, select: { id: true } },
       },
     }),
   ]);
@@ -56,6 +58,7 @@ export default async function McqFullLearnPage({ searchParams }: PageProps<"/mcq
               <div className="flex items-center gap-2 mb-2">
                 <span className="font-mono text-sm font-semibold text-muted-foreground">{(page - 1) * PAGE_SIZE + i + 1}</span>
                 <TierBadge tier={q.repetitionTier} showLabel={false} />
+                <BookmarkButton masterQuestionId={q.id} isBookmarked={q.bookmarks.length > 0} variant="icon" className="ml-auto" />
               </div>
               <p className="text-sm leading-relaxed mb-3">{q.stem}</p>
               <div className="flex flex-col gap-1.5 mb-4">

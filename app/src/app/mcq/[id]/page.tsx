@@ -6,6 +6,7 @@ import { TierBadge } from "@/components/tier-badge";
 import { TopicBadge } from "@/components/topic-badge";
 import { BackLink } from "@/components/back-link";
 import { QuestionAttempt } from "./question-attempt";
+import { BookmarkButton } from "@/components/bookmark-button";
 import { MarkdownBody } from "@/components/markdown-body";
 import { getTopicCounts, topicTier } from "@/lib/theory-topics";
 import { buttonVariants } from "@/components/ui/button";
@@ -164,6 +165,9 @@ export default async function McqDetailPage({ params, searchParams }: PageProps<
               </div>
             </div>
           ))}
+          <div className="flex justify-end">
+            <BookmarkButton masterQuestionId={question.id} isBookmarked={!!bookmark} />
+          </div>
         </div>
       )}
 

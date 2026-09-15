@@ -1,6 +1,8 @@
 import { db } from "@/lib/db";
+import { DEFAULT_USER_ID } from "@/lib/constants";
 import { PageHeader } from "@/components/page-header";
 import { TestRunner } from "@/components/test-runner";
+import { BookmarkButton } from "@/components/bookmark-button";
 import { notFound } from "next/navigation";
 import { BackLink } from "@/components/back-link";
 
@@ -24,6 +26,7 @@ export default async function PaperPage({ params }: PageProps<"/papers/[sittingI
               answer: true,
               explanation: true,
               sources: { include: { resource: true } },
+              bookmarks: { where: { userId: DEFAULT_USER_ID }, select: { id: true } },
             },
           },
         },
@@ -49,6 +52,7 @@ export default async function PaperPage({ params }: PageProps<"/papers/[sittingI
               label: String(o.originalQnum),
               stem: o.masterQuestion.stem,
               repetitionTier: o.masterQuestion.repetitionTier,
+              isBookmarked: o.masterQuestion.bookmarks.length > 0,
               options: o.masterQuestion.options,
               correctLetter: o.masterQuestion.answer?.correctLetter ?? null,
               answerConfidenceStatus: o.masterQuestion.answer?.confidenceStatus ?? "NOT_FOUND",
@@ -70,6 +74,12 @@ export default async function PaperPage({ params }: PageProps<"/papers/[sittingI
               <div key={o.id} className="pb-8 border-b border-border last:border-0">
                 <div className="flex items-center gap-2 mb-2">
                   <span className="font-mono text-sm font-semibold text-muted-foreground">Q{o.originalQnum}</span>
+                  <BookmarkButton
+                    masterQuestionId={o.masterQuestion.id}
+                    isBookmarked={o.masterQuestion.bookmarks.length > 0}
+                    variant="icon"
+                    className="ml-auto"
+                  />
                 </div>
                 <p className="text-sm leading-relaxed mb-3">{o.masterQuestion.stem}</p>
                 <div className="space-y-2">
