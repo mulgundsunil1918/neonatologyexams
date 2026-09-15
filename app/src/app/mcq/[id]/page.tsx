@@ -166,7 +166,7 @@ export default async function McqDetailPage({ params, searchParams }: PageProps<
             </div>
           ))}
           <div className="flex justify-end">
-            <BookmarkButton masterQuestionId={question.id} isBookmarked={!!bookmark} />
+            <BookmarkButton questionId={question.id} isBookmarked={!!bookmark} />
           </div>
         </div>
       )}

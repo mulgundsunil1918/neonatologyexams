@@ -58,7 +58,7 @@ export default async function McqFullLearnPage({ searchParams }: PageProps<"/mcq
               <div className="flex items-center gap-2 mb-2">
                 <span className="font-mono text-sm font-semibold text-muted-foreground">{(page - 1) * PAGE_SIZE + i + 1}</span>
                 <TierBadge tier={q.repetitionTier} showLabel={false} />
-                <BookmarkButton masterQuestionId={q.id} isBookmarked={q.bookmarks.length > 0} variant="icon" className="ml-auto" />
+                <BookmarkButton questionId={q.id} isBookmarked={q.bookmarks.length > 0} variant="icon" className="ml-auto" />
               </div>
               <p className="text-sm leading-relaxed mb-3">{q.stem}</p>
               <div className="flex flex-col gap-1.5 mb-4">

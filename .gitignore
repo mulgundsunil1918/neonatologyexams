@@ -24,6 +24,15 @@ app/.env
 # Chapter/TOC metadata (titles + page numbers only, not the prose) is fine to keep in git.
 data/resources/*_pages.json
 
+# Same concern, same reasoning — the full verbatim text of the DM/DrNB exam papers (the
+# source PDFs themselves are already covered by the *.pdf rule above).
+# Regenerate with: .venv/bin/python scripts/dm_extract.py (then dm_seed.py to load dev.db).
+data/dm_drnb/extracted.json
+
+# Safety copies made by hand before a raw-SQL schema change (see AGENTS.md / project memory:
+# never `prisma db push`/`migrate` against this dev.db) — not meant to be committed.
+app/dev.db.bak-*
+
 # Scratch output for in-progress content batches (MCQ/Theory rewrite JSON) — intermediate
 # working files applied to dev.db then discarded, not part of the app itself. Kept outside
 # /private/tmp (which was found mid-project to get cleared, e.g. on reboot, losing completed

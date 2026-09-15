@@ -37,7 +37,7 @@ export function BookmarkList({ groups }: { groups: { system: string; rows: Row[]
                   <p className="text-sm leading-snug line-clamp-2">{r.stem}</p>
                 </Link>
                 <BookmarkButton
-                  masterQuestionId={r.masterQuestionId}
+                  questionId={r.masterQuestionId}
                   isBookmarked
                   variant="icon"
                   onToggle={(next) => {

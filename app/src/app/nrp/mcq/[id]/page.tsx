@@ -1,6 +1,9 @@
 import { db } from "@/lib/db";
+import { DEFAULT_USER_ID } from "@/lib/constants";
 import { toneClasses } from "@/lib/confidence-ui";
 import { BackLink } from "@/components/back-link";
+import { BookmarkButton } from "@/components/bookmark-button";
+import { toggleNrpBookmark } from "@/app/bookmark-actions";
 import { MarkdownBody } from "@/components/markdown-body";
 import { NrpQuestionAttempt } from "./nrp-question-attempt";
 import { buttonVariants } from "@/components/ui/button";
@@ -14,12 +17,13 @@ export const dynamic = 'force-dynamic';
 export default async function NrpQuestionPage({ params }: PageProps<"/nrp/mcq/[id]">) {
   const { id } = await params;
 
-  const [question, sequence] = await Promise.all([
+  const [question, sequence, bookmark] = await Promise.all([
     db.nrpQuestion.findUnique({
       where: { id },
       include: { options: { orderBy: { sortOrder: "asc" } }, answer: true, explanation: true },
     }),
     db.nrpQuestion.findMany({ orderBy: { sortOrder: "asc" }, select: { id: true } }),
+    db.nrpBookmark.findUnique({ where: { userId_nrpQuestionId: { userId: DEFAULT_USER_ID, nrpQuestionId: id } } }),
   ]);
   if (!question || !question.answer) notFound();
 
@@ -47,6 +51,13 @@ export default async function NrpQuestionPage({ params }: PageProps<"/nrp/mcq/[i
 
       <div className="flex items-center gap-2 mt-4 mb-1 flex-wrap">
         <span className="text-xs font-mono px-2 py-0.5 rounded-full border border-border text-muted-foreground">{question.topic}</span>
+        <BookmarkButton
+          questionId={question.id}
+          isBookmarked={!!bookmark}
+          toggleAction={toggleNrpBookmark}
+          variant="icon"
+          className="ml-auto"
+        />
       </div>
 
       <h1 className="text-lg leading-relaxed text-foreground font-medium mb-1 mt-3">{question.stem}</h1>

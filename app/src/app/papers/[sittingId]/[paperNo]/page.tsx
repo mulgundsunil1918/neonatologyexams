@@ -75,7 +75,7 @@ export default async function PaperPage({ params }: PageProps<"/papers/[sittingI
                 <div className="flex items-center gap-2 mb-2">
                   <span className="font-mono text-sm font-semibold text-muted-foreground">Q{o.originalQnum}</span>
                   <BookmarkButton
-                    masterQuestionId={o.masterQuestion.id}
+                    questionId={o.masterQuestion.id}
                     isBookmarked={o.masterQuestion.bookmarks.length > 0}
                     variant="icon"
                     className="ml-auto"

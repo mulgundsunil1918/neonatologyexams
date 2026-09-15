@@ -271,10 +271,12 @@ model User {
   name      String?
   createdAt DateTime @default(now())
 
-  attempts  Attempt[]
-  bookmarks Bookmark[]
-  notes     Note[]
-  sessions  StudySession[]
+  attempts     Attempt[]
+  bookmarks    Bookmark[]
+  nrpBookmarks NrpBookmark[]
+  dmBookmarks  DmBookmark[]
+  notes        Note[]
+  sessions     StudySession[]
 }
 
 model Attempt {
@@ -348,6 +350,7 @@ model NrpQuestion {
   options     NrpOption[]
   answer      NrpAnswer?
   explanation NrpExplanation?
+  bookmarks   NrpBookmark[]
 }
 
 model NrpOption {
@@ -376,6 +379,102 @@ model NrpExplanation {
   body       String
 
   question NrpQuestion @relation(fields: [questionId], references: [id])
+}
+
+// A separate table from Bookmark, not a nullable-FK addition to it — same reasoning as the
+// rest of this NRP section: this content has no exam-paper/system provenance, so it shouldn't
+// share a table (or a masterQuestionId-shaped foreign key) with content that does.
+model NrpBookmark {
+  id            String   @id @default(cuid())
+  userId        String
+  nrpQuestionId String
+  flag          String? // "revise" | "important" | null — mirrors Bookmark.flag
+  createdAt     DateTime @default(now())
+
+  user        User        @relation(fields: [userId], references: [id])
+  nrpQuestion NrpQuestion @relation(fields: [nrpQuestionId], references: [id])
+
+  @@unique([userId, nrpQuestionId])
+}
+
+// ---------- DM/DrNB module ----------
+// A second qualification, deliberately kept in its own table family rather than folded into
+// MasterQuestion/Sitting/Paper — those are tuned specifically for the NNF/IAP Fellowship bank
+// (dashboard totals, tier system, buildMcqWhere filtering) and threading a qualification
+// discriminator through every one of those call sites would risk silently corrupting that
+// already-live, already-correct experience. Same reasoning as the NRP module above, but this
+// content DOES have real exam-paper provenance (unlike NRP) — so unlike NRP it keeps a proper
+// Sitting → Paper → QuestionItem hierarchy, verbatim-extracted from the source QBank PDFs (The
+// Tamil Nadu Dr. M.G.R. Medical University, D.M. — Neonatology). See scripts/dm_extract.py and
+// data/dm_drnb/extracted.json for the extraction (82 paper-instances, 984 items, zero loss —
+// every page hand-verified to have exactly 2 "Elaborate on" @15 marks + 10 "Write notes on" @7
+// marks before the parser was trusted).
+
+model DmSitting {
+  id          String  @id // e.g. "2012-08"
+  label       String // e.g. "August 2012"
+  sessionNote String? // e.g. "(August 2020 session)" when the printed date and actual session diverge
+  sortOrder   Int // chronological display order
+
+  papers DmPaper[]
+}
+
+model DmPaper {
+  id         String @id @default(cuid())
+  sittingId  String
+  paperNo    Int // 1-4
+  title      String // e.g. "Applied Basic Sciences as Applied to Neonatology and Perinatology; Research Methods"
+  subCode    String // e.g. "1451" — stable per paper number across every sitting, a cross-check
+  qpCode     String // e.g. "161451" — ditto
+  examCode   String? // the university's own per-instance code, e.g. "[LB 081]" / "(DM 0821)" — kept for provenance
+  sourceFile String // which of the 4 source PDFs this page came from
+  sourcePage Int // 1-indexed page number within that PDF
+
+  sitting DmSitting        @relation(fields: [sittingId], references: [id])
+  items   DmQuestionItem[]
+
+  @@unique([sittingId, paperNo])
+}
+
+model DmQuestionItem {
+  id       String  @id @default(cuid())
+  paperId  String
+  section  String // "I" (Elaborate on, 15 marks) | "II" (Write notes on, 7 marks)
+  itemNo   Int // 1-2 for section I, 1-10 for section II
+  label    String // "I.1", "II.7" etc — the original paper's own numbering, kept for traceability
+  text     String // verbatim question text
+  marks    Int // 15 or 7
+  topicTag String? // hand-tagged clinical topic for priority tiering — deliberately coarser/broader
+  // than the NNF Theory tags, per Sunil's instruction that "nearer topic" items should cluster
+  // together for priority even without exact wording match.
+
+  paper     DmPaper      @relation(fields: [paperId], references: [id])
+  answer    DmAnswer?
+  bookmarks DmBookmark[]
+
+  @@index([paperId])
+}
+
+model DmAnswer {
+  id     String @id @default(cuid())
+  itemId String @unique
+  body   String // markdown model answer, same house style as NNF Theory
+
+  item DmQuestionItem @relation(fields: [itemId], references: [id])
+}
+
+// Separate from Bookmark/NrpBookmark for the same reason as NrpBookmark above.
+model DmBookmark {
+  id        String   @id @default(cuid())
+  userId    String
+  itemId    String
+  flag      String?
+  createdAt DateTime @default(now())
+
+  user User           @relation(fields: [userId], references: [id])
+  item DmQuestionItem @relation(fields: [itemId], references: [id])
+
+  @@unique([userId, itemId])
 }
 
 model StudySession {

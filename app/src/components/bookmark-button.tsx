@@ -6,20 +6,26 @@ import { cn } from "@/lib/utils";
 import { toggleBookmark } from "@/app/bookmark-actions";
 import { Bookmark, BookmarkCheck } from "lucide-react";
 
+type ToggleAction = (questionId: string, flag: "important" | "revise" | null) => Promise<void>;
+
 export function BookmarkButton({
-  masterQuestionId,
+  questionId,
   isBookmarked,
   variant = "full",
   className,
   onToggle,
+  toggleAction = toggleBookmark,
 }: {
-  masterQuestionId: string;
+  questionId: string;
   isBookmarked: boolean;
   /** "full" = icon + label (question detail pages). "icon" = icon only, for compact list rows. */
   variant?: "full" | "icon";
   className?: string;
   /** Fires after the toggle is sent, with the new state — e.g. so a list can drop the row. */
   onToggle?: (bookmarked: boolean) => void;
+  /** Which server action to call — defaults to the main question-bank toggle. Pass
+   * toggleNrpBookmark (from the same module) for NRP questions, which live in their own table. */
+  toggleAction?: ToggleAction;
 }) {
   const [bookmarked, setBookmarked] = useState(isBookmarked);
   const [pending, startTransition] = useTransition();
@@ -27,7 +33,7 @@ export function BookmarkButton({
   function handleClick() {
     const next = !bookmarked;
     setBookmarked(next);
-    startTransition(() => toggleBookmark(masterQuestionId, next ? "important" : null));
+    startTransition(() => toggleAction(questionId, next ? "important" : null));
     onToggle?.(next);
   }
 

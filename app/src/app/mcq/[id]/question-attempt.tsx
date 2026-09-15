@@ -75,7 +75,7 @@ export function QuestionAttempt({
             {result.isCorrect === null && <span className="text-muted-foreground">Recorded — no source-confirmed answer to grade against yet</span>}
           </div>
         )}
-        <BookmarkButton masterQuestionId={masterQuestionId} isBookmarked={isBookmarked} className="ml-auto" />
+        <BookmarkButton questionId={masterQuestionId} isBookmarked={isBookmarked} className="ml-auto" />
       </div>
     </div>
   );

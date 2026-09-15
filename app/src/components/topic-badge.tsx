@@ -8,8 +8,8 @@ const TIER_CLASSES: Record<"RED" | "ORANGE" | "NONE", string> = {
 };
 
 const TIER_DESC: Record<"RED" | "ORANGE" | "NONE", string> = {
-  RED: "High yield — this topic has come up in 3 or more different Theory papers",
-  ORANGE: "Repeated — this topic has come up in 2 different Theory papers",
+  RED: "High yield — this topic has come up in 3 or more different papers",
+  ORANGE: "Repeated — this topic has come up in 2 different papers",
   NONE: "Asked once so far, no repeat found yet",
 };
 

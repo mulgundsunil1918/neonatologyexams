@@ -94,7 +94,7 @@ export function TestRunner({
               <div className="flex items-center gap-2 mb-2">
                 <span className="font-mono text-sm font-semibold text-muted-foreground">Q{q.label}</span>
                 {submitted && <TierBadge tier={q.repetitionTier} showLabel={false} />}
-                <BookmarkButton masterQuestionId={q.id} isBookmarked={q.isBookmarked} variant="icon" className="ml-auto" />
+                <BookmarkButton questionId={q.id} isBookmarked={q.isBookmarked} variant="icon" className="ml-auto" />
               </div>
               <p className="text-sm leading-relaxed mb-3">{q.stem}</p>
               <div className="flex flex-col gap-2">

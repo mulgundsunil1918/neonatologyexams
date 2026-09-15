@@ -23,3 +23,23 @@ export async function toggleBookmark(masterQuestionId: string, flag: "important"
   revalidatePath(`/mcq/${masterQuestionId}`);
   revalidatePath("/bookmarks");
 }
+
+// NrpQuestion has no exam-paper/system provenance and deliberately lives in its own table
+// (NrpBookmark, not a nullable-FK addition to Bookmark) — same separation as the rest of the
+// NRP module. Otherwise an exact mirror of toggleBookmark above.
+export async function toggleNrpBookmark(nrpQuestionId: string, flag: "important" | "revise" | null) {
+  const existing = await db.nrpBookmark.findUnique({
+    where: { userId_nrpQuestionId: { userId: DEFAULT_USER_ID, nrpQuestionId } },
+  });
+  if (existing) {
+    if (flag === null) {
+      await db.nrpBookmark.delete({ where: { id: existing.id } });
+    } else {
+      await db.nrpBookmark.update({ where: { id: existing.id }, data: { flag } });
+    }
+  } else if (flag !== null) {
+    await db.nrpBookmark.create({ data: { userId: DEFAULT_USER_ID, nrpQuestionId, flag } });
+  }
+  revalidatePath(`/nrp/mcq/${nrpQuestionId}`);
+  revalidatePath("/bookmarks");
+}
