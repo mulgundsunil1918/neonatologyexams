@@ -25,9 +25,11 @@ app/.env
 data/resources/*_pages.json
 
 # Same concern, same reasoning — the full verbatim text of the DM/DrNB exam papers (the
-# source PDFs themselves are already covered by the *.pdf rule above).
+# source PDFs themselves are already covered by the *.pdf rule above). paper*_batch*.json
+# are per-batch slices of the same text, exported for the topic-tagging agents to read.
 # Regenerate with: .venv/bin/python scripts/dm_extract.py (then dm_seed.py to load dev.db).
 data/dm_drnb/extracted.json
+data/dm_drnb/paper*_batch*.json
 
 # Safety copies made by hand before a raw-SQL schema change (see AGENTS.md / project memory:
 # never `prisma db push`/`migrate` against this dev.db) — not meant to be committed.
