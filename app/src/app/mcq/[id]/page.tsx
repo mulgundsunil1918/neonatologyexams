@@ -7,6 +7,7 @@ import { TopicBadge } from "@/components/topic-badge";
 import { BackLink } from "@/components/back-link";
 import { QuestionAttempt } from "./question-attempt";
 import { BookmarkButton } from "@/components/bookmark-button";
+import { NoteEditor } from "@/components/note-editor";
 import { MarkdownBody } from "@/components/markdown-body";
 import { getTopicCounts, topicTier } from "@/lib/theory-topics";
 import { buttonVariants } from "@/components/ui/button";
@@ -39,13 +40,14 @@ export default async function McqDetailPage({ params, searchParams }: PageProps<
   });
   if (!question) notFound();
 
-  const [priorAttempt, bookmark, sequence] = await Promise.all([
+  const [priorAttempt, bookmark, note, sequence] = await Promise.all([
     db.attempt.findFirst({
       where: { userId: DEFAULT_USER_ID, masterQuestionId: id },
       orderBy: { attemptedAt: "desc" },
       select: { id: true, selectedLetter: true, isCorrect: true, confidence: true },
     }),
     db.bookmark.findUnique({ where: { userId_masterQuestionId: { userId: DEFAULT_USER_ID, masterQuestionId: id } } }),
+    db.note.findFirst({ where: { userId: DEFAULT_USER_ID, masterQuestionId: id }, select: { body: true } }),
     db.masterQuestion.findMany({
       where: await buildMcqWhere(sp, question.paperType as "MCQ" | "THEORY"),
       orderBy: [{ repetitionTier: "asc" }, { id: "asc" }],
@@ -262,6 +264,8 @@ export default async function McqDetailPage({ params, searchParams }: PageProps<
           ))}
         </div>
       </div>
+
+      <NoteEditor masterQuestionId={question.id} initialBody={note?.body ?? ""} />
 
       <div className="mt-8 flex justify-end">
         {nextId ? (

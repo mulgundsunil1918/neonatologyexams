@@ -19,7 +19,7 @@ export default async function NotesPage() {
       <div className="p-8">
         {notes.length === 0 ? (
           <p className="text-sm text-muted-foreground">
-            No notes yet. Adding a note from a question page isn't wired up in this first pass — the data model is ready (see Note in the schema), the editor UI is next.
+            No notes yet — open any question and write one at the bottom of the page.
           </p>
         ) : (
           <div className="space-y-3">
