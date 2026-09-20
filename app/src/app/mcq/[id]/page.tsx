@@ -43,7 +43,7 @@ export default async function McqDetailPage({ params, searchParams }: PageProps<
     db.attempt.findFirst({
       where: { userId: DEFAULT_USER_ID, masterQuestionId: id },
       orderBy: { attemptedAt: "desc" },
-      select: { selectedLetter: true, isCorrect: true },
+      select: { id: true, selectedLetter: true, isCorrect: true, confidence: true },
     }),
     db.bookmark.findUnique({ where: { userId_masterQuestionId: { userId: DEFAULT_USER_ID, masterQuestionId: id } } }),
     db.masterQuestion.findMany({

@@ -13,23 +13,37 @@ export default async function RevisionPage() {
   const attempts = await db.attempt.findMany({
     where: { userId: DEFAULT_USER_ID },
     orderBy: { attemptedAt: "desc" },
-    select: { masterQuestionId: true, isCorrect: true },
+    select: { masterQuestionId: true, isCorrect: true, nextReviewDate: true },
   });
-  const latestByQ = new Map<string, boolean | null>();
-  for (const a of attempts) if (!latestByQ.has(a.masterQuestionId)) latestByQ.set(a.masterQuestionId, a.isCorrect);
-  const incorrectIds = [...latestByQ.entries()].filter(([, c]) => c === false).map(([id]) => id);
+  // Latest attempt per question only — Revision has always worked this way (a later correct
+  // attempt supersedes an earlier wrong one), and scheduling follows the same rule: the due
+  // date that matters is the one set by the most recent attempt, not an older superseded one.
+  const latestByQ = new Map<string, { isCorrect: boolean | null; nextReviewDate: Date | null }>();
+  for (const a of attempts) if (!latestByQ.has(a.masterQuestionId)) latestByQ.set(a.masterQuestionId, a);
+  const incorrectIds = [...latestByQ.entries()].filter(([, a]) => a.isCorrect === false).map(([id]) => id);
+  const now = new Date();
+  const dueIds = [...latestByQ.entries()]
+    .filter(([, a]) => a.nextReviewDate && a.nextReviewDate <= now)
+    .sort((a, b) => a[1].nextReviewDate!.getTime() - b[1].nextReviewDate!.getTime())
+    .map(([id]) => id);
 
-  const [incorrectQuestions, unattemptedRed, theoryQuestions] = await Promise.all([
+  const [incorrectQuestions, unattemptedRed, dueQuestionsRaw, theoryQuestions] = await Promise.all([
     db.masterQuestion.findMany({ where: { id: { in: incorrectIds } }, take: 50 }),
     db.masterQuestion.findMany({
       where: { repetitionTier: "RED", id: { notIn: [...latestByQ.keys()] } },
       take: 50,
     }),
+    db.masterQuestion.findMany({ where: { id: { in: dueIds.slice(0, 50) } } }),
     db.masterQuestion.findMany({
       where: { paperType: "THEORY" },
       include: { subParts: { orderBy: { sortOrder: "asc" }, select: { text: true, topicTag: true } } },
     }),
   ]);
+
+  // findMany doesn't preserve the `in` list's order — re-sort to the real due-date order
+  // (most overdue first) computed above.
+  const dueById = new Map(dueQuestionsRaw.map((q) => [q.id, q]));
+  const dueQuestions = dueIds.map((id) => dueById.get(id)!).filter(Boolean);
 
   // Same topic-priority system as /theory and /mcq/[id] — RED means this clinical topic has
   // come up (as some sub-part) in 3 or more different Theory sittings, not exact wording.
@@ -54,9 +68,10 @@ export default async function RevisionPage() {
     <div>
       <PageHeader
         title="Revision"
-        subtitle="A basic due-for-review queue — questions you got wrong, Red-tier (high-yield, repeated) MCQs you haven't attempted, and Theory questions whose clinical topic keeps coming up. Full spaced-repetition scheduling (Part 19) isn't built yet."
+        subtitle="Questions you got wrong, questions due today by spaced repetition, Red-tier (high-yield, repeated) MCQs you haven't attempted yet, and Theory topics that keep coming up. Rate 'How well did you know it?' after a correct answer to schedule when it comes back."
       />
       <div className="p-8 space-y-8">
+        <Section title={`Due for review today (${dueQuestions.length})`} questions={dueQuestions} empty="Nothing due — answer a few questions and rate your confidence to build up a schedule." />
         <Section title={`Got wrong (${incorrectQuestions.length})`} questions={incorrectQuestions} empty="Nothing here yet — incorrect answers will queue up for review." />
         <Section title={`Unattempted Red-tier MCQs — high yield (${unattemptedRed.length})`} questions={unattemptedRed} empty="All Red-tier MCQs attempted." />
         <TheorySection title={`High-yield Theory topics (${highYieldTheory.length})`} questions={highYieldTheory} empty="No Theory topic has hit Red-tier (3+ sittings) yet." />
