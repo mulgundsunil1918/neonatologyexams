@@ -55,7 +55,8 @@ banking, Newborn screening, Neonatal resuscitation guidelines & updates, Quality
 health systems, Cord blood banking, Digital health & recent technology (AI/telemedicine/
 POCUS), Congenital malformation prevention & registries, Growth monitoring & charts,
 Hospital-acquired infection prevention, Fetal therapy & surgery, Perinatal mortality & audit,
-Home-based newborn care, Workforce burnout & healthcare worker safety.
+Home-based newborn care, Workforce burnout & healthcare worker safety, Multiple gestation &
+twin complications.
 
 (Not an exhaustive final list — extend it, at this same granularity, when a batch genuinely
 needs a new bucket, and record the addition here so later batches see it too.)
