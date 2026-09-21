@@ -30,6 +30,7 @@ data/resources/*_pages.json
 # Regenerate with: .venv/bin/python scripts/dm_extract.py (then dm_seed.py to load dev.db).
 data/dm_drnb/extracted.json
 data/dm_drnb/paper*_batch*.json
+data/dm_drnb/answer_batches/
 
 # Safety copies made by hand before a raw-SQL schema change (see AGENTS.md / project memory:
 # never `prisma db push`/`migrate` against this dev.db) — not meant to be committed.
