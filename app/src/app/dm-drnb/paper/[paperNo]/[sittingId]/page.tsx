@@ -4,6 +4,7 @@ import { PageHeader } from "@/components/page-header";
 import { BackLink } from "@/components/back-link";
 import { TopicBadge } from "@/components/topic-badge";
 import { BookmarkButton } from "@/components/bookmark-button";
+import { MarkdownBody } from "@/components/markdown-body";
 import { toggleDmBookmark } from "@/app/dm-drnb-actions";
 import { getDmTopicCounts, dmTopicTier } from "@/lib/dm-topics";
 import { buttonVariants } from "@/components/ui/button";
@@ -29,7 +30,7 @@ export default async function DmPaperDetailPage({
       where: { sittingId_paperNo: { sittingId, paperNo } },
       include: {
         sitting: true,
-        items: { orderBy: [{ section: "asc" }, { itemNo: "asc" }] },
+        items: { orderBy: [{ section: "asc" }, { itemNo: "asc" }], include: { answer: true } },
       },
     }),
     db.dmPaper.findMany({ where: { paperNo }, include: { sitting: true }, orderBy: { sitting: { sortOrder: "asc" } } }),
@@ -101,7 +102,7 @@ function Section({
 }: {
   title: string;
   hint: string;
-  items: { id: string; label: string; text: string; marks: number; topicTag: string | null }[];
+  items: { id: string; label: string; text: string; marks: number; topicTag: string | null; answer: { body: string } | null }[];
   bookmarkedIds: Set<string>;
   topicCounts: Map<string, number>;
 }) {
@@ -111,30 +112,43 @@ function Section({
         <h2 className="text-sm font-semibold uppercase tracking-wide text-foreground">{title}</h2>
         <span className="text-xs font-mono text-muted-foreground">{hint}</span>
       </div>
-      <div className="space-y-4">
+      <div className="space-y-5">
         {items.map((it) => (
-          <div key={it.id} className="text-sm flex gap-3">
-            <span className="font-mono font-semibold text-muted-foreground shrink-0">{it.label}</span>
-            <div className="min-w-0 flex-1 space-y-1.5">
-              <p className="leading-relaxed">
-                {it.text} <span className="text-muted-foreground font-mono text-xs">({it.marks})</span>
-              </p>
-              <div className="flex flex-wrap items-center gap-1.5">
-                {it.topicTag && (
-                  <TopicBadge
-                    topic={it.topicTag}
-                    count={topicCounts.get(it.topicTag) ?? 1}
-                    tier={dmTopicTier(topicCounts.get(it.topicTag) ?? 1)}
-                  />
-                )}
+          <div key={it.id} className="rounded-lg border border-border p-4">
+            <div className="text-sm flex gap-3">
+              <span className="font-mono font-semibold text-muted-foreground shrink-0">{it.label}</span>
+              <div className="min-w-0 flex-1 space-y-1.5">
+                <p className="leading-relaxed">
+                  {it.text} <span className="text-muted-foreground font-mono text-xs">({it.marks})</span>
+                </p>
+                <div className="flex flex-wrap items-center gap-1.5">
+                  {it.topicTag && (
+                    <TopicBadge
+                      topic={it.topicTag}
+                      count={topicCounts.get(it.topicTag) ?? 1}
+                      tier={dmTopicTier(topicCounts.get(it.topicTag) ?? 1)}
+                    />
+                  )}
+                </div>
               </div>
+              <BookmarkButton
+                questionId={it.id}
+                isBookmarked={bookmarkedIds.has(it.id)}
+                toggleAction={toggleDmBookmark}
+                variant="icon"
+              />
             </div>
-            <BookmarkButton
-              questionId={it.id}
-              isBookmarked={bookmarkedIds.has(it.id)}
-              toggleAction={toggleDmBookmark}
-              variant="icon"
-            />
+
+            {it.answer ? (
+              <div className="mt-4 pt-4 border-t border-border">
+                <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground mb-1">Model answer</div>
+                <MarkdownBody>{it.answer.body}</MarkdownBody>
+              </div>
+            ) : (
+              <p className="mt-3 pt-3 border-t border-border text-xs text-muted-foreground italic">
+                Model answer not written yet.
+              </p>
+            )}
           </div>
         ))}
       </div>
